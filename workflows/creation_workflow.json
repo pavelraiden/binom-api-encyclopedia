@@ -1,0 +1,32 @@
+{
+  "name": "Full Campaign Creation (with Fallbacks)",
+  "goal": "Создать новую рекламную кампанию с нуля, включая все необходимые сущности.",
+  "steps": [
+    {
+      "step": 1,
+      "action": "MANUAL_CREATION_AND_VERIFICATION",
+      "entity": "Traffic Source",
+      "description": "API для создания Traffic Source нестабилен. Создайте его вручную в UI Binom, затем получите его ID через GET /info/traffic_source."
+    },
+    {
+      "step": 2,
+      "action": "MANUAL_CREATION_AND_VERIFICATION",
+      "entity": "Landing Page",
+      "description": "API для создания Landing Page нестабилен. Создайте его вручную в UI Binom, затем получите его ID через GET /info/landing."
+    },
+    {
+      "step": 3,
+      "action": "MANUAL_CREATION_AND_VERIFICATION",
+      "entity": "Offer",
+      "description": "API для создания Offer нестабилен. Создайте его вручную в UI Binom, затем получите его ID через GET /info/offer."
+    },
+    {
+      "step": 4,
+      "action": "MANUAL_CREATION_AND_VERIFICATION",
+      "entity": "Campaign",
+      "description": "API для создания кампаний нестабилен. Рекомендуется создавать кампанию вручную в UI, используя ID созданных ранее сущностей."
+    }
+  ],
+  "ai_pattern": "Create with Verification & Fallback",
+  "description": "Этот workflow пытается создать сущности через API, но включает шаги для ручного вмешательства и верификации из-за нестабильности CREATE-эндпоинтов."
+}

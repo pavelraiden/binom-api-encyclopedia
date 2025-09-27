@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Binom API Workflow Visualizer</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: #f8f9fa;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        
+        .controls {
+            padding: 20px;
+            border-bottom: 1px solid #eee;
+            display: flex;
+            gap: 20px;
+            align-items: center;
+        }
+        
+        select, button {
+            padding: 10px 15px;
+            border: 2px solid #ddd;
+            border-radius: 6px;
+            font-size: 14px;
+        }
+        
+        button {
+            background: #3498db;
+            color: white;
+            border-color: #3498db;
+            cursor: pointer;
+        }
+        
+        button:hover {
+            background: #2980b9;
+        }
+        
+        .workflow-container {
+            padding: 30px;
+            min-height: 500px;
+        }
+        
+        .workflow-step {
+            background: white;
+            border: 2px solid #3498db;
+            border-radius: 8px;
+            padding: 15px;
+            margin: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            transition: transform 0.2s ease;
+        }
+        
+        .workflow-step:hover {
+            transform: translateY(-2px);
+        }
+        
+        .step-header {
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 8px;
+        }
+        
+        .step-action {
+            color: #3498db;
+            font-family: monospace;
+            background: #f8f9fa;
+            padding: 4px 8px;
+            border-radius: 4px;
+            display: inline-block;
+            margin-bottom: 8px;
+        }
+        
+        .step-description {
+            color: #7f8c8d;
+            font-size: 14px;
+        }
+        
+        .step-stable {
+            border-color: #27ae60;
+        }
+        
+        .step-unstable {
+            border-color: #e74c3c;
+        }
+        
+        .step-manual {
+            border-color: #f39c12;
+        }
+        
+        .workflow-info {
+            background: #ecf0f1;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+        
+        .workflow-info h3 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+        
+        .workflow-info p {
+            color: #7f8c8d;
+            margin-bottom: 8px;
+        }
+        
+        .ai-pattern {
+            background: #3498db;
+            color: white;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: bold;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🔄 Workflow Visualizer</h1>
+            <p>Interactive visualization of Binom API workflows</p>
+        </div>
+        
+        <div class="controls">
+            <label for="workflow-select">Select Workflow:</label>
+            <select id="workflow-select" onchange="loadWorkflow()">
+                <option value="">Choose a workflow...</option>
+                <option value="analytics">Campaign Performance Analysis</option>
+                <option value="creation">Full Campaign Creation (with Fallbacks)</option>
+            </select>
+            <button onclick="exportWorkflow()">📥 Export Workflow</button>
+        </div>
+        
+        <div class="workflow-container" id="workflow-container">
+            <p style="text-align: center; color: #95a5a6; padding: 50px;">Select a workflow to visualize</p>
+        </div>
+    </div>
+    
+    <script>
+        const workflows = {
+            analytics: {
+                name: "Campaign Performance Analysis",
+                goal: "Проанализировать производительность кампании, рассчитать ROI и выявить лучшие связки.",
+                ai_pattern: "Read-Only Analysis",
+                description: "Этот workflow использует только стабильные GET-эндпоинты для сбора данных и их последующего анализа. Безопасен для использования в любой ситуации.",
+                steps: [
+                    {
+                        step: 1,
+                        action: "GET /info/campaign",
+                        description: "Получить список всех активных кампаний.",
+                        type: "stable"
+                    },
+                    {
+                        step: 2,
+                        action: "GET /stats/campaign",
+                        description: "Собрать детальную статистику по выбранной кампании за последние 7 дней.",
+                        type: "stable"
+                    },
+                    {
+                        step: 3,
+                        action: "GET /info/offer",
+                        description: "Получить информацию по офферам, задействованным в кампании.",
+                        type: "stable"
+                    },
+                    {
+                        step: 4,
+                        action: "LOCAL_ANALYSIS",
+                        description: "Объединить данные статистики и информацию по офферам для расчета ROI, EPC, CR и других метрик.",
+                        type: "manual"
+                    }
+                ]
+            },
+            creation: {
+                name: "Full Campaign Creation (with Fallbacks)",
+                goal: "Создать новую рекламную кампанию с нуля, включая все необходимые сущности.",
+                ai_pattern: "Create with Verification & Fallback",
+                description: "Этот workflow пытается создать сущности через API, но включает шаги для ручного вмешательства и верификации из-за нестабильности CREATE-эндпоинтов.",
+                steps: [
+                    {
+                        step: 1,
+                        action: "MANUAL_CREATION_AND_VERIFICATION",
+                        entity: "Traffic Source",
+                        description: "API для создания Traffic Source нестабилен. Создайте его вручную в UI Binom, затем получите его ID через GET /info/traffic_source.",
+                        type: "manual"
+                    },
+                    {
+                        step: 2,
+                        action: "MANUAL_CREATION_AND_VERIFICATION",
+                        entity: "Landing Page",
+                        description: "API для создания Landing Page нестабилен. Создайте его вручную в UI Binom, затем получите его ID через GET /info/landing.",
+                        type: "manual"
+                    },
+                    {
+                        step: 3,
+                        action: "MANUAL_CREATION_AND_VERIFICATION",
+                        entity: "Offer",
+                        description: "API для создания Offer нестабилен. Создайте его вручную в UI Binom, затем получите его ID через GET /info/offer.",
+                        type: "manual"
+                    },
+                    {
+                        step: 4,
+                        action: "MANUAL_CREATION_AND_VERIFICATION",
+                        entity: "Campaign",
+                        description: "API для создания кампаний нестабилен. Рекомендуется создавать кампанию вручную в UI, используя ID созданных ранее сущностей.",
+                        type: "manual"
+                    }
+                ]
+            }
+        };
+        
+        function loadWorkflow() {
+            const workflowKey = document.getElementById('workflow-select').value;
+            const container = document.getElementById('workflow-container');
+            
+            if (!workflowKey || !workflows[workflowKey]) {
+                container.innerHTML = '<p style="text-align: center; color: #95a5a6; padding: 50px;">Select a workflow to visualize</p>';
+                return;
+            }
+            
+            const workflow = workflows[workflowKey];
+            
+            let html = `
+                <div class="workflow-info">
+                    <h3>${workflow.name}</h3>
+                    <p><strong>Goal:</strong> ${workflow.goal}</p>
+                    <p><strong>AI Pattern:</strong> <span class="ai-pattern">${workflow.ai_pattern}</span></p>
+                    <p><strong>Description:</strong> ${workflow.description}</p>
+                </div>
+            `;
+            
+            workflow.steps.forEach(step => {
+                const stepClass = `workflow-step step-${step.type}`;
+                html += `
+                    <div class="${stepClass}">
+                        <div class="step-header">Step ${step.step}</div>
+                        <div class="step-action">${step.action}${step.entity ? ` (${step.entity})` : ''}</div>
+                        <div class="step-description">${step.description}</div>
+                    </div>
+                `;
+            });
+            
+            container.innerHTML = html;
+        }
+        
+        function exportWorkflow() {
+            const workflowKey = document.getElementById('workflow-select').value;
+            
+            if (!workflowKey || !workflows[workflowKey]) {
+                alert('Please select a workflow first');
+                return;
+            }
+            
+            const workflow = workflows[workflowKey];
+            const dataStr = JSON.stringify(workflow, null, 2);
+            const dataBlob = new Blob([dataStr], {type: 'application/json'});
+            
+            const link = document.createElement('a');
+            link.href = URL.createObjectURL(dataBlob);
+            link.download = `${workflowKey}_workflow.json`;
+            link.click();
+        }
+    </script>
+</body>
+</html>

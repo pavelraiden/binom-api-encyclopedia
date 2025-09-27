@@ -1,0 +1,74 @@
+{
+  "GET /info/offer": [
+    {
+      "timestamp": "2025-09-26T23:45:44.609940",
+      "status": "healthy",
+      "response_time_ms": 724.0827083587646,
+      "error": null
+    }
+  ],
+  "GET /info/traffic_source": [
+    {
+      "timestamp": "2025-09-26T23:45:46.057152",
+      "status": "healthy",
+      "response_time_ms": 445.89900970458984,
+      "error": null
+    }
+  ],
+  "GET /info/campaign": [
+    {
+      "timestamp": "2025-09-26T23:45:47.729000",
+      "status": "healthy",
+      "response_time_ms": 670.4425811767578,
+      "error": null
+    }
+  ],
+  "GET /info/landing": [
+    {
+      "timestamp": "2025-09-26T23:45:49.436648",
+      "status": "healthy",
+      "response_time_ms": 706.0925960540771,
+      "error": null
+    }
+  ],
+  "GET /stats/campaign": [
+    {
+      "timestamp": "2025-09-26T23:45:50.959663",
+      "status": "healthy",
+      "response_time_ms": 521.6748714447021,
+      "error": null
+    }
+  ],
+  "GET /stats/offer": [
+    {
+      "timestamp": "2025-09-26T23:45:52.278978",
+      "status": "healthy",
+      "response_time_ms": 317.8365230560303,
+      "error": null
+    }
+  ],
+  "POST /traffic_source": [
+    {
+      "timestamp": "2025-09-26T23:45:53.493664",
+      "status": "client_error",
+      "response_time_ms": 213.17148208618164,
+      "error": "Bad request"
+    }
+  ],
+  "POST /landing": [
+    {
+      "timestamp": "2025-09-26T23:45:54.685803",
+      "status": "server_error",
+      "response_time_ms": 190.71197509765625,
+      "error": "HTTP 502"
+    }
+  ],
+  "POST /offer": [
+    {
+      "timestamp": "2025-09-26T23:45:55.904430",
+      "status": "client_error",
+      "response_time_ms": 217.12994575500488,
+      "error": "Bad request"
+    }
+  ]
+}

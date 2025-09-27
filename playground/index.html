@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Binom API Playground</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        
+        .header p {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+        
+        .playground {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            min-height: 600px;
+        }
+        
+        .request-panel {
+            padding: 30px;
+            border-right: 1px solid #eee;
+        }
+        
+        .response-panel {
+            padding: 30px;
+            background: #f8f9fa;
+        }
+        
+        .panel-title {
+            font-size: 1.5em;
+            margin-bottom: 20px;
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+        
+        .form-group {
+            margin-bottom: 20px;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+            color: #555;
+        }
+        
+        select, input, textarea {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            font-size: 14px;
+            transition: border-color 0.3s ease;
+        }
+        
+        select:focus, input:focus, textarea:focus {
+            outline: none;
+            border-color: #3498db;
+        }
+        
+        textarea {
+            resize: vertical;
+            min-height: 120px;
+            font-family: 'Courier New', monospace;
+        }
+        
+        .btn {
+            background: linear-gradient(135deg, #3498db 0%, #2980b9 100%);
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+            width: 100%;
+        }
+        
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(52, 152, 219, 0.3);
+        }
+        
+        .btn:active {
+            transform: translateY(0);
+        }
+        
+        .response-container {
+            background: #2c3e50;
+            color: #ecf0f1;
+            border-radius: 8px;
+            padding: 20px;
+            font-family: 'Courier New', monospace;
+            font-size: 14px;
+            line-height: 1.6;
+            min-height: 300px;
+            overflow-x: auto;
+        }
+        
+        .status-indicator {
+            display: inline-block;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: 600;
+            margin-bottom: 15px;
+        }
+        
+        .status-success {
+            background: #27ae60;
+            color: white;
+        }
+        
+        .status-error {
+            background: #e74c3c;
+            color: white;
+        }
+        
+        .status-warning {
+            background: #f39c12;
+            color: white;
+        }
+        
+        .endpoint-info {
+            background: #ecf0f1;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            border-left: 4px solid #3498db;
+        }
+        
+        .endpoint-info h4 {
+            color: #2c3e50;
+            margin-bottom: 8px;
+        }
+        
+        .endpoint-info p {
+            color: #7f8c8d;
+            font-size: 14px;
+        }
+        
+        .loading {
+            display: none;
+            text-align: center;
+            padding: 20px;
+        }
+        
+        .spinner {
+            border: 3px solid #f3f3f3;
+            border-top: 3px solid #3498db;
+            border-radius: 50%;
+            width: 30px;
+            height: 30px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 10px;
+        }
+        
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        
+        .examples {
+            margin-top: 20px;
+        }
+        
+        .example-btn {
+            background: #95a5a6;
+            color: white;
+            border: none;
+            padding: 8px 15px;
+            border-radius: 5px;
+            font-size: 12px;
+            cursor: pointer;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            transition: background 0.3s ease;
+        }
+        
+        .example-btn:hover {
+            background: #7f8c8d;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🚀 Binom API Playground</h1>
+            <p>Interactive testing environment for Binom API endpoints</p>
+        </div>
+        
+        <div class="playground">
+            <div class="request-panel">
+                <h2 class="panel-title">📤 Request</h2>
+                
+                <div class="form-group">
+                    <label for="endpoint">Endpoint</label>
+                    <select id="endpoint" onchange="updateEndpointInfo()">
+                        <option value="">Select an endpoint...</option>
+                        <optgroup label="✅ Stable Endpoints">
+                            <option value="GET /info/offer">GET /info/offer - Get offers info</option>
+                            <option value="GET /info/traffic_source">GET /info/traffic_source - Get traffic sources</option>
+                            <option value="GET /info/campaign">GET /info/campaign - Get campaigns</option>
+                            <option value="GET /info/landing">GET /info/landing - Get landings</option>
+                            <option value="GET /stats/campaign">GET /stats/campaign - Campaign statistics</option>
+                            <option value="GET /stats/offer">GET /stats/offer - Offer statistics</option>
+                        </optgroup>
+                        <optgroup label="❌ Unstable Endpoints">
+                            <option value="POST /traffic_source">POST /traffic_source - Create traffic source</option>
+                            <option value="POST /landing">POST /landing - Create landing</option>
+                            <option value="POST /offer">POST /offer - Create offer</option>
+                        </optgroup>
+                    </select>
+                </div>
+                
+                <div id="endpoint-info" class="endpoint-info" style="display: none;">
+                    <h4 id="endpoint-title"></h4>
+                    <p id="endpoint-description"></p>
+                </div>
+                
+                <div class="form-group">
+                    <label for="api-key">API Key</label>
+                    <input type="password" id="api-key" placeholder="Enter your Binom API key">
+                </div>
+                
+                <div class="form-group">
+                    <label for="request-body">Request Body (JSON)</label>
+                    <textarea id="request-body" placeholder='{"datePreset": "today", "timezone": "UTC"}'></textarea>
+                </div>
+                
+                <div class="examples">
+                    <label>Quick Examples:</label><br>
+                    <button class="example-btn" onclick="loadExample('today')">Today Stats</button>
+                    <button class="example-btn" onclick="loadExample('week')">Last 7 Days</button>
+                    <button class="example-btn" onclick="loadExample('create')">Create Example</button>
+                </div>
+                
+                <button class="btn" onclick="sendRequest()">🚀 Send Request</button>
+            </div>
+            
+            <div class="response-panel">
+                <h2 class="panel-title">📥 Response</h2>
+                
+                <div class="loading" id="loading">
+                    <div class="spinner"></div>
+                    <p>Sending request...</p>
+                </div>
+                
+                <div id="response-status"></div>
+                <div class="response-container" id="response-body">
+                    <p style="color: #95a5a6;">Response will appear here...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        const endpointInfo = {
+            'GET /info/offer': {
+                title: 'Get Offers Information',
+                description: 'Retrieves information about all offers. Requires datePreset and timezone parameters.',
+                stable: true
+            },
+            'GET /info/traffic_source': {
+                title: 'Get Traffic Sources',
+                description: 'Retrieves information about traffic sources. Requires datePreset and timezone parameters.',
+                stable: true
+            },
+            'GET /info/campaign': {
+                title: 'Get Campaigns',
+                description: 'Retrieves information about campaigns. Requires datePreset and timezone parameters.',
+                stable: true
+            },
+            'GET /info/landing': {
+                title: 'Get Landing Pages',
+                description: 'Retrieves information about landing pages. Requires datePreset and timezone parameters.',
+                stable: true
+            },
+            'GET /stats/campaign': {
+                title: 'Campaign Statistics',
+                description: 'Retrieves detailed statistics for campaigns. Requires datePreset and timezone parameters.',
+                stable: true
+            },
+            'GET /stats/offer': {
+                title: 'Offer Statistics',
+                description: 'Retrieves detailed statistics for offers. Requires datePreset and timezone parameters.',
+                stable: true
+            },
+            'POST /traffic_source': {
+                title: 'Create Traffic Source',
+                description: '⚠️ UNSTABLE: This endpoint frequently returns errors. Consider manual creation via UI.',
+                stable: false
+            },
+            'POST /landing': {
+                title: 'Create Landing Page',
+                description: '⚠️ UNSTABLE: This endpoint frequently returns 502 errors. Consider manual creation via UI.',
+                stable: false
+            },
+            'POST /offer': {
+                title: 'Create Offer',
+                description: '⚠️ UNSTABLE: This endpoint frequently returns errors. Consider manual creation via UI.',
+                stable: false
+            }
+        };
+        
+        function updateEndpointInfo() {
+            const endpoint = document.getElementById('endpoint').value;
+            const infoDiv = document.getElementById('endpoint-info');
+            
+            if (endpoint && endpointInfo[endpoint]) {
+                const info = endpointInfo[endpoint];
+                document.getElementById('endpoint-title').textContent = info.title;
+                document.getElementById('endpoint-description').textContent = info.description;
+                infoDiv.style.display = 'block';
+                
+                // Update request body with appropriate example
+                if (endpoint.startsWith('GET')) {
+                    loadExample('today');
+                } else {
+                    loadExample('create');
+                }
+            } else {
+                infoDiv.style.display = 'none';
+            }
+        }
+        
+        function loadExample(type) {
+            const requestBody = document.getElementById('request-body');
+            
+            switch(type) {
+                case 'today':
+                    requestBody.value = JSON.stringify({
+                        "datePreset": "today",
+                        "timezone": "UTC",
+                        "limit": 10
+                    }, null, 2);
+                    break;
+                case 'week':
+                    requestBody.value = JSON.stringify({
+                        "datePreset": "last_7_days",
+                        "timezone": "UTC",
+                        "limit": 50
+                    }, null, 2);
+                    break;
+                case 'create':
+                    requestBody.value = JSON.stringify({
+                        "name": "Test Resource",
+                        "url": "https://example.com",
+                        "type": "html"
+                    }, null, 2);
+                    break;
+            }
+        }
+        
+        async function sendRequest() {
+            const endpoint = document.getElementById('endpoint').value;
+            const apiKey = document.getElementById('api-key').value;
+            const requestBody = document.getElementById('request-body').value;
+            
+            if (!endpoint) {
+                alert('Please select an endpoint');
+                return;
+            }
+            
+            if (!apiKey) {
+                alert('Please enter your API key');
+                return;
+            }
+            
+            // Show loading
+            document.getElementById('loading').style.display = 'block';
+            document.getElementById('response-status').innerHTML = '';
+            document.getElementById('response-body').innerHTML = '<p style="color: #95a5a6;">Sending request...</p>';
+            
+            try {
+                const [method, path] = endpoint.split(' ');
+                const url = `https://pierdun.com/public/api/v1${path}`;
+                
+                let requestOptions = {
+                    method: method,
+                    headers: {
+                        'api-key': apiKey,
+                        'Content-Type': 'application/json'
+                    }
+                };
+                
+                if (method === 'GET' && requestBody.trim()) {
+                    // For GET requests, add parameters to URL
+                    const params = JSON.parse(requestBody);
+                    const urlParams = new URLSearchParams(params);
+                    requestOptions.url = `${url}?${urlParams}`;
+                } else if (method === 'POST' && requestBody.trim()) {
+                    requestOptions.body = requestBody;
+                }
+                
+                // Note: This is a demo - actual CORS requests to Binom API won't work from browser
+                // In real implementation, you'd need a proxy server
+                
+                // Simulate response for demo purposes
+                setTimeout(() => {
+                    document.getElementById('loading').style.display = 'none';
+                    
+                    const info = endpointInfo[endpoint];
+                    if (info.stable) {
+                        document.getElementById('response-status').innerHTML = 
+                            '<span class="status-indicator status-success">✅ 200 OK</span>';
+                        document.getElementById('response-body').innerHTML = 
+                            `<pre>{
+  "status": "success",
+  "data": [
+    {
+      "id": 1,
+      "name": "Example ${info.title}",
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  ],
+  "message": "Data retrieved successfully"
+}</pre>`;
+                    } else {
+                        document.getElementById('response-status').innerHTML = 
+                            '<span class="status-indicator status-error">❌ 502 Bad Gateway</span>';
+                        document.getElementById('response-body').innerHTML = 
+                            `<pre>{
+  "error": "Bad Gateway",
+  "message": "The server encountered a temporary error and could not complete your request.",
+  "code": 502,
+  "endpoint_status": "unstable"
+}</pre>`;
+                    }
+                }, 1500);
+                
+            } catch (error) {
+                document.getElementById('loading').style.display = 'none';
+                document.getElementById('response-status').innerHTML = 
+                    '<span class="status-indicator status-error">❌ Error</span>';
+                document.getElementById('response-body').innerHTML = 
+                    `<pre>Error: ${error.message}</pre>`;
+            }
+        }
+        
+        // Load default example on page load
+        window.onload = function() {
+            loadExample('today');
+        };
+    </script>
+</body>
+</html>

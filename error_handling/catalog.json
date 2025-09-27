@@ -1,0 +1,45 @@
+{
+  "HTTP 502": {
+    "name": "Server Error (Bad Gateway)",
+    "description": "Сервер получил недействительный ответ от вышестоящего сервера. Часто указывает на временные проблемы с инфраструктурой Binom.",
+    "recovery_strategies": [
+      {
+        "strategy": "Exponential Backoff Retry",
+        "details": "Повторить запрос через 1, 2, 4, 8 секунд. Максимум 3 попытки.",
+        "code_example": "for i in range(3): time.sleep(2**i); send_request()"
+      },
+      {
+        "strategy": "Circuit Breaker",
+        "details": "После 3 неудачных попыток прекратить отправку запросов на 5 минут."
+      }
+    ]
+  },
+  "Bad request": {
+    "name": "Client Error (Bad Request)",
+    "description": "Запрос имеет неверный синтаксис или неполные данные. Проверьте тело запроса и обязательные поля.",
+    "recovery_strategies": [
+      {
+        "strategy": "Validate Schema",
+        "details": "Сравнить тело запроса со схемой в документации. Убедиться, что все обязательные поля (name, url, type и т.д.) присутствуют."
+      },
+      {
+        "strategy": "Check for Conflicting Data",
+        "details": "Убедитесь, что создаваемый ресурс с таким именем еще не существует."
+      }
+    ]
+  },
+  "Request timeout (30s)": {
+    "name": "Request Timeout",
+    "description": "Сервер не ответил в течение 30 секунд. Это может быть связано с высокой нагрузкой на сервер или проблемами с сетью.",
+    "recovery_strategies": [
+      {
+        "strategy": "Increase Timeout",
+        "details": "Попробуйте увеличить таймаут запроса до 60 секунд."
+      },
+      {
+        "strategy": "Asynchronous Execution",
+        "details": "Для долгих операций используйте асинхронные запросы, если API это поддерживает."
+      }
+    ]
+  }
+}

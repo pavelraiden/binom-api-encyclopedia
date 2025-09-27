@@ -1,0 +1,36 @@
+{
+  "name": "Campaign Performance Analysis",
+  "goal": "Проанализировать производительность кампании, рассчитать ROI и выявить лучшие связки.",
+  "steps": [
+    {
+      "step": 1,
+      "action": "GET /info/campaign",
+      "description": "Получить список всех активных кампаний.",
+      "params": {
+        "status": "active"
+      }
+    },
+    {
+      "step": 2,
+      "action": "GET /stats/campaign",
+      "description": "Собрать детальную статистику по выбранной кампании за последние 7 дней.",
+      "params": {
+        "datePreset": "last_7_days",
+        "timezone": "UTC",
+        "campaignId": "{campaign_id}"
+      }
+    },
+    {
+      "step": 3,
+      "action": "GET /info/offer",
+      "description": "Получить информацию по офферам, задействованным в кампании."
+    },
+    {
+      "step": 4,
+      "action": "LOCAL_ANALYSIS",
+      "description": "Объединить данные статистики и информацию по офферам для расчета ROI, EPC, CR и других метрик."
+    }
+  ],
+  "ai_pattern": "Read-Only Analysis",
+  "description": "Этот workflow использует только стабильные GET-эндпоинты для сбора данных и их последующего анализа. Безопасен для использования в любой ситуации."
+}

@@ -1,0 +1,24 @@
+{
+  "error_handling_protocol": {
+    "version": "1.0",
+    "description": "Протокол обработки ошибок для взаимодействия с Binom API.",
+    "rules": [
+      {
+        "rule": "Always Check Endpoint Status First",
+        "details": "Перед вызовом любого эндпоинта, обратитесь к /monitoring/current_status.json, чтобы проверить его текущий статус и stability_score."
+      },
+      {
+        "rule": "Prioritize Stable Endpoints",
+        "details": "Используйте эндпоинты со статусом 'healthy' и stability_score > 80% в первую очередь."
+      },
+      {
+        "rule": "Use Fallbacks for Unstable Endpoints",
+        "details": "Для эндпоинтов со статусом 'error' или низкой стабильностью, используйте fallback-стратегии из соответствующего workflow."
+      },
+      {
+        "rule": "Apply Recovery Strategies",
+        "details": "При возникновении ошибки, обратитесь к /error_handling/catalog.json, найдите ошибку и примените рекомендованную recovery_strategy."
+      }
+    ]
+  }
+}

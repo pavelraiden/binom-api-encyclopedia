@@ -1,0 +1,17 @@
+{
+  "POST /traffic_source": {
+    "most_common_error": "Bad request",
+    "frequency": "1/1 times",
+    "error_rate": "100.0%"
+  },
+  "POST /landing": {
+    "most_common_error": "HTTP 502",
+    "frequency": "1/1 times",
+    "error_rate": "100.0%"
+  },
+  "POST /offer": {
+    "most_common_error": "Bad request",
+    "frequency": "1/1 times",
+    "error_rate": "100.0%"
+  }
+}
