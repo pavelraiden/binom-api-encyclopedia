@@ -1,19 +1,61 @@
-# Contribution Guidelines
+# How to Contribute to the Binom API Encyclopedia
 
-We welcome contributions from the community to make this the best possible resource for working with the Binom API.
+This guide is for both human developers and AI agents. By contributing, you help us maintain a 10/10 quality standard.
 
-## How to Contribute
+## 🚀 Guiding Principles
 
-1.  **Report an Issue:** If you find a bug, an error in the documentation, or a change in API behavior, please [open an issue](https://github.com/pavelraiden/binom-api-encyclopedia/issues).
-2.  **Suggest an Improvement:** Have an idea for a new feature, a better explanation, or a new workflow? Open an issue and tag it as an `enhancement`.
-3.  **Submit a Pull Request:** If you want to contribute directly, please follow these steps:
-    *   Fork the repository.
-    *   Create a new branch for your feature (`git checkout -b feature/your-feature-name`).
-    *   Make your changes.
-    *   Commit your changes (`git commit -m 'Add some feature'`).
-    *   Push to the branch (`git push origin feature/your-feature-name`).
-    *   Open a pull request.
+1.  **Quality First**: Every contribution must improve the encyclopedia.
+2.  **Automation**: All contributions are validated through an automated pipeline.
+3.  **Trust**: Trusted contributors (human or AI) gain more autonomy.
+4.  **Collaboration**: We improve this knowledge base together.
 
-## Code of Conduct
+## 🤖 The Contribution Workflow
 
-Please note that this project is released with a Contributor Code of Conduct. By participating in this project you agree to abide by its terms.
+1.  **Fork & Branch**: Create a new branch for your changes.
+2.  **Make Changes**: Add or update documentation, examples, or schemas.
+3.  **Submit a Pull Request**: Your PR will trigger our automated validation pipeline.
+
+## ✅ The Validation Pipeline (`HybridValidator`)
+
+Your contribution will be automatically validated by our `HybridValidator`. Here’s what it checks:
+
+1.  **Syntax & Schema**: Valid Markdown, JSON, and code syntax.
+2.  **API Endpoint Test**: The `APITester` will execute a live test against the relevant Binom API endpoint. The test must pass.
+3.  **Dependency Check**: The `DependencyChecker` ensures that related endpoints are not negatively affected.
+4.  **Quality Metrics**: The `EnhancedAPITester` calculates a quality score. Your change must not decrease the overall score.
+
+## 🏆 The Trust System (`SimpleTrustSystem`)
+
+Your `agent_id` or GitHub username is tracked to build a trust score.
+
+-   **New Contributors (`trust_score` < 0.75)**: Contributions require manual review and approval, even if validation passes.
+-   **Trusted Contributors (`trust_score` >= 0.75)**: Contributions that pass validation are automatically approved.
+-   **Expert Contributors (`trust_score` >= 0.85)**: Can approve contributions from others.
+
+**How to increase your trust score:**
+
+-   Submit high-quality contributions that pass validation.
+-   Fix issues identified by the validation pipeline.
+-   Review and approve valid contributions from others (if you are an Expert).
+
+## ❌ What Happens if Validation Fails?
+
+-   Your pull request will be automatically rejected.
+-   A detailed error report will be added to the PR comments.
+-   Your trust score will be negatively impacted.
+-   You are expected to fix the issues and resubmit.
+
+## 📝 Contribution Guidelines
+
+-   **Endpoint Documentation**: Follow the existing structure. Add real-world examples and schema definitions.
+-   **Code Examples**: Must be runnable and tested. Include Python and cURL examples.
+-   **Bug Fixes**: Clearly describe the bug and the fix. Include a test case that reproduces the bug.
+-   **New Features**: Propose new features via an issue first to discuss with the community.
+
+## ⚖️ Quality Gates
+
+-   **API Success Rate**: Must be > 95%.
+-   **Code Validity**: All new code examples must pass testing.
+-   **Documentation Completeness**: All new documentation must have a completeness score > 90%.
+
+By following these guidelines, you help us maintain the highest quality standard for the Binom API Encyclopedia. Happy contributing!
