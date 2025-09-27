@@ -1,0 +1,63 @@
+{
+  "version": "1.0",
+  "description": "Quality gates for AI agent contributions to Binom API Encyclopedia",
+  "criteria": {
+    "minimum_confidence_score": 0.8,
+    "required_peer_reviews": 2,
+    "required_test_success_rate": 0.95,
+    "max_pending_contributions_per_agent": 5,
+    "cooldown_period_hours": 24
+  },
+  "agent_trust_levels": {
+    "new": {
+      "max_contributions_per_day": 3,
+      "required_peer_reviews": 3,
+      "auto_approve": false
+    },
+    "trusted": {
+      "max_contributions_per_day": 10,
+      "required_peer_reviews": 2,
+      "auto_approve": false
+    },
+    "expert": {
+      "max_contributions_per_day": 20,
+      "required_peer_reviews": 1,
+      "auto_approve": true
+    }
+  },
+  "contribution_types": {
+    "error_fix": {
+      "weight": 3,
+      "required_evidence": ["error_reproduction", "fix_validation", "test_results"]
+    },
+    "new_example": {
+      "weight": 2,
+      "required_evidence": ["api_response", "code_validation", "documentation"]
+    },
+    "doc_improvement": {
+      "weight": 1,
+      "required_evidence": ["before_after_comparison", "clarity_improvement"]
+    },
+    "schema_update": {
+      "weight": 4,
+      "required_evidence": ["api_testing", "backward_compatibility", "peer_validation"]
+    }
+  },
+  "validation_rules": {
+    "json_syntax": true,
+    "schema_compliance": true,
+    "no_duplicates": true,
+    "api_endpoint_exists": true,
+    "response_format_valid": true,
+    "code_examples_runnable": true
+  },
+  "rejection_reasons": [
+    "invalid_json_syntax",
+    "schema_violation",
+    "duplicate_content",
+    "insufficient_evidence",
+    "failed_validation_tests",
+    "low_confidence_score",
+    "insufficient_peer_reviews"
+  ]
+}
