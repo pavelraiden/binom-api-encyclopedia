@@ -1,0 +1,515 @@
+{
+  "endpoints": [
+    {
+      "priority": 1,
+      "method": "GET",
+      "path": "/public/api/v1/stats/campaign",
+      "category": "stats",
+      "importance": "CRITICAL",
+      "reason": "Основной эндпоинт для анализа производительности кампаний с кастомными метриками",
+      "customMetrics": true,
+      "aiUsage": "Постоянно используется для оптимизации и анализа"
+    },
+    {
+      "priority": 2,
+      "method": "GET",
+      "path": "/public/api/v1/campaign/{id}",
+      "category": "campaign",
+      "importance": "CRITICAL",
+      "reason": "Получение полной конфигурации кампании",
+      "customMetrics": false,
+      "aiUsage": "Необходим для понимания структуры кампании"
+    },
+    {
+      "priority": 3,
+      "method": "POST",
+      "path": "/public/api/v1/campaign",
+      "category": "campaign",
+      "importance": "CRITICAL",
+      "reason": "Создание новых кампаний",
+      "customMetrics": false,
+      "aiUsage": "Основная операция для настройки трекинга"
+    },
+    {
+      "priority": 4,
+      "method": "PUT",
+      "path": "/public/api/v1/campaign/{id}",
+      "category": "campaign",
+      "importance": "CRITICAL",
+      "reason": "Обновление конфигурации кампаний",
+      "customMetrics": false,
+      "aiUsage": "Критично для оптимизации кампаний"
+    },
+    {
+      "priority": 5,
+      "method": "GET",
+      "path": "/public/api/v1/stats/landing",
+      "category": "stats",
+      "importance": "CRITICAL",
+      "reason": "Анализ производительности лендингов с кастомными метриками",
+      "customMetrics": true,
+      "aiUsage": "Ключевой для оптимизации лендингов"
+    },
+    {
+      "priority": 6,
+      "method": "GET",
+      "path": "/public/api/v1/stats/offer",
+      "category": "stats",
+      "importance": "CRITICAL",
+      "reason": "Анализ производительности офферов с кастомными метриками",
+      "customMetrics": true,
+      "aiUsage": "Необходим для оптимизации офферов"
+    },
+    {
+      "priority": 7,
+      "method": "GET",
+      "path": "/public/api/v1/stats/traffic_source",
+      "category": "stats",
+      "importance": "CRITICAL",
+      "reason": "Анализ производительности трафиксорсов",
+      "customMetrics": true,
+      "aiUsage": "Критично для анализа источников трафика"
+    },
+    {
+      "priority": 8,
+      "method": "GET",
+      "path": "/public/api/v1/info/campaign",
+      "category": "info",
+      "importance": "CRITICAL",
+      "reason": "Получение списка кампаний",
+      "customMetrics": false,
+      "aiUsage": "Базовая операция для работы с кампаниями"
+    },
+    {
+      "priority": 9,
+      "method": "GET",
+      "path": "/public/api/v1/info/offer",
+      "category": "info",
+      "importance": "CRITICAL",
+      "reason": "Получение списка офферов",
+      "customMetrics": false,
+      "aiUsage": "Необходим для настройки кампаний"
+    },
+    {
+      "priority": 10,
+      "method": "GET",
+      "path": "/public/api/v1/info/landing",
+      "category": "info",
+      "importance": "CRITICAL",
+      "reason": "Получение списка лендингов",
+      "customMetrics": false,
+      "aiUsage": "Необходим для настройки кампаний"
+    },
+    {
+      "priority": 11,
+      "method": "GET",
+      "path": "/public/api/v1/info/traffic_source",
+      "category": "info",
+      "importance": "CRITICAL",
+      "reason": "Получение списка трафиксорсов",
+      "customMetrics": false,
+      "aiUsage": "Базовая операция для настройки"
+    },
+    {
+      "priority": 12,
+      "method": "GET",
+      "path": "/public/api/v1/report/{page}",
+      "category": "report",
+      "importance": "CRITICAL",
+      "reason": "Основной эндпоинт для создания отчетов",
+      "customMetrics": true,
+      "aiUsage": "Ключевой для детального анализа"
+    },
+    {
+      "priority": 13,
+      "method": "POST",
+      "path": "/public/api/v1/affiliate_network",
+      "category": "affiliate_network",
+      "importance": "CRITICAL",
+      "reason": "Создание партнерских сетей",
+      "customMetrics": false,
+      "aiUsage": "Первый шаг настройки трекинга"
+    },
+    {
+      "priority": 14,
+      "method": "GET",
+      "path": "/public/api/v1/affiliate_network/{id}",
+      "category": "affiliate_network",
+      "importance": "CRITICAL",
+      "reason": "Получение конфигурации партнерской сети",
+      "customMetrics": false,
+      "aiUsage": "Необходим для управления сетями"
+    },
+    {
+      "priority": 15,
+      "method": "GET",
+      "path": "/public/api/v1/campaign/{id}/link",
+      "category": "campaign",
+      "importance": "CRITICAL",
+      "reason": "Получение ссылки кампании для трафика",
+      "customMetrics": false,
+      "aiUsage": "Критично для запуска трафика"
+    },
+    {
+      "priority": 16,
+      "method": "GET",
+      "path": "/public/api/v1/stats/affiliate_network",
+      "category": "stats",
+      "importance": "HIGH",
+      "reason": "Статистика партнерских сетей",
+      "customMetrics": true,
+      "aiUsage": "Анализ производительности сетей"
+    },
+    {
+      "priority": 17,
+      "method": "GET",
+      "path": "/public/api/v1/stats/rotation",
+      "category": "stats",
+      "importance": "HIGH",
+      "reason": "Статистика ротаций",
+      "customMetrics": true,
+      "aiUsage": "Оптимизация ротаций"
+    },
+    {
+      "priority": 18,
+      "method": "PUT",
+      "path": "/public/api/v1/affiliate_network/{id}",
+      "category": "affiliate_network",
+      "importance": "HIGH",
+      "reason": "Обновление партнерских сетей",
+      "customMetrics": false,
+      "aiUsage": "Управление конфигурацией сетей"
+    },
+    {
+      "priority": 19,
+      "method": "GET",
+      "path": "/public/api/v1/campaign/list/filtered",
+      "category": "campaign",
+      "importance": "HIGH",
+      "reason": "Фильтрованный список кампаний",
+      "customMetrics": false,
+      "aiUsage": "Поиск и фильтрация кампаний"
+    },
+    {
+      "priority": 20,
+      "method": "PATCH",
+      "path": "/public/api/v1/campaign/modify/{id}",
+      "category": "campaign",
+      "importance": "HIGH",
+      "reason": "Частичное обновление кампании",
+      "customMetrics": false,
+      "aiUsage": "Быстрые изменения конфигурации"
+    },
+    {
+      "priority": 21,
+      "method": "GET",
+      "path": "/public/api/v1/campaign/short/info",
+      "category": "campaign",
+      "importance": "HIGH",
+      "reason": "Краткая информация о кампаниях",
+      "customMetrics": false,
+      "aiUsage": "Быстрый обзор кампаний"
+    },
+    {
+      "priority": 22,
+      "method": "DELETE",
+      "path": "/public/api/v1/campaign/{id}",
+      "category": "campaign",
+      "importance": "HIGH",
+      "reason": "Удаление кампаний",
+      "customMetrics": false,
+      "aiUsage": "Управление жизненным циклом"
+    },
+    {
+      "priority": 23,
+      "method": "GET",
+      "path": "/public/api/v1/campaign/{id}/clone",
+      "category": "campaign",
+      "importance": "HIGH",
+      "reason": "Клонирование кампаний",
+      "customMetrics": false,
+      "aiUsage": "Быстрое создание похожих кампаний"
+    },
+    {
+      "priority": 24,
+      "method": "PUT",
+      "path": "/public/api/v1/clicks/campaign/{id}",
+      "category": "clicks",
+      "importance": "HIGH",
+      "reason": "Обновление стоимости кликов",
+      "customMetrics": false,
+      "aiUsage": "Управление стоимостью трафика"
+    },
+    {
+      "priority": 25,
+      "method": "DELETE",
+      "path": "/public/api/v1/clicks/campaign/{id}",
+      "category": "clicks",
+      "importance": "HIGH",
+      "reason": "Удаление кликов кампании",
+      "customMetrics": false,
+      "aiUsage": "Очистка данных кампании"
+    },
+    {
+      "priority": 26,
+      "method": "GET",
+      "path": "/public/api/v1/info/affiliate_network",
+      "category": "info",
+      "importance": "HIGH",
+      "reason": "Список партнерских сетей",
+      "customMetrics": false,
+      "aiUsage": "Базовая информация о сетях"
+    },
+    {
+      "priority": 27,
+      "method": "GET",
+      "path": "/public/api/v1/info/rotation",
+      "category": "info",
+      "importance": "HIGH",
+      "reason": "Информация о ротациях",
+      "customMetrics": false,
+      "aiUsage": "Настройка ротаций"
+    },
+    {
+      "priority": 28,
+      "method": "GET",
+      "path": "/public/api/v1/report/user/campaign",
+      "category": "report",
+      "importance": "HIGH",
+      "reason": "Отчет по кампаниям пользователя",
+      "customMetrics": true,
+      "aiUsage": "Персонализированная аналитика"
+    },
+    {
+      "priority": 29,
+      "method": "GET",
+      "path": "/public/api/v1/report/campaign/groupings",
+      "category": "report",
+      "importance": "HIGH",
+      "reason": "Группировки для отчетов по кампаниям",
+      "customMetrics": false,
+      "aiUsage": "Настройка детализации отчетов"
+    },
+    {
+      "priority": 30,
+      "method": "GET",
+      "path": "/public/api/v1/report/landing/groupings",
+      "category": "report",
+      "importance": "HIGH",
+      "reason": "Группировки для отчетов по лендингам",
+      "customMetrics": false,
+      "aiUsage": "Детализация анализа лендингов"
+    },
+    {
+      "priority": 31,
+      "method": "GET",
+      "path": "/public/api/v1/report/offer/groupings",
+      "category": "report",
+      "importance": "HIGH",
+      "reason": "Группировки для отчетов по офферам",
+      "customMetrics": false,
+      "aiUsage": "Детализация анализа офферов"
+    },
+    {
+      "priority": 32,
+      "method": "GET",
+      "path": "/public/api/v1/report/traffic_source/groupings",
+      "category": "report",
+      "importance": "HIGH",
+      "reason": "Группировки для отчетов по трафиксорсам",
+      "customMetrics": false,
+      "aiUsage": "Детализация анализа источников"
+    },
+    {
+      "priority": 33,
+      "method": "POST",
+      "path": "/public/api/v1/campaign/change_cost",
+      "category": "campaign",
+      "importance": "HIGH",
+      "reason": "Массовое изменение стоимости кампаний",
+      "customMetrics": false,
+      "aiUsage": "Оптимизация затрат"
+    },
+    {
+      "priority": 34,
+      "method": "POST",
+      "path": "/public/api/v1/campaign/change_setting",
+      "category": "campaign",
+      "importance": "HIGH",
+      "reason": "Массовое изменение настроек кампаний",
+      "customMetrics": false,
+      "aiUsage": "Групповые операции"
+    },
+    {
+      "priority": 35,
+      "method": "PUT",
+      "path": "/public/api/v1/campaign/landing/pause",
+      "category": "campaign",
+      "importance": "HIGH",
+      "reason": "Пауза лендинга в кампании",
+      "customMetrics": false,
+      "aiUsage": "Управление ротациями"
+    },
+    {
+      "priority": 36,
+      "method": "PUT",
+      "path": "/public/api/v1/campaign/offer/pause",
+      "category": "campaign",
+      "importance": "MEDIUM",
+      "reason": "Пауза оффера в кампании",
+      "customMetrics": false,
+      "aiUsage": "Управление ротациями офферов"
+    },
+    {
+      "priority": 37,
+      "method": "PUT",
+      "path": "/public/api/v1/campaign/path/pause",
+      "category": "campaign",
+      "importance": "MEDIUM",
+      "reason": "Пауза пути в кампании",
+      "customMetrics": false,
+      "aiUsage": "Управление путями трафика"
+    },
+    {
+      "priority": 38,
+      "method": "DELETE",
+      "path": "/public/api/v1/affiliate_network/{id}",
+      "category": "affiliate_network",
+      "importance": "MEDIUM",
+      "reason": "Удаление партнерской сети",
+      "customMetrics": false,
+      "aiUsage": "Управление жизненным циклом сетей"
+    },
+    {
+      "priority": 39,
+      "method": "PATCH",
+      "path": "/public/api/v1/affiliate_network/{id}",
+      "category": "affiliate_network",
+      "importance": "MEDIUM",
+      "reason": "Восстановление партнерской сети",
+      "customMetrics": false,
+      "aiUsage": "Восстановление удаленных сетей"
+    },
+    {
+      "priority": 40,
+      "method": "GET",
+      "path": "/public/api/v1/affiliate_network/list/filtered",
+      "category": "affiliate_network",
+      "importance": "MEDIUM",
+      "reason": "Фильтрованный список партнерских сетей",
+      "customMetrics": false,
+      "aiUsage": "Поиск и фильтрация сетей"
+    },
+    {
+      "priority": 41,
+      "method": "GET",
+      "path": "/public/api/v1/affiliate_network/list/all",
+      "category": "affiliate_network",
+      "importance": "MEDIUM",
+      "reason": "Полный список партнерских сетей",
+      "customMetrics": false,
+      "aiUsage": "Получение всех доступных сетей"
+    },
+    {
+      "priority": 42,
+      "method": "PUT",
+      "path": "/public/api/v1/affiliate_network/{id}/rename",
+      "category": "affiliate_network",
+      "importance": "MEDIUM",
+      "reason": "Переименование партнерской сети",
+      "customMetrics": false,
+      "aiUsage": "Управление названиями сетей"
+    },
+    {
+      "priority": 43,
+      "method": "GET",
+      "path": "/public/api/v1/affiliate_network/{id}/clone",
+      "category": "affiliate_network",
+      "importance": "MEDIUM",
+      "reason": "Клонирование партнерской сети",
+      "customMetrics": false,
+      "aiUsage": "Быстрое создание похожих сетей"
+    },
+    {
+      "priority": 44,
+      "method": "PUT",
+      "path": "/public/api/v1/campaign/{id}/rename",
+      "category": "campaign",
+      "importance": "MEDIUM",
+      "reason": "Переименование кампании",
+      "customMetrics": false,
+      "aiUsage": "Управление названиями кампаний"
+    },
+    {
+      "priority": 45,
+      "method": "PATCH",
+      "path": "/public/api/v1/campaign/{id}",
+      "category": "campaign",
+      "importance": "MEDIUM",
+      "reason": "Восстановление кампании",
+      "customMetrics": false,
+      "aiUsage": "Восстановление удаленных кампаний"
+    },
+    {
+      "priority": 46,
+      "method": "POST",
+      "path": "/public/api/v1/campaign/change_domain",
+      "category": "campaign",
+      "importance": "MEDIUM",
+      "reason": "Массовое изменение домена кампаний",
+      "customMetrics": false,
+      "aiUsage": "Управление доменами"
+    },
+    {
+      "priority": 47,
+      "method": "POST",
+      "path": "/public/api/v1/campaign/change_group",
+      "category": "campaign",
+      "importance": "MEDIUM",
+      "reason": "Массовое изменение группы кампаний",
+      "customMetrics": false,
+      "aiUsage": "Организация кампаний"
+    },
+    {
+      "priority": 48,
+      "method": "GET",
+      "path": "/public/api/v1/campaign/traffic_source/list",
+      "category": "campaign",
+      "importance": "MEDIUM",
+      "reason": "Список трафиксорсов с кампаниями",
+      "customMetrics": false,
+      "aiUsage": "Анализ связей источников и кампаний"
+    },
+    {
+      "priority": 49,
+      "method": "GET",
+      "path": "/public/api/v1/campaign/by_rotation/{rotationId}/list",
+      "category": "campaign",
+      "importance": "MEDIUM",
+      "reason": "Кампании по ID ротации",
+      "customMetrics": false,
+      "aiUsage": "Анализ кампаний в ротации"
+    },
+    {
+      "priority": 50,
+      "method": "GET",
+      "path": "/public/api/v1/affiliate_network/preset/catalog",
+      "category": "affiliate_network",
+      "importance": "MEDIUM",
+      "reason": "Каталог пресетов партнерских сетей",
+      "customMetrics": false,
+      "aiUsage": "Быстрая настройка популярных сетей"
+    }
+  ],
+  "total": 50,
+  "customMetricsCount": 8,
+  "categoryStats": {
+    "stats": 6,
+    "campaign": 20,
+    "info": 6,
+    "report": 6,
+    "affiliate_network": 10,
+    "clicks": 2
+  },
+  "createdAt": "2025-09-26T21:18:23.490253"
+}
