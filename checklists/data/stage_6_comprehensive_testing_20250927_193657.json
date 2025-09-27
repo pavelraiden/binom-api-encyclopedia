@@ -1,0 +1,80 @@
+{
+  "name": "stage_6_comprehensive_testing",
+  "description": "Комплексное тестирование всей системы",
+  "created_at": "2025-09-27T19:36:57.933417",
+  "completed_at": null,
+  "items": [
+    {
+      "id": "unit_testing_100_percent",
+      "title": "100% покрытие unit тестами",
+      "description": "Полное покрытие всего кода unit тестами",
+      "required": true,
+      "status": "pending",
+      "completed_at": null,
+      "notes": ""
+    },
+    {
+      "id": "integration_testing",
+      "title": "Интеграционное тестирование",
+      "description": "Тестирование всех интеграций",
+      "required": true,
+      "status": "pending",
+      "completed_at": null,
+      "notes": ""
+    },
+    {
+      "id": "end_to_end_testing",
+      "title": "End-to-end тестирование",
+      "description": "Полные пользовательские сценарии",
+      "required": true,
+      "status": "pending",
+      "completed_at": null,
+      "notes": ""
+    },
+    {
+      "id": "load_testing",
+      "title": "Нагрузочное тестирование",
+      "description": "Тестирование под высокой нагрузкой",
+      "required": true,
+      "status": "pending",
+      "completed_at": null,
+      "notes": ""
+    },
+    {
+      "id": "security_penetration_testing",
+      "title": "Penetration testing",
+      "description": "Тестирование на проникновение",
+      "required": true,
+      "status": "pending",
+      "completed_at": null,
+      "notes": ""
+    },
+    {
+      "id": "disaster_recovery_testing",
+      "title": "Тестирование disaster recovery",
+      "description": "Проверка процедур восстановления",
+      "required": true,
+      "status": "pending",
+      "completed_at": null,
+      "notes": ""
+    },
+    {
+      "id": "performance_regression_testing",
+      "title": "Regression testing производительности",
+      "description": "Проверка деградации производительности",
+      "required": false,
+      "status": "pending",
+      "completed_at": null,
+      "notes": ""
+    },
+    {
+      "id": "chaos_engineering",
+      "title": "Chaos engineering",
+      "description": "Тестирование отказоустойчивости",
+      "required": false,
+      "status": "pending",
+      "completed_at": null,
+      "notes": ""
+    }
+  ]
+}

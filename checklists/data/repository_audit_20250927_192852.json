@@ -1,0 +1,80 @@
+{
+  "name": "repository_audit",
+  "description": "Comprehensive repository audit and quality assurance",
+  "created_at": "2025-09-27T19:28:52.689849",
+  "completed_at": null,
+  "items": [
+    {
+      "id": "check_code_syntax",
+      "title": "Check all code for syntax errors",
+      "description": "Validate Python, JSON, Markdown syntax",
+      "required": true,
+      "status": "pending",
+      "completed_at": null,
+      "notes": ""
+    },
+    {
+      "id": "verify_api_examples",
+      "title": "Verify all API examples work",
+      "description": "Test all code examples against live API",
+      "required": true,
+      "status": "pending",
+      "completed_at": null,
+      "notes": ""
+    },
+    {
+      "id": "check_duplicates",
+      "title": "Check for duplicate files/content",
+      "description": "Scan for redundant files and content",
+      "required": true,
+      "status": "pending",
+      "completed_at": null,
+      "notes": ""
+    },
+    {
+      "id": "validate_documentation",
+      "title": "Validate documentation accuracy",
+      "description": "Ensure all docs match current API",
+      "required": true,
+      "status": "pending",
+      "completed_at": null,
+      "notes": ""
+    },
+    {
+      "id": "test_validation_system",
+      "title": "Test validation system components",
+      "description": "Run all validation tests",
+      "required": true,
+      "status": "pending",
+      "completed_at": null,
+      "notes": ""
+    },
+    {
+      "id": "check_data_consistency",
+      "title": "Check data consistency",
+      "description": "Verify all data structures are consistent",
+      "required": true,
+      "status": "pending",
+      "completed_at": null,
+      "notes": ""
+    },
+    {
+      "id": "performance_test",
+      "title": "Run performance tests",
+      "description": "Test API response times and system performance",
+      "required": false,
+      "status": "pending",
+      "completed_at": null,
+      "notes": ""
+    },
+    {
+      "id": "security_audit",
+      "title": "Security audit",
+      "description": "Check for security vulnerabilities",
+      "required": false,
+      "status": "pending",
+      "completed_at": null,
+      "notes": ""
+    }
+  ]
+}

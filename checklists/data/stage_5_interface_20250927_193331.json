@@ -1,0 +1,80 @@
+{
+  "name": "stage_5_interface",
+  "description": "Создание веб-интерфейса и API endpoints",
+  "created_at": "2025-09-27T19:33:31.607832",
+  "completed_at": null,
+  "items": [
+    {
+      "id": "create_web_interface",
+      "title": "Создать веб-интерфейс",
+      "description": "User-friendly интерфейс для управления кампаниями",
+      "required": true,
+      "status": "pending",
+      "completed_at": null,
+      "notes": ""
+    },
+    {
+      "id": "implement_rest_api",
+      "title": "REST API endpoints",
+      "description": "Полный набор API endpoints для медиабайинга",
+      "required": true,
+      "status": "pending",
+      "completed_at": null,
+      "notes": ""
+    },
+    {
+      "id": "create_swagger_docs",
+      "title": "Swagger документация",
+      "description": "Автоматическая документация API",
+      "required": true,
+      "status": "pending",
+      "completed_at": null,
+      "notes": ""
+    },
+    {
+      "id": "implement_real_time_updates",
+      "title": "Real-time обновления",
+      "description": "WebSocket для live обновлений статистики",
+      "required": true,
+      "status": "pending",
+      "completed_at": null,
+      "notes": ""
+    },
+    {
+      "id": "add_telegram_integration",
+      "title": "Telegram интеграция",
+      "description": "Умная отчетность в Telegram без спама",
+      "required": true,
+      "status": "pending",
+      "completed_at": null,
+      "notes": ""
+    },
+    {
+      "id": "create_dashboard",
+      "title": "Создать дашборд",
+      "description": "Аналитический дашборд с метриками",
+      "required": false,
+      "status": "pending",
+      "completed_at": null,
+      "notes": ""
+    },
+    {
+      "id": "implement_alerts",
+      "title": "Система алертов",
+      "description": "Уведомления о критических изменениях",
+      "required": false,
+      "status": "pending",
+      "completed_at": null,
+      "notes": ""
+    },
+    {
+      "id": "add_export_functionality",
+      "title": "Функции экспорта",
+      "description": "Экспорт данных в различных форматах",
+      "required": false,
+      "status": "pending",
+      "completed_at": null,
+      "notes": ""
+    }
+  ]
+}

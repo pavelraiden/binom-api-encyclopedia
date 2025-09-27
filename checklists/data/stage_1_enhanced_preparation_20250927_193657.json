@@ -1,0 +1,80 @@
+{
+  "name": "stage_1_enhanced_preparation",
+  "description": "Расширенная подготовка с учетом рекомендаций Claude",
+  "created_at": "2025-09-27T19:36:57.933306",
+  "completed_at": null,
+  "items": [
+    {
+      "id": "audit_current_code_security",
+      "title": "Аудит безопасности текущего кода",
+      "description": "Поиск уязвимостей в существующем коде",
+      "required": true,
+      "status": "pending",
+      "completed_at": null,
+      "notes": ""
+    },
+    {
+      "id": "create_data_migration_plan",
+      "title": "План миграции данных",
+      "description": "Детальный план миграции существующих данных",
+      "required": true,
+      "status": "pending",
+      "completed_at": null,
+      "notes": ""
+    },
+    {
+      "id": "setup_test_coverage_monitoring",
+      "title": "Мониторинг покрытия тестами",
+      "description": "Автоматическое отслеживание coverage",
+      "required": true,
+      "status": "pending",
+      "completed_at": null,
+      "notes": ""
+    },
+    {
+      "id": "create_edge_cases_scenarios",
+      "title": "Сценарии edge cases",
+      "description": "Тестирование граничных случаев",
+      "required": true,
+      "status": "pending",
+      "completed_at": null,
+      "notes": ""
+    },
+    {
+      "id": "setup_load_testing_framework",
+      "title": "Фреймворк нагрузочного тестирования",
+      "description": "Инструменты для performance testing",
+      "required": true,
+      "status": "pending",
+      "completed_at": null,
+      "notes": ""
+    },
+    {
+      "id": "create_access_policies",
+      "title": "Политики доступа",
+      "description": "Определение прав доступа к различным компонентам",
+      "required": true,
+      "status": "pending",
+      "completed_at": null,
+      "notes": ""
+    },
+    {
+      "id": "setup_error_tracking",
+      "title": "Система отслеживания ошибок",
+      "description": "Sentry или аналог для мониторинга ошибок",
+      "required": true,
+      "status": "pending",
+      "completed_at": null,
+      "notes": ""
+    },
+    {
+      "id": "create_documentation_standards",
+      "title": "Стандарты документации",
+      "description": "Единые стандарты для всей документации",
+      "required": false,
+      "status": "pending",
+      "completed_at": null,
+      "notes": ""
+    }
+  ]
+}

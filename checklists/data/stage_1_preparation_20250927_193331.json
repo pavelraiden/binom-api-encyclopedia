@@ -1,0 +1,80 @@
+{
+  "name": "stage_1_preparation",
+  "description": "Подготовка репозитория к интеграции медиабайинг воркфлоу",
+  "created_at": "2025-09-27T19:33:31.607765",
+  "completed_at": null,
+  "items": [
+    {
+      "id": "audit_current_code",
+      "title": "Провести аудит текущего кода",
+      "description": "Найти и исправить memory leaks в validation scripts",
+      "required": true,
+      "status": "pending",
+      "completed_at": null,
+      "notes": ""
+    },
+    {
+      "id": "update_dependencies",
+      "title": "Обновить зависимости",
+      "description": "Обновить все Python пакеты до актуальных версий",
+      "required": true,
+      "status": "pending",
+      "completed_at": null,
+      "notes": ""
+    },
+    {
+      "id": "create_directory_structure",
+      "title": "Создать структуру директорий",
+      "description": "Создать /mediabuy/ с подпапками core/, integrations/, optimization/, reporting/",
+      "required": true,
+      "status": "pending",
+      "completed_at": null,
+      "notes": ""
+    },
+    {
+      "id": "setup_ci_cd",
+      "title": "Настроить CI/CD",
+      "description": "Настроить автоматическое тестирование для медиабайинг модуля",
+      "required": true,
+      "status": "pending",
+      "completed_at": null,
+      "notes": ""
+    },
+    {
+      "id": "refactor_codebase",
+      "title": "Рефакторинг кодовой базы",
+      "description": "Оптимизировать существующий код для интеграции",
+      "required": true,
+      "status": "pending",
+      "completed_at": null,
+      "notes": ""
+    },
+    {
+      "id": "add_rate_limiting",
+      "title": "Добавить rate limiting",
+      "description": "Реализовать ограничения на API endpoints",
+      "required": true,
+      "status": "pending",
+      "completed_at": null,
+      "notes": ""
+    },
+    {
+      "id": "improve_test_coverage",
+      "title": "Улучшить покрытие тестами",
+      "description": "Довести покрытие тестами до 90%+",
+      "required": true,
+      "status": "pending",
+      "completed_at": null,
+      "notes": ""
+    },
+    {
+      "id": "update_documentation",
+      "title": "Обновить документацию",
+      "description": "Исправить устаревшие API примеры (15%)",
+      "required": false,
+      "status": "pending",
+      "completed_at": null,
+      "notes": ""
+    }
+  ]
+}

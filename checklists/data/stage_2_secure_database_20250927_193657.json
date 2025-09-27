@@ -1,0 +1,80 @@
+{
+  "name": "stage_2_secure_database",
+  "description": "Создание безопасной и масштабируемой базы данных",
+  "created_at": "2025-09-27T19:36:57.933392",
+  "completed_at": null,
+  "items": [
+    {
+      "id": "design_secure_schema",
+      "title": "Спроектировать безопасную схему",
+      "description": "Схема с учетом безопасности и производительности",
+      "required": true,
+      "status": "pending",
+      "completed_at": null,
+      "notes": ""
+    },
+    {
+      "id": "implement_data_encryption",
+      "title": "Реализовать шифрование данных",
+      "description": "Шифрование чувствительных данных",
+      "required": true,
+      "status": "pending",
+      "completed_at": null,
+      "notes": ""
+    },
+    {
+      "id": "create_migration_scripts",
+      "title": "Создать скрипты миграции",
+      "description": "Безопасная миграция существующих данных",
+      "required": true,
+      "status": "pending",
+      "completed_at": null,
+      "notes": ""
+    },
+    {
+      "id": "setup_database_monitoring",
+      "title": "Мониторинг базы данных",
+      "description": "Отслеживание производительности БД",
+      "required": true,
+      "status": "pending",
+      "completed_at": null,
+      "notes": ""
+    },
+    {
+      "id": "implement_connection_pooling",
+      "title": "Connection pooling",
+      "description": "Оптимизация подключений к БД",
+      "required": true,
+      "status": "pending",
+      "completed_at": null,
+      "notes": ""
+    },
+    {
+      "id": "create_backup_procedures",
+      "title": "Процедуры бэкапа БД",
+      "description": "Автоматические бэкапы с тестированием восстановления",
+      "required": true,
+      "status": "pending",
+      "completed_at": null,
+      "notes": ""
+    },
+    {
+      "id": "setup_replication",
+      "title": "Настроить репликацию",
+      "description": "Master-slave репликация для отказоустойчивости",
+      "required": false,
+      "status": "pending",
+      "completed_at": null,
+      "notes": ""
+    },
+    {
+      "id": "implement_query_optimization",
+      "title": "Оптимизация запросов",
+      "description": "Анализ и оптимизация медленных запросов",
+      "required": false,
+      "status": "pending",
+      "completed_at": null,
+      "notes": ""
+    }
+  ]
+}

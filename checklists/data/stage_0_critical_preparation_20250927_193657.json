@@ -1,0 +1,80 @@
+{
+  "name": "stage_0_critical_preparation",
+  "description": "Критическая подготовка на основе рекомендаций Claude",
+  "created_at": "2025-09-27T19:36:57.933271",
+  "completed_at": null,
+  "items": [
+    {
+      "id": "create_staging_environment",
+      "title": "Создать staging environment",
+      "description": "Изолированная среда для безопасного тестирования",
+      "required": true,
+      "status": "pending",
+      "completed_at": null,
+      "notes": ""
+    },
+    {
+      "id": "setup_ci_cd_pipeline",
+      "title": "Настроить CI/CD pipeline",
+      "description": "Автоматизация тестирования и деплоя",
+      "required": true,
+      "status": "pending",
+      "completed_at": null,
+      "notes": ""
+    },
+    {
+      "id": "conduct_security_audit",
+      "title": "Провести security audit",
+      "description": "Полный аудит безопасности текущего кода",
+      "required": true,
+      "status": "pending",
+      "completed_at": null,
+      "notes": ""
+    },
+    {
+      "id": "setup_monitoring_system",
+      "title": "Настроить систему мониторинга",
+      "description": "Grafana + Prometheus для отслеживания производительности",
+      "required": true,
+      "status": "pending",
+      "completed_at": null,
+      "notes": ""
+    },
+    {
+      "id": "create_backup_strategy",
+      "title": "Создать стратегию бэкапов",
+      "description": "Автоматические бэкапы с возможностью восстановления",
+      "required": true,
+      "status": "pending",
+      "completed_at": null,
+      "notes": ""
+    },
+    {
+      "id": "develop_rollback_procedures",
+      "title": "Разработать процедуры отката",
+      "description": "Четкий план отката изменений при проблемах",
+      "required": true,
+      "status": "pending",
+      "completed_at": null,
+      "notes": ""
+    },
+    {
+      "id": "setup_logging_system",
+      "title": "Настроить систему логирования",
+      "description": "Централизованное логирование всех операций",
+      "required": true,
+      "status": "pending",
+      "completed_at": null,
+      "notes": ""
+    },
+    {
+      "id": "create_api_versioning_strategy",
+      "title": "Стратегия версионирования API",
+      "description": "Backward compatibility и управление версиями",
+      "required": true,
+      "status": "pending",
+      "completed_at": null,
+      "notes": ""
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "name": "stage_4_tested_optimization",
+  "description": "Тестируемая логика оптимизации с полным покрытием",
+  "created_at": "2025-09-27T19:36:57.933407",
+  "completed_at": null,
+  "items": [
+    {
+      "id": "implement_optimization_with_tests",
+      "title": "Оптимизация с тестами",
+      "description": "TDD подход к разработке логики оптимизации",
+      "required": true,
+      "status": "pending",
+      "completed_at": null,
+      "notes": ""
+    },
+    {
+      "id": "create_performance_benchmarks",
+      "title": "Performance benchmarks",
+      "description": "Базовые метрики производительности",
+      "required": true,
+      "status": "pending",
+      "completed_at": null,
+      "notes": ""
+    },
+    {
+      "id": "implement_a_b_testing",
+      "title": "A/B тестирование",
+      "description": "Тестирование различных алгоритмов оптимизации",
+      "required": true,
+      "status": "pending",
+      "completed_at": null,
+      "notes": ""
+    },
+    {
+      "id": "create_optimization_monitoring",
+      "title": "Мониторинг оптимизации",
+      "description": "Отслеживание эффективности алгоритмов",
+      "required": true,
+      "status": "pending",
+      "completed_at": null,
+      "notes": ""
+    },
+    {
+      "id": "implement_fallback_strategies",
+      "title": "Стратегии fallback",
+      "description": "Резервные алгоритмы при сбоях",
+      "required": true,
+      "status": "pending",
+      "completed_at": null,
+      "notes": ""
+    },
+    {
+      "id": "create_optimization_logs",
+      "title": "Логирование оптимизации",
+      "description": "Детальные логи всех решений оптимизации",
+      "required": true,
+      "status": "pending",
+      "completed_at": null,
+      "notes": ""
+    },
+    {
+      "id": "implement_manual_override",
+      "title": "Ручное переопределение",
+      "description": "Возможность ручного вмешательства в автоматику",
+      "required": false,
+      "status": "pending",
+      "completed_at": null,
+      "notes": ""
+    },
+    {
+      "id": "create_optimization_reports",
+      "title": "Отчеты по оптимизации",
+      "description": "Регулярные отчеты об эффективности",
+      "required": false,
+      "status": "pending",
+      "completed_at": null,
+      "notes": ""
+    }
+  ]
+}

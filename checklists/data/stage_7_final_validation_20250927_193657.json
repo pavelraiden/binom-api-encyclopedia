@@ -1,0 +1,80 @@
+{
+  "name": "stage_7_final_validation",
+  "description": "Финальная валидация и подготовка к продакшену",
+  "created_at": "2025-09-27T19:36:57.933425",
+  "completed_at": null,
+  "items": [
+    {
+      "id": "complete_security_audit",
+      "title": "Полный аудит безопасности",
+      "description": "Финальный аудит всех компонентов",
+      "required": true,
+      "status": "pending",
+      "completed_at": null,
+      "notes": ""
+    },
+    {
+      "id": "performance_certification",
+      "title": "Сертификация производительности",
+      "description": "Подтверждение соответствия требованиям",
+      "required": true,
+      "status": "pending",
+      "completed_at": null,
+      "notes": ""
+    },
+    {
+      "id": "documentation_completeness_check",
+      "title": "Проверка полноты документации",
+      "description": "Вся документация актуальна и полна",
+      "required": true,
+      "status": "pending",
+      "completed_at": null,
+      "notes": ""
+    },
+    {
+      "id": "backup_and_recovery_validation",
+      "title": "Валидация бэкапа и восстановления",
+      "description": "Тестирование полного цикла бэкап-восстановление",
+      "required": true,
+      "status": "pending",
+      "completed_at": null,
+      "notes": ""
+    },
+    {
+      "id": "monitoring_and_alerting_validation",
+      "title": "Валидация мониторинга и алертов",
+      "description": "Все системы мониторинга работают",
+      "required": true,
+      "status": "pending",
+      "completed_at": null,
+      "notes": ""
+    },
+    {
+      "id": "claude_final_approval",
+      "title": "Финальное одобрение Claude",
+      "description": "Получить одобрение от Claude на все изменения",
+      "required": true,
+      "status": "pending",
+      "completed_at": null,
+      "notes": ""
+    },
+    {
+      "id": "stakeholder_sign_off",
+      "title": "Подписание заинтересованными сторонами",
+      "description": "Получить одобрение от всех stakeholders",
+      "required": true,
+      "status": "pending",
+      "completed_at": null,
+      "notes": ""
+    },
+    {
+      "id": "production_deployment_plan",
+      "title": "План продакшн деплоя",
+      "description": "Детальный план развертывания в продакшене",
+      "required": true,
+      "status": "pending",
+      "completed_at": null,
+      "notes": ""
+    }
+  ]
+}

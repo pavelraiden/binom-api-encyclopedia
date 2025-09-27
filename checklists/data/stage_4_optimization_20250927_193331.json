@@ -1,0 +1,80 @@
+{
+  "name": "stage_4_optimization",
+  "description": "Реализация логики оптимизации кампаний",
+  "created_at": "2025-09-27T19:33:31.607826",
+  "completed_at": null,
+  "items": [
+    {
+      "id": "implement_wished_metrics",
+      "title": "Реализовать Wished метрики",
+      "description": "eCPA, eCPT, eCPB логика из воркфлоу",
+      "required": true,
+      "status": "pending",
+      "completed_at": null,
+      "notes": ""
+    },
+    {
+      "id": "create_optimization_engine",
+      "title": "Создать движок оптимизации",
+      "description": "OptimizationEngine класс с анализом и предсказаниями",
+      "required": true,
+      "status": "pending",
+      "completed_at": null,
+      "notes": ""
+    },
+    {
+      "id": "implement_multilevel_analysis",
+      "title": "Мультиуровневый анализ",
+      "description": "Анализ по install → trial → billing цепочке",
+      "required": true,
+      "status": "pending",
+      "completed_at": null,
+      "notes": ""
+    },
+    {
+      "id": "add_vertical_support",
+      "title": "Добавить поддержку вертикалей",
+      "description": "Offer Vertical поле и логика оптимизации",
+      "required": true,
+      "status": "pending",
+      "completed_at": null,
+      "notes": ""
+    },
+    {
+      "id": "implement_ctr_tracking",
+      "title": "CTR трекинг",
+      "description": "Отслеживание CTR с источника и трекера",
+      "required": true,
+      "status": "pending",
+      "completed_at": null,
+      "notes": ""
+    },
+    {
+      "id": "add_dead_zone_detection",
+      "title": "Детекция мертвых зон",
+      "description": "Автоматическое обнаружение неэффективных зон",
+      "required": true,
+      "status": "pending",
+      "completed_at": null,
+      "notes": ""
+    },
+    {
+      "id": "create_prediction_models",
+      "title": "Модели предсказания",
+      "description": "ML модели для прогнозирования производительности",
+      "required": false,
+      "status": "pending",
+      "completed_at": null,
+      "notes": ""
+    },
+    {
+      "id": "implement_auto_optimization",
+      "title": "Автоматическая оптимизация",
+      "description": "Автоматическое применение оптимизаций",
+      "required": false,
+      "status": "pending",
+      "completed_at": null,
+      "notes": ""
+    }
+  ]
+}

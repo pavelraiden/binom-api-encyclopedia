@@ -1,0 +1,71 @@
+{
+  "name": "stage_2_database",
+  "description": "Создание и настройка базы данных для медиабайинга",
+  "created_at": "2025-09-27T19:33:31.607811",
+  "completed_at": null,
+  "items": [
+    {
+      "id": "design_schema",
+      "title": "Спроектировать схему БД",
+      "description": "Создать схему для media_sources, campaigns, stats, verticals",
+      "required": true,
+      "status": "pending",
+      "completed_at": null,
+      "notes": ""
+    },
+    {
+      "id": "create_migrations",
+      "title": "Создать миграции",
+      "description": "Написать SQL миграции для всех таблиц",
+      "required": true,
+      "status": "pending",
+      "completed_at": null,
+      "notes": ""
+    },
+    {
+      "id": "setup_indexes",
+      "title": "Настроить индексы",
+      "description": "Оптимизировать индексы для быстрых запросов",
+      "required": true,
+      "status": "pending",
+      "completed_at": null,
+      "notes": ""
+    },
+    {
+      "id": "implement_partitioning",
+      "title": "Реализовать партиционирование",
+      "description": "Настроить партиционирование для больших объемов данных",
+      "required": true,
+      "status": "pending",
+      "completed_at": null,
+      "notes": ""
+    },
+    {
+      "id": "create_relationships",
+      "title": "Создать связи между таблицами",
+      "description": "Настроить foreign keys и constraints",
+      "required": true,
+      "status": "pending",
+      "completed_at": null,
+      "notes": ""
+    },
+    {
+      "id": "setup_backup_strategy",
+      "title": "Настроить стратегию бэкапов",
+      "description": "Автоматические бэкапы критических данных",
+      "required": false,
+      "status": "pending",
+      "completed_at": null,
+      "notes": ""
+    },
+    {
+      "id": "performance_testing",
+      "title": "Тестирование производительности БД",
+      "description": "Нагрузочное тестирование запросов",
+      "required": false,
+      "status": "pending",
+      "completed_at": null,
+      "notes": ""
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "name": "stage_3_api_integrations",
+  "description": "Интеграция с внешними API (трафиксорсы, расширенный Binom API)",
+  "created_at": "2025-09-27T19:33:31.607819",
+  "completed_at": null,
+  "items": [
+    {
+      "id": "design_api_interface",
+      "title": "Спроектировать API интерфейс",
+      "description": "Создать MediaBuyingAPI интерфейс",
+      "required": true,
+      "status": "pending",
+      "completed_at": null,
+      "notes": ""
+    },
+    {
+      "id": "implement_binom_extended",
+      "title": "Расширить Binom API интеграцию",
+      "description": "Добавить поддержку медиабайинг функций",
+      "required": true,
+      "status": "pending",
+      "completed_at": null,
+      "notes": ""
+    },
+    {
+      "id": "integrate_propellerads",
+      "title": "Интегрировать Propellerads API",
+      "description": "Полная интеграция с Propellerads",
+      "required": true,
+      "status": "pending",
+      "completed_at": null,
+      "notes": ""
+    },
+    {
+      "id": "implement_multi_account",
+      "title": "Реализовать мультиаккаунтинг",
+      "description": "Безопасная работа с несколькими аккаунтами",
+      "required": true,
+      "status": "pending",
+      "completed_at": null,
+      "notes": ""
+    },
+    {
+      "id": "add_authentication",
+      "title": "Добавить аутентификацию",
+      "description": "Безопасное хранение и использование API ключей",
+      "required": true,
+      "status": "pending",
+      "completed_at": null,
+      "notes": ""
+    },
+    {
+      "id": "implement_error_handling",
+      "title": "Реализовать обработку ошибок",
+      "description": "Robust error handling для всех API",
+      "required": true,
+      "status": "pending",
+      "completed_at": null,
+      "notes": ""
+    },
+    {
+      "id": "add_retry_logic",
+      "title": "Добавить retry логику",
+      "description": "Автоматические повторы при сбоях API",
+      "required": false,
+      "status": "pending",
+      "completed_at": null,
+      "notes": ""
+    },
+    {
+      "id": "implement_caching",
+      "title": "Реализовать кеширование",
+      "description": "Redis кеширование для частых запросов",
+      "required": false,
+      "status": "pending",
+      "completed_at": null,
+      "notes": ""
+    }
+  ]
+}

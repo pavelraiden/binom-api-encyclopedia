@@ -1,0 +1,80 @@
+{
+  "name": "stage_3_secure_api_integrations",
+  "description": "Безопасные интеграции с внешними API",
+  "created_at": "2025-09-27T19:36:57.933402",
+  "completed_at": null,
+  "items": [
+    {
+      "id": "implement_api_authentication",
+      "title": "Безопасная аутентификация API",
+      "description": "OAuth2, JWT токены, secure storage",
+      "required": true,
+      "status": "pending",
+      "completed_at": null,
+      "notes": ""
+    },
+    {
+      "id": "create_rate_limiting",
+      "title": "Rate limiting для API",
+      "description": "Защита от DDoS и злоупотреблений",
+      "required": true,
+      "status": "pending",
+      "completed_at": null,
+      "notes": ""
+    },
+    {
+      "id": "implement_api_versioning",
+      "title": "Версионирование API",
+      "description": "Backward compatibility и управление версиями",
+      "required": true,
+      "status": "pending",
+      "completed_at": null,
+      "notes": ""
+    },
+    {
+      "id": "setup_api_monitoring",
+      "title": "Мониторинг API",
+      "description": "Отслеживание производительности и ошибок API",
+      "required": true,
+      "status": "pending",
+      "completed_at": null,
+      "notes": ""
+    },
+    {
+      "id": "create_circuit_breaker",
+      "title": "Circuit breaker pattern",
+      "description": "Защита от каскадных сбоев",
+      "required": true,
+      "status": "pending",
+      "completed_at": null,
+      "notes": ""
+    },
+    {
+      "id": "implement_request_validation",
+      "title": "Валидация запросов",
+      "description": "Строгая валидация всех входящих данных",
+      "required": true,
+      "status": "pending",
+      "completed_at": null,
+      "notes": ""
+    },
+    {
+      "id": "setup_api_documentation",
+      "title": "Документация API",
+      "description": "Swagger/OpenAPI с примерами и тестами",
+      "required": true,
+      "status": "pending",
+      "completed_at": null,
+      "notes": ""
+    },
+    {
+      "id": "implement_webhook_security",
+      "title": "Безопасность webhooks",
+      "description": "Подпись и валидация webhook запросов",
+      "required": false,
+      "status": "pending",
+      "completed_at": null,
+      "notes": ""
+    }
+  ]
+}

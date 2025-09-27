@@ -1,0 +1,80 @@
+{
+  "name": "stage_5_secure_interface",
+  "description": "Безопасный и производительный интерфейс",
+  "created_at": "2025-09-27T19:36:57.933412",
+  "completed_at": null,
+  "items": [
+    {
+      "id": "implement_secure_authentication",
+      "title": "Безопасная аутентификация",
+      "description": "Multi-factor authentication для пользователей",
+      "required": true,
+      "status": "pending",
+      "completed_at": null,
+      "notes": ""
+    },
+    {
+      "id": "create_role_based_access",
+      "title": "Role-based access control",
+      "description": "Гранулярные права доступа",
+      "required": true,
+      "status": "pending",
+      "completed_at": null,
+      "notes": ""
+    },
+    {
+      "id": "implement_input_sanitization",
+      "title": "Санитизация ввода",
+      "description": "Защита от XSS, SQL injection и других атак",
+      "required": true,
+      "status": "pending",
+      "completed_at": null,
+      "notes": ""
+    },
+    {
+      "id": "setup_https_only",
+      "title": "Только HTTPS",
+      "description": "Принудительное использование HTTPS",
+      "required": true,
+      "status": "pending",
+      "completed_at": null,
+      "notes": ""
+    },
+    {
+      "id": "implement_csrf_protection",
+      "title": "CSRF защита",
+      "description": "Защита от cross-site request forgery",
+      "required": true,
+      "status": "pending",
+      "completed_at": null,
+      "notes": ""
+    },
+    {
+      "id": "create_audit_logs",
+      "title": "Аудит логи",
+      "description": "Логирование всех действий пользователей",
+      "required": true,
+      "status": "pending",
+      "completed_at": null,
+      "notes": ""
+    },
+    {
+      "id": "implement_session_management",
+      "title": "Управление сессиями",
+      "description": "Безопасное управление пользовательскими сессиями",
+      "required": true,
+      "status": "pending",
+      "completed_at": null,
+      "notes": ""
+    },
+    {
+      "id": "setup_content_security_policy",
+      "title": "Content Security Policy",
+      "description": "CSP заголовки для защиты от XSS",
+      "required": false,
+      "status": "pending",
+      "completed_at": null,
+      "notes": ""
+    }
+  ]
+}
