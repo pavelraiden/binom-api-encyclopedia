@@ -1,0 +1,577 @@
+[
+    {
+        "title": "Affiliate network ID",
+        "name": "affiliate_network_id",
+        "placeholder": "{affiliate_network_id}"
+    },
+    {
+        "title": "Affiliate network name",
+        "name": "affiliate_network_name",
+        "placeholder": "{affiliate_network_name}"
+    },
+    {
+        "title": "Browser name",
+        "name": "browser_name",
+        "placeholder": "{browser_name}"
+    },
+    {
+        "title": "Browser version",
+        "name": "browser_version",
+        "placeholder": "{browser_version}"
+    },
+    {
+        "title": "Campaign ID",
+        "name": "campaign_id",
+        "placeholder": "{campaign_id}"
+    },
+    {
+        "title": "Campaign key",
+        "name": "campaign_key",
+        "placeholder": "{campaign_key}"
+    },
+    {
+        "title": "Campaign name",
+        "name": "campaign_name",
+        "placeholder": "{campaign_name}"
+    },
+    {
+        "title": "City",
+        "name": "city",
+        "placeholder": "{city}"
+    },
+    {
+        "title": "Click cost",
+        "name": "clickcost",
+        "placeholder": "{clickcost}"
+    },
+    {
+        "title": "Click ID",
+        "name": "clickid",
+        "placeholder": "{clickid}"
+    },
+    {
+        "title": "Continent",
+        "name": "continent",
+        "placeholder": "{continent}"
+    },
+    {
+        "title": "Continent code",
+        "name": "continent_code",
+        "placeholder": "{continent_code}"
+    },
+    {
+        "title": "Country",
+        "name": "country",
+        "placeholder": "{country}"
+    },
+    {
+        "title": "Country code",
+        "name": "country_code",
+        "placeholder": "{country_code}"
+    },
+    {
+        "title": "Date",
+        "name": "date",
+        "placeholder": "{date}"
+    },
+    {
+        "title": "Device brand",
+        "name": "device_brand",
+        "placeholder": "{device_brand}"
+    },
+    {
+        "title": "Device model",
+        "name": "device_model",
+        "placeholder": "{device_model}"
+    },
+    {
+        "title": "Device name",
+        "name": "device_name",
+        "placeholder": "{device_name}"
+    },
+    {
+        "title": "Device type",
+        "name": "device_type",
+        "placeholder": "{device_type}"
+    },
+    {
+        "title": "Campaign domain",
+        "name": "campaign_domain",
+        "placeholder": "{campaign_domain}"
+    },
+    {
+        "title": "External ID",
+        "name": "externalid",
+        "placeholder": "{externalid}"
+    },
+    {
+        "title": "Event 1",
+        "name": "event1",
+        "placeholder": "{event1}"
+    },
+    {
+        "title": "Event 2",
+        "name": "event2",
+        "placeholder": "{event2}"
+    },
+    {
+        "title": "Event 3",
+        "name": "event3",
+        "placeholder": "{event3}"
+    },
+    {
+        "title": "Event 4",
+        "name": "event4",
+        "placeholder": "{event4}"
+    },
+    {
+        "title": "Event 5",
+        "name": "event5",
+        "placeholder": "{event5}"
+    },
+    {
+        "title": "Event 6",
+        "name": "event6",
+        "placeholder": "{event6}"
+    },
+    {
+        "title": "Event 7",
+        "name": "event7",
+        "placeholder": "{event7}"
+    },
+    {
+        "title": "Event 8",
+        "name": "event8",
+        "placeholder": "{event8}"
+    },
+    {
+        "title": "Event 9",
+        "name": "event9",
+        "placeholder": "{event9}"
+    },
+    {
+        "title": "Event 10",
+        "name": "event10",
+        "placeholder": "{event10}"
+    },
+    {
+        "title": "Event 11",
+        "name": "event11",
+        "placeholder": "{event11}"
+    },
+    {
+        "title": "Event 12",
+        "name": "event12",
+        "placeholder": "{event12}"
+    },
+    {
+        "title": "Event 13",
+        "name": "event13",
+        "placeholder": "{event13}"
+    },
+    {
+        "title": "Event 14",
+        "name": "event14",
+        "placeholder": "{event14}"
+    },
+    {
+        "title": "Event 15",
+        "name": "event15",
+        "placeholder": "{event15}"
+    },
+    {
+        "title": "Event 16",
+        "name": "event16",
+        "placeholder": "{event16}"
+    },
+    {
+        "title": "Event 17",
+        "name": "event17",
+        "placeholder": "{event17}"
+    },
+    {
+        "title": "Event 18",
+        "name": "event18",
+        "placeholder": "{event18}"
+    },
+    {
+        "title": "Event 19",
+        "name": "event19",
+        "placeholder": "{event19}"
+    },
+    {
+        "title": "Event 20",
+        "name": "event20",
+        "placeholder": "{event20}"
+    },
+    {
+        "title": "Event 21",
+        "name": "event21",
+        "placeholder": "{event21}"
+    },
+    {
+        "title": "Event 22",
+        "name": "event22",
+        "placeholder": "{event22}"
+    },
+    {
+        "title": "Event 23",
+        "name": "event23",
+        "placeholder": "{event23}"
+    },
+    {
+        "title": "Event 24",
+        "name": "event24",
+        "placeholder": "{event24}"
+    },
+    {
+        "title": "Event 25",
+        "name": "event25",
+        "placeholder": "{event25}"
+    },
+    {
+        "title": "Event 26",
+        "name": "event26",
+        "placeholder": "{event26}"
+    },
+    {
+        "title": "Event 27",
+        "name": "event27",
+        "placeholder": "{event27}"
+    },
+    {
+        "title": "Event 28",
+        "name": "event28",
+        "placeholder": "{event28}"
+    },
+    {
+        "title": "Event 29",
+        "name": "event29",
+        "placeholder": "{event29}"
+    },
+    {
+        "title": "Event 30",
+        "name": "event30",
+        "placeholder": "{event30}"
+    },
+    {
+        "title": "IP",
+        "name": "ip",
+        "placeholder": "{ip}"
+    },
+    {
+        "title": "ISP",
+        "name": "isp",
+        "placeholder": "{isp}"
+    },
+    {
+        "title": "Landing ID",
+        "name": "landing_id",
+        "placeholder": "{landing_id}"
+    },
+    {
+        "title": "Landing name",
+        "name": "landing_name",
+        "placeholder": "{landing_name}"
+    },
+    {
+        "title": "Landing number",
+        "name": "landing_num",
+        "placeholder": "{landing_num}"
+    },
+    {
+        "title": "Language",
+        "name": "language",
+        "placeholder": "{language}"
+    },
+    {
+        "title": "LP Key",
+        "name": "lp_key",
+        "placeholder": "{lp_key}"
+    },
+    {
+        "title": "Offer ID",
+        "name": "offer_id",
+        "placeholder": "{offer_id}"
+    },
+    {
+        "title": "Offer link",
+        "name": "offer_link",
+        "placeholder": "{offer_link}"
+    },
+    {
+        "title": "Offer name",
+        "name": "offer_name",
+        "placeholder": "{offer_name}"
+    },
+    {
+        "title": "Offer number",
+        "name": "offer_num",
+        "placeholder": "{offer_num}"
+    },
+    {
+        "title": "OS name",
+        "name": "os_name",
+        "placeholder": "{os_name}"
+    },
+    {
+        "title": "OS version",
+        "name": "os_version",
+        "placeholder": "{os_version}"
+    },
+    {
+        "title": "Path name",
+        "name": "path_name",
+        "placeholder": "{path_name}"
+    },
+    {
+        "title": "Path number",
+        "name": "path_num",
+        "placeholder": "{path_num}"
+    },
+    {
+        "title": "Referer",
+        "name": "referer",
+        "placeholder": "{referer}"
+    },
+    {
+        "title": "Ref domain",
+        "name": "ref_domain",
+        "placeholder": "{ref_domain}"
+    },
+    {
+        "title": "Region",
+        "name": "region",
+        "placeholder": "{region}"
+    },
+    {
+        "title": "Region code",
+        "name": "region_code",
+        "placeholder": "{region_code}"
+    },
+    {
+        "title": "Rule name",
+        "name": "rule_name",
+        "placeholder": "{rule_name}"
+    },
+    {
+        "title": "Resolution",
+        "name": "resolution",
+        "placeholder": "{resolution}"
+    },
+    {
+        "title": "State",
+        "name": "state",
+        "placeholder": "{state}"
+    },
+    {
+        "title": "State code",
+        "name": "state_code",
+        "placeholder": "{state_code}"
+    },
+    {
+        "title": "Token 1",
+        "name": "t1",
+        "placeholder": "{t1}"
+    },
+    {
+        "title": "Token 2",
+        "name": "t2",
+        "placeholder": "{t2}"
+    },
+    {
+        "title": "Token 3",
+        "name": "t3",
+        "placeholder": "{t3}"
+    },
+    {
+        "title": "Token 4",
+        "name": "t4",
+        "placeholder": "{t4}"
+    },
+    {
+        "title": "Token 5",
+        "name": "t5",
+        "placeholder": "{t5}"
+    },
+    {
+        "title": "Token 6",
+        "name": "t6",
+        "placeholder": "{t6}"
+    },
+    {
+        "title": "Token 7",
+        "name": "t7",
+        "placeholder": "{t7}"
+    },
+    {
+        "title": "Token 8",
+        "name": "t8",
+        "placeholder": "{t8}"
+    },
+    {
+        "title": "Token 9",
+        "name": "t9",
+        "placeholder": "{t9}"
+    },
+    {
+        "title": "Token 10",
+        "name": "t10",
+        "placeholder": "{t10}"
+    },
+    {
+        "title": "Token 11",
+        "name": "t11",
+        "placeholder": "{t11}"
+    },
+    {
+        "title": "Token 12",
+        "name": "t12",
+        "placeholder": "{t12}"
+    },
+    {
+        "title": "Token 13",
+        "name": "t13",
+        "placeholder": "{t13}"
+    },
+    {
+        "title": "Token 14",
+        "name": "t14",
+        "placeholder": "{t14}"
+    },
+    {
+        "title": "Token 15",
+        "name": "t15",
+        "placeholder": "{t15}"
+    },
+    {
+        "title": "Token 16",
+        "name": "t16",
+        "placeholder": "{t16}"
+    },
+    {
+        "title": "Token 17",
+        "name": "t17",
+        "placeholder": "{t17}"
+    },
+    {
+        "title": "Token 18",
+        "name": "t18",
+        "placeholder": "{t18}"
+    },
+    {
+        "title": "Token 19",
+        "name": "t19",
+        "placeholder": "{t19}"
+    },
+    {
+        "title": "Token 20",
+        "name": "t20",
+        "placeholder": "{t20}"
+    },
+    {
+        "title": "Token 21",
+        "name": "t21",
+        "placeholder": "{t21}"
+    },
+    {
+        "title": "Token 22",
+        "name": "t22",
+        "placeholder": "{t22}"
+    },
+    {
+        "title": "Token 23",
+        "name": "t23",
+        "placeholder": "{t23}"
+    },
+    {
+        "title": "Token 24",
+        "name": "t24",
+        "placeholder": "{t24}"
+    },
+    {
+        "title": "Token 25",
+        "name": "t25",
+        "placeholder": "{t25}"
+    },
+    {
+        "title": "Token 26",
+        "name": "t26",
+        "placeholder": "{t26}"
+    },
+    {
+        "title": "Token 27",
+        "name": "t27",
+        "placeholder": "{t27}"
+    },
+    {
+        "title": "Token 28",
+        "name": "t28",
+        "placeholder": "{t28}"
+    },
+    {
+        "title": "Token 29",
+        "name": "t29",
+        "placeholder": "{t29}"
+    },
+    {
+        "title": "Token 30",
+        "name": "t30",
+        "placeholder": "{t30}"
+    },
+    {
+        "title": "Traffic source ID",
+        "name": "traffic_source_id",
+        "placeholder": "{traffic_source_id}"
+    },
+    {
+        "title": "Traffic source name",
+        "name": "traffic_source_name",
+        "placeholder": "{traffic_source_name}"
+    },
+    {
+        "title": "Uclick",
+        "name": "uclick",
+        "placeholder": "{uclick}"
+    },
+    {
+        "title": "Unix time",
+        "name": "unixtime",
+        "placeholder": "{unixtime}"
+    },
+    {
+        "title": "Unix conversion time",
+        "name": "unixconversiontime",
+        "placeholder": "{unixconversiontime}"
+    },
+    {
+        "title": "User agent",
+        "name": "user_agent",
+        "placeholder": "{user_agent}"
+    },
+    {
+        "title": "Week",
+        "name": "week",
+        "placeholder": "{week}"
+    },
+    {
+        "title": "Campaign owner ID",
+        "name": "owner_id",
+        "placeholder": "{owner_id}"
+    },
+    {
+        "title": "Campaign owner name",
+        "name": "owner_name",
+        "placeholder": "{owner_name}"
+    },
+    {
+        "title": "Campaign group ID",
+        "name": "campaign_group_id",
+        "placeholder": "{campaign_group_id}"
+    },
+    {
+        "title": "Campaign group name",
+        "name": "campaign_group_name",
+        "placeholder": "{campaign_group_name}"
+    }
+]

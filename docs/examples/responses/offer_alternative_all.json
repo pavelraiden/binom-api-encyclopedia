@@ -1,0 +1,938 @@
+[
+    {
+        "id": 1,
+        "name": "inHaus - IOS - AI Smart Block - (Branch)",
+        "url": "https://ovd0o.app.link/C102yLXNRPb?%243p=a_custom_1403847507905986865&~secondary_publisher={campaign}&~placement={t1}&~ad_id={clickid}",
+        "countryCode": "",
+        "groupUuid": null,
+        "affiliateNetworkId": null,
+        "payout": {
+            "money": {
+                "amount": 0,
+                "currency": "USD"
+            },
+            "isAuto": true,
+            "isUpsell": true
+        },
+        "conversionCaps": [],
+        "accessLevel": "read"
+    },
+    {
+        "id": 3,
+        "name": "KUDI InHouse - Guardian Shield (Branch)",
+        "url": "https://mfb6z.app.link/MogAbGmORPb?%243p=a_custom_1403848159018929061&~secondary_publisher={campaign}&~placement={t1}&~ad_id={clickid}",
+        "countryCode": "",
+        "groupUuid": null,
+        "affiliateNetworkId": null,
+        "payout": {
+            "money": {
+                "amount": 0,
+                "currency": "USD"
+            },
+            "isAuto": true,
+            "isUpsell": true
+        },
+        "conversionCaps": [],
+        "accessLevel": "read"
+    },
+    {
+        "id": 6,
+        "name": "Fishman Revshare - iVPN (Branch)",
+        "url": "https://vc62l.app.link/pWTWBHovtQb?%243p=a_custom_1412079754513274628&~secondary_publisher={campaign}&~placement={t1}&~ad_id={clickid}",
+        "countryCode": "",
+        "groupUuid": null,
+        "affiliateNetworkId": null,
+        "payout": {
+            "money": {
+                "amount": 0,
+                "currency": "USD"
+            },
+            "isAuto": true,
+            "isUpsell": true
+        },
+        "conversionCaps": [],
+        "accessLevel": "read"
+    },
+    {
+        "id": 2,
+        "name": "KUDI Revshare - Sentinel Adblock (Branch)",
+        "url": "https://lb6nt.app.link/ypQ5c2fORPb?%243p=a_custom_1403848400748202298&~secondary_publisher={campaign}&~placement={t1}&~ad_id={clickid}",
+        "countryCode": "",
+        "groupUuid": null,
+        "affiliateNetworkId": null,
+        "payout": {
+            "money": {
+                "amount": 0,
+                "currency": "USD"
+            },
+            "isAuto": true,
+            "isUpsell": true
+        },
+        "conversionCaps": [],
+        "accessLevel": "read"
+    },
+    {
+        "id": 5,
+        "name": "Fishman Revshare - 1stProtection (Appsflyer)",
+        "url": "https://pashkatopchik.com/c1hpl2k.php?key=pzf7czfz9jdrso3hwfol&clickid={clickid}&source={t1}&campaign={campaign}&mediabuyer={user_name}&trafficsource={trafficsource}",
+        "countryCode": "",
+        "groupUuid": null,
+        "affiliateNetworkId": null,
+        "payout": {
+            "money": {
+                "amount": 0,
+                "currency": "USD"
+            },
+            "isAuto": true,
+            "isUpsell": true
+        },
+        "conversionCaps": [],
+        "accessLevel": "read"
+    },
+    {
+        "id": 4,
+        "name": "KUDI InHouse - SmartCleaner  (Branch)",
+        "url": "https://h92ho.app.link/uzY6cyDjaQb?%243p=a_custom_1407862376842772555&~secondary_publisher={campaign}&~placement={t1}&~ad_id={clickid}",
+        "countryCode": "",
+        "groupUuid": null,
+        "affiliateNetworkId": null,
+        "payout": {
+            "money": {
+                "amount": 0,
+                "currency": "USD"
+            },
+            "isAuto": true,
+            "isUpsell": true
+        },
+        "conversionCaps": [],
+        "accessLevel": "read"
+    },
+    {
+        "id": 7,
+        "name": "APPSTERO CPT - 16$ USA - Shieldify VPN",
+        "url": "https://track.securefortress-vpn.com/click?pid=122&offer_id=265&sub1={clickid}",
+        "countryCode": "",
+        "groupUuid": null,
+        "affiliateNetworkId": null,
+        "payout": {
+            "money": {
+                "amount": 0,
+                "currency": "USD"
+            },
+            "isAuto": true,
+            "isUpsell": true
+        },
+        "conversionCaps": [],
+        "accessLevel": "read"
+    },
+    {
+        "id": 10,
+        "name": "APPSTERO CPT - 16$ - US/CA/P - Adlure adblock #3",
+        "url": "https://track.adlure-adblock-app.com/click?pid=122&offer_id=295&sub1={clickid}",
+        "countryCode": "",
+        "groupUuid": null,
+        "affiliateNetworkId": null,
+        "payout": {
+            "money": {
+                "amount": 0,
+                "currency": "USD"
+            },
+            "isAuto": true,
+            "isUpsell": true
+        },
+        "conversionCaps": [],
+        "accessLevel": "read"
+    },
+    {
+        "id": 9,
+        "name": "APPSTERO CPT - 16$ - US/CA/JP - Adlure adblock #2",
+        "url": "https://track.adlure-adblock-app.com/click?pid=122&offer_id=294&sub1={clickid}",
+        "countryCode": "",
+        "groupUuid": null,
+        "affiliateNetworkId": null,
+        "payout": {
+            "money": {
+                "amount": 0,
+                "currency": "USD"
+            },
+            "isAuto": true,
+            "isUpsell": true
+        },
+        "conversionCaps": [],
+        "accessLevel": "read"
+    },
+    {
+        "id": 8,
+        "name": "APPSTERO CPT - 16$ - US/CA/P - Adlure adblock #1",
+        "url": "https://track.adlure-adblock-app.com/click?pid=122&offer_id=293&sub1={clickid}",
+        "countryCode": "",
+        "groupUuid": null,
+        "affiliateNetworkId": null,
+        "payout": {
+            "money": {
+                "amount": 0,
+                "currency": "USD"
+            },
+            "isAuto": true,
+            "isUpsell": true
+        },
+        "conversionCaps": [],
+        "accessLevel": "read"
+    },
+    {
+        "id": 11,
+        "name": "APPSTERO CPT - USA - ‎Defender Pro VPN  - Multigeo - #1",
+        "url": "https://track.defender-pro-app.com/click?pid=122&offer_id=345&sub1={clickid}",
+        "countryCode": "",
+        "groupUuid": null,
+        "affiliateNetworkId": null,
+        "payout": {
+            "money": {
+                "amount": 0,
+                "currency": "USD"
+            },
+            "isAuto": true,
+            "isUpsell": true
+        },
+        "conversionCaps": [],
+        "accessLevel": "read"
+    },
+    {
+        "id": 12,
+        "name": "APPSTERO CPT - USA - ‎Defender Pro VPN  - Multigeo - #2",
+        "url": "https://track.defender-pro-app.com/click?pid=122&offer_id=346&sub1={clickid}",
+        "countryCode": "",
+        "groupUuid": null,
+        "affiliateNetworkId": null,
+        "payout": {
+            "money": {
+                "amount": 0,
+                "currency": "USD"
+            },
+            "isAuto": true,
+            "isUpsell": true
+        },
+        "conversionCaps": [],
+        "accessLevel": "read"
+    },
+    {
+        "id": 13,
+        "name": "APPSTERO CPT - USA - ‎Defender Pro VPN  - Multigeo - #3",
+        "url": "https://track.defender-pro-app.com/click?pid=122&offer_id=347&sub1={clickid}",
+        "countryCode": "",
+        "groupUuid": null,
+        "affiliateNetworkId": null,
+        "payout": {
+            "money": {
+                "amount": 0,
+                "currency": "USD"
+            },
+            "isAuto": true,
+            "isUpsell": true
+        },
+        "conversionCaps": [],
+        "accessLevel": "read"
+    },
+    {
+        "id": 17,
+        "name": "APPSTERO CPT - USA - ‎SafeLume VPN  - Multigeo - #1",
+        "url": "https://track.safe-lume-app.com/click?pid=122&offer_id=382&sub1={clickid}",
+        "countryCode": "",
+        "groupUuid": null,
+        "affiliateNetworkId": null,
+        "payout": {
+            "money": {
+                "amount": 0,
+                "currency": "USD"
+            },
+            "isAuto": true,
+            "isUpsell": true
+        },
+        "conversionCaps": [],
+        "accessLevel": "read"
+    },
+    {
+        "id": 18,
+        "name": "APPSTERO CPT - USA - ‎SafeLume VPN  - Multigeo - #2",
+        "url": "https://track.safe-lume-app.com/click?pid=122&offer_id=383&sub1={clickid}",
+        "countryCode": "",
+        "groupUuid": null,
+        "affiliateNetworkId": null,
+        "payout": {
+            "money": {
+                "amount": 0,
+                "currency": "USD"
+            },
+            "isAuto": true,
+            "isUpsell": true
+        },
+        "conversionCaps": [],
+        "accessLevel": "read"
+    },
+    {
+        "id": 19,
+        "name": "APPSTERO CPT - USA - ‎SafeLume VPN  - Multigeo - #3",
+        "url": "https://track.safe-lume-app.com/click?pid=122&offer_id=384&sub1={clickid}",
+        "countryCode": "",
+        "groupUuid": null,
+        "affiliateNetworkId": null,
+        "payout": {
+            "money": {
+                "amount": 0,
+                "currency": "USD"
+            },
+            "isAuto": true,
+            "isUpsell": true
+        },
+        "conversionCaps": [],
+        "accessLevel": "read"
+    },
+    {
+        "id": 27,
+        "name": "Revshare(APPS) - ‎ SafeSphere VPN - Multigeo - #2",
+        "url": "https://track.safe-sphere-app.com/click?pid=149&offer_id=432&sub1={clickid}",
+        "countryCode": "",
+        "groupUuid": null,
+        "affiliateNetworkId": null,
+        "payout": {
+            "money": {
+                "amount": 0,
+                "currency": "USD"
+            },
+            "isAuto": true,
+            "isUpsell": true
+        },
+        "conversionCaps": [],
+        "accessLevel": "read"
+    },
+    {
+        "id": 16,
+        "name": "Revshare(APPS) - ‎SkyVault VPN  - Multigeo - #3",
+        "url": "https://track.sky-vault-security-app.com/click?pid=149&offer_id=364&sub1={clickid}",
+        "countryCode": "",
+        "groupUuid": null,
+        "affiliateNetworkId": null,
+        "payout": {
+            "money": {
+                "amount": 0,
+                "currency": "USD"
+            },
+            "isAuto": true,
+            "isUpsell": true
+        },
+        "conversionCaps": [],
+        "accessLevel": "read"
+    },
+    {
+        "id": 14,
+        "name": "Revshare(APPS) - ‎SkyVault VPN  - Multigeo - #1",
+        "url": "https://track.sky-vault-security-app.com/click?pid=149&offer_id=362&sub1={clickid}",
+        "countryCode": "",
+        "groupUuid": null,
+        "affiliateNetworkId": null,
+        "payout": {
+            "money": {
+                "amount": 0,
+                "currency": "USD"
+            },
+            "isAuto": true,
+            "isUpsell": true
+        },
+        "conversionCaps": [],
+        "accessLevel": "read"
+    },
+    {
+        "id": 22,
+        "name": "Revshare(APPS) - ‎GuardPoint VPN [privacy] - Multigeo - #3",
+        "url": "https://track.guard-point-app.com/click?pid=149&offer_id=397&sub1={clickid}",
+        "countryCode": "",
+        "groupUuid": null,
+        "affiliateNetworkId": null,
+        "payout": {
+            "money": {
+                "amount": 0,
+                "currency": "USD"
+            },
+            "isAuto": true,
+            "isUpsell": true
+        },
+        "conversionCaps": [],
+        "accessLevel": "read"
+    },
+    {
+        "id": 23,
+        "name": "APPSTERO CPT - Yaroslav - USA - ‎Luna VPN  - Multigeo - #1",
+        "url": "https://track.luna-vpn-app.com/click?pid=122&offer_id=416&sub1={clickid}",
+        "countryCode": "",
+        "groupUuid": null,
+        "affiliateNetworkId": null,
+        "payout": {
+            "money": {
+                "amount": 0,
+                "currency": "USD"
+            },
+            "isAuto": true,
+            "isUpsell": true
+        },
+        "conversionCaps": [],
+        "accessLevel": "read"
+    },
+    {
+        "id": 21,
+        "name": "Revshare(APPS) - ‎GuardPoint VPN [privacy] - Multigeo - #2",
+        "url": "https://track.guard-point-app.com/click?pid=149&offer_id=396&sub1={clickid}",
+        "countryCode": "",
+        "groupUuid": null,
+        "affiliateNetworkId": null,
+        "payout": {
+            "money": {
+                "amount": 0,
+                "currency": "USD"
+            },
+            "isAuto": true,
+            "isUpsell": true
+        },
+        "conversionCaps": [],
+        "accessLevel": "read"
+    },
+    {
+        "id": 20,
+        "name": "Revshare(APPS) - ‎GuardPoint VPN [privacy] - Multigeo - #1",
+        "url": "https://track.guard-point-app.com/click?pid=149&offer_id=395&sub1={clickid}",
+        "countryCode": "",
+        "groupUuid": null,
+        "affiliateNetworkId": null,
+        "payout": {
+            "money": {
+                "amount": 0,
+                "currency": "USD"
+            },
+            "isAuto": true,
+            "isUpsell": true
+        },
+        "conversionCaps": [],
+        "accessLevel": "read"
+    },
+    {
+        "id": 24,
+        "name": "APPSTERO CPT - Yaroslav - ‎USA - Luna VPN - Multigeo - #2",
+        "url": "https://track.luna-vpn-app.com/click?pid=122&offer_id=417&sub1={clickid}",
+        "countryCode": "",
+        "groupUuid": null,
+        "affiliateNetworkId": null,
+        "payout": {
+            "money": {
+                "amount": 0,
+                "currency": "USD"
+            },
+            "isAuto": true,
+            "isUpsell": true
+        },
+        "conversionCaps": [],
+        "accessLevel": "read"
+    },
+    {
+        "id": 25,
+        "name": "APPSTERO CPT - Yaroslav - ‎USA - Luna VPN - Multigeo - #3",
+        "url": "https://track.luna-vpn-app.com/click?pid=122&offer_id=418&sub1={clickid}",
+        "countryCode": "",
+        "groupUuid": null,
+        "affiliateNetworkId": null,
+        "payout": {
+            "money": {
+                "amount": 0,
+                "currency": "USD"
+            },
+            "isAuto": true,
+            "isUpsell": true
+        },
+        "conversionCaps": [],
+        "accessLevel": "read"
+    },
+    {
+        "id": 15,
+        "name": "Revshare(APPS) - ‎SkyVault VPN  - Multigeo - #2",
+        "url": "https://track.sky-vault-security-app.com/click?pid=149&offer_id=363&sub1={clickid}",
+        "countryCode": "",
+        "groupUuid": null,
+        "affiliateNetworkId": null,
+        "payout": {
+            "money": {
+                "amount": 0,
+                "currency": "USD"
+            },
+            "isAuto": true,
+            "isUpsell": true
+        },
+        "conversionCaps": [],
+        "accessLevel": "read"
+    },
+    {
+        "id": 37,
+        "name": "APPSTERO CPT - Pavel - Dynamic CPT offers - Multigeo - #3",
+        "url": "https://track.spottly-cleaner-app.com/click?pid=122&offer_id=751&sub1={clickid}",
+        "countryCode": "",
+        "groupUuid": null,
+        "affiliateNetworkId": null,
+        "payout": {
+            "money": {
+                "amount": 0,
+                "currency": "USD"
+            },
+            "isAuto": true,
+            "isUpsell": true
+        },
+        "conversionCaps": [],
+        "accessLevel": "read"
+    },
+    {
+        "id": 26,
+        "name": "Revshare(APPS) - ‎ SafeSphere VPN - Multigeo - #1",
+        "url": "https://track.safe-sphere-app.com/click?pid=149&offer_id=431&sub1={clickid}",
+        "countryCode": "",
+        "groupUuid": null,
+        "affiliateNetworkId": null,
+        "payout": {
+            "money": {
+                "amount": 0,
+                "currency": "USD"
+            },
+            "isAuto": true,
+            "isUpsell": true
+        },
+        "conversionCaps": [],
+        "accessLevel": "read"
+    },
+    {
+        "id": 28,
+        "name": "Revshare(APPS) - ‎ SafeSphere VPN - Multigeo - #3",
+        "url": "https://track.safe-sphere-app.com/click?pid=149&offer_id=433&sub1={clickid}",
+        "countryCode": "",
+        "groupUuid": null,
+        "affiliateNetworkId": null,
+        "payout": {
+            "money": {
+                "amount": 0,
+                "currency": "USD"
+            },
+            "isAuto": true,
+            "isUpsell": true
+        },
+        "conversionCaps": [],
+        "accessLevel": "read"
+    },
+    {
+        "id": 39,
+        "name": "APPSTERO CPT - Yaroslav - Dynamic CPT offers - Multigeo - #2",
+        "url": "https://track.spottly-cleaner-app.com/click?pid=122&offer_id=750&sub1={clickid}",
+        "countryCode": "",
+        "groupUuid": null,
+        "affiliateNetworkId": null,
+        "payout": {
+            "money": {
+                "amount": 0,
+                "currency": "USD"
+            },
+            "isAuto": true,
+            "isUpsell": true
+        },
+        "conversionCaps": [],
+        "accessLevel": "read"
+    },
+    {
+        "id": 41,
+        "name": "Revshare(APPS) - ‎ CleanDash Cleaner - Multigeo - #1",
+        "url": "https://track.dash-cleaner-app.com/click?pid=149&offer_id=600&sub1={clickid}",
+        "countryCode": "",
+        "groupUuid": null,
+        "affiliateNetworkId": null,
+        "payout": {
+            "money": {
+                "amount": 0,
+                "currency": "USD"
+            },
+            "isAuto": true,
+            "isUpsell": true
+        },
+        "conversionCaps": [],
+        "accessLevel": "read"
+    },
+    {
+        "id": 29,
+        "name": "APPSTERO CPT - Pavel - USA - ‎Luna VPN  - Multigeo - #3",
+        "url": "https://track.luna-vpn-app.com/click?pid=122&offer_id=418&sub1={clickid}",
+        "countryCode": "",
+        "groupUuid": null,
+        "affiliateNetworkId": null,
+        "payout": {
+            "money": {
+                "amount": 0,
+                "currency": "USD"
+            },
+            "isAuto": true,
+            "isUpsell": true
+        },
+        "conversionCaps": [],
+        "accessLevel": "read"
+    },
+    {
+        "id": 30,
+        "name": "APPSTERO CPT - Pavel -USA - ‎Luna VPN  - Multigeo - #2",
+        "url": "https://track.luna-vpn-app.com/click?pid=122&offer_id=417&sub1={clickid}",
+        "countryCode": "",
+        "groupUuid": null,
+        "affiliateNetworkId": null,
+        "payout": {
+            "money": {
+                "amount": 0,
+                "currency": "USD"
+            },
+            "isAuto": true,
+            "isUpsell": true
+        },
+        "conversionCaps": [],
+        "accessLevel": "read"
+    },
+    {
+        "id": 31,
+        "name": "APPSTERO CPT - Pavel - USA - ‎Luna VPN  - Multigeo - #1",
+        "url": "https://track.luna-vpn-app.com/click?pid=122&offer_id=416&sub1={clickid}",
+        "countryCode": "",
+        "groupUuid": null,
+        "affiliateNetworkId": null,
+        "payout": {
+            "money": {
+                "amount": 0,
+                "currency": "USD"
+            },
+            "isAuto": true,
+            "isUpsell": true
+        },
+        "conversionCaps": [],
+        "accessLevel": "read"
+    },
+    {
+        "id": 32,
+        "name": "Revshare(APPS) - ‎ Swoosh VPN [privacy] - Multigeo - #1",
+        "url": "https://track.swoosh-app-vpn.com/click?pid=149&offer_id=490&sub1={clickid}",
+        "countryCode": "",
+        "groupUuid": null,
+        "affiliateNetworkId": null,
+        "payout": {
+            "money": {
+                "amount": 0,
+                "currency": "USD"
+            },
+            "isAuto": true,
+            "isUpsell": true
+        },
+        "conversionCaps": [],
+        "accessLevel": "read"
+    },
+    {
+        "id": 33,
+        "name": "Revshare(APPS) - ‎ Swoosh VPN [privacy] - Multigeo - #2",
+        "url": "https://track.swoosh-app-vpn.com/click?pid=149&offer_id=491&sub1={clickid}",
+        "countryCode": "",
+        "groupUuid": null,
+        "affiliateNetworkId": null,
+        "payout": {
+            "money": {
+                "amount": 0,
+                "currency": "USD"
+            },
+            "isAuto": true,
+            "isUpsell": true
+        },
+        "conversionCaps": [],
+        "accessLevel": "read"
+    },
+    {
+        "id": 34,
+        "name": "Revshare(APPS) - ‎ Swoosh VPN [privacy] - Multigeo - #3",
+        "url": "https://track.swoosh-app-vpn.com/click?pid=149&offer_id=492&sub1={clickid}",
+        "countryCode": "",
+        "groupUuid": null,
+        "affiliateNetworkId": null,
+        "payout": {
+            "money": {
+                "amount": 0,
+                "currency": "USD"
+            },
+            "isAuto": true,
+            "isUpsell": true
+        },
+        "conversionCaps": [],
+        "accessLevel": "read"
+    },
+    {
+        "id": 42,
+        "name": "Revshare(APPS) - ‎ CleanDash Cleaner - Multigeo - #2",
+        "url": "https://track.clean-dash-app.com/click?pid=149&offer_id=601&sub1={clickid}",
+        "countryCode": "",
+        "groupUuid": null,
+        "affiliateNetworkId": null,
+        "payout": {
+            "money": {
+                "amount": 0,
+                "currency": "USD"
+            },
+            "isAuto": true,
+            "isUpsell": true
+        },
+        "conversionCaps": [],
+        "accessLevel": "read"
+    },
+    {
+        "id": 45,
+        "name": "Revshare(APPS) - ‎ ClarifyX Cleane - Multigeo - #2",
+        "url": "https://track.clarifyx-app-cleaner.com/click?pid=149&offer_id=634&sub1={clickid}",
+        "countryCode": "",
+        "groupUuid": null,
+        "affiliateNetworkId": null,
+        "payout": {
+            "money": {
+                "amount": 0,
+                "currency": "USD"
+            },
+            "isAuto": true,
+            "isUpsell": true
+        },
+        "conversionCaps": [],
+        "accessLevel": "read"
+    },
+    {
+        "id": 46,
+        "name": "Revshare(APPS) - ‎ ClarifyX Cleane - Multigeo - #3",
+        "url": "https://track.app-cleaner-clarifyx.com/click?pid=149&offer_id=635&sub1={clickid}",
+        "countryCode": "",
+        "groupUuid": null,
+        "affiliateNetworkId": null,
+        "payout": {
+            "money": {
+                "amount": 0,
+                "currency": "USD"
+            },
+            "isAuto": true,
+            "isUpsell": true
+        },
+        "conversionCaps": [],
+        "accessLevel": "read"
+    },
+    {
+        "id": 43,
+        "name": "Revshare(APPS) - ‎ CleanDash Cleaner - Multigeo - #3",
+        "url": "https://track.cleandash-cleaner-app.com/click?pid=149&offer_id=602&sub1={clickid}",
+        "countryCode": "",
+        "groupUuid": null,
+        "affiliateNetworkId": null,
+        "payout": {
+            "money": {
+                "amount": 0,
+                "currency": "USD"
+            },
+            "isAuto": true,
+            "isUpsell": true
+        },
+        "conversionCaps": [],
+        "accessLevel": "read"
+    },
+    {
+        "id": 49,
+        "name": "Revshare(APPS) - ‎ CleanMate Cleaner - Multigeo - #3",
+        "url": "https://track.clean-mate-app.com/click?pid=149&offer_id=688&sub1={clickid}",
+        "countryCode": "",
+        "groupUuid": null,
+        "affiliateNetworkId": null,
+        "payout": {
+            "money": {
+                "amount": 0,
+                "currency": "USD"
+            },
+            "isAuto": true,
+            "isUpsell": true
+        },
+        "conversionCaps": [],
+        "accessLevel": "read"
+    },
+    {
+        "id": 51,
+        "name": "Revshare(APPS) - ‎ Memorra Cleaner - Multigeo - #2",
+        "url": "https://track.app-memorra-cleaner.com/click?pid=149&offer_id=719&sub1={clickid}",
+        "countryCode": "",
+        "groupUuid": null,
+        "affiliateNetworkId": null,
+        "payout": {
+            "money": {
+                "amount": 0,
+                "currency": "USD"
+            },
+            "isAuto": true,
+            "isUpsell": true
+        },
+        "conversionCaps": [],
+        "accessLevel": "read"
+    },
+    {
+        "id": 40,
+        "name": "APPSTERO CPT - Yaroslav - Dynamic CPT offers - Multigeo - #3",
+        "url": "https://track.spottly-cleaner-app.com/click?pid=122&offer_id=751&sub1={clickid}",
+        "countryCode": "",
+        "groupUuid": null,
+        "affiliateNetworkId": null,
+        "payout": {
+            "money": {
+                "amount": 0,
+                "currency": "USD"
+            },
+            "isAuto": true,
+            "isUpsell": true
+        },
+        "conversionCaps": [],
+        "accessLevel": "read"
+    },
+    {
+        "id": 50,
+        "name": "Revshare(APPS) - ‎ Memorra Cleaner - Multigeo - #1",
+        "url": "https://track.app-memorra-cleaner.com/click?pid=149&offer_id=718&sub1={clickid}",
+        "countryCode": "",
+        "groupUuid": null,
+        "affiliateNetworkId": null,
+        "payout": {
+            "money": {
+                "amount": 0,
+                "currency": "USD"
+            },
+            "isAuto": true,
+            "isUpsell": true
+        },
+        "conversionCaps": [],
+        "accessLevel": "read"
+    },
+    {
+        "id": 47,
+        "name": "Revshare(APPS) - ‎ CleanMate Cleaner - Multigeo - #1",
+        "url": "https://track.clean-mate-app.com/click?pid=149&offer_id=686&sub1={clickid}",
+        "countryCode": "",
+        "groupUuid": null,
+        "affiliateNetworkId": null,
+        "payout": {
+            "money": {
+                "amount": 0,
+                "currency": "USD"
+            },
+            "isAuto": true,
+            "isUpsell": true
+        },
+        "conversionCaps": [],
+        "accessLevel": "read"
+    },
+    {
+        "id": 52,
+        "name": "Revshare(APPS) - ‎ Memorra Cleaner - Multigeo - #3",
+        "url": "https://track.app-memorra-cleaner.com/click?pid=149&offer_id=720&sub1={clickid}",
+        "countryCode": "",
+        "groupUuid": null,
+        "affiliateNetworkId": null,
+        "payout": {
+            "money": {
+                "amount": 0,
+                "currency": "USD"
+            },
+            "isAuto": true,
+            "isUpsell": true
+        },
+        "conversionCaps": [],
+        "accessLevel": "read"
+    },
+    {
+        "id": 44,
+        "name": "Revshare(APPS) - ‎ ClarifyX Cleane - Multigeo - #1",
+        "url": "https://track.clarifyx-clean-app.com/click?pid=149&offer_id=633&sub1={clickid}",
+        "countryCode": "",
+        "groupUuid": null,
+        "affiliateNetworkId": null,
+        "payout": {
+            "money": {
+                "amount": 0,
+                "currency": "USD"
+            },
+            "isAuto": true,
+            "isUpsell": true
+        },
+        "conversionCaps": [],
+        "accessLevel": "read"
+    },
+    {
+        "id": 35,
+        "name": "APPSTERO CPT - Pavel - Dynamic CPT offers - Multigeo - #1",
+        "url": "https://track.spottly-cleaner-app.com/click?pid=122&offer_id=749&sub1={clickid}",
+        "countryCode": "",
+        "groupUuid": null,
+        "affiliateNetworkId": null,
+        "payout": {
+            "money": {
+                "amount": 0,
+                "currency": "USD"
+            },
+            "isAuto": true,
+            "isUpsell": true
+        },
+        "conversionCaps": [],
+        "accessLevel": "read"
+    },
+    {
+        "id": 48,
+        "name": "Revshare(APPS) - ‎ CleanMate Cleaner - Multigeo - #2",
+        "url": "https://track.clean-mate-app.com/click?pid=149&offer_id=687&sub1={clickid}",
+        "countryCode": "",
+        "groupUuid": null,
+        "affiliateNetworkId": null,
+        "payout": {
+            "money": {
+                "amount": 0,
+                "currency": "USD"
+            },
+            "isAuto": true,
+            "isUpsell": true
+        },
+        "conversionCaps": [],
+        "accessLevel": "read"
+    },
+    {
+        "id": 38,
+        "name": "APPSTERO CPT - Yaroslav - Dynamic CPT offers - Multigeo - #1",
+        "url": "https://track.spottly-cleaner-app.com/click?pid=122&offer_id=749&sub1={clickid}",
+        "countryCode": "",
+        "groupUuid": null,
+        "affiliateNetworkId": null,
+        "payout": {
+            "money": {
+                "amount": 0,
+                "currency": "USD"
+            },
+            "isAuto": true,
+            "isUpsell": true
+        },
+        "conversionCaps": [],
+        "accessLevel": "read"
+    },
+    {
+        "id": 36,
+        "name": "APPSTERO CPT - Pavel - Dynamic CPT offers - Multigeo - #2",
+        "url": "https://track.spottly-cleaner-app.com/click?pid=122&offer_id=750&sub1={clickid}",
+        "countryCode": "",
+        "groupUuid": null,
+        "affiliateNetworkId": null,
+        "payout": {
+            "money": {
+                "amount": 0,
+                "currency": "USD"
+            },
+            "isAuto": true,
+            "isUpsell": true
+        },
+        "conversionCaps": [],
+        "accessLevel": "read"
+    }
+]

@@ -1,0 +1,76 @@
+{
+    "domain": [
+        "domain_created",
+        "domain_edited",
+        "campaign_domain_changed"
+    ],
+    "campaign": [
+        "campaign_clicks_cost_updated",
+        "campaign_created",
+        "campaign_domain_changed",
+        "campaign_note_created",
+        "campaign_cost_changed",
+        "campaign_traffic_distribution_info_changed",
+        "campaign_edited",
+        "campaign_settings_changed",
+        "campaign_deleted",
+        "campaign_note_text_edited",
+        "campaign_settings_edited"
+    ],
+    "click": [
+        "campaign_clicks_cost_updated"
+    ],
+    "traffic_source": [
+        "traffic_source_deleted",
+        "traffic_source_edited",
+        "traffic_source_created",
+        "traffic_source_note_created"
+    ],
+    "affiliate_network": [
+        "affiliate_network_deleted",
+        "affiliate_network_postback_url_edited",
+        "affiliate_network_restored",
+        "affiliate_network_created",
+        "affiliate_network_name_edited"
+    ],
+    "offer": [
+        "offer_edited",
+        "offer_note_created",
+        "offer_created"
+    ],
+    "column": [
+        "custom_column_measure_edited",
+        "custom_column_name_edited",
+        "default_column_created",
+        "custom_column_created",
+        "default_columns_reset",
+        "custom_column_formula_edited"
+    ],
+    "user": [
+        "identity_password_changed",
+        "permission_custom_columns_reseted",
+        "permission_modify_group_id_added",
+        "authorization_subject_role_changed",
+        "permission_created",
+        "user_signed_in",
+        "permission_access_level_changed",
+        "permission_ids_changed",
+        "identity_two_factor_secrets_updated",
+        "identity_two_factor_secrets_encrypted",
+        "identity_created",
+        "permission_modify_id_added",
+        "authorization_subject_created"
+    ],
+    "group": [
+        "group_created"
+    ],
+    "rotation": [
+        "rotation_custom_created",
+        "rotation_custom_edited"
+    ],
+    "landing": [
+        "landing_note_created",
+        "landing_created",
+        "landing_edited"
+    ]
+}

@@ -1,0 +1,17 @@
+[
+    "today",
+    "yesterday",
+    "this_week",
+    "last_week",
+    "last_2_days",
+    "last_3_days",
+    "last_7_days",
+    "last_14_days",
+    "last_30_days",
+    "this_month",
+    "last_month",
+    "this_year",
+    "last_year",
+    "all_time",
+    "custom_time"
+]

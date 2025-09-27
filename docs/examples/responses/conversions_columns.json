@@ -1,0 +1,44 @@
+{
+    "columns": [
+        {
+            "id": "id",
+            "name": "Click ID"
+        },
+        {
+            "id": "campaign",
+            "name": "Campaign"
+        },
+        {
+            "id": "traffic_source",
+            "name": "Traffic Source"
+        },
+        {
+            "id": "clicked_at",
+            "name": "Time Click"
+        },
+        {
+            "id": "conversed_at",
+            "name": "Conversion Time"
+        },
+        {
+            "id": "time_since_click",
+            "name": "Time since click"
+        },
+        {
+            "id": "payout",
+            "name": "Payout"
+        },
+        {
+            "id": "status",
+            "name": "Status"
+        },
+        {
+            "id": "offer",
+            "name": "Offer"
+        },
+        {
+            "id": "geo",
+            "name": "Country"
+        }
+    ]
+}

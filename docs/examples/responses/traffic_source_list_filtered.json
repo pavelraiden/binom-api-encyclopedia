@@ -1,0 +1,158 @@
+[
+    {
+        "id": 24,
+        "name": "Admaven(slsl.ptpt@gmail.com) - Ilya - CPT",
+        "groupId": null,
+        "accessLevel": "read"
+    },
+    {
+        "id": 21,
+        "name": "Admaven(slsl.ptpt@gmail.com) - Pavel - CPT",
+        "groupId": null,
+        "accessLevel": "read"
+    },
+    {
+        "id": 22,
+        "name": "Advertizer(appsoul) - Pavel",
+        "groupId": null,
+        "accessLevel": "read"
+    },
+    {
+        "id": 1,
+        "name": "Advertizer(vika92kozlova@gmail.com) - Pavel",
+        "groupId": null,
+        "accessLevel": "read"
+    },
+    {
+        "id": 28,
+        "name": "Clickadu(pavelraiden@gmail.com) - Ilya - CPT",
+        "groupId": null,
+        "accessLevel": "read"
+    },
+    {
+        "id": 15,
+        "name": "ExoClick(Aleks921) - SSP - Yaroslav - CPT",
+        "groupId": null,
+        "accessLevel": "read"
+    },
+    {
+        "id": 2,
+        "name": "ExoClick(denisgrabko2@gmail.com) - SSP - Pavel - CPT",
+        "groupId": null,
+        "accessLevel": "read"
+    },
+    {
+        "id": 23,
+        "name": "Galaksion(pavelraiden@gmail.com) - Pavel",
+        "groupId": null,
+        "accessLevel": "read"
+    },
+    {
+        "id": 16,
+        "name": "Junky(Kudi.kulina) - Yaroslav - CPT",
+        "groupId": null,
+        "accessLevel": "read"
+    },
+    {
+        "id": 26,
+        "name": "Kadam(sellingcpm@gmail.com) - Pavel - CPT post",
+        "groupId": null,
+        "accessLevel": "read"
+    },
+    {
+        "id": 19,
+        "name": "PopunderNet(slsl.ptpt@gmail.com) - SSP - Pavel - (BAD QUALITY!)",
+        "groupId": null,
+        "accessLevel": "read"
+    },
+    {
+        "id": 20,
+        "name": "PropellerAds(mr.aleksvagano - KUDI) - Pavel",
+        "groupId": null,
+        "accessLevel": "read"
+    },
+    {
+        "id": 25,
+        "name": "PropellerAds(mr.aleksvagano - KUDI) - Pavels",
+        "groupId": null,
+        "accessLevel": "read"
+    },
+    {
+        "id": 17,
+        "name": "Reacheffect(0tabdo0dle@gmail.com) - CPM",
+        "groupId": null,
+        "accessLevel": "read"
+    },
+    {
+        "id": 18,
+        "name": "Reacheffect(0tabdo0dle@gmail.com) - CPM  - CPI",
+        "groupId": null,
+        "accessLevel": "read"
+    },
+    {
+        "id": 11,
+        "name": "Richads (mediatraffic@appsoul.net) - Pavel",
+        "groupId": null,
+        "accessLevel": "read"
+    },
+    {
+        "id": 33,
+        "name": "TEST_TrafficSource_1758945896",
+        "groupId": null,
+        "accessLevel": "modify"
+    },
+    {
+        "id": 34,
+        "name": "TEST_TrafficSource_1758945929",
+        "groupId": null,
+        "accessLevel": "modify"
+    },
+    {
+        "id": 35,
+        "name": "TEST_TrafficSource_1758945960",
+        "groupId": null,
+        "accessLevel": "modify"
+    },
+    {
+        "id": 36,
+        "name": "TEST_TrafficSource_1758946223",
+        "groupId": null,
+        "accessLevel": "modify"
+    },
+    {
+        "id": 27,
+        "name": "Taboola(pavelraiden@gmail.com) - Pavel",
+        "groupId": null,
+        "accessLevel": "read"
+    },
+    {
+        "id": 13,
+        "name": "Targeleon (pavelraiden@gmail.com) - Ilya",
+        "groupId": null,
+        "accessLevel": "read"
+    },
+    {
+        "id": 14,
+        "name": "TrafficNomads - (mediatraffic) - Ilya",
+        "groupId": null,
+        "accessLevel": "read"
+    },
+    {
+        "id": 4,
+        "name": "Traffichaus - Flat Buying",
+        "groupId": null,
+        "accessLevel": "read"
+    },
+    {
+        "id": 29,
+        "name": "Trillion(pavelraiden@gmail.com) - Pavel",
+        "groupId": null,
+        "accessLevel": "read"
+    },
+    {
+        "id": 10,
+        "name": "Vimmy (sellingcpm@gmail.com) - Ilya",
+        "groupId": null,
+        "accessLevel": "read"
+    }
+]

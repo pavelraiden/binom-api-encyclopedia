@@ -1,0 +1,50 @@
+[
+    {
+        "code": "",
+        "name": {
+            "code": "",
+            "name": "Unknown()"
+        },
+        "landingsCount": 14
+    },
+    {
+        "code": "EN",
+        "name": {
+            "code": "EN",
+            "name": "English(EN)"
+        },
+        "landingsCount": 3
+    },
+    {
+        "code": "ES",
+        "name": {
+            "code": "ES",
+            "name": "Spanish(ES)"
+        },
+        "landingsCount": 3
+    },
+    {
+        "code": "FR",
+        "name": {
+            "code": "FR",
+            "name": "French(FR)"
+        },
+        "landingsCount": 5
+    },
+    {
+        "code": "JA",
+        "name": {
+            "code": "JA",
+            "name": "Japanese(JA)"
+        },
+        "landingsCount": 2
+    },
+    {
+        "code": "PT",
+        "name": {
+            "code": "PT",
+            "name": "Portuguese(PT)"
+        },
+        "landingsCount": 2
+    }
+]

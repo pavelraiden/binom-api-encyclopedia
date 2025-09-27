@@ -1,0 +1,617 @@
+[
+    {
+        "id": "id",
+        "name": "Click ID",
+        "selected": true
+    },
+    {
+        "id": "clicked_date",
+        "name": "Date Click",
+        "selected": false
+    },
+    {
+        "id": "click_time",
+        "name": "Time Click",
+        "selected": true
+    },
+    {
+        "id": "uclick_id",
+        "name": "User Click ID",
+        "selected": false
+    },
+    {
+        "id": "campaign_id",
+        "name": "Campaign ID",
+        "selected": false
+    },
+    {
+        "id": "campaign",
+        "name": "Campaign",
+        "selected": true
+    },
+    {
+        "id": "path",
+        "name": "Path",
+        "selected": false
+    },
+    {
+        "id": "path_id",
+        "name": "Path ID",
+        "selected": false
+    },
+    {
+        "id": "rule",
+        "name": "Rule ",
+        "selected": false
+    },
+    {
+        "id": "rule_id",
+        "name": "Rule ID",
+        "selected": false
+    },
+    {
+        "id": "offer",
+        "name": "Offer Name",
+        "selected": false
+    },
+    {
+        "id": "offer_id",
+        "name": "Offer ID",
+        "selected": false
+    },
+    {
+        "id": "campaign_key",
+        "name": "Campaign Key",
+        "selected": false
+    },
+    {
+        "id": "rotation_id",
+        "name": "Rotation ID",
+        "selected": false
+    },
+    {
+        "id": "rotation",
+        "name": "Rotation",
+        "selected": false
+    },
+    {
+        "id": "landing_id",
+        "name": "Lander ID",
+        "selected": false
+    },
+    {
+        "id": "landing",
+        "name": "Landing Page",
+        "selected": false
+    },
+    {
+        "id": "traffic_source",
+        "name": "Traffic Source",
+        "selected": true
+    },
+    {
+        "id": "traffic_source_id",
+        "name": "Traffic Source ID",
+        "selected": false
+    },
+    {
+        "id": "affiliate_network",
+        "name": "Affiliate Network",
+        "selected": true
+    },
+    {
+        "id": "aff_network_id",
+        "name": "Affiliate Network ID",
+        "selected": false
+    },
+    {
+        "id": "ip",
+        "name": "IP",
+        "selected": false
+    },
+    {
+        "id": "ip_v4",
+        "name": "IP V4",
+        "selected": false
+    },
+    {
+        "id": "ip_v6",
+        "name": "IP V6",
+        "selected": false
+    },
+    {
+        "id": "user_agent",
+        "name": "User Agent",
+        "selected": false
+    },
+    {
+        "id": "is_crawler",
+        "name": "Crawler",
+        "selected": false
+    },
+    {
+        "id": "is_proxy_vpn",
+        "name": "Proxy/VPN",
+        "selected": false
+    },
+    {
+        "id": "is_datacenter",
+        "name": "Datacenter",
+        "selected": false
+    },
+    {
+        "id": "is_company",
+        "name": "Company",
+        "selected": false
+    },
+    {
+        "id": "is_bot",
+        "name": "Is Bot",
+        "selected": false
+    },
+    {
+        "id": "binom_protect_methods",
+        "name": "Binom Protect methods",
+        "selected": false
+    },
+    {
+        "id": "device_name",
+        "name": "Device Name",
+        "selected": false
+    },
+    {
+        "id": "device_type",
+        "name": "Device Type",
+        "selected": false
+    },
+    {
+        "id": "device_brand",
+        "name": "Device Brand",
+        "selected": false
+    },
+    {
+        "id": "device_model",
+        "name": "Device Model",
+        "selected": false
+    },
+    {
+        "id": "device_resolution",
+        "name": "Device Resolution",
+        "selected": false
+    },
+    {
+        "id": "city",
+        "name": "City",
+        "selected": false
+    },
+    {
+        "id": "continent",
+        "name": "Continent",
+        "selected": false
+    },
+    {
+        "id": "country",
+        "name": "Country",
+        "selected": false
+    },
+    {
+        "id": "region",
+        "name": "Region",
+        "selected": false
+    },
+    {
+        "id": "state",
+        "name": "State",
+        "selected": false
+    },
+    {
+        "id": "os_name",
+        "name": "OS",
+        "selected": false
+    },
+    {
+        "id": "os_version",
+        "name": "OS Version",
+        "selected": false
+    },
+    {
+        "id": "browser_name",
+        "name": "Browser Name",
+        "selected": false
+    },
+    {
+        "id": "browser_version",
+        "name": "Browser Version",
+        "selected": false
+    },
+    {
+        "id": "language",
+        "name": "Language",
+        "selected": false
+    },
+    {
+        "id": "referer_domain",
+        "name": "Referer Domain",
+        "selected": false
+    },
+    {
+        "id": "referer",
+        "name": "Referer URL",
+        "selected": false
+    },
+    {
+        "id": "is_campaign_unique",
+        "name": "Unique Clicks (Campaign)",
+        "selected": false
+    },
+    {
+        "id": "is_tracker_unique",
+        "name": "Unique Clicks",
+        "selected": false
+    },
+    {
+        "id": "payout",
+        "name": "Payout",
+        "selected": false
+    },
+    {
+        "id": "is_offer_clicked",
+        "name": "LP Click",
+        "selected": false
+    },
+    {
+        "id": "conversion",
+        "name": "Conversion",
+        "selected": false
+    },
+    {
+        "id": "conversed_at",
+        "name": "Conversion Time",
+        "selected": false
+    },
+    {
+        "id": "conversion_status_one",
+        "name": "Conversion Status 1",
+        "selected": false
+    },
+    {
+        "id": "conversion_status_two",
+        "name": "Conversion Status 2",
+        "selected": false
+    },
+    {
+        "id": "external_id",
+        "name": "External ID",
+        "selected": false
+    },
+    {
+        "id": "cost",
+        "name": "Cost",
+        "selected": false
+    },
+    {
+        "id": "url",
+        "name": "Full Campaign URL",
+        "selected": false
+    },
+    {
+        "id": "isp",
+        "name": "ISP",
+        "selected": false
+    },
+    {
+        "id": "organization",
+        "name": "Organization name",
+        "selected": false
+    },
+    {
+        "id": "connection",
+        "name": "Connection type",
+        "selected": false
+    },
+    {
+        "id": "adspect_tags",
+        "name": "Adspect tags",
+        "selected": false
+    },
+    {
+        "id": "event_1",
+        "name": "Event 1",
+        "selected": false
+    },
+    {
+        "id": "event_2",
+        "name": "Event 2",
+        "selected": false
+    },
+    {
+        "id": "event_3",
+        "name": "Event 3",
+        "selected": false
+    },
+    {
+        "id": "event_4",
+        "name": "Event 4",
+        "selected": false
+    },
+    {
+        "id": "event_5",
+        "name": "Event 5",
+        "selected": false
+    },
+    {
+        "id": "event_6",
+        "name": "Event 6",
+        "selected": false
+    },
+    {
+        "id": "event_7",
+        "name": "Event 7",
+        "selected": false
+    },
+    {
+        "id": "event_8",
+        "name": "Event 8",
+        "selected": false
+    },
+    {
+        "id": "event_9",
+        "name": "Event 9",
+        "selected": false
+    },
+    {
+        "id": "event_10",
+        "name": "Event 10",
+        "selected": false
+    },
+    {
+        "id": "event_11",
+        "name": "Event 11",
+        "selected": false
+    },
+    {
+        "id": "event_12",
+        "name": "Event 12",
+        "selected": false
+    },
+    {
+        "id": "event_13",
+        "name": "Event 13",
+        "selected": false
+    },
+    {
+        "id": "event_14",
+        "name": "Event 14",
+        "selected": false
+    },
+    {
+        "id": "event_15",
+        "name": "Event 15",
+        "selected": false
+    },
+    {
+        "id": "event_16",
+        "name": "Event 16",
+        "selected": false
+    },
+    {
+        "id": "event_17",
+        "name": "Event 17",
+        "selected": false
+    },
+    {
+        "id": "event_18",
+        "name": "Event 18",
+        "selected": false
+    },
+    {
+        "id": "event_19",
+        "name": "Event 19",
+        "selected": false
+    },
+    {
+        "id": "event_20",
+        "name": "Event 20",
+        "selected": false
+    },
+    {
+        "id": "event_21",
+        "name": "Event 21",
+        "selected": false
+    },
+    {
+        "id": "event_22",
+        "name": "Event 22",
+        "selected": false
+    },
+    {
+        "id": "event_23",
+        "name": "Event 23",
+        "selected": false
+    },
+    {
+        "id": "event_24",
+        "name": "Event 24",
+        "selected": false
+    },
+    {
+        "id": "event_25",
+        "name": "Event 25",
+        "selected": false
+    },
+    {
+        "id": "event_26",
+        "name": "Event 26",
+        "selected": false
+    },
+    {
+        "id": "event_27",
+        "name": "Event 27",
+        "selected": false
+    },
+    {
+        "id": "event_28",
+        "name": "Event 28",
+        "selected": false
+    },
+    {
+        "id": "event_29",
+        "name": "Event 29",
+        "selected": false
+    },
+    {
+        "id": "event_30",
+        "name": "Event 30",
+        "selected": false
+    },
+    {
+        "id": "token_1",
+        "name": "Token 1",
+        "selected": false
+    },
+    {
+        "id": "token_2",
+        "name": "Token 2",
+        "selected": false
+    },
+    {
+        "id": "token_3",
+        "name": "Token 3",
+        "selected": false
+    },
+    {
+        "id": "token_4",
+        "name": "Token 4",
+        "selected": false
+    },
+    {
+        "id": "token_5",
+        "name": "Token 5",
+        "selected": false
+    },
+    {
+        "id": "token_6",
+        "name": "Token 6",
+        "selected": false
+    },
+    {
+        "id": "token_7",
+        "name": "Token 7",
+        "selected": false
+    },
+    {
+        "id": "token_8",
+        "name": "Token 8",
+        "selected": false
+    },
+    {
+        "id": "token_9",
+        "name": "Token 9",
+        "selected": false
+    },
+    {
+        "id": "token_10",
+        "name": "Token 10",
+        "selected": false
+    },
+    {
+        "id": "token_11",
+        "name": "Token 11",
+        "selected": false
+    },
+    {
+        "id": "token_12",
+        "name": "Token 12",
+        "selected": false
+    },
+    {
+        "id": "token_13",
+        "name": "Token 13",
+        "selected": false
+    },
+    {
+        "id": "token_14",
+        "name": "Token 14",
+        "selected": false
+    },
+    {
+        "id": "token_15",
+        "name": "Token 15",
+        "selected": false
+    },
+    {
+        "id": "token_16",
+        "name": "Token 16",
+        "selected": false
+    },
+    {
+        "id": "token_17",
+        "name": "Token 17",
+        "selected": false
+    },
+    {
+        "id": "token_18",
+        "name": "Token 18",
+        "selected": false
+    },
+    {
+        "id": "token_19",
+        "name": "Token 19",
+        "selected": false
+    },
+    {
+        "id": "token_20",
+        "name": "Token 20",
+        "selected": false
+    },
+    {
+        "id": "token_21",
+        "name": "Token 21",
+        "selected": false
+    },
+    {
+        "id": "token_22",
+        "name": "Token 22",
+        "selected": false
+    },
+    {
+        "id": "token_23",
+        "name": "Token 23",
+        "selected": false
+    },
+    {
+        "id": "token_24",
+        "name": "Token 24",
+        "selected": false
+    },
+    {
+        "id": "token_25",
+        "name": "Token 25",
+        "selected": false
+    },
+    {
+        "id": "token_26",
+        "name": "Token 26",
+        "selected": false
+    },
+    {
+        "id": "token_27",
+        "name": "Token 27",
+        "selected": false
+    },
+    {
+        "id": "token_28",
+        "name": "Token 28",
+        "selected": false
+    },
+    {
+        "id": "token_29",
+        "name": "Token 29",
+        "selected": false
+    },
+    {
+        "id": "token_30",
+        "name": "Token 30",
+        "selected": false
+    }
+]
