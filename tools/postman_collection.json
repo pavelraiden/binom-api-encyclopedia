@@ -1,0 +1,3366 @@
+{
+  "info": {
+    "name": "Binom API v2",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Update Pause",
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/campaign/landing/pause",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "campaign",
+            "landing",
+            "pause"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Update Pause",
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/campaign/offer/pause",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "campaign",
+            "offer",
+            "pause"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Update Pause",
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/campaign/path/pause",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "campaign",
+            "path",
+            "pause"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Update Pause",
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/campaign/rule/pause",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "campaign",
+            "rule",
+            "pause"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Update Unpause",
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/campaign/landing/unpause",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "campaign",
+            "landing",
+            "unpause"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Update Unpause",
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/campaign/offer/unpause",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "campaign",
+            "offer",
+            "unpause"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Update Unpause",
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/campaign/path/unpause",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "campaign",
+            "path",
+            "unpause"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Update Unpause",
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/campaign/rule/unpause",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "campaign",
+            "rule",
+            "unpause"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Get Clone",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/rotation/{id}/clone",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "rotation",
+            "{id}",
+            "clone"
+          ]
+        }
+      }
+    },
+    {
+      "name": "POST /rotation",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/rotation",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "rotation"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Modify Rotation",
+      "request": {
+        "method": "PATCH",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/rotation/{id}",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "rotation",
+            "{id}"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Get Rotation Custom Rules",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/rotation_custom_rules/{trafficSourceId}",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "rotation_custom_rules",
+            "{trafficSourceId}"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Get Brand Model",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/rotation/device/brand_model/{term}",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "rotation",
+            "device",
+            "brand_model",
+            "{term}"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Get Browser",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/rotation/device/browser/{term}",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "rotation",
+            "device",
+            "browser",
+            "{term}"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Get Os",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/rotation/device/os/{term}",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "rotation",
+            "device",
+            "os",
+            "{term}"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Get Resolution",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/rotation/device/resolution/{term}",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "rotation",
+            "device",
+            "resolution",
+            "{term}"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Get Type",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/rotation/device/type",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "rotation",
+            "device",
+            "type"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Get Filtered",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/rotation/list/filtered",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "rotation",
+            "list",
+            "filtered"
+          ]
+        }
+      }
+    },
+    {
+      "name": "GET /rotation_rules",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/rotation_rules",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "rotation_rules"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Update Pause",
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/rotation/landing/pause",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "rotation",
+            "landing",
+            "pause"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Update Pause",
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/rotation/offer/pause",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "rotation",
+            "offer",
+            "pause"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Update Pause",
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/rotation/path/pause",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "rotation",
+            "path",
+            "pause"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Update Pause",
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/rotation/rule/pause",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "rotation",
+            "rule",
+            "pause"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Update Unpause",
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/rotation/landing/unpause",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "rotation",
+            "landing",
+            "unpause"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Update Unpause",
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/rotation/offer/unpause",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "rotation",
+            "offer",
+            "unpause"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Update Unpause",
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/rotation/path/unpause",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "rotation",
+            "path",
+            "unpause"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Update Unpause",
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/rotation/rule/unpause",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "rotation",
+            "rule",
+            "unpause"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Get Info",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/click/info/{id}",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "click",
+            "info",
+            "{id}"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Delete Delete",
+      "request": {
+        "method": "DELETE",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/clicklog/delete",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "clicklog",
+            "delete"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Update Columns",
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/clicklog/columns",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "clicklog",
+            "columns"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Get Click",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/clicklog/click/{id}",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "clicklog",
+            "click",
+            "{id}"
+          ]
+        }
+      }
+    },
+    {
+      "name": "GET /clicklog",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/clicklog",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "clicklog"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Create Secret",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/clickbank/secret",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "clickbank",
+            "secret"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Get Link",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/clickbank/postback/link",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "clickbank",
+            "postback",
+            "link"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Create Test",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/clickbank/test",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "clickbank",
+            "test"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Update Change",
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/columns/position/change",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "columns",
+            "position",
+            "change"
+          ]
+        }
+      }
+    },
+    {
+      "name": "GET /columns",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/columns",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "columns"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Update Columns",
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/columns/{page}",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "columns",
+            "{page}"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Delete Custom Column",
+      "request": {
+        "method": "DELETE",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/custom_column/{uuid}",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "custom_column",
+            "{uuid}"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Update Default Column",
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/default_column/{uuid}",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "default_column",
+            "{uuid}"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Create Reset",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/default_column/reset",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "default_column",
+            "reset"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Create Change Cap",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/offer/change_cap",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "offer",
+            "change_cap"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Create Conversion",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/offer/cap/conversion/{offerId}",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "offer",
+            "cap",
+            "conversion",
+            "{offerId}"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Create Maximize",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/offer/cap/conversion/{id}/maximize",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "offer",
+            "cap",
+            "conversion",
+            "{id}",
+            "maximize"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Create Reset",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/offer/cap/conversion/{id}/reset",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "offer",
+            "cap",
+            "conversion",
+            "{id}",
+            "reset"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Create Change Country",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/offer/change_country",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "offer",
+            "change_country"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Create Change Domain",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/offer/change_domain",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "offer",
+            "change_domain"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Create Change Group",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/offer/change_group",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "offer",
+            "change_group"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Get Clone",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/offer/{id}/clone",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "offer",
+            "{id}",
+            "clone"
+          ]
+        }
+      }
+    },
+    {
+      "name": "POST /offer",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/offer",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "offer"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Modify Offer",
+      "request": {
+        "method": "PATCH",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/offer/{id}",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "offer",
+            "{id}"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Get List",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/offer/affiliate_network/list",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "offer",
+            "affiliate_network",
+            "list"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Get All",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/offer/alternative/all",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "offer",
+            "alternative",
+            "all"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Get List",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/offer/country/list",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "offer",
+            "country",
+            "list"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Create Import",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/offers/import",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "offers",
+            "import"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Update Rename",
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/offer/{id}/rename",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "offer",
+            "{id}",
+            "rename"
+          ]
+        }
+      }
+    },
+    {
+      "name": "DELETE /conversions",
+      "request": {
+        "method": "DELETE",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/conversions",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "conversions"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Get Columns",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/conversions/columns",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "conversions",
+            "columns"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Get Conversion",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/conversion/{id}",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "conversion",
+            "{id}"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Get One",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/conversions/statuses/one",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "conversions",
+            "statuses",
+            "one"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Get Two",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/conversions/statuses/two",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "conversions",
+            "statuses",
+            "two"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Get Log",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/conversions/log",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "conversions",
+            "log"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Get Filters",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/conversions/filters",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "conversions",
+            "filters"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Get Brand And Model",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/device/brand_and_model",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "device",
+            "brand_and_model"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Get Browser",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/device/browser",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "device",
+            "browser"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Get Operating System",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/device/operating_system",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "device",
+            "operating_system"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Get Resolution",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/device/resolution",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "device",
+            "resolution"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Get Type",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/device/type",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "device",
+            "type"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Update Index Page",
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/domain/index_page/{id}",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "domain",
+            "index_page",
+            "{id}"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Get Check",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/domain/{id}/check",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "domain",
+            "{id}",
+            "check"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Delete Domain",
+      "request": {
+        "method": "DELETE",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/domain/{id}",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "domain",
+            "{id}"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Get Filtered",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/domain/list/filtered",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "domain",
+            "list",
+            "filtered"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Get Check",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/domains/check",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "domains",
+            "check"
+          ]
+        }
+      }
+    },
+    {
+      "name": "GET /domains",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/domains",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "domains"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Get Mode",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/domain/mode",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "domain",
+            "mode"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Update Default",
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/domain/default/{id}",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "domain",
+            "default",
+            "{id}"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Create Api Key",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/domain/safebrowse/api_key",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "domain",
+            "safebrowse",
+            "api_key"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Create Check",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/domain/safebrowse/check",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "domain",
+            "safebrowse",
+            "check"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Create Test",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/domain/safebrowse/test",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "domain",
+            "safebrowse",
+            "test"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Get City",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/geo/city",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "geo",
+            "city"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Get Continent",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/geo/continent",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "geo",
+            "continent"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Get Country",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/geo/country",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "geo",
+            "country"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Get Region",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/geo/region",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "geo",
+            "region"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Get State",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/geo/state",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "geo",
+            "state"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Delete {Subject}",
+      "request": {
+        "method": "DELETE",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/group/{subject}/{uuid}",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "group",
+            "{subject}",
+            "{uuid}"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Get Groups",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/groups/{subject}",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "groups",
+            "{subject}"
+          ]
+        }
+      }
+    },
+    {
+      "name": "GET /groups",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/groups",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "groups"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Get Filtered",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/groups/{subject}/filtered",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "groups",
+            "{subject}",
+            "filtered"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Get Connections",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/isp/connections",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "isp",
+            "connections"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Get Names",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/isp/names",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "isp",
+            "names"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Get Organizations",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/isp/organizations",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "isp",
+            "organizations"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Create Change Domain",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/landing/change_domain",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "landing",
+            "change_domain"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Create Change Group",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/landing/change_group",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "landing",
+            "change_group"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Create Change Language",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/landing/change_language",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "landing",
+            "change_language"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Get Clone",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/landing/{id}/clone",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "landing",
+            "{id}",
+            "clone"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Create Clone",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/landing/{id}/files/clone",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "landing",
+            "{id}",
+            "files",
+            "clone"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Create Integrated",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/landing/integrated",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "landing",
+            "integrated"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Create Not Integrated",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/landing/not_integrated",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "landing",
+            "not_integrated"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Modify Landing",
+      "request": {
+        "method": "PATCH",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/landing/{id}",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "landing",
+            "{id}"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Update File",
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/landing/{id}/file",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "landing",
+            "{id}",
+            "file"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Get Filtered",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/landing/list/filtered",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "landing",
+            "list",
+            "filtered"
+          ]
+        }
+      }
+    },
+    {
+      "name": "GET /landing_protect",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/landing_protect",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "landing_protect"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Get By Location",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/landing/list/by_location",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "landing",
+            "list",
+            "by_location"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Get List",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/landing/language/list",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "landing",
+            "language",
+            "list"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Create Import",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/landing/import",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "landing",
+            "import"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Modify Modify",
+      "request": {
+        "method": "PATCH",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/landing/modify/{id}",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "landing",
+            "modify",
+            "{id}"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Update Rename",
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/landing/{id}/rename",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "landing",
+            "{id}",
+            "rename"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Create Upload",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/landing/upload",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "landing",
+            "upload"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Get Tracker Id",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/license/tracker_id",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "license",
+            "tracker_id"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Update Add",
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/magic_checker/add/{campaignId}",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "magic_checker",
+            "add",
+            "{campaignId}"
+          ]
+        }
+      }
+    },
+    {
+      "name": "POST /magic_checker",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/magic_checker",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "magic_checker"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Delete Magic Checker",
+      "request": {
+        "method": "DELETE",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/magic_checker/{binomMagicCheckerId}",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "magic_checker",
+            "{binomMagicCheckerId}"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Delete Campaign",
+      "request": {
+        "method": "DELETE",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/magic_checker/campaign/{campaignId}",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "magic_checker",
+            "campaign",
+            "{campaignId}"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Get Filtered",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/magic_checker/list/filtered",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "magic_checker",
+            "list",
+            "filtered"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Delete Task",
+      "request": {
+        "method": "DELETE",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/migrator/task/{uuid}",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "migrator",
+            "task",
+            "{uuid}"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Get Last",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/migrator/last",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "migrator",
+            "last"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Create Migrate",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/migrator/migrate",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "migrator",
+            "migrate"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Get Ping",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/migrator/ping",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "migrator",
+            "ping"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Create Cancel",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/migrator/v2/restore/cancel",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "migrator",
+            "v2",
+            "restore",
+            "cancel"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Create Settings",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/migrator/v2/backup/settings",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "migrator",
+            "v2",
+            "backup",
+            "settings"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Create Jobs",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/migrator/v2/export/jobs",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "migrator",
+            "v2",
+            "export",
+            "jobs"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Delete Jobs",
+      "request": {
+        "method": "DELETE",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/migrator/v2/export/jobs/{id}",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "migrator",
+            "v2",
+            "export",
+            "jobs",
+            "{id}"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Get Dumps",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/migrator/v2/export/dumps/{id}",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "migrator",
+            "v2",
+            "export",
+            "dumps",
+            "{id}"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Get Status",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/migrator/v2/restore/status",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "migrator",
+            "v2",
+            "restore",
+            "status"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Create Restore",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/migrator/v2/restore",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "migrator",
+            "v2",
+            "restore"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Get Background Tasks",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/monitor/background_tasks",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "monitor",
+            "background_tasks"
+          ]
+        }
+      }
+    },
+    {
+      "name": "GET /monitor",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/monitor",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "monitor"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Create Note",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/note/{uuid}",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "note",
+            "{uuid}"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Get {Subject}",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/note/{subject}/{aggregateId}",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "note",
+            "{subject}",
+            "{aggregateId}"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Create Note Image",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/note_image/{uuid}",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "note_image",
+            "{uuid}"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Get List",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/country/list",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "country",
+            "list"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Get List",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/currency/list",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "currency",
+            "list"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Get List",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/date_preset/list",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "date_preset",
+            "list"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Get List",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/language/list",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "language",
+            "list"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Get Tokens",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/system/tokens",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "system",
+            "tokens"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Get List",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/timezone/list",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "timezone",
+            "list"
+          ]
+        }
+      }
+    },
+    {
+      "name": "POST /tags",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/tags",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "tags"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Delete Tags",
+      "request": {
+        "method": "DELETE",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/tags/{id}",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "tags",
+            "{id}"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Get {Subject}",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/tags/{subject}/{id}",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "tags",
+            "{subject}",
+            "{id}"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Create Link",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/tags/{id}/link",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "tags",
+            "{id}",
+            "link"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Create Change Tags",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/tags/{subject}/change_tags",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "tags",
+            "{subject}",
+            "change_tags"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Delete Unlink",
+      "request": {
+        "method": "DELETE",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/tags/{id}/unlink",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "tags",
+            "{id}",
+            "unlink"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Get Clone",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/traffic_source/{id}/clone",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "traffic_source",
+            "{id}",
+            "clone"
+          ]
+        }
+      }
+    },
+    {
+      "name": "POST /traffic_source",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/traffic_source",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "traffic_source"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Modify Traffic Source",
+      "request": {
+        "method": "PATCH",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/traffic_source/{id}",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "traffic_source",
+            "{id}"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Get Campaigns Count",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/traffic_source/campaigns_count/{id}",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "traffic_source",
+            "campaigns_count",
+            "{id}"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Get Filtered",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/traffic_source/list/filtered",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "traffic_source",
+            "list",
+            "filtered"
+          ]
+        }
+      }
+    },
+    {
+      "name": "GET /traffic_source_templates",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/traffic_source_templates",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "traffic_source_templates"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Update Rename",
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/traffic_source/{id}/rename",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "traffic_source",
+            "{id}",
+            "rename"
+          ]
+        }
+      }
+    },
+    {
+      "name": "GET /trends",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/trends",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "trends"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Update Change Login",
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/user/change_login",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "user",
+            "change_login"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Update Change Password",
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/user/change_password",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "user",
+            "change_password"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Create Create",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/user/create",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "user",
+            "create"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Delete User",
+      "request": {
+        "method": "DELETE",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/user/{userId}",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "user",
+            "{userId}"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Update Can Create Users",
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/user/{adminId}/can_create_users",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "user",
+            "{adminId}",
+            "can_create_users"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Update Hide Profit",
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/user/{userId}/hide_profit",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "user",
+            "{userId}",
+            "hide_profit"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Update Permissions",
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/user/{userId}/permissions",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "user",
+            "{userId}",
+            "permissions"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Update Edit",
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/user/{userId}/edit",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "user",
+            "{userId}",
+            "edit"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Get Log",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/user/log",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "user",
+            "log"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Get Types",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/user/log/types",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "user",
+            "log",
+            "types"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Create Disable",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/user/2fa/disable",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "user",
+            "2fa",
+            "disable"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Create Enable",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/user/2fa/enable",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "user",
+            "2fa",
+            "enable"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Update Generate",
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/user/2fa/secret/generate",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "user",
+            "2fa",
+            "secret",
+            "generate"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Get Status",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/user/2fa/status",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "user",
+            "2fa",
+            "status"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Update Cookie",
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/identity/cookie",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "identity",
+            "cookie"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Get Clone",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/identity/{userId}/clone",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "identity",
+            "{userId}",
+            "clone"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Get Identity",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/identity/{userId}",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "identity",
+            "{userId}"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Get Get",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/identity/users/get",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "identity",
+            "users",
+            "get"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Create Accessible-Users",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/user/{adminId}/accessible-users",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "user",
+            "{adminId}",
+            "accessible-users"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Get Accessible",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/users/accessible",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "users",
+            "accessible"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Get Role",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/user/role",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "user",
+            "role"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Create Logout",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "https://api.binom.org/v2/user/logout",
+          "host": [
+            "https://api.binom.org"
+          ],
+          "path": [
+            "v2",
+            "",
+            "user",
+            "logout"
+          ]
+        }
+      }
+    }
+  ]
+}

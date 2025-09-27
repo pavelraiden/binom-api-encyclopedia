@@ -80,9 +80,10 @@ else:
 📁 docs/
   📁 endpoints/          # Complete endpoint documentation (277 endpoints)
   📁 schemas/           # Real JSON schemas from API responses
-  📁 workflows/         # Common workflow examples
-📁 ai-guides/           # AI-specific integration guides
-📄 COMPLETE_BINOM_API_ENCYCLOPEDIA_V3.json  # Full structured data with real examples
+  📁 guides/            # Security, Rate Limiting, Versioning guides
+📁 tools/               # OpenAPI spec, Postman collection
+📁 ai-instructions/     # AI-specific integration guides
+📄 encyclopedia.json    # Full structured data with real examples
 📄 REAL_API_DATA_COMPLETE.json  # Raw API response data
 ```
 
@@ -96,17 +97,25 @@ def handle_binom_response(response):
         return "Missing required parameters (datePreset, timezone)"
     elif response.status_code == 404:
         return "Invalid endpoint or resource ID"
+    elif response.status_code == 429:
+        return "Rate limited - implement retry with backoff"
     return response.json()
 ```
 
+### 📚 **Documentation Guides**
+
+- [Security Guidelines](./docs/guides/security.md) - API key management, TLS requirements, best practices
+- [Rate Limiting](./docs/guides/rate-limiting.md) - Request limits, retry logic, monitoring
+- [Versioning Strategy](./docs/guides/versioning.md) - Version management, migration guides, deprecation policy
+
+### 🛠️ **API Tools**
+
+- [OpenAPI Specification](./tools/openapi_spec.json) - Complete API specification
+- [Postman Collection](./tools/postman_collection.json) - Ready-to-use API collection
+
 ### 🎯 **For AI Agents - Key Instructions**
 
-This encyclopedia is specifically designed for AI agents to:
-1. **Work immediately** with correct authentication method
-2. **Handle all 12 documented endpoints** with confidence
-3. **Process custom metrics** with UUID keys correctly
-4. **Implement proper error handling** automatically
-5. **Use real API response examples** for accurate data processing
+This encyclopedia is specifically designed for AI agents to work immediately with correct authentication method, handle all 12 documented endpoints with confidence, process custom metrics with UUID keys correctly, implement proper error handling automatically, and use real API response examples for accurate data processing.
 
 ### 📋 **Updated Connector Notes**
 
@@ -126,6 +135,9 @@ Replace your Binom connector notes with:
 ✅ AI-OPTIMIZED: Ready for immediate use by AI agents
 ✅ ERROR HANDLING: Complete troubleshooting with real error cases
 ✅ CODE EXAMPLES: Python, cURL, JavaScript samples for all endpoints
+✅ SECURITY: Complete security guidelines and best practices
+✅ RATE LIMITING: Documented limits and retry strategies
+✅ VERSIONING: Clear versioning strategy and migration guides
 
 Perfect for AI agents - access repository and start working immediately!
 ```
@@ -134,5 +146,8 @@ Perfect for AI agents - access repository and start working immediately!
 
 **🎉 This encyclopedia represents the complete, tested, and verified knowledge base for Binom API v2 - everything an AI agent needs to work effectively with Binom!**
 
-**Last Updated**: 2025-09-26 22:41:02 UTC  
-**Real Data Extraction**: 12 endpoints successfully tested
+**Last Updated**: 2025-09-26 22:55:00 UTC  
+**Real Data Extraction**: 12 endpoints successfully tested  
+**Security Guidelines**: Complete with best practices  
+**Rate Limiting**: Documented with retry examples  
+**Versioning**: Full strategy with migration guides

@@ -1,0 +1,1729 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "Binom API v2",
+    "version": "2.0.0"
+  },
+  "paths": {
+    "/campaign/landing/pause": {
+      "put": {
+        "summary": "Update Pause",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/campaign/offer/pause": {
+      "put": {
+        "summary": "Update Pause",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/campaign/path/pause": {
+      "put": {
+        "summary": "Update Pause",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/campaign/rule/pause": {
+      "put": {
+        "summary": "Update Pause",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/campaign/landing/unpause": {
+      "put": {
+        "summary": "Update Unpause",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/campaign/offer/unpause": {
+      "put": {
+        "summary": "Update Unpause",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/campaign/path/unpause": {
+      "put": {
+        "summary": "Update Unpause",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/campaign/rule/unpause": {
+      "put": {
+        "summary": "Update Unpause",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/rotation/{id}/clone": {
+      "get": {
+        "summary": "Get Clone",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/rotation": {
+      "post": {
+        "summary": "POST /rotation",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/rotation/{id}": {
+      "patch": {
+        "summary": "Modify Rotation",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/rotation_custom_rules/{trafficSourceId}": {
+      "get": {
+        "summary": "Get Rotation Custom Rules",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/rotation/device/brand_model/{term}": {
+      "get": {
+        "summary": "Get Brand Model",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/rotation/device/browser/{term}": {
+      "get": {
+        "summary": "Get Browser",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/rotation/device/os/{term}": {
+      "get": {
+        "summary": "Get Os",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/rotation/device/resolution/{term}": {
+      "get": {
+        "summary": "Get Resolution",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/rotation/device/type": {
+      "get": {
+        "summary": "Get Type",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/rotation/list/filtered": {
+      "get": {
+        "summary": "Get Filtered",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/rotation_rules": {
+      "get": {
+        "summary": "GET /rotation_rules",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/rotation/landing/pause": {
+      "put": {
+        "summary": "Update Pause",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/rotation/offer/pause": {
+      "put": {
+        "summary": "Update Pause",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/rotation/path/pause": {
+      "put": {
+        "summary": "Update Pause",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/rotation/rule/pause": {
+      "put": {
+        "summary": "Update Pause",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/rotation/landing/unpause": {
+      "put": {
+        "summary": "Update Unpause",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/rotation/offer/unpause": {
+      "put": {
+        "summary": "Update Unpause",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/rotation/path/unpause": {
+      "put": {
+        "summary": "Update Unpause",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/rotation/rule/unpause": {
+      "put": {
+        "summary": "Update Unpause",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/click/info/{id}": {
+      "get": {
+        "summary": "Get Info",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/clicklog/delete": {
+      "delete": {
+        "summary": "Delete Delete",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/clicklog/columns": {
+      "put": {
+        "summary": "Update Columns",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/clicklog/click/{id}": {
+      "get": {
+        "summary": "Get Click",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/clicklog": {
+      "get": {
+        "summary": "GET /clicklog",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/clickbank/secret": {
+      "post": {
+        "summary": "Create Secret",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/clickbank/postback/link": {
+      "get": {
+        "summary": "Get Link",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/clickbank/test": {
+      "post": {
+        "summary": "Create Test",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/columns/position/change": {
+      "put": {
+        "summary": "Update Change",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/columns": {
+      "get": {
+        "summary": "GET /columns",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/columns/{page}": {
+      "put": {
+        "summary": "Update Columns",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/custom_column/{uuid}": {
+      "delete": {
+        "summary": "Delete Custom Column",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/default_column/{uuid}": {
+      "put": {
+        "summary": "Update Default Column",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/default_column/reset": {
+      "post": {
+        "summary": "Create Reset",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/offer/change_cap": {
+      "post": {
+        "summary": "Create Change Cap",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/offer/cap/conversion/{offerId}": {
+      "post": {
+        "summary": "Create Conversion",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/offer/cap/conversion/{id}/maximize": {
+      "post": {
+        "summary": "Create Maximize",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/offer/cap/conversion/{id}/reset": {
+      "post": {
+        "summary": "Create Reset",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/offer/change_country": {
+      "post": {
+        "summary": "Create Change Country",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/offer/change_domain": {
+      "post": {
+        "summary": "Create Change Domain",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/offer/change_group": {
+      "post": {
+        "summary": "Create Change Group",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/offer/{id}/clone": {
+      "get": {
+        "summary": "Get Clone",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/offer": {
+      "post": {
+        "summary": "POST /offer",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/offer/{id}": {
+      "patch": {
+        "summary": "Modify Offer",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/offer/affiliate_network/list": {
+      "get": {
+        "summary": "Get List",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/offer/alternative/all": {
+      "get": {
+        "summary": "Get All",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/offer/country/list": {
+      "get": {
+        "summary": "Get List",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/offers/import": {
+      "post": {
+        "summary": "Create Import",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/offer/{id}/rename": {
+      "put": {
+        "summary": "Update Rename",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/conversions": {
+      "delete": {
+        "summary": "DELETE /conversions",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/conversions/columns": {
+      "get": {
+        "summary": "Get Columns",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/conversion/{id}": {
+      "get": {
+        "summary": "Get Conversion",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/conversions/statuses/one": {
+      "get": {
+        "summary": "Get One",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/conversions/statuses/two": {
+      "get": {
+        "summary": "Get Two",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/conversions/log": {
+      "get": {
+        "summary": "Get Log",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/conversions/filters": {
+      "get": {
+        "summary": "Get Filters",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/device/brand_and_model": {
+      "get": {
+        "summary": "Get Brand And Model",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/device/browser": {
+      "get": {
+        "summary": "Get Browser",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/device/operating_system": {
+      "get": {
+        "summary": "Get Operating System",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/device/resolution": {
+      "get": {
+        "summary": "Get Resolution",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/device/type": {
+      "get": {
+        "summary": "Get Type",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/domain/index_page/{id}": {
+      "put": {
+        "summary": "Update Index Page",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/domain/{id}/check": {
+      "get": {
+        "summary": "Get Check",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/domain/{id}": {
+      "delete": {
+        "summary": "Delete Domain",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/domain/list/filtered": {
+      "get": {
+        "summary": "Get Filtered",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/domains/check": {
+      "get": {
+        "summary": "Get Check",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/domains": {
+      "get": {
+        "summary": "GET /domains",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/domain/mode": {
+      "get": {
+        "summary": "Get Mode",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/domain/default/{id}": {
+      "put": {
+        "summary": "Update Default",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/domain/safebrowse/api_key": {
+      "post": {
+        "summary": "Create Api Key",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/domain/safebrowse/check": {
+      "post": {
+        "summary": "Create Check",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/domain/safebrowse/test": {
+      "post": {
+        "summary": "Create Test",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/geo/city": {
+      "get": {
+        "summary": "Get City",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/geo/continent": {
+      "get": {
+        "summary": "Get Continent",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/geo/country": {
+      "get": {
+        "summary": "Get Country",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/geo/region": {
+      "get": {
+        "summary": "Get Region",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/geo/state": {
+      "get": {
+        "summary": "Get State",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/group/{subject}/{uuid}": {
+      "delete": {
+        "summary": "Delete {Subject}",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/groups/{subject}": {
+      "get": {
+        "summary": "Get Groups",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/groups": {
+      "get": {
+        "summary": "GET /groups",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/groups/{subject}/filtered": {
+      "get": {
+        "summary": "Get Filtered",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/isp/connections": {
+      "get": {
+        "summary": "Get Connections",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/isp/names": {
+      "get": {
+        "summary": "Get Names",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/isp/organizations": {
+      "get": {
+        "summary": "Get Organizations",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/landing/change_domain": {
+      "post": {
+        "summary": "Create Change Domain",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/landing/change_group": {
+      "post": {
+        "summary": "Create Change Group",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/landing/change_language": {
+      "post": {
+        "summary": "Create Change Language",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/landing/{id}/clone": {
+      "get": {
+        "summary": "Get Clone",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/landing/{id}/files/clone": {
+      "post": {
+        "summary": "Create Clone",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/landing/integrated": {
+      "post": {
+        "summary": "Create Integrated",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/landing/not_integrated": {
+      "post": {
+        "summary": "Create Not Integrated",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/landing/{id}": {
+      "patch": {
+        "summary": "Modify Landing",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/landing/{id}/file": {
+      "put": {
+        "summary": "Update File",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/landing/list/filtered": {
+      "get": {
+        "summary": "Get Filtered",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/landing_protect": {
+      "get": {
+        "summary": "GET /landing_protect",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/landing/list/by_location": {
+      "get": {
+        "summary": "Get By Location",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/landing/language/list": {
+      "get": {
+        "summary": "Get List",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/landing/import": {
+      "post": {
+        "summary": "Create Import",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/landing/modify/{id}": {
+      "patch": {
+        "summary": "Modify Modify",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/landing/{id}/rename": {
+      "put": {
+        "summary": "Update Rename",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/landing/upload": {
+      "post": {
+        "summary": "Create Upload",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/license/tracker_id": {
+      "get": {
+        "summary": "Get Tracker Id",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/magic_checker/add/{campaignId}": {
+      "put": {
+        "summary": "Update Add",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/magic_checker": {
+      "post": {
+        "summary": "POST /magic_checker",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/magic_checker/{binomMagicCheckerId}": {
+      "delete": {
+        "summary": "Delete Magic Checker",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/magic_checker/campaign/{campaignId}": {
+      "delete": {
+        "summary": "Delete Campaign",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/magic_checker/list/filtered": {
+      "get": {
+        "summary": "Get Filtered",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/migrator/task/{uuid}": {
+      "delete": {
+        "summary": "Delete Task",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/migrator/last": {
+      "get": {
+        "summary": "Get Last",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/migrator/migrate": {
+      "post": {
+        "summary": "Create Migrate",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/migrator/ping": {
+      "get": {
+        "summary": "Get Ping",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/migrator/v2/restore/cancel": {
+      "post": {
+        "summary": "Create Cancel",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/migrator/v2/backup/settings": {
+      "post": {
+        "summary": "Create Settings",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/migrator/v2/export/jobs": {
+      "post": {
+        "summary": "Create Jobs",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/migrator/v2/export/jobs/{id}": {
+      "delete": {
+        "summary": "Delete Jobs",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/migrator/v2/export/dumps/{id}": {
+      "get": {
+        "summary": "Get Dumps",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/migrator/v2/restore/status": {
+      "get": {
+        "summary": "Get Status",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/migrator/v2/restore": {
+      "post": {
+        "summary": "Create Restore",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/monitor/background_tasks": {
+      "get": {
+        "summary": "Get Background Tasks",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/monitor": {
+      "get": {
+        "summary": "GET /monitor",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/note/{uuid}": {
+      "post": {
+        "summary": "Create Note",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/note/{subject}/{aggregateId}": {
+      "get": {
+        "summary": "Get {Subject}",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/note_image/{uuid}": {
+      "post": {
+        "summary": "Create Note Image",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/country/list": {
+      "get": {
+        "summary": "Get List",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/currency/list": {
+      "get": {
+        "summary": "Get List",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/date_preset/list": {
+      "get": {
+        "summary": "Get List",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/language/list": {
+      "get": {
+        "summary": "Get List",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/system/tokens": {
+      "get": {
+        "summary": "Get Tokens",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/timezone/list": {
+      "get": {
+        "summary": "Get List",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/tags": {
+      "post": {
+        "summary": "POST /tags",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/tags/{id}": {
+      "delete": {
+        "summary": "Delete Tags",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/tags/{subject}/{id}": {
+      "get": {
+        "summary": "Get {Subject}",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/tags/{id}/link": {
+      "post": {
+        "summary": "Create Link",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/tags/{subject}/change_tags": {
+      "post": {
+        "summary": "Create Change Tags",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/tags/{id}/unlink": {
+      "delete": {
+        "summary": "Delete Unlink",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/traffic_source/{id}/clone": {
+      "get": {
+        "summary": "Get Clone",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/traffic_source": {
+      "post": {
+        "summary": "POST /traffic_source",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/traffic_source/{id}": {
+      "patch": {
+        "summary": "Modify Traffic Source",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/traffic_source/campaigns_count/{id}": {
+      "get": {
+        "summary": "Get Campaigns Count",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/traffic_source/list/filtered": {
+      "get": {
+        "summary": "Get Filtered",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/traffic_source_templates": {
+      "get": {
+        "summary": "GET /traffic_source_templates",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/traffic_source/{id}/rename": {
+      "put": {
+        "summary": "Update Rename",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/trends": {
+      "get": {
+        "summary": "GET /trends",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/user/change_login": {
+      "put": {
+        "summary": "Update Change Login",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/user/change_password": {
+      "put": {
+        "summary": "Update Change Password",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/user/create": {
+      "post": {
+        "summary": "Create Create",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/user/{userId}": {
+      "delete": {
+        "summary": "Delete User",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/user/{adminId}/can_create_users": {
+      "put": {
+        "summary": "Update Can Create Users",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/user/{userId}/hide_profit": {
+      "put": {
+        "summary": "Update Hide Profit",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/user/{userId}/permissions": {
+      "put": {
+        "summary": "Update Permissions",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/user/{userId}/edit": {
+      "put": {
+        "summary": "Update Edit",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/user/log": {
+      "get": {
+        "summary": "Get Log",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/user/log/types": {
+      "get": {
+        "summary": "Get Types",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/user/2fa/disable": {
+      "post": {
+        "summary": "Create Disable",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/user/2fa/enable": {
+      "post": {
+        "summary": "Create Enable",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/user/2fa/secret/generate": {
+      "put": {
+        "summary": "Update Generate",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/user/2fa/status": {
+      "get": {
+        "summary": "Get Status",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/identity/cookie": {
+      "put": {
+        "summary": "Update Cookie",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/identity/{userId}/clone": {
+      "get": {
+        "summary": "Get Clone",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/identity/{userId}": {
+      "get": {
+        "summary": "Get Identity",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/identity/users/get": {
+      "get": {
+        "summary": "Get Get",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/user/{adminId}/accessible-users": {
+      "post": {
+        "summary": "Create Accessible-Users",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/users/accessible": {
+      "get": {
+        "summary": "Get Accessible",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/user/role": {
+      "get": {
+        "summary": "Get Role",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/user/logout": {
+      "post": {
+        "summary": "Create Logout",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    }
+  }
+}
