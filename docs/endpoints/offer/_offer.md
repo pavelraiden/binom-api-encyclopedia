@@ -75,3 +75,12 @@ curl -X POST "https://pierdun.com/public/api/v1/offer" \
   -H "Content-Type: application/json" \
   -H "Accept: application/json"
 ```
+
+
+
+**WARNING: This endpoint is currently unstable.**
+
+As of September 2025, the `POST /offer` endpoint consistently returns a `500 Internal Server Error` with the message `strtoupper(): Argument #1 ($string) must be of type string, null given`. This indicates a server-side issue, likely caused by a missing, undocumented, mandatory string field in the request.
+
+We have submitted a bug report to the Binom team and are awaiting a fix or updated documentation. We advise against using this endpoint until the issue is resolved. Please refer to our [bug report](/docs/bug_reports/post_offer_500_error.md) for more details.
+
