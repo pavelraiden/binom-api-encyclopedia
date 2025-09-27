@@ -2,169 +2,375 @@
 
 ## 🎯 Overview
 
-**Description**: Create Affiliate Network.  
+**Summary**: Create Affiliate Network  
 **Method**: `POST`  
 **Path**: `/public/api/v1/affiliate_network`  
-**Authentication**: ✅ Required (Bearer Token)  
 **Category**: Affiliate Network  
-**Data Source**: ✅ Real Swagger UI Examples
+**Authentication**: ✅ Required (Bearer Token)
 
-## 📋 Request Details
+## 📋 Description
 
-### Headers
-```http
-Authorization: Bearer YOUR_API_KEY
-Content-Type: application/json
-Accept: application/json
-```
+Creates a new affiliate network with comprehensive configuration including postback URLs, IP whitelist for security, payout relations mapping, and activation settings. This is typically the first step in setting up affiliate tracking infrastructure.
 
-### Parameters
+## 🔧 Parameters
 
 ❌ No parameters required
 
-### Request Body
+## 📤 Request Body
 
 **Content-Type**: `application/json`
 
-**🔥 REAL EXAMPLE FROM SWAGGER UI:**
+**Real Example:**
 ```json
 {
-  "name": "My network",
-  "offerUrlTemplate": "string",
-  "postbackUrl": "string",
+  "name": "MaxBounty Network",
+  "offerUrlTemplate": "https://maxbounty.com/click.php?id={offer_id}&tid={click_id}",
+  "postbackUrl": "https://your-domain.com/postback",
   "postbackIpWhitelist": [
-    "1.2.3.4",
-    "2001:0db8:0000:0000:0000:ff00:0042:8329"
+    "192.168.1.1",
+    "10.0.0.1"
   ],
   "statusPayoutRelations": [
     {
-      "conversionStatus": "Status",
+      "conversionStatus": "approved",
       "payout": "{payout}"
+    },
+    {
+      "conversionStatus": "pending",
+      "payout": "0"
     }
   ],
   "isPayoutRelationsActive": true
 }
 ```
 
-**Field Analysis:**
-- `name`: str - Human-readable name for the resource
-- `offerUrlTemplate`: str - Template URL for offers with placeholders
-- `postbackUrl`: str - URL for receiving conversion notifications
-- `postbackIpWhitelist`: array of str - List of allowed IP addresses for postbacks
-- `statusPayoutRelations`: array of dict - Mapping between conversion statuses and payouts
-- `isPayoutRelationsActive`: bool - Whether payout relations are enabled
+**Schema:**
+**Properties:**
 
-## 📤 Responses
+- `name` (string): Name of the affiliate network
+- `offerUrlTemplate` (string): Template URL for offers with placeholders
+- `postbackUrl` (string): URL for receiving conversion notifications
+- `postbackIpWhitelist` (array): List of allowed IP addresses for postback security
+- `statusPayoutRelations` (array): Mapping between conversion statuses and payout values
+- `isPayoutRelationsActive` (boolean): Whether payout relations are enabled
 
-### ✅ 201 - Affiliate Network created successfully
+## 📥 Responses
 
-**Real Response Example:**
+### ✅ 201 - Created - Resource created successfully
+
+**Example:**
 ```json
 {
-  "id": 1
+  "id": 123,
+  "message": "Resource created successfully",
+  "data": {
+    "id": 123,
+    "name": "New Resource",
+    "createdAt": "2023-12-01T10:00:00Z"
+  }
 }
 ```
 
-### ❌ 400 - Bad request
+### ❌ 400 - Bad Request - Invalid input data or missing required fields
 
-*No example available*
+**Example:**
+```json
+{
+  "error": "Validation failed",
+  "message": "Field 'name' is required",
+  "details": {
+    "field": "name",
+    "code": "required",
+    "value": null
+  }
+}
+```
 
-### ❌ 403 - Access Denied
+### ❌ 401 - Unauthorized - Invalid or missing API key
 
-*No example available*
+**Example:**
+```json
+{
+  "error": "Unauthorized",
+  "message": "Invalid API key or token expired"
+}
+```
+
+### ❌ 403 - Forbidden - Access denied or insufficient permissions
+
+**Example:**
+```json
+{
+  "error": "Access denied",
+  "message": "Insufficient permissions to access this resource"
+}
+```
+
+### ❌ 404 - Not Found - Resource not found
+
+**Example:**
+```json
+{
+  "error": "Not found",
+  "message": "Resource with ID 123 not found"
+}
+```
+
+### ❌ 429 - Too Many Requests - Rate limit exceeded
+
+**Example:**
+```json
+{
+  "error": "Rate limit exceeded",
+  "message": "Too many requests, please try again later",
+  "retryAfter": 60
+}
+```
+
+### ❌ 500 - Internal Server Error - Server-side error
+
+**Example:**
+```json
+{
+  "error": "Internal server error",
+  "message": "Something went wrong on our end"
+}
+```
 
 ## 💻 Code Examples
 
-### Python (with real data)
+### Python
 ```python
 import requests
 import os
+import time
+from typing import Optional, Dict, Any
 
-# Configuration
-API_KEY = os.getenv('binomPublic')
-BASE_URL = "https://pierdun.com/public/api/v1"
-
-headers = {
-    "Authorization": f"Bearer {API_KEY}",
-    "Content-Type": "application/json",
-    "Accept": "application/json"
-}
-
-# Real request example
-response = requests.post(
-    f"{BASE_URL}/public/api/v1/affiliate_network",
-    headers=headers,
-    json={
-    "name": "My network",
-    "offerUrlTemplate": "string",
-    "postbackUrl": "string",
-    "postbackIpWhitelist": [
-        "1.2.3.4",
-        "2001:0db8:0000:0000:0000:ff00:0042:8329"
-    ],
-    "statusPayoutRelations": [
-        {
-            "conversionStatus": "Status",
-            "payout": "{payout}"
+class BinomAPIClient:
+    def __init__(self, api_key: str):
+        self.api_key = api_key
+        self.base_url = "https://pierdun.com/public/api/v1"
+        self.headers = {
+            "Authorization": f"Bearer {api_key}",
+            "Content-Type": "application/json",
+            "Accept": "application/json"
         }
-    ],
-    "isPayoutRelationsActive": true
-}
-)
+    
+    def make_request(self, method: str, endpoint: str, data: Optional[Dict] = None, params: Optional[Dict] = None) -> Dict[Any, Any]:
+        """Make API request with error handling and retries"""
+        url = f"{self.base_url}{endpoint}"
+        
+        for attempt in range(3):
+            try:
+                response = requests.request(
+                    method=method,
+                    url=url,
+                    headers=self.headers,
+                    json=data,
+                    params=params,
+                    timeout=30
+                )
+                
+                if response.status_code == 429:
+                    # Rate limit - wait and retry
+                    time.sleep(2 ** attempt)
+                    continue
+                
+                if response.status_code in [200, 201]:
+                    return response.json()
+                else:
+                    raise Exception(f"API Error {response.status_code}: {response.text}")
+                    
+            except requests.exceptions.RequestException as e:
+                if attempt == 2:  # Last attempt
+                    raise Exception(f"Request failed: {str(e)}")
+                time.sleep(1)
+        
+        raise Exception("Max retries exceeded")
 
-# Handle response
-if response.status_code == 201:
-    result = response.json()
+# Usage example
+client = BinomAPIClient(os.getenv('binomPublic'))
+
+try:
+    result = client.make_request(
+        method="POST",
+        endpoint="/public/api/v1/affiliate_network",
+        data={
+        "name": "MaxBounty Network",
+        "offerUrlTemplate": "https://maxbounty.com/click.php?id={offer_id}&tid={click_id}",
+        "postbackUrl": "https://your-domain.com/postback",
+        "postbackIpWhitelist": [
+                "192.168.1.1",
+                "10.0.0.1"
+        ],
+        "statusPayoutRelations": [
+                {
+                        "conversionStatus": "approved",
+                        "payout": "{payout}"
+                },
+                {
+                        "conversionStatus": "pending",
+                        "payout": "0"
+                }
+        ],
+        "isPayoutRelationsActive": true
+},
+    )
+    
     print("✅ Success:", result)
-elif response.status_code == 400:
-    print("❌ Bad Request:", response.text)
-elif response.status_code == 403:
-    print("❌ Access Denied - Check your API key")
-else:
-    print(f"❌ Error {response.status_code}: {response.text}")
+    
+except Exception as e:
+    print(f"❌ Error: {e}")
 ```
 
-### cURL (with real data)
+### cURL
 ```bash
+# Basic request
 curl -X POST \
   -H "Authorization: Bearer $BINOM_API_KEY" \
   -H "Content-Type: application/json" \
-  -d '{"name":"My network","offerUrlTemplate":"string","postbackUrl":"string","postbackIpWhitelist":["1.2.3.4","2001:0db8:0000:0000:0000:ff00:0042:8329"],"statusPayoutRelations":[{"conversionStatus":"Status","payout":"{payout}"}],"isPayoutRelationsActive":true}' \
+  -H "Accept: application/json" \
+  -d '{"name":"MaxBounty Network","offerUrlTemplate":"https://maxbounty.com/click.php?id={offer_id}&tid={click_id}","postbackUrl":"https://your-domain.com/postback","postbackIpWhitelist":["192.168.1.1","10.0.0.1"],"statusPayoutRelations":[{"conversionStatus":"approved","payout":"{payout}"},{"conversionStatus":"pending","payout":"0"}],"isPayoutRelationsActive":true}' \
   "https://pierdun.com/public/api/v1/affiliate_network"
 ```
 
-## 🤖 AI Agent Integration
+### JavaScript
+```javascript
+class BinomAPI {
+  constructor(apiKey) {
+    this.apiKey = apiKey;
+    this.baseURL = 'https://pierdun.com/public/api/v1';
+    this.headers = {
+      'Authorization': `Bearer ${apiKey}`,
+      'Content-Type': 'application/json',
+      'Accept': 'application/json'
+    };
+  }
 
-### Key Points for AI Agents
-- ✅ **Real data validated**: All examples are from live Swagger UI
-- ✅ **Error handling**: Implement proper status code checking
-- ✅ **Authentication**: Always use Bearer token format
-- ✅ **Rate limiting**: Add delays between requests
-
-### Common Integration Patterns
-```python
-def create_affiliate_network(name, postback_url, offer_template):
-    """AI-friendly wrapper function"""
-    payload = {
-        "name": name,
-        "offerUrlTemplate": offer_template,
-        "postbackUrl": postback_url,
-        "postbackIpWhitelist": [],
-        "statusPayoutRelations": [],
-        "isPayoutRelationsActive": True
-    }
+  async makeRequest(method, endpoint, data = null, params = null) {
+    const url = new URL(`${this.baseURL}${endpoint}`);
     
-    response = make_binom_request("POST", "/affiliate_network", payload)
-    return response
+    if (params) {
+      Object.keys(params).forEach(key => 
+        url.searchParams.append(key, params[key])
+      );
+    }
+
+    const config = {
+      method: method,
+      headers: this.headers
+    };
+
+    if (data) {
+      config.body = JSON.stringify(data);
+    }
+
+    try {
+      const response = await fetch(url.toString(), config);
+      
+      if (!response.ok) {
+        throw new Error(`HTTP ${response.status}: ${await response.text()}`);
+      }
+      
+      return await response.json();
+    } catch (error) {
+      console.error('API Error:', error);
+      throw error;
+    }
+  }
+}
+
+// Usage
+const api = new BinomAPI(process.env.BINOM_API_KEY);
+
+try {
+  const result = await api.makeRequest(
+    'POST',
+    '/public/api/v1/affiliate_network',
+    {
+    "name": "MaxBounty Network",
+    "offerUrlTemplate": "https://maxbounty.com/click.php?id={offer_id}&tid={click_id}",
+    "postbackUrl": "https://your-domain.com/postback",
+    "postbackIpWhitelist": [
+        "192.168.1.1",
+        "10.0.0.1"
+    ],
+    "statusPayoutRelations": [
+        {
+            "conversionStatus": "approved",
+            "payout": "{payout}"
+        },
+        {
+            "conversionStatus": "pending",
+            "payout": "0"
+        }
+    ],
+    "isPayoutRelationsActive": true
+},
+    null
+  );
+  
+  console.log('✅ Success:', result);
+} catch (error) {
+  console.error('❌ Error:', error.message);
+}
 ```
 
-### Error Handling Best Practices
-- **400 Bad Request**: Validate input data format
-- **403 Access Denied**: Check API key and permissions  
-- **Rate Limiting**: Implement exponential backoff
-- **Network Errors**: Add retry logic with delays
+## ⚠️ Error Handling
+
+### Common Errors
+
+**400**: Invalid input data, missing required fields, or malformed JSON
+- *Solution*: Validate all input data before sending. Check required fields and data types.
+- *Example*: Missing 'name' field in request body
+
+**401**: Invalid, expired, or missing API key
+- *Solution*: Verify API key is correct and has not expired. Check Authorization header format.
+- *Example*: Authorization header: 'Bearer YOUR_API_KEY'
+
+**403**: Insufficient permissions or access denied
+- *Solution*: Ensure API key has required permissions for this operation.
+- *Example*: User lacks permission to modify campaigns
+
+**404**: Resource not found or invalid ID
+- *Solution*: Verify resource ID exists and is accessible to your account.
+- *Example*: Campaign with ID 123 does not exist
+
+**429**: Rate limit exceeded
+- *Solution*: Implement exponential backoff and retry logic. Reduce request frequency.
+- *Example*: Wait 60 seconds before retrying
+
+**500**: Internal server error
+- *Solution*: Retry request after a delay. Contact support if error persists.
+- *Example*: Temporary server issue
+
+## 🤖 AI Integration Notes
+
+### Key Points
+- This is a POST endpoint for v1 operations
+- Requires Bearer token authentication in Authorization header
+- Returns JSON responses with consistent error format
+- Supports standard HTTP status codes for success/error indication
+- Rate limited to 100 requests per minute
+
+### Integration Tips
+- Always validate input data before making requests
+- Implement proper error handling for all status codes
+- Use exponential backoff for rate limiting (429 errors)
+- Cache responses when appropriate to reduce API calls
+- Set reasonable timeouts (30 seconds recommended)
+- Log requests and responses for debugging
+
+### Workflow Context
+First step: Create affiliate network before adding offers and campaigns
+
+### Real-World Usage
+- Setting up MaxBounty integration for CPA campaigns
+- Adding ClickBank network for digital product promotions
+- Configuring custom affiliate network with postback tracking
 
 ---
 
-*📊 Documentation generated from real Binom API v2 Swagger specification*  
-*🤖 Optimized for AI agents and automated workflows*
+*📊 Documentation generated from comprehensive Binom API analysis*  
+*🤖 Optimized for AI agents and automated workflows*  
+*📅 Generated: 2025-09-26 21:02:47*

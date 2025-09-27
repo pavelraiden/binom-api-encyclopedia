@@ -1,16 +1,16 @@
-# POST /public/api/v1/campaign/change_setting
+# PUT /public/api/v1/campaign/landing/pause
 
 ## 🎯 Overview
 
-**Summary**: Change Campaign Setting  
-**Method**: `POST`  
-**Path**: `/public/api/v1/campaign/change_setting`  
+**Summary**: Pause Campaign Landing  
+**Method**: `PUT`  
+**Path**: `/public/api/v1/campaign/landing/pause`  
 **Category**: Campaign  
 **Authentication**: ✅ Required (Bearer Token)
 
 ## 📋 Description
 
-Change Campaign Setting. Creates a new campaign resource with specified configuration parameters.
+Pause Campaign Landing. Updates an existing campaign resource with new configuration data.
 
 ## 🔧 Parameters
 
@@ -18,17 +18,15 @@ Change Campaign Setting. Creates a new campaign resource with specified configur
 
 ## 📥 Responses
 
-### ✅ 201 - Created - Resource created successfully
+### ✅ 200 - Success - Resource updated successfully
 
 **Example:**
 ```json
 {
-  "id": 123,
-  "message": "Resource created successfully",
+  "message": "Resource updated successfully",
   "data": {
     "id": 123,
-    "name": "New Resource",
-    "createdAt": "2023-12-01T10:00:00Z"
+    "updatedAt": "2023-12-01T15:30:00Z"
   }
 }
 ```
@@ -155,8 +153,8 @@ client = BinomAPIClient(os.getenv('binomPublic'))
 
 try:
     result = client.make_request(
-        method="POST",
-        endpoint="/public/api/v1/campaign/change_setting",
+        method="PUT",
+        endpoint="/public/api/v1/campaign/landing/pause",
     )
     
     print("✅ Success:", result)
@@ -168,11 +166,11 @@ except Exception as e:
 ### cURL
 ```bash
 # Basic request
-curl -X POST \
+curl -X PUT \
   -H "Authorization: Bearer $BINOM_API_KEY" \
   -H "Content-Type: application/json" \
   -H "Accept: application/json" \
-  "https://pierdun.com/public/api/v1/campaign/change_setting"
+  "https://pierdun.com/public/api/v1/campaign/landing/pause"
 ```
 
 ### JavaScript
@@ -226,8 +224,8 @@ const api = new BinomAPI(process.env.BINOM_API_KEY);
 
 try {
   const result = await api.makeRequest(
-    'POST',
-    '/public/api/v1/campaign/change_setting',
+    'PUT',
+    '/public/api/v1/campaign/landing/pause',
     null,
     null
   );
@@ -269,7 +267,7 @@ try {
 ## 🤖 AI Integration Notes
 
 ### Key Points
-- This is a POST endpoint for v1 operations
+- This is a PUT endpoint for v1 operations
 - Requires Bearer token authentication in Authorization header
 - Returns JSON responses with consistent error format
 - Supports standard HTTP status codes for success/error indication
@@ -284,7 +282,7 @@ try {
 - Log requests and responses for debugging
 
 ### Workflow Context
-Core step: Create campaign after setting up traffic sources and networks
+Used for: Updating campaign settings, costs, or routing rules
 
 ### Real-World Usage
 - Managing campaign resources in affiliate marketing workflows
