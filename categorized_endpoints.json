@@ -1,0 +1,1289 @@
+{
+  "affiliate_network": [
+    {
+      "method": "GET",
+      "path": "/public/api/v1/affiliate_network/{id}/clone",
+      "summary": "Clone Affiliate Network.",
+      "tag": "Affiliate NetworkAffiliate Network",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "POST",
+      "path": "/public/api/v1/affiliate_network",
+      "summary": "Create Affiliate Network.",
+      "tag": "Affiliate NetworkAffiliate Network",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "GET",
+      "path": "/public/api/v1/affiliate_network/{id}",
+      "summary": "Get Affiliate Network details.",
+      "tag": "Affiliate NetworkAffiliate Network",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "PUT",
+      "path": "/public/api/v1/affiliate_network/{id}",
+      "summary": "Edit Affiliate Network.",
+      "tag": "Affiliate NetworkAffiliate Network",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "DELETE",
+      "path": "/public/api/v1/affiliate_network/{id}",
+      "summary": "Delete Affiliate Network.",
+      "tag": "Affiliate NetworkAffiliate Network",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "PATCH",
+      "path": "/public/api/v1/affiliate_network/{id}",
+      "summary": "Restore Affiliate Network.",
+      "tag": "Affiliate NetworkAffiliate Network",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "GET",
+      "path": "/public/api/v1/affiliate_network/list/filtered",
+      "summary": "Get Affiliate network list filtered.",
+      "tag": "Affiliate NetworkAffiliate Network",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "GET",
+      "path": "/public/api/v1/affiliate_network/list/all",
+      "summary": "Get Affiliate Network list.",
+      "tag": "Affiliate NetworkAffiliate Network",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "GET",
+      "path": "/public/api/v1/affiliate_network/preset/catalog",
+      "summary": "Get Affiliate Network presets.",
+      "tag": "Affiliate NetworkAffiliate Network",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "PUT",
+      "path": "/public/api/v1/affiliate_network/{id}/rename",
+      "summary": "Rename Affiliate Network.",
+      "tag": "Affiliate NetworkAffiliate Network",
+      "source": "swagger_ui_extraction"
+    }
+  ],
+  "clicks": [
+    {
+      "method": "PUT",
+      "path": "/public/api/v1/clicks/campaign/{id}",
+      "summary": "Update campaign`s clicks cost.",
+      "tag": "ClicksClicks",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "DELETE",
+      "path": "/public/api/v1/clicks/campaign/{id}",
+      "summary": "Delete campaign`s clicks.",
+      "tag": "ClicksClicks",
+      "source": "swagger_ui_extraction"
+    }
+  ],
+  "info": [
+    {
+      "method": "GET",
+      "path": "/public/api/v1/info/affiliate_network",
+      "summary": "Get traffic sources info.",
+      "tag": "Info statsInfo stats",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "GET",
+      "path": "/public/api/v1/info/campaign",
+      "summary": "Get campaigns info.",
+      "tag": "Info statsInfo stats",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "GET",
+      "path": "/public/api/v1/info/landing",
+      "summary": "Get landings info.",
+      "tag": "Info statsInfo stats",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "GET",
+      "path": "/public/api/v1/info/offer",
+      "summary": "Get offers info.",
+      "tag": "Info statsInfo stats",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "GET",
+      "path": "/public/api/v1/info/rotation",
+      "summary": "Get rotations info.",
+      "tag": "Info statsInfo stats",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "GET",
+      "path": "/public/api/v1/info/traffic_source",
+      "summary": "Get traffic sources info.",
+      "tag": "Info statsInfo stats",
+      "source": "swagger_ui_extraction"
+    }
+  ],
+  "report": [
+    {
+      "method": "GET",
+      "path": "/public/api/v1/report/{page}",
+      "summary": "Get Report.",
+      "tag": "ReportReport",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "GET",
+      "path": "/public/api/v1/report/user/campaign",
+      "summary": "Get user campaigns Report.",
+      "tag": "ReportReport",
+      "source": "swagger_ui_extraction"
+    }
+  ],
+  "report_groupings": [
+    {
+      "method": "GET",
+      "path": "/public/api/v1/report/affiliate_network/groupings",
+      "summary": "Get Affiliate network Groupings for single aggregate.",
+      "tag": "Report groupingsReport groupings",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "GET",
+      "path": "/public/api/v1/report/campaign/groupings",
+      "summary": "Get Campaign Groupings for single aggregate.",
+      "tag": "Report groupingsReport groupings",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "GET",
+      "path": "/public/api/v1/report/campaign/groupings/multiple",
+      "summary": "Get Groupings for multiple aggregates.",
+      "tag": "Report groupingsReport groupings",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "GET",
+      "path": "/public/api/v1/report/landing/groupings",
+      "summary": "Get Landing Groupings for single aggregate.",
+      "tag": "Report groupingsReport groupings",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "GET",
+      "path": "/public/api/v1/report/groupings/multiple",
+      "summary": "Get Groupings for multiple aggregates.",
+      "tag": "Report groupingsReport groupings",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "GET",
+      "path": "/public/api/v1/report/offer/groupings",
+      "summary": "Get Offer Groupings for single aggregate.",
+      "tag": "Report groupingsReport groupings",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "GET",
+      "path": "/public/api/v1/report/rotation/groupings",
+      "summary": "Get Rotation Groupings for single aggregate.",
+      "tag": "Report groupingsReport groupings",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "GET",
+      "path": "/public/api/v1/report/traffic_source/groupings",
+      "summary": "Get Traffic source Groupings for single aggregate.",
+      "tag": "Report groupingsReport groupings",
+      "source": "swagger_ui_extraction"
+    }
+  ],
+  "report_mark": [
+    {
+      "method": "POST",
+      "path": "/public/api/v1/report/mark/campaign/{id}",
+      "summary": "Set mark to token by campaign id.",
+      "tag": "Report MarkReport Mark",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "DELETE",
+      "path": "/public/api/v1/report/mark/campaign/{id}",
+      "summary": "Delete mark for token by campaign id.",
+      "tag": "Report MarkReport Mark",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "POST",
+      "path": "/public/api/v1/report/mark/traffic_source/{id}",
+      "summary": "Set mark to token by traffic source id.",
+      "tag": "Report MarkReport Mark",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "DELETE",
+      "path": "/public/api/v1/report/mark/traffic_source/{id}",
+      "summary": "Delete mark for token by traffic source id.",
+      "tag": "Report MarkReport Mark",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "POST",
+      "path": "/public/api/v1/report/mark/campaign/{id}/multiple",
+      "summary": "Set mark to multiple tokens by campaign id.",
+      "tag": "Report MarkReport Mark",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "POST",
+      "path": "/public/api/v1/report/mark/traffic_source/{id}/multiple",
+      "summary": "Set mark to multiple tokens by traffic source id.",
+      "tag": "Report MarkReport Mark",
+      "source": "swagger_ui_extraction"
+    }
+  ],
+  "report_presets": [
+    {
+      "method": "POST",
+      "path": "/public/api/v1/report/preset/{subject}/{uuid}",
+      "summary": "Create preset.",
+      "tag": "Report PresetsReport Presets",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "DELETE",
+      "path": "/public/api/v1/report/preset/{uuid}",
+      "summary": "Delete preset.",
+      "tag": "Report PresetsReport Presets",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "GET",
+      "path": "/public/api/v1/report/preset/{subject}",
+      "summary": "Get presets by Subject.",
+      "tag": "Report PresetsReport Presets",
+      "source": "swagger_ui_extraction"
+    }
+  ],
+  "report_filters": [
+    {
+      "method": "POST",
+      "path": "/public/api/v1/report/simple_filter/{subject}/{uuid}",
+      "summary": "Create Simple filter.",
+      "tag": "Report Simple filtersReport Simple filters",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "PUT",
+      "path": "/public/api/v1/report/simple_filter/{uuid}",
+      "summary": "Edit Simple filter.",
+      "tag": "Report Simple filtersReport Simple filters",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "DELETE",
+      "path": "/public/api/v1/report/simple_filter/{uuid}",
+      "summary": "Delete Simple filter.",
+      "tag": "Report Simple filtersReport Simple filters",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "GET",
+      "path": "/public/api/v1/report/simple_filter/operators/list",
+      "summary": "Get Simple filter Operators.",
+      "tag": "Report Simple filtersReport Simple filters",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "GET",
+      "path": "/public/api/v1/report/simple_filter/{subject}",
+      "summary": "Get Simple filters by Subject.",
+      "tag": "Report Simple filtersReport Simple filters",
+      "source": "swagger_ui_extraction"
+    }
+  ],
+  "stats": [
+    {
+      "method": "GET",
+      "path": "/public/api/v1/stats/affiliate_network",
+      "summary": "Get stats Affiliate Network.",
+      "tag": "StatsStats",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "GET",
+      "path": "/public/api/v1/stats/campaign",
+      "summary": "Get stats Campaign.",
+      "tag": "StatsStats",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "GET",
+      "path": "/public/api/v1/stats/landing",
+      "summary": "Get stats Landing.",
+      "tag": "StatsStats",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "GET",
+      "path": "/public/api/v1/stats/offer",
+      "summary": "Get stats Offer.",
+      "tag": "StatsStats",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "GET",
+      "path": "/public/api/v1/stats/rotation",
+      "summary": "Get stats Rotation.",
+      "tag": "StatsStats",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "GET",
+      "path": "/public/api/v1/stats/traffic_source",
+      "summary": "Get stats Traffic Source.",
+      "tag": "StatsStats",
+      "source": "swagger_ui_extraction"
+    }
+  ],
+  "identity": [
+    {
+      "method": "POST",
+      "path": "/public/api/v1/identity/api_key/block/{id}",
+      "summary": "Identity Block ApiKey",
+      "tag": "Identity API keyIdentity API key",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "GET",
+      "path": "/public/api/v1/identity/api_key/{id}",
+      "summary": "Identity Get ApiKey",
+      "tag": "Identity API keyIdentity API key",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "PUT",
+      "path": "/public/api/v1/identity/api_key/refresh/{id}",
+      "summary": "Identity Refresh ApiKey",
+      "tag": "Identity API keyIdentity API key",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "POST",
+      "path": "/public/api/v1/identity/api_key/unblock/{id}",
+      "summary": "Identity Unblock ApiKey",
+      "tag": "Identity API keyIdentity API key",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "GET",
+      "path": "/public/api/v1/identity/cookie",
+      "summary": "Get cookie settings.",
+      "tag": "IdentityIdentity",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "PUT",
+      "path": "/public/api/v1/identity/cookie",
+      "summary": "Edit cookie settings.",
+      "tag": "IdentityIdentity",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "GET",
+      "path": "/public/api/v1/identity/{userId}/clone",
+      "summary": "Identity Clone.",
+      "tag": "IdentityIdentity",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "GET",
+      "path": "/public/api/v1/identity/{userId}",
+      "summary": "Identity Info.",
+      "tag": "IdentityIdentity",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "GET",
+      "path": "/public/api/v1/identity/users/get",
+      "summary": "Identity Users.",
+      "tag": "IdentityIdentity",
+      "source": "swagger_ui_extraction"
+    }
+  ],
+  "binom_protect": [
+    {
+      "method": "POST",
+      "path": "/public/api/v1/binom/protect/beta/disable",
+      "summary": "Disable Beta",
+      "tag": "Binom ProtectBinom Protect",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "GET",
+      "path": "/public/api/v1/binom/protect/beta/status",
+      "summary": "Get Beta status",
+      "tag": "Binom ProtectBinom Protect",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "GET",
+      "path": "/public/api/v1/binom/protect/methods",
+      "summary": "Get available bot detection methods and presets",
+      "tag": "Binom ProtectBinom Protect",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "GET",
+      "path": "/public/api/v1/binom/protect/campaign/{campaignId}/settings",
+      "summary": "Get Settings for a Campaign",
+      "tag": "Binom ProtectBinom Protect",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "POST",
+      "path": "/public/api/v1/binom/protect/campaign/{campaignId}/settings",
+      "summary": "Update Settings for a Campaign",
+      "tag": "Binom ProtectBinom Protect",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "POST",
+      "path": "/public/api/v1/binom/protect/campaigns/settings",
+      "summary": "Update Settings for multiple Campaigns",
+      "tag": "Binom ProtectBinom Protect",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "POST",
+      "path": "/public/api/v1/binom/protect/visits/{campaignId}/reset",
+      "summary": "Reset first visits counter.",
+      "tag": "Binom ProtectBinom Protect",
+      "source": "swagger_ui_extraction"
+    }
+  ],
+  "csv": [
+    {
+      "method": "DELETE",
+      "path": "/public/api/v1/csv/clicklog/clear",
+      "summary": "Delete all clicklog files.",
+      "tag": "CSVCSV",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "DELETE",
+      "path": "/public/api/v1/csv/conversions/clear",
+      "summary": "Delete all conversion files.",
+      "tag": "CSVCSV",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "GET",
+      "path": "/public/api/v1/csv/file/{filename}",
+      "summary": "Download file by name.",
+      "tag": "CSVCSV",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "DELETE",
+      "path": "/public/api/v1/csv/file/{filename}",
+      "summary": "Delete file by name.",
+      "tag": "CSVCSV",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "POST",
+      "path": "/public/api/v1/csv/task/dequeue/{id}",
+      "summary": "Remove task from the queue.",
+      "tag": "CSVCSV",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "POST",
+      "path": "/public/api/v1/csv/task/enqueue",
+      "summary": "Add new task to the queue.",
+      "tag": "CSVCSV",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "GET",
+      "path": "/public/api/v1/csv/files",
+      "summary": "Get csv files.",
+      "tag": "CSVCSV",
+      "source": "swagger_ui_extraction"
+    }
+  ],
+  "campaign": [
+    {
+      "method": "POST",
+      "path": "/public/api/v1/campaign/change_setting",
+      "summary": "Edit Settings for multiple Campaigns",
+      "tag": "CampaignCampaign",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "POST",
+      "path": "/public/api/v1/campaign/change_cost",
+      "summary": "Change cost for multiple Campaigns",
+      "tag": "CampaignCampaign",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "POST",
+      "path": "/public/api/v1/campaign/change_domain",
+      "summary": "Change Domain for multiple Campaigns",
+      "tag": "CampaignCampaign",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "POST",
+      "path": "/public/api/v1/campaign/change_group",
+      "summary": "Change Group for multiple Campaigns",
+      "tag": "CampaignCampaign",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "POST",
+      "path": "/public/api/v1/campaign/{campaignId}/owner",
+      "summary": "Change Campaign Owner",
+      "tag": "CampaignCampaign",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "DELETE",
+      "path": "/public/api/v1/campaign/{campaignId}/owner",
+      "summary": "Delete Campaign Owner",
+      "tag": "CampaignCampaign",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "POST",
+      "path": "/public/api/v1/campaign/change_traffic_distribution_info",
+      "summary": "Change TrafficDistributionInfo for multiple Campaigns",
+      "tag": "CampaignCampaign",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "GET",
+      "path": "/public/api/v1/campaign/{id}/clone",
+      "summary": "Clone Campaign.",
+      "tag": "CampaignCampaign",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "POST",
+      "path": "/public/api/v1/campaign",
+      "summary": "Create Campaign.",
+      "tag": "CampaignCampaign",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "GET",
+      "path": "/public/api/v1/campaign/{id}",
+      "summary": "Get Campaign.",
+      "tag": "CampaignCampaign",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "PUT",
+      "path": "/public/api/v1/campaign/{id}",
+      "summary": "Edit Campaign.",
+      "tag": "CampaignCampaign",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "DELETE",
+      "path": "/public/api/v1/campaign/{id}",
+      "summary": "Delete Campaign.",
+      "tag": "CampaignCampaign",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "PATCH",
+      "path": "/public/api/v1/campaign/{id}",
+      "summary": "Restore Campaign.",
+      "tag": "CampaignCampaign",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "GET",
+      "path": "/public/api/v1/campaign/{id}/link",
+      "summary": "Get Campaign link.",
+      "tag": "CampaignCampaign",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "GET",
+      "path": "/public/api/v1/campaign/list/filtered",
+      "summary": "Get Campaign list filtered.",
+      "tag": "CampaignCampaign",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "GET",
+      "path": "/public/api/v1/campaign/short/info",
+      "summary": "Get Campaign short info with links.",
+      "tag": "CampaignCampaign",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "GET",
+      "path": "/public/api/v1/campaign/by_rotation/{rotationId}/list",
+      "summary": "Get Campaigns list by Rotation ID.",
+      "tag": "CampaignCampaign",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "GET",
+      "path": "/public/api/v1/campaign/traffic_source/list",
+      "summary": "Get TrafficSource with Campaign list.",
+      "tag": "CampaignCampaign",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "GET",
+      "path": "/public/api/v1/campaign/{id}/permissions",
+      "summary": "Get users with Permission access to the passed Campaign",
+      "tag": "CampaignCampaign",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "POST",
+      "path": "/public/api/v1/campaign/{id}/permissions",
+      "summary": "Grant user access to the specified campaign",
+      "tag": "CampaignCampaign",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "DELETE",
+      "path": "/public/api/v1/campaign/{id}/permissions",
+      "summary": "Revoke users access to the specified campaign",
+      "tag": "CampaignCampaign",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "PATCH",
+      "path": "/public/api/v1/campaign/modify/{id}",
+      "summary": "Partially update Campaign.",
+      "tag": "CampaignCampaign",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "PUT",
+      "path": "/public/api/v1/campaign/{id}/rename",
+      "summary": "Rename Campaign.",
+      "tag": "CampaignCampaign",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "POST",
+      "path": "/public/api/v1/campaign/switch_domain",
+      "summary": "Change Domain for multiple Campaigns",
+      "tag": "CampaignCampaign",
+      "source": "swagger_ui_extraction"
+    }
+  ],
+  "rotation": [
+    {
+      "method": "PUT",
+      "path": "/public/api/v1/campaign/landing/pause",
+      "summary": "Pause landing in campaign.",
+      "tag": "RotationRotation",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "PUT",
+      "path": "/public/api/v1/campaign/offer/pause",
+      "summary": "Pause offer in campaign.",
+      "tag": "RotationRotation",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "PUT",
+      "path": "/public/api/v1/campaign/path/pause",
+      "summary": "Pause path in campaign.",
+      "tag": "RotationRotation",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "GET",
+      "path": "/public/api/v1/rotation/{id}/clone",
+      "summary": "Clone Rotation.",
+      "tag": "RotationRotation",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "POST",
+      "path": "/public/api/v1/rotation",
+      "summary": "Create Rotation.",
+      "tag": "RotationRotation",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "GET",
+      "path": "/public/api/v1/rotation/{id}",
+      "summary": "Get Rotation.",
+      "tag": "RotationRotation",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "PUT",
+      "path": "/public/api/v1/rotation/{id}",
+      "summary": "Edit Rotation.",
+      "tag": "RotationRotation",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "DELETE",
+      "path": "/public/api/v1/rotation/{id}",
+      "summary": "Delete Rotation.",
+      "tag": "RotationRotation",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "PATCH",
+      "path": "/public/api/v1/rotation/{id}",
+      "summary": "Restore Rotation.",
+      "tag": "RotationRotation",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "GET",
+      "path": "/public/api/v1/rotation/list/filtered",
+      "summary": "Get Rotation list filtered.",
+      "tag": "RotationRotation",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "PUT",
+      "path": "/public/api/v1/rotation/{id}/rename",
+      "summary": "Rename Rotation.",
+      "tag": "RotationRotation",
+      "source": "swagger_ui_extraction"
+    }
+  ],
+  "conversion": [
+    {
+      "method": "GET",
+      "path": "/public/api/v1/conversion/{id}/clone",
+      "summary": "Clone Conversion.",
+      "tag": "ConversionConversion",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "POST",
+      "path": "/public/api/v1/conversion",
+      "summary": "Create Conversion.",
+      "tag": "ConversionConversion",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "GET",
+      "path": "/public/api/v1/conversion/{id}",
+      "summary": "Get Conversion.",
+      "tag": "ConversionConversion",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "PUT",
+      "path": "/public/api/v1/conversion/{id}",
+      "summary": "Edit Conversion.",
+      "tag": "ConversionConversion",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "DELETE",
+      "path": "/public/api/v1/conversion/{id}",
+      "summary": "Delete Conversion.",
+      "tag": "ConversionConversion",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "PATCH",
+      "path": "/public/api/v1/conversion/{id}",
+      "summary": "Restore Conversion.",
+      "tag": "ConversionConversion",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "GET",
+      "path": "/public/api/v1/conversion/list/filtered",
+      "summary": "Get Conversion list filtered.",
+      "tag": "ConversionConversion",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "PUT",
+      "path": "/public/api/v1/conversion/{id}/rename",
+      "summary": "Rename Conversion.",
+      "tag": "ConversionConversion",
+      "source": "swagger_ui_extraction"
+    }
+  ],
+  "domain": [
+    {
+      "method": "GET",
+      "path": "/public/api/v1/domain/{id}/clone",
+      "summary": "Clone Domain.",
+      "tag": "DomainDomain",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "POST",
+      "path": "/public/api/v1/domain",
+      "summary": "Create Domain.",
+      "tag": "DomainDomain",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "GET",
+      "path": "/public/api/v1/domain/{id}",
+      "summary": "Get Domain.",
+      "tag": "DomainDomain",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "PUT",
+      "path": "/public/api/v1/domain/{id}",
+      "summary": "Edit Domain.",
+      "tag": "DomainDomain",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "DELETE",
+      "path": "/public/api/v1/domain/{id}",
+      "summary": "Delete Domain.",
+      "tag": "DomainDomain",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "PATCH",
+      "path": "/public/api/v1/domain/{id}",
+      "summary": "Restore Domain.",
+      "tag": "DomainDomain",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "GET",
+      "path": "/public/api/v1/domain/list/filtered",
+      "summary": "Get Domain list filtered.",
+      "tag": "DomainDomain",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "PUT",
+      "path": "/public/api/v1/domain/{id}/rename",
+      "summary": "Rename Domain.",
+      "tag": "DomainDomain",
+      "source": "swagger_ui_extraction"
+    }
+  ],
+  "group": [
+    {
+      "method": "GET",
+      "path": "/public/api/v1/group/{id}/clone",
+      "summary": "Clone Group.",
+      "tag": "GroupGroup",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "POST",
+      "path": "/public/api/v1/group",
+      "summary": "Create Group.",
+      "tag": "GroupGroup",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "GET",
+      "path": "/public/api/v1/group/{id}",
+      "summary": "Get Group.",
+      "tag": "GroupGroup",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "PUT",
+      "path": "/public/api/v1/group/{id}",
+      "summary": "Edit Group.",
+      "tag": "GroupGroup",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "DELETE",
+      "path": "/public/api/v1/group/{id}",
+      "summary": "Delete Group.",
+      "tag": "GroupGroup",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "PATCH",
+      "path": "/public/api/v1/group/{id}",
+      "summary": "Restore Group.",
+      "tag": "GroupGroup",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "GET",
+      "path": "/public/api/v1/group/list/filtered",
+      "summary": "Get Group list filtered.",
+      "tag": "GroupGroup",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "PUT",
+      "path": "/public/api/v1/group/{id}/rename",
+      "summary": "Rename Group.",
+      "tag": "GroupGroup",
+      "source": "swagger_ui_extraction"
+    }
+  ],
+  "landing": [
+    {
+      "method": "GET",
+      "path": "/public/api/v1/landing/{id}/clone",
+      "summary": "Clone Landing.",
+      "tag": "LandingLanding",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "POST",
+      "path": "/public/api/v1/landing",
+      "summary": "Create Landing.",
+      "tag": "LandingLanding",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "GET",
+      "path": "/public/api/v1/landing/{id}",
+      "summary": "Get Landing.",
+      "tag": "LandingLanding",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "PUT",
+      "path": "/public/api/v1/landing/{id}",
+      "summary": "Edit Landing.",
+      "tag": "LandingLanding",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "DELETE",
+      "path": "/public/api/v1/landing/{id}",
+      "summary": "Delete Landing.",
+      "tag": "LandingLanding",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "PATCH",
+      "path": "/public/api/v1/landing/{id}",
+      "summary": "Restore Landing.",
+      "tag": "LandingLanding",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "GET",
+      "path": "/public/api/v1/landing/list/filtered",
+      "summary": "Get Landing list filtered.",
+      "tag": "LandingLanding",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "PUT",
+      "path": "/public/api/v1/landing/{id}/rename",
+      "summary": "Rename Landing.",
+      "tag": "LandingLanding",
+      "source": "swagger_ui_extraction"
+    }
+  ],
+  "offer": [
+    {
+      "method": "GET",
+      "path": "/public/api/v1/offer/{id}/clone",
+      "summary": "Clone Offer.",
+      "tag": "OfferOffer",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "POST",
+      "path": "/public/api/v1/offer",
+      "summary": "Create Offer.",
+      "tag": "OfferOffer",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "GET",
+      "path": "/public/api/v1/offer/{id}",
+      "summary": "Get Offer.",
+      "tag": "OfferOffer",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "PUT",
+      "path": "/public/api/v1/offer/{id}",
+      "summary": "Edit Offer.",
+      "tag": "OfferOffer",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "DELETE",
+      "path": "/public/api/v1/offer/{id}",
+      "summary": "Delete Offer.",
+      "tag": "OfferOffer",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "PATCH",
+      "path": "/public/api/v1/offer/{id}",
+      "summary": "Restore Offer.",
+      "tag": "OfferOffer",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "GET",
+      "path": "/public/api/v1/offer/list/filtered",
+      "summary": "Get Offer list filtered.",
+      "tag": "OfferOffer",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "PUT",
+      "path": "/public/api/v1/offer/{id}/rename",
+      "summary": "Rename Offer.",
+      "tag": "OfferOffer",
+      "source": "swagger_ui_extraction"
+    }
+  ],
+  "traffic_source": [
+    {
+      "method": "GET",
+      "path": "/public/api/v1/traffic_source/{id}/clone",
+      "summary": "Clone Traffic Source.",
+      "tag": "TrafficSourceTrafficSource",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "POST",
+      "path": "/public/api/v1/traffic_source",
+      "summary": "Create Traffic Source.",
+      "tag": "TrafficSourceTrafficSource",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "GET",
+      "path": "/public/api/v1/traffic_source/{id}",
+      "summary": "Get Traffic Source.",
+      "tag": "TrafficSourceTrafficSource",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "PUT",
+      "path": "/public/api/v1/traffic_source/{id}",
+      "summary": "Edit Traffic Source.",
+      "tag": "TrafficSourceTrafficSource",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "DELETE",
+      "path": "/public/api/v1/traffic_source/{id}",
+      "summary": "Delete Traffic Source.",
+      "tag": "TrafficSourceTrafficSource",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "PATCH",
+      "path": "/public/api/v1/traffic_source/{id}",
+      "summary": "Restore Traffic Source.",
+      "tag": "TrafficSourceTrafficSource",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "GET",
+      "path": "/public/api/v1/traffic_source/list/filtered",
+      "summary": "Get Traffic Source list filtered.",
+      "tag": "TrafficSourceTrafficSource",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "GET",
+      "path": "/public/api/v1/traffic_source_templates",
+      "summary": "Get Traffic Source Templates.",
+      "tag": "TrafficSourceTrafficSource",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "PUT",
+      "path": "/public/api/v1/traffic_source/{id}/rename",
+      "summary": "Rename Traffic Source.",
+      "tag": "TrafficSourceTrafficSource",
+      "source": "swagger_ui_extraction"
+    }
+  ],
+  "trends": [
+    {
+      "method": "GET",
+      "path": "/public/api/v1/trends",
+      "summary": "Get Trends.",
+      "tag": "TrendsTrends",
+      "source": "swagger_ui_extraction"
+    }
+  ],
+  "user": [
+    {
+      "method": "PUT",
+      "path": "/public/api/v1/user/change_login",
+      "summary": "Change User Login.",
+      "tag": "UserUser",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "PUT",
+      "path": "/public/api/v1/user/change_password",
+      "summary": "Change User Password.",
+      "tag": "UserUser",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "POST",
+      "path": "/public/api/v1/user/create",
+      "summary": "Create User",
+      "tag": "UserUser",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "DELETE",
+      "path": "/public/api/v1/user/{userId}",
+      "summary": "Delete User.",
+      "tag": "UserUser",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "GET",
+      "path": "/public/api/v1/user/{adminId}/can_create_users",
+      "summary": "Get information about admin's ability to create users",
+      "tag": "UserUser",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "PUT",
+      "path": "/public/api/v1/user/{adminId}/can_create_users",
+      "summary": "Set if admin can create another users.",
+      "tag": "UserUser",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "GET",
+      "path": "/public/api/v1/user/{userId}/hide_profit",
+      "summary": "HideProfit Info.",
+      "tag": "UserUser",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "PUT",
+      "path": "/public/api/v1/user/{userId}/hide_profit",
+      "summary": "Edit User HideProfit.",
+      "tag": "UserUser",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "PUT",
+      "path": "/public/api/v1/user/{userId}/permissions",
+      "summary": "Edit User Permissions.",
+      "tag": "UserUser",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "PUT",
+      "path": "/public/api/v1/user/{userId}/edit",
+      "summary": "Edit User.",
+      "tag": "UserUser",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "GET",
+      "path": "/public/api/v1/user/log",
+      "summary": "Get Users Events log.",
+      "tag": "UserUser",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "GET",
+      "path": "/public/api/v1/user/log/types",
+      "summary": "Get Users Events log.",
+      "tag": "UserUser",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "POST",
+      "path": "/public/api/v1/user/2fa/disable",
+      "summary": "Disable two-factor verification for current user",
+      "tag": "UserUser",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "POST",
+      "path": "/public/api/v1/user/2fa/enable",
+      "summary": "Enable two-factor verification for current user",
+      "tag": "UserUser",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "PUT",
+      "path": "/public/api/v1/user/2fa/secret/generate",
+      "summary": "Generate two-factor secrets for current user, when two-factor authentication is disabled",
+      "tag": "UserUser",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "GET",
+      "path": "/public/api/v1/user/2fa/status",
+      "summary": "Get information about if two-factor verification enabled for current user",
+      "tag": "UserUser",
+      "source": "swagger_ui_extraction"
+    }
+  ],
+  "user_access": [
+    {
+      "method": "GET",
+      "path": "/public/api/v1/user/{adminId}/accessible-users",
+      "summary": "Accessible Users of Admin.",
+      "tag": "UserAccessUserAccess",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "POST",
+      "path": "/public/api/v1/user/{adminId}/accessible-users",
+      "summary": "Set Accessible Users for Admin.",
+      "tag": "UserAccessUserAccess",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "GET",
+      "path": "/public/api/v1/users/accessible",
+      "summary": "Accessible Users.",
+      "tag": "UserAccessUserAccess",
+      "source": "swagger_ui_extraction"
+    }
+  ],
+  "auth": [
+    {
+      "method": "GET",
+      "path": "/public/api/v1/user/role",
+      "summary": "User Role.",
+      "tag": "AuthorizationSubjectAuthorizationSubject",
+      "source": "swagger_ui_extraction"
+    },
+    {
+      "method": "POST",
+      "path": "/public/api/v1/user/logout",
+      "summary": "User Logout.",
+      "tag": "AuthAuth",
+      "source": "swagger_ui_extraction"
+    }
+  ]
+}
