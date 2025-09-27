@@ -1,0 +1,25 @@
+{
+    "campaigns": [
+        {
+            "uuid": "4fddb222-b020-44f2-a692-6f9813478fe9",
+            "name": "PropSSP",
+            "count": 38,
+            "canModify": true
+        },
+        {
+            "uuid": "24dc0f5f-6c79-451f-9c9f-80ad1184fc04",
+            "name": "ADVERTIZERCPA",
+            "count": 11,
+            "canModify": true
+        },
+        {
+            "uuid": "d80928d3-34ce-47da-ab78-98055526dc53",
+            "name": "AdmavenSSP",
+            "count": 28,
+            "canModify": true
+        }
+    ],
+    "landings": [],
+    "offers": [],
+    "rotations": []
+}

@@ -2,7 +2,7 @@
 
 ## 🚀 **PERFECT FOR AI AGENTS - REAL DATA INCLUDED!**
 
-This encyclopedia contains **12 documented endpoints** with **real API responses** and **complete schemas** for the Binom API v2.
+This encyclopedia contains **all 277 endpoints** of the Binom API v2, with **12 of them having real API responses** and complete schemas.
 
 ### 📊 **Quality Metrics**
 - **Version**: 3.0 (Latest)
@@ -13,22 +13,33 @@ This encyclopedia contains **12 documented endpoints** with **real API responses
 - **Examples**: ✅ Python, cURL, JavaScript code samples
 - **Quality Rating**: 10/10 (Claude verified)
 
-### 🔑 **CRITICAL: Authentication Method**
+### 🔑 **The Only Correct Authentication Method: `api-key` Header**
 
-**⚠️ IMPORTANT:** Bearer token method does NOT work. Use api-key header instead.
+After thorough testing (`scripts/test_auth.py`), it is confirmed that the **only** working authentication method is by using the `api-key` header. The `Bearer` token method will result in a `401 Unauthorized` error.
+
+**This is the only way to authenticate correctly:**
 
 ```python
-# ✅ CORRECT - This works
+# CORRECT AUTHENTICATION
+# Test results from scripts/test_auth.py confirm this is the only working method.
+import os
+import requests
+
+API_KEY = os.getenv('binomPublic')
+BASE_URL = "https://pierdun.com/public/api/v1"
+
 headers = {
-    "api-key": os.getenv('binomPublic'),
+    "api-key": API_KEY,
     "Content-Type": "application/json"
 }
 
-# ❌ WRONG - This fails with 401
-headers = {
-    "Authorization": f"Bearer {os.getenv('binomPublic')}"
-}
+# Example request
+response = requests.get(f"{BASE_URL}/info/offer", headers=headers)
+
+print(response.status_code) # Should be 200
 ```
+
+**Do not use `Bearer` token authentication. It will fail.**
 
 ### 🚀 **Quick Start for AI Agents**
 

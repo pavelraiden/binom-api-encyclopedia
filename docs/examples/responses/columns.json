@@ -1,0 +1,1630 @@
+{
+    "default": [
+        {
+            "uuid": "7c8ede17-cfac-4549-8bd3-a063c077544b",
+            "key": "adspect_bots",
+            "name": "Bots Adspect",
+            "formula": "",
+            "decimals": 0,
+            "format": "def",
+            "viewOnPage": {
+                "uuid": "47fdf6a6-265c-4292-a340-256b997d87cf",
+                "columnUuid": "7c8ede17-cfac-4549-8bd3-a063c077544b",
+                "availablePages": [
+                    "campaigns",
+                    "landings",
+                    "offers",
+                    "rotations",
+                    "affiliateNetworks",
+                    "trafficSource",
+                    "report"
+                ],
+                "selectedPages": []
+            },
+            "position": 99999,
+            "originalPosition": 20
+        },
+        {
+            "uuid": "87a6df62-4805-11f0-9a7d-0242ac141403",
+            "key": "id",
+            "name": "ID",
+            "formula": "",
+            "decimals": null,
+            "format": null,
+            "viewOnPage": {
+                "uuid": "3be59b3b-08b6-42dc-a377-c511c478f25b",
+                "columnUuid": "87a6df62-4805-11f0-9a7d-0242ac141403",
+                "availablePages": [
+                    "campaigns",
+                    "landings",
+                    "offers",
+                    "rotations",
+                    "affiliateNetworks",
+                    "trafficSource"
+                ],
+                "selectedPages": [
+                    "campaigns",
+                    "report",
+                    "landings",
+                    "offers",
+                    "rotations",
+                    "affiliateNetworks",
+                    "trafficSource",
+                    "trends"
+                ]
+            },
+            "position": 99999,
+            "originalPosition": 0
+        },
+        {
+            "uuid": "87a6f29a-4805-11f0-8850-0242ac141403",
+            "key": "country",
+            "name": "Country",
+            "formula": "",
+            "decimals": null,
+            "format": null,
+            "viewOnPage": {
+                "uuid": "42059962-2fd1-4352-979e-87824569c195",
+                "columnUuid": "87a6f29a-4805-11f0-8850-0242ac141403",
+                "availablePages": [
+                    "offers"
+                ],
+                "selectedPages": [
+                    "offers"
+                ]
+            },
+            "position": 99999,
+            "originalPosition": 1
+        },
+        {
+            "uuid": "87a6f2fe-4805-11f0-b97d-0242ac141403",
+            "key": "language",
+            "name": "Language",
+            "formula": "",
+            "decimals": null,
+            "format": null,
+            "viewOnPage": {
+                "uuid": "7f4e2c60-0eeb-44f3-9588-ee23553f75b4",
+                "columnUuid": "87a6f2fe-4805-11f0-b97d-0242ac141403",
+                "availablePages": [
+                    "landings"
+                ],
+                "selectedPages": [
+                    "landings"
+                ]
+            },
+            "position": 99999,
+            "originalPosition": 2
+        },
+        {
+            "uuid": "87a6f33a-4805-11f0-b505-0242ac141403",
+            "key": "name",
+            "name": "Name",
+            "formula": "",
+            "decimals": null,
+            "format": null,
+            "viewOnPage": {
+                "uuid": "d440637c-0f4b-4c99-bc40-b312fd2c563d",
+                "columnUuid": "87a6f33a-4805-11f0-b505-0242ac141403",
+                "availablePages": [
+                    "campaigns",
+                    "report",
+                    "landings",
+                    "offers",
+                    "rotations",
+                    "affiliateNetworks",
+                    "trafficSource",
+                    "trends"
+                ],
+                "selectedPages": [
+                    "campaigns",
+                    "report",
+                    "landings",
+                    "offers",
+                    "rotations",
+                    "affiliateNetworks",
+                    "trafficSource",
+                    "trends"
+                ]
+            },
+            "position": 99999,
+            "originalPosition": 3
+        },
+        {
+            "uuid": "87a6f36c-4805-11f0-816f-0242ac141403",
+            "key": "md5_name",
+            "name": "MD5 Name",
+            "formula": "",
+            "decimals": null,
+            "format": null,
+            "viewOnPage": {
+                "uuid": "47e327b5-20f3-49f2-816b-ad69afb985c9",
+                "columnUuid": "87a6f36c-4805-11f0-816f-0242ac141403",
+                "availablePages": [
+                    "report"
+                ],
+                "selectedPages": []
+            },
+            "position": 99999,
+            "originalPosition": 4
+        },
+        {
+            "uuid": "87a6f39e-4805-11f0-942c-0242ac141403",
+            "key": "offers",
+            "name": "Offers",
+            "formula": "",
+            "decimals": null,
+            "format": null,
+            "viewOnPage": {
+                "uuid": "68b42e74-2d02-4528-b8a6-81fd6ac5bf6c",
+                "columnUuid": "87a6f39e-4805-11f0-942c-0242ac141403",
+                "availablePages": [
+                    "campaigns",
+                    "rotations",
+                    "affiliateNetworks"
+                ],
+                "selectedPages": [
+                    "affiliateNetworks"
+                ]
+            },
+            "position": 99999,
+            "originalPosition": 5
+        },
+        {
+            "uuid": "87a6f3d0-4805-11f0-a100-0242ac141403",
+            "key": "campaigns",
+            "name": "Campaigns",
+            "formula": "",
+            "decimals": null,
+            "format": null,
+            "viewOnPage": {
+                "uuid": "ae0a84c9-1982-4778-a531-85b761511252",
+                "columnUuid": "87a6f3d0-4805-11f0-a100-0242ac141403",
+                "availablePages": [
+                    "rotations",
+                    "trafficSource"
+                ],
+                "selectedPages": [
+                    "affiliateNetworks"
+                ]
+            },
+            "position": 99999,
+            "originalPosition": 6
+        },
+        {
+            "uuid": "87a6f402-4805-11f0-83ac-0242ac141403",
+            "key": "group_name",
+            "name": "Group",
+            "formula": "",
+            "decimals": null,
+            "format": null,
+            "viewOnPage": {
+                "uuid": "6b541ba7-9a18-4ad2-9ee5-936069429e78",
+                "columnUuid": "87a6f402-4805-11f0-83ac-0242ac141403",
+                "availablePages": [
+                    "campaigns",
+                    "landings",
+                    "offers",
+                    "rotations"
+                ],
+                "selectedPages": [
+                    "campaigns",
+                    "landings",
+                    "offers",
+                    "rotations"
+                ]
+            },
+            "position": 99999,
+            "originalPosition": 7
+        },
+        {
+            "uuid": "87a6f42a-4805-11f0-b861-0242ac141403",
+            "key": "paths",
+            "name": "Paths",
+            "formula": "",
+            "decimals": 0,
+            "format": "def",
+            "viewOnPage": {
+                "uuid": "f32a5c38-71eb-42d8-8d45-e65e1048b70a",
+                "columnUuid": "87a6f42a-4805-11f0-b861-0242ac141403",
+                "availablePages": [
+                    "campaigns",
+                    "rotations"
+                ],
+                "selectedPages": []
+            },
+            "position": 99999,
+            "originalPosition": 8
+        },
+        {
+            "uuid": "87a6f45c-4805-11f0-8e1c-0242ac141403",
+            "key": "rules",
+            "name": "Rules",
+            "formula": "",
+            "decimals": 0,
+            "format": "def",
+            "viewOnPage": {
+                "uuid": "41b4c57b-9e52-4c48-ad2f-571521778f45",
+                "columnUuid": "87a6f45c-4805-11f0-8e1c-0242ac141403",
+                "availablePages": [
+                    "campaigns",
+                    "rotations"
+                ],
+                "selectedPages": []
+            },
+            "position": 99999,
+            "originalPosition": 9
+        },
+        {
+            "uuid": "87a6f48e-4805-11f0-98db-0242ac141403",
+            "key": "landers",
+            "name": "Landers",
+            "formula": "",
+            "decimals": 0,
+            "format": "def",
+            "viewOnPage": {
+                "uuid": "94576e91-75de-452d-866e-8ac2094c2478",
+                "columnUuid": "87a6f48e-4805-11f0-98db-0242ac141403",
+                "availablePages": [
+                    "campaigns",
+                    "rotations"
+                ],
+                "selectedPages": []
+            },
+            "position": 99999,
+            "originalPosition": 10
+        },
+        {
+            "uuid": "87a6f4b6-4805-11f0-9d5e-0242ac141403",
+            "key": "traffic_source",
+            "name": "Traffic Source",
+            "formula": "",
+            "decimals": null,
+            "format": null,
+            "viewOnPage": {
+                "uuid": "d9683fcb-f53e-4bab-9b2b-39cb444a2ac4",
+                "columnUuid": "87a6f4b6-4805-11f0-9d5e-0242ac141403",
+                "availablePages": [
+                    "campaigns"
+                ],
+                "selectedPages": [
+                    "campaigns"
+                ]
+            },
+            "position": 99999,
+            "originalPosition": 11
+        },
+        {
+            "uuid": "87a6f4e8-4805-11f0-86bb-0242ac141403",
+            "key": "affiliate_network",
+            "name": "Network",
+            "formula": "",
+            "decimals": null,
+            "format": null,
+            "viewOnPage": {
+                "uuid": "d8efa02a-c3c5-4561-9b5d-95f670bf494a",
+                "columnUuid": "87a6f4e8-4805-11f0-86bb-0242ac141403",
+                "availablePages": [
+                    "offers"
+                ],
+                "selectedPages": [
+                    "offers"
+                ]
+            },
+            "position": 99999,
+            "originalPosition": 12
+        },
+        {
+            "uuid": "87a6f51a-4805-11f0-b460-0242ac141403",
+            "key": "clicks",
+            "name": "Clicks",
+            "formula": "",
+            "decimals": 0,
+            "format": "def",
+            "viewOnPage": {
+                "uuid": "5a574359-fa13-41ae-821f-08964855bd71",
+                "columnUuid": "87a6f51a-4805-11f0-b460-0242ac141403",
+                "availablePages": [
+                    "campaigns",
+                    "report",
+                    "landings",
+                    "offers",
+                    "rotations",
+                    "affiliateNetworks",
+                    "trafficSource",
+                    "trends"
+                ],
+                "selectedPages": [
+                    "campaigns",
+                    "report",
+                    "landings",
+                    "offers",
+                    "rotations",
+                    "affiliateNetworks",
+                    "trafficSource",
+                    "trends"
+                ]
+            },
+            "position": 99999,
+            "originalPosition": 13
+        },
+        {
+            "uuid": "87a6f542-4805-11f0-b7cc-0242ac141403",
+            "key": "lander_views",
+            "name": "LP Views",
+            "formula": "",
+            "decimals": 0,
+            "format": "def",
+            "viewOnPage": {
+                "uuid": "c7268a31-f390-4370-8f50-51c6ee2bed4f",
+                "columnUuid": "87a6f542-4805-11f0-b7cc-0242ac141403",
+                "availablePages": [
+                    "campaigns",
+                    "report",
+                    "landings",
+                    "offers",
+                    "rotations",
+                    "affiliateNetworks",
+                    "trafficSource",
+                    "trends"
+                ],
+                "selectedPages": []
+            },
+            "position": 99999,
+            "originalPosition": 14
+        },
+        {
+            "uuid": "87a6f574-4805-11f0-8b1d-0242ac141403",
+            "key": "lander_clicks",
+            "name": "LP Clicks",
+            "formula": "",
+            "decimals": 0,
+            "format": "def",
+            "viewOnPage": {
+                "uuid": "0fa04bbe-c314-4d21-82fc-d676d9ee3bbc",
+                "columnUuid": "87a6f574-4805-11f0-8b1d-0242ac141403",
+                "availablePages": [
+                    "campaigns",
+                    "report",
+                    "landings",
+                    "offers",
+                    "rotations",
+                    "affiliateNetworks",
+                    "trafficSource",
+                    "trends"
+                ],
+                "selectedPages": [
+                    "report"
+                ]
+            },
+            "position": 99999,
+            "originalPosition": 15
+        },
+        {
+            "uuid": "87a6f59c-4805-11f0-876b-0242ac141403",
+            "key": "lander_ctr",
+            "name": "LP CTR",
+            "formula": "",
+            "decimals": 2,
+            "format": "%",
+            "viewOnPage": {
+                "uuid": "19ff09aa-8957-4a09-ab07-d25a262a5b4e",
+                "columnUuid": "87a6f59c-4805-11f0-876b-0242ac141403",
+                "availablePages": [
+                    "campaigns",
+                    "report",
+                    "landings",
+                    "offers",
+                    "rotations",
+                    "affiliateNetworks",
+                    "trafficSource",
+                    "trends"
+                ],
+                "selectedPages": [
+                    "campaigns",
+                    "report",
+                    "landings",
+                    "offers",
+                    "rotations"
+                ]
+            },
+            "position": 99999,
+            "originalPosition": 16
+        },
+        {
+            "uuid": "87a6f5ce-4805-11f0-92e8-0242ac141403",
+            "key": "leads",
+            "name": "Leads",
+            "formula": "",
+            "decimals": 0,
+            "format": "def",
+            "viewOnPage": {
+                "uuid": "268e6ad1-98e2-472b-a539-707b206566f6",
+                "columnUuid": "87a6f5ce-4805-11f0-92e8-0242ac141403",
+                "availablePages": [
+                    "campaigns",
+                    "report",
+                    "landings",
+                    "offers",
+                    "rotations",
+                    "affiliateNetworks",
+                    "trafficSource",
+                    "trends"
+                ],
+                "selectedPages": [
+                    "campaigns",
+                    "report",
+                    "landings",
+                    "offers",
+                    "rotations",
+                    "affiliateNetworks",
+                    "trafficSource",
+                    "trends"
+                ]
+            },
+            "position": 99999,
+            "originalPosition": 17
+        },
+        {
+            "uuid": "87a6f5f6-4805-11f0-9071-0242ac141403",
+            "key": "cr",
+            "name": "CR",
+            "formula": "",
+            "decimals": 2,
+            "format": "%",
+            "viewOnPage": {
+                "uuid": "3ee76b4a-5d9c-4280-a655-e3e667222991",
+                "columnUuid": "87a6f5f6-4805-11f0-9071-0242ac141403",
+                "availablePages": [
+                    "campaigns",
+                    "report",
+                    "landings",
+                    "offers",
+                    "rotations",
+                    "affiliateNetworks",
+                    "trafficSource",
+                    "trends"
+                ],
+                "selectedPages": [
+                    "campaigns",
+                    "report",
+                    "landings",
+                    "offers",
+                    "rotations",
+                    "affiliateNetworks",
+                    "trafficSource",
+                    "trends"
+                ]
+            },
+            "position": 99999,
+            "originalPosition": 18
+        },
+        {
+            "uuid": "87a6f628-4805-11f0-b0fc-0242ac141403",
+            "key": "bots",
+            "name": "Bots",
+            "formula": "",
+            "decimals": 0,
+            "format": "def",
+            "viewOnPage": {
+                "uuid": "64206972-50a6-4f90-80da-1b2c75db2f0e",
+                "columnUuid": "87a6f628-4805-11f0-b0fc-0242ac141403",
+                "availablePages": [
+                    "campaigns",
+                    "landings",
+                    "offers",
+                    "rotations",
+                    "affiliateNetworks",
+                    "trafficSource",
+                    "report"
+                ],
+                "selectedPages": [
+                    "campaigns",
+                    "report",
+                    "landings",
+                    "offers",
+                    "rotations",
+                    "affiliateNetworks",
+                    "trafficSource",
+                    "trends"
+                ]
+            },
+            "position": 99999,
+            "originalPosition": 19
+        },
+        {
+            "uuid": "87a6f65a-4805-11f0-a418-0242ac141403",
+            "key": "epc",
+            "name": "EPC",
+            "formula": "",
+            "decimals": 5,
+            "format": "$",
+            "viewOnPage": {
+                "uuid": "ea161d0d-f7ad-4cad-9754-82d12a13d1c3",
+                "columnUuid": "87a6f65a-4805-11f0-a418-0242ac141403",
+                "availablePages": [
+                    "campaigns",
+                    "report",
+                    "landings",
+                    "offers",
+                    "rotations",
+                    "affiliateNetworks",
+                    "trafficSource",
+                    "trends"
+                ],
+                "selectedPages": [
+                    "campaigns",
+                    "report",
+                    "landings",
+                    "offers",
+                    "rotations",
+                    "affiliateNetworks",
+                    "trafficSource",
+                    "trends"
+                ]
+            },
+            "position": 99999,
+            "originalPosition": 23
+        },
+        {
+            "uuid": "87a6f682-4805-11f0-9e5b-0242ac141403",
+            "key": "cpc",
+            "name": "CPC",
+            "formula": "",
+            "decimals": 5,
+            "format": "$",
+            "viewOnPage": {
+                "uuid": "697444b3-a07d-4b22-b6ba-23d258ff2d33",
+                "columnUuid": "87a6f682-4805-11f0-9e5b-0242ac141403",
+                "availablePages": [
+                    "campaigns",
+                    "report",
+                    "landings",
+                    "offers",
+                    "rotations",
+                    "affiliateNetworks",
+                    "trafficSource",
+                    "trends"
+                ],
+                "selectedPages": [
+                    "campaigns",
+                    "report",
+                    "landings",
+                    "offers",
+                    "rotations",
+                    "affiliateNetworks",
+                    "trafficSource",
+                    "trends"
+                ]
+            },
+            "position": 99999,
+            "originalPosition": 24
+        },
+        {
+            "uuid": "87a6f6aa-4805-11f0-b3fc-0242ac141403",
+            "key": "revenue",
+            "name": "Revenue",
+            "formula": "",
+            "decimals": 2,
+            "format": "$",
+            "viewOnPage": {
+                "uuid": "027aae11-589d-47ef-838e-ee641a8a87a9",
+                "columnUuid": "87a6f6aa-4805-11f0-b3fc-0242ac141403",
+                "availablePages": [
+                    "campaigns",
+                    "report",
+                    "landings",
+                    "offers",
+                    "rotations",
+                    "affiliateNetworks",
+                    "trafficSource",
+                    "trends"
+                ],
+                "selectedPages": [
+                    "campaigns",
+                    "report",
+                    "landings",
+                    "offers",
+                    "rotations",
+                    "affiliateNetworks",
+                    "trafficSource",
+                    "trends"
+                ]
+            },
+            "position": 99999,
+            "originalPosition": 25
+        },
+        {
+            "uuid": "87a6f6dc-4805-11f0-800a-0242ac141403",
+            "key": "cost",
+            "name": "Cost",
+            "formula": "",
+            "decimals": 2,
+            "format": "$",
+            "viewOnPage": {
+                "uuid": "f7022a94-c2c0-4032-b22c-544a29c2fa3c",
+                "columnUuid": "87a6f6dc-4805-11f0-800a-0242ac141403",
+                "availablePages": [
+                    "campaigns",
+                    "report",
+                    "landings",
+                    "offers",
+                    "rotations",
+                    "affiliateNetworks",
+                    "trafficSource",
+                    "trends"
+                ],
+                "selectedPages": [
+                    "campaigns",
+                    "report",
+                    "landings",
+                    "offers",
+                    "rotations",
+                    "affiliateNetworks",
+                    "trafficSource",
+                    "trends"
+                ]
+            },
+            "position": 99999,
+            "originalPosition": 26
+        },
+        {
+            "uuid": "87a6f704-4805-11f0-ab40-0242ac141403",
+            "key": "profit",
+            "name": "Profit",
+            "formula": "",
+            "decimals": 2,
+            "format": "$",
+            "viewOnPage": {
+                "uuid": "8ed327e6-fd66-4f2b-9f76-54e2b58fb2f9",
+                "columnUuid": "87a6f704-4805-11f0-ab40-0242ac141403",
+                "availablePages": [
+                    "campaigns",
+                    "report",
+                    "landings",
+                    "offers",
+                    "rotations",
+                    "affiliateNetworks",
+                    "trafficSource",
+                    "trends"
+                ],
+                "selectedPages": [
+                    "campaigns",
+                    "report",
+                    "landings",
+                    "offers",
+                    "rotations",
+                    "affiliateNetworks",
+                    "trafficSource",
+                    "trends"
+                ]
+            },
+            "position": 99999,
+            "originalPosition": 27
+        },
+        {
+            "uuid": "87a6f736-4805-11f0-9296-0242ac141403",
+            "key": "roi",
+            "name": "ROI",
+            "formula": "",
+            "decimals": 2,
+            "format": "%",
+            "viewOnPage": {
+                "uuid": "8435d34f-8087-4b0b-bf3b-4cde240fa83c",
+                "columnUuid": "87a6f736-4805-11f0-9296-0242ac141403",
+                "availablePages": [
+                    "campaigns",
+                    "report",
+                    "landings",
+                    "offers",
+                    "rotations",
+                    "affiliateNetworks",
+                    "trafficSource",
+                    "trends"
+                ],
+                "selectedPages": [
+                    "campaigns",
+                    "report",
+                    "landings",
+                    "offers",
+                    "rotations",
+                    "affiliateNetworks",
+                    "trafficSource",
+                    "trends"
+                ]
+            },
+            "position": 99999,
+            "originalPosition": 28
+        },
+        {
+            "uuid": "87a6f75e-4805-11f0-8a67-0242ac141403",
+            "key": "unique_clicks",
+            "name": "Unique Clicks",
+            "formula": "",
+            "decimals": 0,
+            "format": "def",
+            "viewOnPage": {
+                "uuid": "5576d7bb-6f80-4227-bd59-13c1b123b151",
+                "columnUuid": "87a6f75e-4805-11f0-8a67-0242ac141403",
+                "availablePages": [
+                    "campaigns",
+                    "report",
+                    "landings",
+                    "offers",
+                    "rotations",
+                    "affiliateNetworks",
+                    "trafficSource",
+                    "trends"
+                ],
+                "selectedPages": []
+            },
+            "position": 99999,
+            "originalPosition": 29
+        },
+        {
+            "uuid": "87a6f790-4805-11f0-8650-0242ac141403",
+            "key": "unique_campaign_clicks",
+            "name": "Unique Clicks (Campaign)",
+            "formula": "",
+            "decimals": 0,
+            "format": "def",
+            "viewOnPage": {
+                "uuid": "f07ee82d-74cf-47a2-b4e7-8d7b3d240e5e",
+                "columnUuid": "87a6f790-4805-11f0-8650-0242ac141403",
+                "availablePages": [
+                    "campaigns",
+                    "report",
+                    "landings",
+                    "offers",
+                    "rotations",
+                    "affiliateNetworks",
+                    "trafficSource",
+                    "trends"
+                ],
+                "selectedPages": []
+            },
+            "position": 99999,
+            "originalPosition": 30
+        },
+        {
+            "uuid": "87a6f7b8-4805-11f0-846c-0242ac141403",
+            "key": "conversion_cap",
+            "name": "Conversion Cap",
+            "formula": "",
+            "decimals": null,
+            "format": null,
+            "viewOnPage": {
+                "uuid": "f8c3f74d-7f47-4744-9f4e-9d4843af18c4",
+                "columnUuid": "87a6f7b8-4805-11f0-846c-0242ac141403",
+                "availablePages": [
+                    "offers"
+                ],
+                "selectedPages": []
+            },
+            "position": 99999,
+            "originalPosition": 31
+        },
+        {
+            "uuid": "87a6f7ea-4805-11f0-ab63-0242ac141403",
+            "key": "tags",
+            "name": "Tags",
+            "formula": "",
+            "decimals": null,
+            "format": null,
+            "viewOnPage": {
+                "uuid": "2add6f16-ab2c-4e71-b097-4d36fb34a35b",
+                "columnUuid": "87a6f7ea-4805-11f0-ab63-0242ac141403",
+                "availablePages": [
+                    "campaigns",
+                    "landings",
+                    "offers",
+                    "rotations",
+                    "affiliateNetworks",
+                    "trafficSource"
+                ],
+                "selectedPages": []
+            },
+            "position": 99999,
+            "originalPosition": 32
+        },
+        {
+            "uuid": "87a6f812-4805-11f0-80d3-0242ac141403",
+            "key": "event_1",
+            "name": "Event 1",
+            "formula": "",
+            "decimals": 2,
+            "format": "def",
+            "viewOnPage": {
+                "uuid": "9b87e618-dfa3-4d6e-8558-4b6092dc5e30",
+                "columnUuid": "87a6f812-4805-11f0-80d3-0242ac141403",
+                "availablePages": [
+                    "campaigns",
+                    "report",
+                    "landings",
+                    "offers",
+                    "rotations",
+                    "affiliateNetworks",
+                    "trafficSource",
+                    "trends"
+                ],
+                "selectedPages": []
+            },
+            "position": 99999,
+            "originalPosition": 33
+        },
+        {
+            "uuid": "87a6f844-4805-11f0-96d1-0242ac141403",
+            "key": "event_2",
+            "name": "Event 2",
+            "formula": "",
+            "decimals": 2,
+            "format": "def",
+            "viewOnPage": {
+                "uuid": "f5143da9-0fb0-4279-b7ca-9e8458cc8936",
+                "columnUuid": "87a6f844-4805-11f0-96d1-0242ac141403",
+                "availablePages": [
+                    "campaigns",
+                    "report",
+                    "landings",
+                    "offers",
+                    "rotations",
+                    "affiliateNetworks",
+                    "trafficSource",
+                    "trends"
+                ],
+                "selectedPages": []
+            },
+            "position": 99999,
+            "originalPosition": 34
+        },
+        {
+            "uuid": "87a6f86c-4805-11f0-9858-0242ac141403",
+            "key": "event_3",
+            "name": "Event 3",
+            "formula": "",
+            "decimals": 2,
+            "format": "def",
+            "viewOnPage": {
+                "uuid": "d7789726-e08e-4422-b202-96f858b3c864",
+                "columnUuid": "87a6f86c-4805-11f0-9858-0242ac141403",
+                "availablePages": [
+                    "campaigns",
+                    "report",
+                    "landings",
+                    "offers",
+                    "rotations",
+                    "affiliateNetworks",
+                    "trafficSource",
+                    "trends"
+                ],
+                "selectedPages": []
+            },
+            "position": 99999,
+            "originalPosition": 35
+        },
+        {
+            "uuid": "87a6f894-4805-11f0-9426-0242ac141403",
+            "key": "event_4",
+            "name": "Event 4",
+            "formula": "",
+            "decimals": 2,
+            "format": "def",
+            "viewOnPage": {
+                "uuid": "135f18ad-7623-4a48-a254-1eed3de662ce",
+                "columnUuid": "87a6f894-4805-11f0-9426-0242ac141403",
+                "availablePages": [
+                    "campaigns",
+                    "report",
+                    "landings",
+                    "offers",
+                    "rotations",
+                    "affiliateNetworks",
+                    "trafficSource",
+                    "trends"
+                ],
+                "selectedPages": []
+            },
+            "position": 99999,
+            "originalPosition": 36
+        },
+        {
+            "uuid": "87a6f8bc-4805-11f0-b5b2-0242ac141403",
+            "key": "event_5",
+            "name": "Event 5",
+            "formula": "",
+            "decimals": 2,
+            "format": "def",
+            "viewOnPage": {
+                "uuid": "9bc4b577-4e93-45ee-a493-42b55f20d780",
+                "columnUuid": "87a6f8bc-4805-11f0-b5b2-0242ac141403",
+                "availablePages": [
+                    "campaigns",
+                    "report",
+                    "landings",
+                    "offers",
+                    "rotations",
+                    "affiliateNetworks",
+                    "trafficSource",
+                    "trends"
+                ],
+                "selectedPages": []
+            },
+            "position": 99999,
+            "originalPosition": 37
+        },
+        {
+            "uuid": "87a6f8ee-4805-11f0-92e0-0242ac141403",
+            "key": "event_6",
+            "name": "Event 6",
+            "formula": "",
+            "decimals": 2,
+            "format": "def",
+            "viewOnPage": {
+                "uuid": "02115d00-b4cf-42bf-827e-3ef6e9f40c4c",
+                "columnUuid": "87a6f8ee-4805-11f0-92e0-0242ac141403",
+                "availablePages": [
+                    "campaigns",
+                    "report",
+                    "landings",
+                    "offers",
+                    "rotations",
+                    "affiliateNetworks",
+                    "trafficSource",
+                    "trends"
+                ],
+                "selectedPages": []
+            },
+            "position": 99999,
+            "originalPosition": 38
+        },
+        {
+            "uuid": "87a6f916-4805-11f0-b181-0242ac141403",
+            "key": "event_7",
+            "name": "Event 7",
+            "formula": "",
+            "decimals": 2,
+            "format": "def",
+            "viewOnPage": {
+                "uuid": "cb637bfb-b661-4489-968d-de04b82b85eb",
+                "columnUuid": "87a6f916-4805-11f0-b181-0242ac141403",
+                "availablePages": [
+                    "campaigns",
+                    "report",
+                    "landings",
+                    "offers",
+                    "rotations",
+                    "affiliateNetworks",
+                    "trafficSource",
+                    "trends"
+                ],
+                "selectedPages": []
+            },
+            "position": 99999,
+            "originalPosition": 39
+        },
+        {
+            "uuid": "87a6f948-4805-11f0-90b5-0242ac141403",
+            "key": "event_8",
+            "name": "Event 8",
+            "formula": "",
+            "decimals": 2,
+            "format": "def",
+            "viewOnPage": {
+                "uuid": "1286d3e9-1bea-4b6d-84f7-43fbfb9d97b5",
+                "columnUuid": "87a6f948-4805-11f0-90b5-0242ac141403",
+                "availablePages": [
+                    "campaigns",
+                    "report",
+                    "landings",
+                    "offers",
+                    "rotations",
+                    "affiliateNetworks",
+                    "trafficSource",
+                    "trends"
+                ],
+                "selectedPages": []
+            },
+            "position": 99999,
+            "originalPosition": 40
+        },
+        {
+            "uuid": "87a6f970-4805-11f0-a1a2-0242ac141403",
+            "key": "event_9",
+            "name": "Event 9",
+            "formula": "",
+            "decimals": 2,
+            "format": "def",
+            "viewOnPage": {
+                "uuid": "1e4bcee1-7212-47df-a2e0-119873c90b56",
+                "columnUuid": "87a6f970-4805-11f0-a1a2-0242ac141403",
+                "availablePages": [
+                    "campaigns",
+                    "report",
+                    "landings",
+                    "offers",
+                    "rotations",
+                    "affiliateNetworks",
+                    "trafficSource",
+                    "trends"
+                ],
+                "selectedPages": []
+            },
+            "position": 99999,
+            "originalPosition": 41
+        },
+        {
+            "uuid": "87a6f998-4805-11f0-ab4f-0242ac141403",
+            "key": "event_10",
+            "name": "Event 10",
+            "formula": "",
+            "decimals": 2,
+            "format": "def",
+            "viewOnPage": {
+                "uuid": "d51b09b6-b119-4b05-9ff5-6049a5b79f1f",
+                "columnUuid": "87a6f998-4805-11f0-ab4f-0242ac141403",
+                "availablePages": [
+                    "campaigns",
+                    "report",
+                    "landings",
+                    "offers",
+                    "rotations",
+                    "affiliateNetworks",
+                    "trafficSource",
+                    "trends"
+                ],
+                "selectedPages": []
+            },
+            "position": 99999,
+            "originalPosition": 42
+        },
+        {
+            "uuid": "87a6f9ca-4805-11f0-847b-0242ac141403",
+            "key": "event_11",
+            "name": "Event 11",
+            "formula": "",
+            "decimals": 2,
+            "format": "def",
+            "viewOnPage": {
+                "uuid": "ce61df44-7329-442a-902a-4a01540171ee",
+                "columnUuid": "87a6f9ca-4805-11f0-847b-0242ac141403",
+                "availablePages": [
+                    "campaigns",
+                    "report",
+                    "landings",
+                    "offers",
+                    "rotations",
+                    "affiliateNetworks",
+                    "trafficSource",
+                    "trends"
+                ],
+                "selectedPages": []
+            },
+            "position": 99999,
+            "originalPosition": 43
+        },
+        {
+            "uuid": "87a6f9fc-4805-11f0-be59-0242ac141403",
+            "key": "event_12",
+            "name": "Event 12",
+            "formula": "",
+            "decimals": 2,
+            "format": "def",
+            "viewOnPage": {
+                "uuid": "5f81c8a7-9024-44df-a981-9fbd8fff6af9",
+                "columnUuid": "87a6f9fc-4805-11f0-be59-0242ac141403",
+                "availablePages": [
+                    "campaigns",
+                    "report",
+                    "landings",
+                    "offers",
+                    "rotations",
+                    "affiliateNetworks",
+                    "trafficSource",
+                    "trends"
+                ],
+                "selectedPages": []
+            },
+            "position": 99999,
+            "originalPosition": 44
+        },
+        {
+            "uuid": "87a6fa24-4805-11f0-9323-0242ac141403",
+            "key": "event_13",
+            "name": "Event 13",
+            "formula": "",
+            "decimals": 2,
+            "format": "def",
+            "viewOnPage": {
+                "uuid": "446e54b1-d74d-4bc2-ac8d-2981c91d2d44",
+                "columnUuid": "87a6fa24-4805-11f0-9323-0242ac141403",
+                "availablePages": [
+                    "campaigns",
+                    "report",
+                    "landings",
+                    "offers",
+                    "rotations",
+                    "affiliateNetworks",
+                    "trafficSource",
+                    "trends"
+                ],
+                "selectedPages": []
+            },
+            "position": 99999,
+            "originalPosition": 45
+        },
+        {
+            "uuid": "87a6fa4c-4805-11f0-ae38-0242ac141403",
+            "key": "event_14",
+            "name": "Event 14",
+            "formula": "",
+            "decimals": 2,
+            "format": "def",
+            "viewOnPage": {
+                "uuid": "092aa239-bc2d-4743-9acc-d3208adc2029",
+                "columnUuid": "87a6fa4c-4805-11f0-ae38-0242ac141403",
+                "availablePages": [
+                    "campaigns",
+                    "report",
+                    "landings",
+                    "offers",
+                    "rotations",
+                    "affiliateNetworks",
+                    "trafficSource",
+                    "trends"
+                ],
+                "selectedPages": []
+            },
+            "position": 99999,
+            "originalPosition": 46
+        },
+        {
+            "uuid": "87a6fa7e-4805-11f0-a44b-0242ac141403",
+            "key": "event_15",
+            "name": "Event 15",
+            "formula": "",
+            "decimals": 2,
+            "format": "def",
+            "viewOnPage": {
+                "uuid": "8577b6cf-1497-458d-91f6-aecd70509bb0",
+                "columnUuid": "87a6fa7e-4805-11f0-a44b-0242ac141403",
+                "availablePages": [
+                    "campaigns",
+                    "report",
+                    "landings",
+                    "offers",
+                    "rotations",
+                    "affiliateNetworks",
+                    "trafficSource",
+                    "trends"
+                ],
+                "selectedPages": []
+            },
+            "position": 99999,
+            "originalPosition": 47
+        },
+        {
+            "uuid": "87a6faa6-4805-11f0-8a39-0242ac141403",
+            "key": "event_16",
+            "name": "Event 16",
+            "formula": "",
+            "decimals": 2,
+            "format": "def",
+            "viewOnPage": {
+                "uuid": "393add73-cf85-44e2-933d-597390829670",
+                "columnUuid": "87a6faa6-4805-11f0-8a39-0242ac141403",
+                "availablePages": [
+                    "campaigns",
+                    "report",
+                    "landings",
+                    "offers",
+                    "rotations",
+                    "affiliateNetworks",
+                    "trafficSource",
+                    "trends"
+                ],
+                "selectedPages": []
+            },
+            "position": 99999,
+            "originalPosition": 48
+        },
+        {
+            "uuid": "87a6fad8-4805-11f0-9592-0242ac141403",
+            "key": "event_17",
+            "name": "Event 17",
+            "formula": "",
+            "decimals": 2,
+            "format": "def",
+            "viewOnPage": {
+                "uuid": "85117a9c-a12c-4f21-a568-7c40a782a5b6",
+                "columnUuid": "87a6fad8-4805-11f0-9592-0242ac141403",
+                "availablePages": [
+                    "campaigns",
+                    "report",
+                    "landings",
+                    "offers",
+                    "rotations",
+                    "affiliateNetworks",
+                    "trafficSource",
+                    "trends"
+                ],
+                "selectedPages": []
+            },
+            "position": 99999,
+            "originalPosition": 49
+        },
+        {
+            "uuid": "87a6fb00-4805-11f0-b1c6-0242ac141403",
+            "key": "event_18",
+            "name": "Event 18",
+            "formula": "",
+            "decimals": 2,
+            "format": "def",
+            "viewOnPage": {
+                "uuid": "7df28bf7-4b86-41e9-aa5d-4533a6bfd8bb",
+                "columnUuid": "87a6fb00-4805-11f0-b1c6-0242ac141403",
+                "availablePages": [
+                    "campaigns",
+                    "report",
+                    "landings",
+                    "offers",
+                    "rotations",
+                    "affiliateNetworks",
+                    "trafficSource",
+                    "trends"
+                ],
+                "selectedPages": []
+            },
+            "position": 99999,
+            "originalPosition": 50
+        },
+        {
+            "uuid": "87a6fb32-4805-11f0-b9b5-0242ac141403",
+            "key": "event_19",
+            "name": "Event 19",
+            "formula": "",
+            "decimals": 2,
+            "format": "def",
+            "viewOnPage": {
+                "uuid": "664a3be1-f785-4209-b969-d51a851cd62a",
+                "columnUuid": "87a6fb32-4805-11f0-b9b5-0242ac141403",
+                "availablePages": [
+                    "campaigns",
+                    "report",
+                    "landings",
+                    "offers",
+                    "rotations",
+                    "affiliateNetworks",
+                    "trafficSource",
+                    "trends"
+                ],
+                "selectedPages": []
+            },
+            "position": 99999,
+            "originalPosition": 51
+        },
+        {
+            "uuid": "87a6fb5a-4805-11f0-afba-0242ac141403",
+            "key": "event_20",
+            "name": "Event 20",
+            "formula": "",
+            "decimals": 2,
+            "format": "def",
+            "viewOnPage": {
+                "uuid": "0c007e63-eec6-44a9-a966-72cc3af127d4",
+                "columnUuid": "87a6fb5a-4805-11f0-afba-0242ac141403",
+                "availablePages": [
+                    "campaigns",
+                    "report",
+                    "landings",
+                    "offers",
+                    "rotations",
+                    "affiliateNetworks",
+                    "trafficSource",
+                    "trends"
+                ],
+                "selectedPages": []
+            },
+            "position": 99999,
+            "originalPosition": 52
+        },
+        {
+            "uuid": "87a6fb8c-4805-11f0-91b7-0242ac141403",
+            "key": "event_21",
+            "name": "Event 21",
+            "formula": "",
+            "decimals": 2,
+            "format": "def",
+            "viewOnPage": {
+                "uuid": "00ea6475-5fc0-43e6-bfd6-77be7678a5c5",
+                "columnUuid": "87a6fb8c-4805-11f0-91b7-0242ac141403",
+                "availablePages": [
+                    "campaigns",
+                    "report",
+                    "landings",
+                    "offers",
+                    "rotations",
+                    "affiliateNetworks",
+                    "trafficSource",
+                    "trends"
+                ],
+                "selectedPages": []
+            },
+            "position": 99999,
+            "originalPosition": 53
+        },
+        {
+            "uuid": "87a6fbb4-4805-11f0-8f59-0242ac141403",
+            "key": "event_22",
+            "name": "Event 22",
+            "formula": "",
+            "decimals": 2,
+            "format": "def",
+            "viewOnPage": {
+                "uuid": "0bb46cb2-2ec5-49e2-aaf2-0608d26b1e95",
+                "columnUuid": "87a6fbb4-4805-11f0-8f59-0242ac141403",
+                "availablePages": [
+                    "campaigns",
+                    "report",
+                    "landings",
+                    "offers",
+                    "rotations",
+                    "affiliateNetworks",
+                    "trafficSource",
+                    "trends"
+                ],
+                "selectedPages": []
+            },
+            "position": 99999,
+            "originalPosition": 54
+        },
+        {
+            "uuid": "87a6fbe6-4805-11f0-b860-0242ac141403",
+            "key": "event_23",
+            "name": "Event 23",
+            "formula": "",
+            "decimals": 2,
+            "format": "def",
+            "viewOnPage": {
+                "uuid": "cffeb4a2-1b5a-422a-8a89-c0b2e7712d7d",
+                "columnUuid": "87a6fbe6-4805-11f0-b860-0242ac141403",
+                "availablePages": [
+                    "campaigns",
+                    "report",
+                    "landings",
+                    "offers",
+                    "rotations",
+                    "affiliateNetworks",
+                    "trafficSource",
+                    "trends"
+                ],
+                "selectedPages": []
+            },
+            "position": 99999,
+            "originalPosition": 55
+        },
+        {
+            "uuid": "87a6fc18-4805-11f0-8ce2-0242ac141403",
+            "key": "event_24",
+            "name": "Event 24",
+            "formula": "",
+            "decimals": 2,
+            "format": "def",
+            "viewOnPage": {
+                "uuid": "909b76c7-8ea9-4f4e-860f-1794767f5d16",
+                "columnUuid": "87a6fc18-4805-11f0-8ce2-0242ac141403",
+                "availablePages": [
+                    "campaigns",
+                    "report",
+                    "landings",
+                    "offers",
+                    "rotations",
+                    "affiliateNetworks",
+                    "trafficSource",
+                    "trends"
+                ],
+                "selectedPages": []
+            },
+            "position": 99999,
+            "originalPosition": 56
+        },
+        {
+            "uuid": "87a6fc4a-4805-11f0-9c1f-0242ac141403",
+            "key": "event_25",
+            "name": "Event 25",
+            "formula": "",
+            "decimals": 2,
+            "format": "def",
+            "viewOnPage": {
+                "uuid": "89301ad8-8503-4bbf-b432-f2922ff453ac",
+                "columnUuid": "87a6fc4a-4805-11f0-9c1f-0242ac141403",
+                "availablePages": [
+                    "campaigns",
+                    "report",
+                    "landings",
+                    "offers",
+                    "rotations",
+                    "affiliateNetworks",
+                    "trafficSource",
+                    "trends"
+                ],
+                "selectedPages": []
+            },
+            "position": 99999,
+            "originalPosition": 57
+        },
+        {
+            "uuid": "87a6fc72-4805-11f0-bd4e-0242ac141403",
+            "key": "event_26",
+            "name": "Event 26",
+            "formula": "",
+            "decimals": 2,
+            "format": "def",
+            "viewOnPage": {
+                "uuid": "256d0e5c-4db7-4bf3-86ba-863eb5cb9d23",
+                "columnUuid": "87a6fc72-4805-11f0-bd4e-0242ac141403",
+                "availablePages": [
+                    "campaigns",
+                    "report",
+                    "landings",
+                    "offers",
+                    "rotations",
+                    "affiliateNetworks",
+                    "trafficSource",
+                    "trends"
+                ],
+                "selectedPages": []
+            },
+            "position": 99999,
+            "originalPosition": 58
+        },
+        {
+            "uuid": "87a6fc9a-4805-11f0-83be-0242ac141403",
+            "key": "event_27",
+            "name": "Event 27",
+            "formula": "",
+            "decimals": 2,
+            "format": "def",
+            "viewOnPage": {
+                "uuid": "44b537d0-ea4b-4f66-b071-10929e0acad0",
+                "columnUuid": "87a6fc9a-4805-11f0-83be-0242ac141403",
+                "availablePages": [
+                    "campaigns",
+                    "report",
+                    "landings",
+                    "offers",
+                    "rotations",
+                    "affiliateNetworks",
+                    "trafficSource",
+                    "trends"
+                ],
+                "selectedPages": []
+            },
+            "position": 99999,
+            "originalPosition": 59
+        },
+        {
+            "uuid": "87a6fccc-4805-11f0-ab54-0242ac141403",
+            "key": "event_28",
+            "name": "Event 28",
+            "formula": "",
+            "decimals": 2,
+            "format": "def",
+            "viewOnPage": {
+                "uuid": "52ca6f9d-1c56-44fc-86c9-6195391885d5",
+                "columnUuid": "87a6fccc-4805-11f0-ab54-0242ac141403",
+                "availablePages": [
+                    "campaigns",
+                    "report",
+                    "landings",
+                    "offers",
+                    "rotations",
+                    "affiliateNetworks",
+                    "trafficSource",
+                    "trends"
+                ],
+                "selectedPages": []
+            },
+            "position": 99999,
+            "originalPosition": 60
+        },
+        {
+            "uuid": "87a6fcf4-4805-11f0-a8d7-0242ac141403",
+            "key": "event_29",
+            "name": "Event 29",
+            "formula": "",
+            "decimals": 2,
+            "format": "def",
+            "viewOnPage": {
+                "uuid": "6ecdb171-0bc9-452e-8f48-df1a8f5caea7",
+                "columnUuid": "87a6fcf4-4805-11f0-a8d7-0242ac141403",
+                "availablePages": [
+                    "campaigns",
+                    "report",
+                    "landings",
+                    "offers",
+                    "rotations",
+                    "affiliateNetworks",
+                    "trafficSource",
+                    "trends"
+                ],
+                "selectedPages": []
+            },
+            "position": 99999,
+            "originalPosition": 61
+        },
+        {
+            "uuid": "87a6fd26-4805-11f0-8c32-0242ac141403",
+            "key": "event_30",
+            "name": "Event 30",
+            "formula": "",
+            "decimals": 2,
+            "format": "def",
+            "viewOnPage": {
+                "uuid": "f6ec31f2-e42c-4e03-9c47-d88829529af7",
+                "columnUuid": "87a6fd26-4805-11f0-8c32-0242ac141403",
+                "availablePages": [
+                    "campaigns",
+                    "report",
+                    "landings",
+                    "offers",
+                    "rotations",
+                    "affiliateNetworks",
+                    "trafficSource",
+                    "trends"
+                ],
+                "selectedPages": []
+            },
+            "position": 99999,
+            "originalPosition": 62
+        },
+        {
+            "uuid": "9a580730-77d8-4683-b93d-f543c9a32aeb",
+            "key": "magic_checker_bots",
+            "name": "Bots MagicChecker",
+            "formula": "",
+            "decimals": 0,
+            "format": "def",
+            "viewOnPage": {
+                "uuid": "961ab119-6bc6-4d89-ae86-18e810cafd1d",
+                "columnUuid": "9a580730-77d8-4683-b93d-f543c9a32aeb",
+                "availablePages": [
+                    "campaigns",
+                    "landings",
+                    "offers",
+                    "rotations",
+                    "affiliateNetworks",
+                    "trafficSource",
+                    "report"
+                ],
+                "selectedPages": []
+            },
+            "position": 99999,
+            "originalPosition": 22
+        },
+        {
+            "uuid": "ac25a295-d05f-4ef7-b27f-6527ba908593",
+            "key": "binom_protect_bots",
+            "name": "Bots Binom Protect",
+            "formula": "",
+            "decimals": 0,
+            "format": "def",
+            "viewOnPage": {
+                "uuid": "91eb5683-1749-49b3-87d5-a72899a731de",
+                "columnUuid": "ac25a295-d05f-4ef7-b27f-6527ba908593",
+                "availablePages": [
+                    "campaigns",
+                    "landings",
+                    "offers",
+                    "rotations",
+                    "affiliateNetworks",
+                    "trafficSource",
+                    "report"
+                ],
+                "selectedPages": []
+            },
+            "position": 99999,
+            "originalPosition": 21
+        }
+    ],
+    "custom": []
+}

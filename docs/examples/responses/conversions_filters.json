@@ -1,0 +1,868 @@
+{
+    "offers": [
+        {
+            "id": 9,
+            "name": "APPSTERO CPT - 16$ - US/CA/JP - Adlure adblock #2 (id:9)"
+        },
+        {
+            "id": 8,
+            "name": "APPSTERO CPT - 16$ - US/CA/P - Adlure adblock #1 (id:8)"
+        },
+        {
+            "id": 10,
+            "name": "APPSTERO CPT - 16$ - US/CA/P - Adlure adblock #3 (id:10)"
+        },
+        {
+            "id": 35,
+            "name": "APPSTERO CPT - Pavel - Dynamic CPT offers - Multigeo - #1 (id:35)"
+        },
+        {
+            "id": 36,
+            "name": "APPSTERO CPT - Pavel - Dynamic CPT offers - Multigeo - #2 (id:36)"
+        },
+        {
+            "id": 37,
+            "name": "APPSTERO CPT - Pavel - Dynamic CPT offers - Multigeo - #3 (id:37)"
+        },
+        {
+            "id": 31,
+            "name": "APPSTERO CPT - Pavel - USA - ‎Luna VPN  - Multigeo - #1 (id:31)"
+        },
+        {
+            "id": 29,
+            "name": "APPSTERO CPT - Pavel - USA - ‎Luna VPN  - Multigeo - #3 (id:29)"
+        },
+        {
+            "id": 30,
+            "name": "APPSTERO CPT - Pavel -USA - ‎Luna VPN  - Multigeo - #2 (id:30)"
+        },
+        {
+            "id": 11,
+            "name": "APPSTERO CPT - USA - ‎Defender Pro VPN  - Multigeo - #1 (id:11)"
+        },
+        {
+            "id": 12,
+            "name": "APPSTERO CPT - USA - ‎Defender Pro VPN  - Multigeo - #2 (id:12)"
+        },
+        {
+            "id": 13,
+            "name": "APPSTERO CPT - USA - ‎Defender Pro VPN  - Multigeo - #3 (id:13)"
+        },
+        {
+            "id": 17,
+            "name": "APPSTERO CPT - USA - ‎SafeLume VPN  - Multigeo - #1 (id:17)"
+        },
+        {
+            "id": 18,
+            "name": "APPSTERO CPT - USA - ‎SafeLume VPN  - Multigeo - #2 (id:18)"
+        },
+        {
+            "id": 19,
+            "name": "APPSTERO CPT - USA - ‎SafeLume VPN  - Multigeo - #3 (id:19)"
+        },
+        {
+            "id": 38,
+            "name": "APPSTERO CPT - Yaroslav - Dynamic CPT offers - Multigeo - #1 (id:38)"
+        },
+        {
+            "id": 39,
+            "name": "APPSTERO CPT - Yaroslav - Dynamic CPT offers - Multigeo - #2 (id:39)"
+        },
+        {
+            "id": 40,
+            "name": "APPSTERO CPT - Yaroslav - Dynamic CPT offers - Multigeo - #3 (id:40)"
+        },
+        {
+            "id": 23,
+            "name": "APPSTERO CPT - Yaroslav - USA - ‎Luna VPN  - Multigeo - #1 (id:23)"
+        },
+        {
+            "id": 24,
+            "name": "APPSTERO CPT - Yaroslav - ‎USA - Luna VPN - Multigeo - #2 (id:24)"
+        },
+        {
+            "id": 25,
+            "name": "APPSTERO CPT - Yaroslav - ‎USA - Luna VPN - Multigeo - #3 (id:25)"
+        },
+        {
+            "id": 5,
+            "name": "Fishman Revshare - 1stProtection (Appsflyer) (id:5)"
+        },
+        {
+            "id": 6,
+            "name": "Fishman Revshare - iVPN (Branch) (id:6)"
+        },
+        {
+            "id": 3,
+            "name": "KUDI InHouse - Guardian Shield (Branch) (id:3)"
+        },
+        {
+            "id": 4,
+            "name": "KUDI InHouse - SmartCleaner  (Branch) (id:4)"
+        },
+        {
+            "id": 2,
+            "name": "KUDI Revshare - Sentinel Adblock (Branch) (id:2)"
+        },
+        {
+            "id": 44,
+            "name": "Revshare(APPS) - ‎ ClarifyX Cleane - Multigeo - #1 (id:44)"
+        },
+        {
+            "id": 45,
+            "name": "Revshare(APPS) - ‎ ClarifyX Cleane - Multigeo - #2 (id:45)"
+        },
+        {
+            "id": 46,
+            "name": "Revshare(APPS) - ‎ ClarifyX Cleane - Multigeo - #3 (id:46)"
+        },
+        {
+            "id": 41,
+            "name": "Revshare(APPS) - ‎ CleanDash Cleaner - Multigeo - #1 (id:41)"
+        },
+        {
+            "id": 42,
+            "name": "Revshare(APPS) - ‎ CleanDash Cleaner - Multigeo - #2 (id:42)"
+        },
+        {
+            "id": 43,
+            "name": "Revshare(APPS) - ‎ CleanDash Cleaner - Multigeo - #3 (id:43)"
+        },
+        {
+            "id": 47,
+            "name": "Revshare(APPS) - ‎ CleanMate Cleaner - Multigeo - #1 (id:47)"
+        },
+        {
+            "id": 48,
+            "name": "Revshare(APPS) - ‎ CleanMate Cleaner - Multigeo - #2 (id:48)"
+        },
+        {
+            "id": 49,
+            "name": "Revshare(APPS) - ‎ CleanMate Cleaner - Multigeo - #3 (id:49)"
+        },
+        {
+            "id": 50,
+            "name": "Revshare(APPS) - ‎ Memorra Cleaner - Multigeo - #1 (id:50)"
+        },
+        {
+            "id": 51,
+            "name": "Revshare(APPS) - ‎ Memorra Cleaner - Multigeo - #2 (id:51)"
+        },
+        {
+            "id": 52,
+            "name": "Revshare(APPS) - ‎ Memorra Cleaner - Multigeo - #3 (id:52)"
+        },
+        {
+            "id": 26,
+            "name": "Revshare(APPS) - ‎ SafeSphere VPN - Multigeo - #1 (id:26)"
+        },
+        {
+            "id": 27,
+            "name": "Revshare(APPS) - ‎ SafeSphere VPN - Multigeo - #2 (id:27)"
+        },
+        {
+            "id": 28,
+            "name": "Revshare(APPS) - ‎ SafeSphere VPN - Multigeo - #3 (id:28)"
+        },
+        {
+            "id": 32,
+            "name": "Revshare(APPS) - ‎ Swoosh VPN [privacy] - Multigeo - #1 (id:32)"
+        },
+        {
+            "id": 33,
+            "name": "Revshare(APPS) - ‎ Swoosh VPN [privacy] - Multigeo - #2 (id:33)"
+        },
+        {
+            "id": 34,
+            "name": "Revshare(APPS) - ‎ Swoosh VPN [privacy] - Multigeo - #3 (id:34)"
+        },
+        {
+            "id": 20,
+            "name": "Revshare(APPS) - ‎GuardPoint VPN [privacy] - Multigeo - #1 (id:20)"
+        },
+        {
+            "id": 21,
+            "name": "Revshare(APPS) - ‎GuardPoint VPN [privacy] - Multigeo - #2 (id:21)"
+        },
+        {
+            "id": 22,
+            "name": "Revshare(APPS) - ‎GuardPoint VPN [privacy] - Multigeo - #3 (id:22)"
+        },
+        {
+            "id": 14,
+            "name": "Revshare(APPS) - ‎SkyVault VPN  - Multigeo - #1 (id:14)"
+        },
+        {
+            "id": 15,
+            "name": "Revshare(APPS) - ‎SkyVault VPN  - Multigeo - #2 (id:15)"
+        },
+        {
+            "id": 16,
+            "name": "Revshare(APPS) - ‎SkyVault VPN  - Multigeo - #3 (id:16)"
+        },
+        {
+            "id": 0,
+            "name": "Unknown (id:0)"
+        },
+        {
+            "id": 1,
+            "name": "inHaus - IOS - AI Smart Block - (Branch) (id:1)"
+        }
+    ],
+    "directUrls": [
+        "landing.bangbrosnetwork.com"
+    ],
+    "campaignAsOffers": [],
+    "campaigns": [
+        {
+            "id": 49,
+            "name": "BNR_Admin13_4partners_Chile_Google:WORK:cost:weight:opt:bider (id:49)"
+        },
+        {
+            "id": 169,
+            "name": "COLR / inhs / SSP / US EN - POP - CPM / Facebook:WORK:cost:weight:opt:not bider (id:169)"
+        },
+        {
+            "id": 171,
+            "name": "COLR / inhs / SSP / US EN - POP - CPM / Google (id:171)"
+        },
+        {
+            "id": 168,
+            "name": "COLR / inhs / SSP / US EN - POP - CPM / Safari:WORK:cost:weight:opt:not bider (id:168)"
+        },
+        {
+            "id": 173,
+            "name": "COLR / inhs / SSP / US ES - POP - CPM / Chrome:WORK:cost:weight:opt:not bider (id:173)"
+        },
+        {
+            "id": 174,
+            "name": "COLR / inhs / SSP / US ES - POP - CPM / Facebook:WORK:cost:weight:opt:not bider (id:174)"
+        },
+        {
+            "id": 175,
+            "name": "COLR / inhs / SSP / US ES - POP - CPM / Google:WORK:cost:weight:opt:not bider (id:175)"
+        },
+        {
+            "id": 172,
+            "name": "COLR / inhs / SSP / US ES - POP - CPM / Safari:WORK:cost:weight:opt:not bider (id:172)"
+        },
+        {
+            "id": 109,
+            "name": "DIEGO - AppsterCPT - SSP - US - Facebook:WORK:cost:weight:opt:not bider (id:109)"
+        },
+        {
+            "id": 107,
+            "name": "DIEGO - AppsterCPT - SSP - US - Google+Snapchat:WORK:cost:weight:opt:bider (id:107)"
+        },
+        {
+            "id": 108,
+            "name": "DIEGO - AppsterCPT - SSP - US - Instagram+Pinterest (id:108)"
+        },
+        {
+            "id": 106,
+            "name": "DIEGO - AppsterCPT - SSP - US - Safari+SafWebv:stop (id:106)"
+        },
+        {
+            "id": 20,
+            "name": "Danil - Fishman - iVPN - 15$ CPT (id:20)"
+        },
+        {
+            "id": 21,
+            "name": "Danil - Fishman - iVPN - 3$ CPI (id:21)"
+        },
+        {
+            "id": 23,
+            "name": "Danil - Fishman - iVPN - 3.5$ CPI (id:23)"
+        },
+        {
+            "id": 22,
+            "name": "Danil - Fishman - iVPN - 4$ CPI (id:22)"
+        },
+        {
+            "id": 24,
+            "name": "Danil - Fishman - iVPN - 45$ CPB (id:24)"
+        },
+        {
+            "id": 26,
+            "name": "Danil - InHaus - SmartBlockAI - 45$ CPB (id:26)"
+        },
+        {
+            "id": 18,
+            "name": "Danil - Inhaus - SmartBlock 3.5$ CPI (id:18)"
+        },
+        {
+            "id": 19,
+            "name": "Danil - Inhaus - SmartBlock 4$ CPI (id:19)"
+        },
+        {
+            "id": 15,
+            "name": "Danil - KUDI - Sentinel 4$ CPI (id:15)"
+        },
+        {
+            "id": 25,
+            "name": "Danil - KUDI - SentinelAdblock - 45$ CPB (id:25)"
+        },
+        {
+            "id": 10,
+            "name": "Danil - Sentinel 15$ CPT (id:10)"
+        },
+        {
+            "id": 11,
+            "name": "Danil - SmartBlock 15$ CPT (id:11)"
+        },
+        {
+            "id": 12,
+            "name": "Danil - SmartClean 15$ CPT (id:12)"
+        },
+        {
+            "id": 17,
+            "name": "Danil - inhaus - SmartBlock 3$ CPI (id:17)"
+        },
+        {
+            "id": 7,
+            "name": "EDVR - USA - APP - SSP - ISP - 12.5$ (id:7)"
+        },
+        {
+            "id": 8,
+            "name": "EDVR - USA - APP - SSP - WIFI - 12.5$ (id:8)"
+        },
+        {
+            "id": 44,
+            "name": "FIY - YS - iOS - Adult - Pop - USA (id:44)"
+        },
+        {
+            "id": 45,
+            "name": "GFE - YS - iOS - Adult - Pop - USA (id:45)"
+        },
+        {
+            "id": 258,
+            "name": "GHH / ClickaduSSP / ENG - POP / 3G / US:WORK:cost:weight:opt:not bider (id:258)"
+        },
+        {
+            "id": 259,
+            "name": "GHH / ClickaduSSP / ENG - POP / WIFI / US:WORK:cost:weight:opt:not bider (id:259)"
+        },
+        {
+            "id": 257,
+            "name": "GHH / ClickaduSSP / ES - POP / 3G / US:WORK:cost:weight:opt:not bider (id:257)"
+        },
+        {
+            "id": 261,
+            "name": "GHH / ClickaduSSP / ES - POP / WIFI / MX:WORK:cost:weight:opt:not bider (id:261)"
+        },
+        {
+            "id": 260,
+            "name": "GHH / ClickaduSSP / ES - POP / WIFI / US:WORK:cost:weight:opt:not bider (id:260)"
+        },
+        {
+            "id": 263,
+            "name": "GHH / ClickaduSSP / PT - POP / WIFI / BR:WORK:cost:weight:opt:not bider (id:263)"
+        },
+        {
+            "id": 38,
+            "name": "GQK_Admin_4partners_Brazil_WiFi (id:38)"
+        },
+        {
+            "id": 37,
+            "name": "ING_Admin_4partners_Mexico_3G (id:37)"
+        },
+        {
+            "id": 148,
+            "name": "JOJ1 / PROPManaged / ENG - Managed / US:WORK:cost:weight:opt:not bider (id:148)"
+        },
+        {
+            "id": 149,
+            "name": "JOJ1 / PROPManaged / ES - Managed / US:WORK:cost:weight:opt:not bider (id:149)"
+        },
+        {
+            "id": 138,
+            "name": "JOJ1 / PROPSSP / ENG - DC / US (id:138)"
+        },
+        {
+            "id": 139,
+            "name": "JOJ1 / PROPSSP / ENG - Interstitial / US:WORK:cost:weight:opt:not bider (id:139)"
+        },
+        {
+            "id": 141,
+            "name": "JOJ1 / PROPSSP / ENG - Social / US (id:141)"
+        },
+        {
+            "id": 70,
+            "name": "JOJ1 / PROPSSP / ENG - WEB / GB (id:70)"
+        },
+        {
+            "id": 140,
+            "name": "JOJ1 / PROPSSP / ENG - WEB / US:WORK:cost:weight:opt:not bider (id:140)"
+        },
+        {
+            "id": 144,
+            "name": "JOJ1 / PROPSSP / ES - DC / MX (id:144)"
+        },
+        {
+            "id": 145,
+            "name": "JOJ1 / PROPSSP / ES - WEB / MX:WORK:cost:weight:opt:not bider (id:145)"
+        },
+        {
+            "id": 67,
+            "name": "JOJ1 / PROPSSP / ES+ENG - DC / US:WORK:cost:weight:opt:not bider (id:67)"
+        },
+        {
+            "id": 69,
+            "name": "JOJ1 / PROPSSP / ES+ENG - Interstitial / US:WORK:cost:weight:opt:not bider (id:69)"
+        },
+        {
+            "id": 68,
+            "name": "JOJ1 / PROPSSP / ES+ENG - Social / US:WORK:cost:weight:opt:not bider (id:68)"
+        },
+        {
+            "id": 65,
+            "name": "JOJ1 / PROPSSP / ES+ENG - WEB / US:WORK:cost:weight:opt:not bider (id:65)"
+        },
+        {
+            "id": 80,
+            "name": "JOJ1 / PROPSSP / FR - DC / CA (id:80)"
+        },
+        {
+            "id": 82,
+            "name": "JOJ1 / PROPSSP / FR - Interstitial / CA (id:82)"
+        },
+        {
+            "id": 81,
+            "name": "JOJ1 / PROPSSP / FR - Social / CA (id:81)"
+        },
+        {
+            "id": 79,
+            "name": "JOJ1 / PROPSSP / FR - WEB / CA:WORK:cost:weight:opt:not bider (id:79)"
+        },
+        {
+            "id": 147,
+            "name": "JOJ1 / PROPSSP / PT - DC / BR:WORK:cost:weight:opt:not bider (id:147)"
+        },
+        {
+            "id": 146,
+            "name": "JOJ1 / PROPSSP / PT - WEB / BR:WORK:cost:weight:opt:not bider (id:146)"
+        },
+        {
+            "id": 153,
+            "name": "JOJ5 / PROPSSP / ENG - DC / US:WORK:cost:weight:opt:bider (id:153)"
+        },
+        {
+            "id": 152,
+            "name": "JOJ5 / PROPSSP / ENG - WEB / US:WORK:cost:weight:opt:bider (id:152)"
+        },
+        {
+            "id": 155,
+            "name": "JOJ5 / PROPSSP / ES - DC / MX:WORK:cost:weight:opt:bider (id:155)"
+        },
+        {
+            "id": 165,
+            "name": "JOJ5 / PROPSSP / ES - DC / US:WORK:cost:weight:opt:bider (id:165)"
+        },
+        {
+            "id": 154,
+            "name": "JOJ5 / PROPSSP / ES - WEB / MX:WORK:cost:weight:opt:bider (id:154)"
+        },
+        {
+            "id": 164,
+            "name": "JOJ5 / PROPSSP / ES - WEB / US:WORK:cost:weight:opt:bider (id:164)"
+        },
+        {
+            "id": 166,
+            "name": "JOJ5 / PROPSSP / PT - DC / BR:WORK:cost:weight:opt:bider (id:166)"
+        },
+        {
+            "id": 167,
+            "name": "JOJ5 / PROPSSP / PT - WEB / BR:WORK:cost:weight:opt:bider (id:167)"
+        },
+        {
+            "id": 219,
+            "name": "JOJ77 / PROPSSP / ENG - Safari - DC / 3G / US:WORK:cost:weight:opt:not bider (id:219)"
+        },
+        {
+            "id": 218,
+            "name": "JOJ77 / PROPSSP / ENG - Safari - DC / WIFI / US:WORK:cost:weight:opt:not bider (id:218)"
+        },
+        {
+            "id": 185,
+            "name": "JOJ77 / PROPSSP / ENG - Safari - Interstitial / 3G / US:WORK:cost:weight:opt:not bider (id:185)"
+        },
+        {
+            "id": 184,
+            "name": "JOJ77 / PROPSSP / ENG - Safari - Interstitial / WIFI / US:WORK:cost:weight:opt:not bider (id:184)"
+        },
+        {
+            "id": 203,
+            "name": "JOJ77 / PROPSSP / ENG - Safari - WEB / 3G / US:WORK:cost:weight:opt:not bider (id:203)"
+        },
+        {
+            "id": 202,
+            "name": "JOJ77 / PROPSSP / ENG - Safari - WEB / WIFI / US:WORK:cost:weight:opt:not bider (id:202)"
+        },
+        {
+            "id": 215,
+            "name": "JOJ77 / PROPSSP / ENG - Сhrome - DC / 3G / US:WORK:cost:weight:opt:not bider (id:215)"
+        },
+        {
+            "id": 214,
+            "name": "JOJ77 / PROPSSP / ENG - Сhrome - DC / WIFI / US:WORK:cost:weight:opt:not bider (id:214)"
+        },
+        {
+            "id": 181,
+            "name": "JOJ77 / PROPSSP / ENG - Сhrome - Interstitial / 3G / US:WORK:cost:weight:opt:not bider (id:181)"
+        },
+        {
+            "id": 180,
+            "name": "JOJ77 / PROPSSP / ENG - Сhrome - Interstitial / WIFI / US:WORK:cost:weight:opt:bider (id:180)"
+        },
+        {
+            "id": 199,
+            "name": "JOJ77 / PROPSSP / ENG - Сhrome - WEB / 3G / US:WORK:cost:weight:opt:not bider (id:199)"
+        },
+        {
+            "id": 198,
+            "name": "JOJ77 / PROPSSP / ENG - Сhrome - WEB / WIFI / US:WORK:cost:weight:opt:not bider (id:198)"
+        },
+        {
+            "id": 221,
+            "name": "JOJ77 / PROPSSP / ES - Safari - DC / 3G / US:WORK:cost:weight:opt:not bider (id:221)"
+        },
+        {
+            "id": 220,
+            "name": "JOJ77 / PROPSSP / ES - Safari - DC / WIFI / US:WORK:cost:weight:opt:not bider (id:220)"
+        },
+        {
+            "id": 187,
+            "name": "JOJ77 / PROPSSP / ES - Safari - Interstitial / 3G / US:WORK:cost:weight:opt:not bider (id:187)"
+        },
+        {
+            "id": 186,
+            "name": "JOJ77 / PROPSSP / ES - Safari - Interstitial / WIFI / US:WORK:cost:weight:opt:not bider (id:186)"
+        },
+        {
+            "id": 211,
+            "name": "JOJ77 / PROPSSP / ES - Safari - WEB / 3G / MX:WORK:cost:weight:opt:not bider (id:211)"
+        },
+        {
+            "id": 201,
+            "name": "JOJ77 / PROPSSP / ES - Safari - WEB / 3G / US:WORK:cost:weight:opt:not bider (id:201)"
+        },
+        {
+            "id": 210,
+            "name": "JOJ77 / PROPSSP / ES - Safari - WEB / WIFI / MX:WORK:cost:weight:opt:not bider (id:210)"
+        },
+        {
+            "id": 200,
+            "name": "JOJ77 / PROPSSP / ES - Safari - WEB / WIFI / US:WORK:cost:weight:opt:not bider (id:200)"
+        },
+        {
+            "id": 217,
+            "name": "JOJ77 / PROPSSP / ES - Сhrome - DC / 3G / US:WORK:cost:weight:opt:not bider (id:217)"
+        },
+        {
+            "id": 216,
+            "name": "JOJ77 / PROPSSP / ES - Сhrome - DC / WIFI / US:WORK:cost:weight:opt:not bider (id:216)"
+        },
+        {
+            "id": 183,
+            "name": "JOJ77 / PROPSSP / ES - Сhrome - Interstitial / 3G / US:WORK:cost:weight:opt:not bider (id:183)"
+        },
+        {
+            "id": 182,
+            "name": "JOJ77 / PROPSSP / ES - Сhrome - Interstitial / WIFI / US:WORK:cost:weight:opt:not bider (id:182)"
+        },
+        {
+            "id": 209,
+            "name": "JOJ77 / PROPSSP / ES - Сhrome - WEB / 3G / MX:WORK:cost:weight:opt:not bider (id:209)"
+        },
+        {
+            "id": 197,
+            "name": "JOJ77 / PROPSSP / ES - Сhrome - WEB / 3G / US:WORK:cost:weight:opt:not bider (id:197)"
+        },
+        {
+            "id": 208,
+            "name": "JOJ77 / PROPSSP / ES - Сhrome - WEB / WIFI / MX:WORK:cost:weight:opt:not bider (id:208)"
+        },
+        {
+            "id": 196,
+            "name": "JOJ77 / PROPSSP / ES - Сhrome - WEB / WIFI / US:WORK:cost:weight:opt:not bider (id:196)"
+        },
+        {
+            "id": 236,
+            "name": "JOJ77 / PROPSSP / PT - Safari - DC / 3G / BR:WORK:cost:weight:opt:not bider (id:236)"
+        },
+        {
+            "id": 235,
+            "name": "JOJ77 / PROPSSP / PT - Safari - DC / WIFI / BR:WORK:cost:weight:opt:not bider (id:235)"
+        },
+        {
+            "id": 229,
+            "name": "JOJ77 / PROPSSP / PT - Safari - WEB / 3G / BR:WORK:cost:weight:opt:not bider (id:229)"
+        },
+        {
+            "id": 228,
+            "name": "JOJ77 / PROPSSP / PT - Safari - WEB / WIFI / BR:WORK:cost:weight:opt:not bider (id:228)"
+        },
+        {
+            "id": 234,
+            "name": "JOJ77 / PROPSSP / PT - Сhrome - DC / 3G / BR:WORK:cost:weight:opt:not bider (id:234)"
+        },
+        {
+            "id": 233,
+            "name": "JOJ77 / PROPSSP / PT - Сhrome - DC / WIFI / BR:WORK:cost:weight:opt:not bider (id:233)"
+        },
+        {
+            "id": 227,
+            "name": "JOJ77 / PROPSSP / PT - Сhrome - WEB / 3G / BR:WORK:cost:weight:opt:not bider (id:227)"
+        },
+        {
+            "id": 226,
+            "name": "JOJ77 / PROPSSP / PT - Сhrome - WEB / WIFI / BR:WORK:cost:weight:opt:not bider (id:226)"
+        },
+        {
+            "id": 177,
+            "name": "JOJ8 / PROPManaged / ENG - Managed / US / DC (id:177)"
+        },
+        {
+            "id": 176,
+            "name": "JOJ8 / PROPManaged / ENG - Managed / US / WEB (id:176)"
+        },
+        {
+            "id": 95,
+            "name": "JOY / AdverSSP / ENG - CPA / GB (Main):WORK:not cost:weight:not opt:not bider (id:95)"
+        },
+        {
+            "id": 105,
+            "name": "JOY / AdverSSP / ES - CPA / CL (Main)WORK:not cost:weight:not opt:not bider (id:105)"
+        },
+        {
+            "id": 103,
+            "name": "JOY / AdverSSP / ES - CPA / MX (Main)WORK:not cost:weight:not opt:not bider (id:103)"
+        },
+        {
+            "id": 91,
+            "name": "JOY / AdverSSP / FR+ENG - CPA / CA (Adult):WORK:not cost:weight:not opt:not bider (id:91)"
+        },
+        {
+            "id": 93,
+            "name": "JOY / AdverSSP / FR+ENG - CPA / CA (Main):WORK:not cost:weight:not opt:not bider (id:93)"
+        },
+        {
+            "id": 101,
+            "name": "JOY / AdverSSP / PT - CPA / BR (Main)WORK:not cost:weight:not opt:not bider (id:101)"
+        },
+        {
+            "id": 43,
+            "name": "LKT_Admin13_4partners_USA (id:43)"
+        },
+        {
+            "id": 64,
+            "name": "MNC_Admin13_USA:WORK:cost:weight:opt:bider (id:64)"
+        },
+        {
+            "id": 40,
+            "name": "NKY_Admin_4partners_Mexico:WORK:cost:weight:opt:bider (id:40)"
+        },
+        {
+            "id": 78,
+            "name": "RAPTOR - Revshare - SSP - US EN_Google_Adult:stop (id:78)"
+        },
+        {
+            "id": 77,
+            "name": "RAPTOR - Revshare - SSP - US EN_Google_Main:stop (id:77)"
+        },
+        {
+            "id": 75,
+            "name": "RAPTOR - Revshare - SSP - US EN_Safari_Adult:WORK:cost:weight:opt:not bider (id:75)"
+        },
+        {
+            "id": 76,
+            "name": "RAPTOR - Revshare - SSP - US EN_Safari_Main:WORK:cost:weight:opt:not bider (id:76)"
+        },
+        {
+            "id": 13,
+            "name": "TH - Flat USA (Spanish) - All browsers - iPhone+iPad:stop (id:13)"
+        },
+        {
+            "id": 246,
+            "name": "TOKN_Appstero_CPT_Brazil_3G_Gogl:WORK:cost:weight:opt:bider (id:246)"
+        },
+        {
+            "id": 244,
+            "name": "TOKN_Appstero_CPT_Brazil_3G_Saf:WORK:cost:weight:opt:bider (id:244)"
+        },
+        {
+            "id": 245,
+            "name": "TOKN_Appstero_CPT_Brazil_WIFI_Gogl:WORK:cost:weight:opt:bider (id:245)"
+        },
+        {
+            "id": 243,
+            "name": "TOKN_Appstero_CPT_Brazil_WIFI_Saf:WORK:cost:weight:opt:bider (id:243)"
+        },
+        {
+            "id": 255,
+            "name": "TOKN_Appstero_CPT_Chile_3G_Gogl:WORK:cost:weight:opt:bider (id:255)"
+        },
+        {
+            "id": 254,
+            "name": "TOKN_Appstero_CPT_Chile_3G_Saf:WORK:cost:weight:opt:bider (id:254)"
+        },
+        {
+            "id": 256,
+            "name": "TOKN_Appstero_CPT_Chile_WIFI_Gogl:WORK:cost:weight:opt:bider (id:256)"
+        },
+        {
+            "id": 253,
+            "name": "TOKN_Appstero_CPT_Chile_WIFI_Saf:WORK:cost:weight:opt:bider (id:253)"
+        },
+        {
+            "id": 252,
+            "name": "TOKN_Appstero_CPT_Japan_3G_Gogl:WORK:cost:weight:opt:bider (id:252)"
+        },
+        {
+            "id": 251,
+            "name": "TOKN_Appstero_CPT_Japan_WIFI_Gogl:WORK:cost:weight:opt:bider (id:251)"
+        },
+        {
+            "id": 242,
+            "name": "TOKN_Appstero_CPT_Mexico_3G_Gogl:WORK:cost:weight:opt:bider (id:242)"
+        },
+        {
+            "id": 240,
+            "name": "TOKN_Appstero_CPT_Mexico_3G_Saf:WORK:cost:weight:opt:bider (id:240)"
+        },
+        {
+            "id": 241,
+            "name": "TOKN_Appstero_CPT_Mexico_WIFI_Gogl:WORK:cost:weight:opt:bider (id:241)"
+        },
+        {
+            "id": 239,
+            "name": "TOKN_Appstero_CPT_Mexico_WIFI_Saf:WORK:cost:weight:opt:bider (id:239)"
+        },
+        {
+            "id": 46,
+            "name": "TRY_Admin13_4partners_Brazil_Saf (id:46)"
+        },
+        {
+            "id": 48,
+            "name": "VST_Admin13_4partners_Chile_Saf:WORK:cost:weight:opt:not bider (id:48)"
+        },
+        {
+            "id": 47,
+            "name": "YKL_Admin13_4partners_Brazil_Google (id:47)"
+        },
+        {
+            "id": 39,
+            "name": "YML_Admin_4partners_Brazil_3G (id:39)"
+        },
+        {
+            "id": 36,
+            "name": "YTR_Admin_4partners_Mexico_WiFi (id:36)"
+        },
+        {
+            "id": 1,
+            "name": "i15 - USAEN - APP - ISP:WORK:cost:weight:not opt:not bider (id:1)"
+        },
+        {
+            "id": 2,
+            "name": "i15 - USAEN - APP - WIFI:WORK:cost:weight:not opt:not bider (id:2)"
+        },
+        {
+            "id": 9,
+            "name": "i15 - USAEN - SF - ISP+WIFI - iPad (id:9)"
+        },
+        {
+            "id": 4,
+            "name": "i15 - USAES - APP - ISP (id:4)"
+        },
+        {
+            "id": 3,
+            "name": "i15 - USAES - APP - WIFI (id:3)"
+        },
+        {
+            "id": 5,
+            "name": "i15 - USAES - SF - ISP (id:5)"
+        },
+        {
+            "id": 6,
+            "name": "i15 - USAES - SF - WIFI (id:6)"
+        },
+        {
+            "id": 53,
+            "name": "i16 - AUEN - APP - ISP:WORK:cost:weight:not opt:not bider (id:53)"
+        },
+        {
+            "id": 52,
+            "name": "i16 - AUEN - APP - WIFI:WORK:cost:weight:not opt:not bider (id:52)"
+        },
+        {
+            "id": 50,
+            "name": "i16 - CAEN - APP - ISP:WORK:cost:weight:not opt:not bider (id:50)"
+        },
+        {
+            "id": 51,
+            "name": "i16 - CAEN - APP - WIFI (id:51)"
+        },
+        {
+            "id": 54,
+            "name": "i16 - NZEN - APP - ISP:WORK:cost:weight:not opt:not bider (id:54)"
+        },
+        {
+            "id": 55,
+            "name": "i16 - NZEN - APP - WIFI:WORK:cost:weight:not opt:not bider (id:55)"
+        }
+    ],
+    "geo": [
+        {
+            "id": "Australia",
+            "name": "Australia"
+        },
+        {
+            "id": "Belgium",
+            "name": "Belgium"
+        },
+        {
+            "id": "Brazil",
+            "name": "Brazil"
+        },
+        {
+            "id": "Canada",
+            "name": "Canada"
+        },
+        {
+            "id": "Chile",
+            "name": "Chile"
+        },
+        {
+            "id": "Denmark",
+            "name": "Denmark"
+        },
+        {
+            "id": "Japan",
+            "name": "Japan"
+        },
+        {
+            "id": "Mexico",
+            "name": "Mexico"
+        },
+        {
+            "id": "New Zealand",
+            "name": "New Zealand"
+        },
+        {
+            "id": "Norway",
+            "name": "Norway"
+        },
+        {
+            "id": "Poland",
+            "name": "Poland"
+        },
+        {
+            "id": "United Kingdom",
+            "name": "United Kingdom"
+        },
+        {
+            "id": "United States",
+            "name": "United States"
+        }
+    ]
+}

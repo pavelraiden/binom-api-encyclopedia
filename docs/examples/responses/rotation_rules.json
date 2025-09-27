@@ -1,0 +1,262 @@
+[
+    {
+        "id": "brand_and_model",
+        "name": "Brand and Model"
+    },
+    {
+        "id": "browser_and_version",
+        "name": "Browser and version"
+    },
+    {
+        "id": "continent",
+        "name": "Continent"
+    },
+    {
+        "id": "os_and_version",
+        "name": "Operating system and version"
+    },
+    {
+        "id": "day_of_week",
+        "name": "Day of week"
+    },
+    {
+        "id": "country",
+        "name": "Country"
+    },
+    {
+        "id": "city",
+        "name": "City"
+    },
+    {
+        "id": "referer",
+        "name": "Referer"
+    },
+    {
+        "id": "ip",
+        "name": "IP"
+    },
+    {
+        "id": "ip_version",
+        "name": "IP version"
+    },
+    {
+        "id": "reverse_dns",
+        "name": "Reverse DNS"
+    },
+    {
+        "id": "user_agent",
+        "name": "User agent"
+    },
+    {
+        "id": "query_value",
+        "name": "Get Value"
+    },
+    {
+        "id": "url",
+        "name": "URL"
+    },
+    {
+        "id": "headers",
+        "name": "Headers"
+    },
+    {
+        "id": "language",
+        "name": "Language"
+    },
+    {
+        "id": "part_of_day",
+        "name": "Part of day"
+    },
+    {
+        "id": "state",
+        "name": "State"
+    },
+    {
+        "id": "unique",
+        "name": "Unique"
+    },
+    {
+        "id": "crawler",
+        "name": "Crawler"
+    },
+    {
+        "id": "proxy_vpn",
+        "name": "Proxy/VPN"
+    },
+    {
+        "id": "datacenter",
+        "name": "Datacenter"
+    },
+    {
+        "id": "company",
+        "name": "Company"
+    },
+    {
+        "id": "bot",
+        "name": "Bot"
+    },
+    {
+        "id": "device_resolution",
+        "name": "Device resolution"
+    },
+    {
+        "id": "device_type",
+        "name": "Device type"
+    },
+    {
+        "id": "region",
+        "name": "Region"
+    },
+    {
+        "id": "traffic_source",
+        "name": "Traffic Source"
+    },
+    {
+        "id": "isp",
+        "name": "ISP"
+    },
+    {
+        "id": "organization",
+        "name": "Organization name"
+    },
+    {
+        "id": "connection",
+        "name": "Connection type"
+    },
+    {
+        "id": "conversion",
+        "name": "Conversion"
+    },
+    {
+        "id": "conversion_status_one",
+        "name": "Conversion status one"
+    },
+    {
+        "id": "conversion_status_two",
+        "name": "Conversion status two"
+    },
+    {
+        "id": "binom_protect",
+        "name": "Binom Protect"
+    },
+    {
+        "id": "token_1",
+        "name": "Token 1"
+    },
+    {
+        "id": "token_2",
+        "name": "Token 2"
+    },
+    {
+        "id": "token_3",
+        "name": "Token 3"
+    },
+    {
+        "id": "token_4",
+        "name": "Token 4"
+    },
+    {
+        "id": "token_5",
+        "name": "Token 5"
+    },
+    {
+        "id": "token_6",
+        "name": "Token 6"
+    },
+    {
+        "id": "token_7",
+        "name": "Token 7"
+    },
+    {
+        "id": "token_8",
+        "name": "Token 8"
+    },
+    {
+        "id": "token_9",
+        "name": "Token 9"
+    },
+    {
+        "id": "token_10",
+        "name": "Token 10"
+    },
+    {
+        "id": "token_11",
+        "name": "Token 11"
+    },
+    {
+        "id": "token_12",
+        "name": "Token 12"
+    },
+    {
+        "id": "token_13",
+        "name": "Token 13"
+    },
+    {
+        "id": "token_14",
+        "name": "Token 14"
+    },
+    {
+        "id": "token_15",
+        "name": "Token 15"
+    },
+    {
+        "id": "token_16",
+        "name": "Token 16"
+    },
+    {
+        "id": "token_17",
+        "name": "Token 17"
+    },
+    {
+        "id": "token_18",
+        "name": "Token 18"
+    },
+    {
+        "id": "token_19",
+        "name": "Token 19"
+    },
+    {
+        "id": "token_20",
+        "name": "Token 20"
+    },
+    {
+        "id": "token_21",
+        "name": "Token 21"
+    },
+    {
+        "id": "token_22",
+        "name": "Token 22"
+    },
+    {
+        "id": "token_23",
+        "name": "Token 23"
+    },
+    {
+        "id": "token_24",
+        "name": "Token 24"
+    },
+    {
+        "id": "token_25",
+        "name": "Token 25"
+    },
+    {
+        "id": "token_26",
+        "name": "Token 26"
+    },
+    {
+        "id": "token_27",
+        "name": "Token 27"
+    },
+    {
+        "id": "token_28",
+        "name": "Token 28"
+    },
+    {
+        "id": "token_29",
+        "name": "Token 29"
+    },
+    {
+        "id": "token_30",
+        "name": "Token 30"
+    }
+]
