@@ -1,54 +1,23 @@
-# Stats API Endpoints
+# Stats API
 
-6 endpoints for stats operations.
+## Description
+Statistics and analytics with custom metrics
 
 ## Endpoints
+Total endpoints in this category: **6**
 
-### GET /public/api/v1/stats/affiliate_network
+## Key Features
+- Custom metrics (eCPT, eCPB, trials, buyouts)
+- Grouping
+- Time-based filtering
 
-**Description**: Get stats Affiliate Network.
-
-**Documentation**: [get_public_api_v1_stats_affiliate_network.md](get_public_api_v1_stats_affiliate_network.md)
-
----
-
-### GET /public/api/v1/stats/campaign
-
-**Description**: Get stats Campaign.
-
-**Documentation**: [get_public_api_v1_stats_campaign.md](get_public_api_v1_stats_campaign.md)
-
----
-
-### GET /public/api/v1/stats/landing
-
-**Description**: Get stats Landing.
-
-**Documentation**: [get_public_api_v1_stats_landing.md](get_public_api_v1_stats_landing.md)
+## Files in this directory
+- [GET /public/api/v1/stats/affiliate/network](get_public_api_v1_stats_affiliate_network.md)
+- [GET /public/api/v1/stats/campaign](get_public_api_v1_stats_campaign.md)
+- [GET /public/api/v1/stats/landing](get_public_api_v1_stats_landing.md)
+- [GET /public/api/v1/stats/offer](get_public_api_v1_stats_offer.md)
+- [GET /public/api/v1/stats/rotation](get_public_api_v1_stats_rotation.md)
+- [GET /public/api/v1/stats/traffic/source](get_public_api_v1_stats_traffic_source.md)
 
 ---
-
-### GET /public/api/v1/stats/offer
-
-**Description**: Get stats Offer.
-
-**Documentation**: [get_public_api_v1_stats_offer.md](get_public_api_v1_stats_offer.md)
-
----
-
-### GET /public/api/v1/stats/rotation
-
-**Description**: Get stats Rotation.
-
-**Documentation**: [get_public_api_v1_stats_rotation.md](get_public_api_v1_stats_rotation.md)
-
----
-
-### GET /public/api/v1/stats/traffic_source
-
-**Description**: Get stats Traffic Source.
-
-**Documentation**: [get_public_api_v1_stats_traffic_source.md](get_public_api_v1_stats_traffic_source.md)
-
----
-
+*Part of the Complete Binom API Encyclopedia*

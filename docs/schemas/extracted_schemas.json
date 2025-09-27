@@ -1,0 +1,1085 @@
+{
+  "/info/affiliate_network": {
+    "endpoint": "/info/affiliate_network",
+    "method": "GET",
+    "response_schema": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer",
+          "example": 1
+        },
+        "name": {
+          "type": "string",
+          "example": "Test Network 1 Renamed Again"
+        },
+        "is_deleted": {
+          "type": "integer",
+          "example": false
+        },
+        "offers": {
+          "type": "string",
+          "example": "0"
+        },
+        "mean_time_to_convert": {
+          "type": "unknown",
+          "value": "None"
+        },
+        "seconds_since_last_lead": {
+          "type": "unknown",
+          "value": "None"
+        },
+        "clicks_last_hour": {
+          "type": "string",
+          "example": "0"
+        },
+        "leads_last_hour": {
+          "type": "string",
+          "example": "0"
+        },
+        "profit_last_hour": {
+          "type": "integer",
+          "example": 0
+        },
+        "first_click_time": {
+          "type": "unknown",
+          "value": "None"
+        },
+        "clicks": {
+          "type": "string",
+          "example": "0"
+        },
+        "is_noted": {
+          "type": "integer",
+          "example": false
+        }
+      }
+    },
+    "data_type": "list",
+    "sample_fields": [
+      "id",
+      "name",
+      "is_deleted",
+      "offers",
+      "mean_time_to_convert",
+      "seconds_since_last_lead",
+      "clicks_last_hour",
+      "leads_last_hour",
+      "profit_last_hour",
+      "first_click_time",
+      "clicks",
+      "is_noted"
+    ],
+    "summary": "Array of 6 items (objects with 12 fields)"
+  },
+  "/info/campaign": {
+    "endpoint": "/info/campaign",
+    "method": "GET",
+    "response_schema": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer",
+          "example": 1
+        },
+        "name": {
+          "type": "string",
+          "example": "i15 - USAEN - APP - ISP:WORK:cost:weight:not opt:not bider"
+        },
+        "is_deleted": {
+          "type": "integer",
+          "example": false
+        },
+        "current_cpc": {
+          "type": "integer",
+          "example": 0
+        },
+        "group_name": {
+          "type": "unknown",
+          "value": "None"
+        },
+        "mean_time_to_convert": {
+          "type": "number",
+          "example": 255649.75613873542
+        },
+        "seconds_since_last_lead": {
+          "type": "string",
+          "example": "804"
+        },
+        "clicks_last_hour": {
+          "type": "string",
+          "example": "2716"
+        },
+        "leads_last_hour": {
+          "type": "string",
+          "example": "2"
+        },
+        "profit_last_hour": {
+          "type": "number",
+          "example": -13.411615250500006
+        },
+        "first_click_time": {
+          "type": "string",
+          "example": "2025-01-05 15:39:24"
+        },
+        "clicks": {
+          "type": "string",
+          "example": "229847"
+        },
+        "link": {
+          "type": "string",
+          "example": "https://pornenthusiast.com/click?key=welcomepromo-i6&clickid={conversions_tracking}&cost={actual_cost}&sitename={src_hostname}&campaignid={campaign_id}&categoryid={category_id}&geo={country}&variation={variation_id}&keywords={tags}&timestamp={time}&format={format}"
+        },
+        "is_noted": {
+          "type": "integer",
+          "example": true
+        },
+        "is_domain_banned": {
+          "type": "integer",
+          "example": false
+        }
+      }
+    },
+    "data_type": "list",
+    "sample_fields": [
+      "id",
+      "name",
+      "is_deleted",
+      "current_cpc",
+      "group_name",
+      "mean_time_to_convert",
+      "seconds_since_last_lead",
+      "clicks_last_hour",
+      "leads_last_hour",
+      "profit_last_hour",
+      "first_click_time",
+      "clicks",
+      "link",
+      "is_noted",
+      "is_domain_banned"
+    ],
+    "summary": "Array of 6 items (objects with 15 fields)"
+  },
+  "/info/landing": {
+    "endpoint": "/info/landing",
+    "method": "GET",
+    "response_schema": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer",
+          "example": 1
+        },
+        "name": {
+          "type": "string",
+          "example": "TRJ47 / 81% dmgd - Adult - NO TOKENS"
+        },
+        "is_deleted": {
+          "type": "integer",
+          "example": false
+        },
+        "language": {
+          "type": "string",
+          "example": ""
+        },
+        "location": {
+          "type": "string",
+          "example": "landers/sasa/index.html"
+        },
+        "group_name": {
+          "type": "unknown",
+          "value": "None"
+        },
+        "mean_time_to_convert": {
+          "type": "number",
+          "example": 253584.40010655302
+        },
+        "seconds_since_last_lead": {
+          "type": "string",
+          "example": "1184"
+        },
+        "clicks_last_hour": {
+          "type": "string",
+          "example": "817"
+        },
+        "leads_last_hour": {
+          "type": "string",
+          "example": "1"
+        },
+        "profit_last_hour": {
+          "type": "number",
+          "example": -0.5474578457000008
+        },
+        "first_click_time": {
+          "type": "string",
+          "example": "2025-01-05 15:37:11"
+        },
+        "clicks": {
+          "type": "string",
+          "example": "201846"
+        },
+        "is_noted": {
+          "type": "integer",
+          "example": false
+        },
+        "is_integrated": {
+          "type": "integer",
+          "example": true
+        },
+        "is_domain_banned": {
+          "type": "integer",
+          "example": false
+        }
+      }
+    },
+    "data_type": "list",
+    "sample_fields": [
+      "id",
+      "name",
+      "is_deleted",
+      "language",
+      "location",
+      "group_name",
+      "mean_time_to_convert",
+      "seconds_since_last_lead",
+      "clicks_last_hour",
+      "leads_last_hour",
+      "profit_last_hour",
+      "first_click_time",
+      "clicks",
+      "is_noted",
+      "is_integrated",
+      "is_domain_banned"
+    ],
+    "summary": "Array of 6 items (objects with 16 fields)"
+  },
+  "/info/offer": {
+    "endpoint": "/info/offer",
+    "method": "GET",
+    "response_schema": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer",
+          "example": 1
+        },
+        "name": {
+          "type": "string",
+          "example": "inHaus - IOS - AI Smart Block - (Branch)"
+        },
+        "is_deleted": {
+          "type": "integer",
+          "example": false
+        },
+        "country": {
+          "type": "string",
+          "example": ""
+        },
+        "url": {
+          "type": "string",
+          "example": "https://ovd0o.app.link/C102yLXNRPb?%243p=a_custom_1403847507905986865&~secondary_publisher={campaign}&~placement={t1}&~ad_id={clickid}"
+        },
+        "group_name": {
+          "type": "unknown",
+          "value": "None"
+        },
+        "affiliate_network": {
+          "type": "unknown",
+          "value": "None"
+        },
+        "mean_time_to_convert": {
+          "type": "number",
+          "example": 197903.51971608834
+        },
+        "seconds_since_last_lead": {
+          "type": "string",
+          "example": "1312320"
+        },
+        "clicks_last_hour": {
+          "type": "string",
+          "example": "1"
+        },
+        "leads_last_hour": {
+          "type": "string",
+          "example": "0"
+        },
+        "profit_last_hour": {
+          "type": "number",
+          "example": -0.00097344
+        },
+        "first_click_time": {
+          "type": "string",
+          "example": "2025-01-05 15:37:11"
+        },
+        "clicks": {
+          "type": "string",
+          "example": "3"
+        },
+        "is_noted": {
+          "type": "integer",
+          "example": false
+        }
+      }
+    },
+    "data_type": "list",
+    "sample_fields": [
+      "id",
+      "name",
+      "is_deleted",
+      "country",
+      "url",
+      "group_name",
+      "affiliate_network",
+      "mean_time_to_convert",
+      "seconds_since_last_lead",
+      "clicks_last_hour",
+      "leads_last_hour",
+      "profit_last_hour",
+      "first_click_time",
+      "clicks",
+      "is_noted"
+    ],
+    "summary": "Array of 6 items (objects with 15 fields)"
+  },
+  "/info/rotation": {
+    "endpoint": "/info/rotation",
+    "method": "GET",
+    "response_schema": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "example": "totals"
+        },
+        "total_count": {
+          "type": "integer",
+          "example": 0
+        }
+      }
+    },
+    "data_type": "list",
+    "sample_fields": [
+      "id",
+      "total_count"
+    ],
+    "summary": "Array of 1 items (objects with 2 fields)"
+  },
+  "/info/traffic_source": {
+    "endpoint": "/info/traffic_source",
+    "method": "GET",
+    "response_schema": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer",
+          "example": 1
+        },
+        "name": {
+          "type": "string",
+          "example": "Advertizer(vika92kozlova@gmail.com) - Pavel"
+        },
+        "is_deleted": {
+          "type": "integer",
+          "example": false
+        },
+        "campaigns": {
+          "type": "string",
+          "example": "2"
+        },
+        "mean_time_to_convert": {
+          "type": "number",
+          "example": 197032.4514563107
+        },
+        "seconds_since_last_lead": {
+          "type": "string",
+          "example": "17068598"
+        },
+        "clicks_last_hour": {
+          "type": "string",
+          "example": "0"
+        },
+        "leads_last_hour": {
+          "type": "string",
+          "example": "0"
+        },
+        "profit_last_hour": {
+          "type": "integer",
+          "example": 0
+        },
+        "first_click_time": {
+          "type": "string",
+          "example": "2025-01-05 17:41:10"
+        },
+        "clicks": {
+          "type": "string",
+          "example": "5"
+        },
+        "is_noted": {
+          "type": "integer",
+          "example": false
+        }
+      }
+    },
+    "data_type": "list",
+    "sample_fields": [
+      "id",
+      "name",
+      "is_deleted",
+      "campaigns",
+      "mean_time_to_convert",
+      "seconds_since_last_lead",
+      "clicks_last_hour",
+      "leads_last_hour",
+      "profit_last_hour",
+      "first_click_time",
+      "clicks",
+      "is_noted"
+    ],
+    "summary": "Array of 6 items (objects with 12 fields)"
+  },
+  "/stats/affiliate_network": {
+    "endpoint": "/stats/affiliate_network",
+    "method": "GET",
+    "response_schema": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "example": "15"
+        },
+        "name": {
+          "type": "string",
+          "example": "Updated Test Network"
+        },
+        "offers": {
+          "type": "string",
+          "example": "0"
+        },
+        "clicks": {
+          "type": "string",
+          "example": "0"
+        },
+        "leads": {
+          "type": "string",
+          "example": "0"
+        },
+        "cr": {
+          "type": "string",
+          "example": "0"
+        },
+        "bots": {
+          "type": "string",
+          "example": "0"
+        },
+        "epc": {
+          "type": "string",
+          "example": "0"
+        },
+        "cpc": {
+          "type": "string",
+          "example": "0"
+        },
+        "revenue": {
+          "type": "string",
+          "example": "0"
+        },
+        "cost": {
+          "type": "string",
+          "example": "0"
+        },
+        "profit": {
+          "type": "string",
+          "example": "0"
+        },
+        "roi": {
+          "type": "string",
+          "example": "0"
+        },
+        "unique_clicks": {
+          "type": "string",
+          "example": "0"
+        },
+        "is_deleted": {
+          "type": "string",
+          "example": ""
+        },
+        "is_noted": {
+          "type": "integer",
+          "example": false
+        }
+      }
+    },
+    "data_type": "list",
+    "sample_fields": [
+      "id",
+      "name",
+      "offers",
+      "clicks",
+      "leads",
+      "cr",
+      "bots",
+      "epc",
+      "cpc",
+      "revenue",
+      "cost",
+      "profit",
+      "roi",
+      "unique_clicks",
+      "is_deleted",
+      "is_noted"
+    ],
+    "summary": "Array of 6 items (objects with 16 fields)"
+  },
+  "/stats/campaign": {
+    "endpoint": "/stats/campaign",
+    "method": "GET",
+    "response_schema": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "example": "167"
+        },
+        "eCPB::013d4336-8f03-42a4-a36d-ff6c0d8f2efd": {
+          "type": "string",
+          "example": "59.575007119138"
+        },
+        "TrialCancel::1fc9e6ad-6e6b-45de-9050-86a12aa9fcbb": {
+          "type": "string",
+          "example": "53"
+        },
+        "Buyouts::441d199a-9902-410e-9033-656ca6e67e1e": {
+          "type": "string",
+          "example": "13"
+        },
+        "Trials::4adcb8e3-e719-425e-9882-771a4bf4d143": {
+          "type": "string",
+          "example": "87"
+        },
+        "Active Trials::579e88c5-7fcd-4af5-87d9-0e799dd80065": {
+          "type": "string",
+          "example": "21"
+        },
+        "Trial %::9ff82bf7-7ded-4d28-a223-7a33b5a2e234": {
+          "type": "string",
+          "example": "14.356435643564"
+        },
+        "SubCancel::a9a13783-a0da-4d99-a6db-fd6087977c3f": {
+          "type": "string",
+          "example": "0"
+        },
+        "Trialcancel %::b5b34653-8bfa-44af-afbc-a118b89be692": {
+          "type": "string",
+          "example": "60.919540229885"
+        },
+        "eCPA::c04d981c-f898-4385-bfc4-7c3d0fca220c": {
+          "type": "string",
+          "example": "1.2780117038759"
+        },
+        "eCPT::c560568d-f58b-4d05-b5d8-9c2f28bd620d": {
+          "type": "string",
+          "example": "8.9020125580321"
+        },
+        "Buyouts %::c7cbf9d0-a3fc-4315-be91-578bb1c8cd8c": {
+          "type": "string",
+          "example": "14.942528735632"
+        },
+        "Active Sub::ce3527a0-2a79-482c-9800-0fdb35787799": {
+          "type": "string",
+          "example": "13"
+        },
+        "name": {
+          "type": "string",
+          "example": "JOJ5 / PROPSSP / PT - WEB / BR:WORK:cost:weight:opt:bider"
+        },
+        "group_name": {
+          "type": "string",
+          "example": ""
+        },
+        "traffic_source": {
+          "type": "string",
+          "example": "PropellerAds(mr.aleksvagano - KUDI) - Pavels"
+        },
+        "clicks": {
+          "type": "string",
+          "example": "787665"
+        },
+        "lander_views": {
+          "type": "string",
+          "example": "688320"
+        },
+        "lander_clicks": {
+          "type": "string",
+          "example": "27154"
+        },
+        "lander_ctr": {
+          "type": "string",
+          "example": "3.944967"
+        },
+        "leads": {
+          "type": "string",
+          "example": "606"
+        },
+        "cr": {
+          "type": "string",
+          "example": "0.076936"
+        },
+        "bots": {
+          "type": "string",
+          "example": "0"
+        },
+        "epc": {
+          "type": "string",
+          "example": "0.000884"
+        },
+        "cpc": {
+          "type": "string",
+          "example": "0.000983"
+        },
+        "revenue": {
+          "type": "string",
+          "example": "696"
+        },
+        "cost": {
+          "type": "string",
+          "example": "774.47509254879"
+        },
+        "profit": {
+          "type": "string",
+          "example": "-78.475092548791"
+        },
+        "roi": {
+          "type": "string",
+          "example": "-10.132681"
+        },
+        "unique_clicks": {
+          "type": "string",
+          "example": "468057"
+        },
+        "is_deleted": {
+          "type": "string",
+          "example": ""
+        },
+        "is_noted": {
+          "type": "integer",
+          "example": true
+        },
+        "is_domain_banned": {
+          "type": "integer",
+          "example": false
+        }
+      }
+    },
+    "data_type": "list",
+    "sample_fields": [
+      "id",
+      "eCPB::013d4336-8f03-42a4-a36d-ff6c0d8f2efd",
+      "TrialCancel::1fc9e6ad-6e6b-45de-9050-86a12aa9fcbb",
+      "Buyouts::441d199a-9902-410e-9033-656ca6e67e1e",
+      "Trials::4adcb8e3-e719-425e-9882-771a4bf4d143",
+      "Active Trials::579e88c5-7fcd-4af5-87d9-0e799dd80065",
+      "Trial %::9ff82bf7-7ded-4d28-a223-7a33b5a2e234",
+      "SubCancel::a9a13783-a0da-4d99-a6db-fd6087977c3f",
+      "Trialcancel %::b5b34653-8bfa-44af-afbc-a118b89be692",
+      "eCPA::c04d981c-f898-4385-bfc4-7c3d0fca220c",
+      "eCPT::c560568d-f58b-4d05-b5d8-9c2f28bd620d",
+      "Buyouts %::c7cbf9d0-a3fc-4315-be91-578bb1c8cd8c",
+      "Active Sub::ce3527a0-2a79-482c-9800-0fdb35787799",
+      "name",
+      "group_name",
+      "traffic_source",
+      "clicks",
+      "lander_views",
+      "lander_clicks",
+      "lander_ctr",
+      "leads",
+      "cr",
+      "bots",
+      "epc",
+      "cpc",
+      "revenue",
+      "cost",
+      "profit",
+      "roi",
+      "unique_clicks",
+      "is_deleted",
+      "is_noted",
+      "is_domain_banned"
+    ],
+    "summary": "Array of 6 items (objects with 33 fields)"
+  },
+  "/stats/landing": {
+    "endpoint": "/stats/landing",
+    "method": "GET",
+    "response_schema": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "example": "17"
+        },
+        "language": {
+          "type": "string",
+          "example": ""
+        },
+        "name": {
+          "type": "string",
+          "example": "Gogl style with timer - NO TOKEN"
+        },
+        "group_name": {
+          "type": "string",
+          "example": ""
+        },
+        "clicks": {
+          "type": "string",
+          "example": "749507"
+        },
+        "lander_ctr": {
+          "type": "string",
+          "example": "1.239081"
+        },
+        "leads": {
+          "type": "string",
+          "example": "938"
+        },
+        "cr": {
+          "type": "string",
+          "example": "0.125149"
+        },
+        "bots": {
+          "type": "string",
+          "example": "0"
+        },
+        "epc": {
+          "type": "string",
+          "example": "0.001452"
+        },
+        "cpc": {
+          "type": "string",
+          "example": "0.002679"
+        },
+        "revenue": {
+          "type": "string",
+          "example": "1088"
+        },
+        "cost": {
+          "type": "string",
+          "example": "2007.6334631197"
+        },
+        "profit": {
+          "type": "string",
+          "example": "-919.63346311967"
+        },
+        "roi": {
+          "type": "string",
+          "example": "-45.806841"
+        },
+        "unique_clicks": {
+          "type": "string",
+          "example": "466127"
+        },
+        "lander_clicks": {
+          "type": "string",
+          "example": "9287"
+        },
+        "lander_views": {
+          "type": "string",
+          "example": "749507"
+        },
+        "is_deleted": {
+          "type": "string",
+          "example": ""
+        },
+        "is_noted": {
+          "type": "integer",
+          "example": false
+        },
+        "is_integrated": {
+          "type": "integer",
+          "example": true
+        },
+        "url": {
+          "type": "string",
+          "example": "landers/farmaldgnrodois442eamdmnfnss/google-viruse-white-gh-pages/index.html"
+        },
+        "is_domain_banned": {
+          "type": "integer",
+          "example": false
+        }
+      }
+    },
+    "data_type": "list",
+    "sample_fields": [
+      "id",
+      "language",
+      "name",
+      "group_name",
+      "clicks",
+      "lander_ctr",
+      "leads",
+      "cr",
+      "bots",
+      "epc",
+      "cpc",
+      "revenue",
+      "cost",
+      "profit",
+      "roi",
+      "unique_clicks",
+      "lander_clicks",
+      "lander_views",
+      "is_deleted",
+      "is_noted",
+      "is_integrated",
+      "url",
+      "is_domain_banned"
+    ],
+    "summary": "Array of 6 items (objects with 23 fields)"
+  },
+  "/stats/offer": {
+    "endpoint": "/stats/offer",
+    "method": "GET",
+    "response_schema": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "example": "35"
+        },
+        "country": {
+          "type": "string",
+          "example": ""
+        },
+        "name": {
+          "type": "string",
+          "example": "APPSTERO CPT - Pavel - Dynamic CPT offers - Multigeo - #1"
+        },
+        "group_name": {
+          "type": "string",
+          "example": ""
+        },
+        "affiliate_network": {
+          "type": "string",
+          "example": ""
+        },
+        "clicks": {
+          "type": "string",
+          "example": "851901"
+        },
+        "lander_ctr": {
+          "type": "string",
+          "example": "4.901274"
+        },
+        "leads": {
+          "type": "string",
+          "example": "1259"
+        },
+        "cr": {
+          "type": "string",
+          "example": "0.147787"
+        },
+        "bots": {
+          "type": "string",
+          "example": "0"
+        },
+        "epc": {
+          "type": "string",
+          "example": "0.002235"
+        },
+        "cpc": {
+          "type": "string",
+          "example": "0.002342"
+        },
+        "revenue": {
+          "type": "string",
+          "example": "1904"
+        },
+        "cost": {
+          "type": "string",
+          "example": "1995.1468548785"
+        },
+        "profit": {
+          "type": "string",
+          "example": "-91.146854878457"
+        },
+        "roi": {
+          "type": "string",
+          "example": "-4.568428"
+        },
+        "payout": {
+          "type": "object",
+          "properties": {
+            "money": {
+              "type": "object",
+              "properties": {
+                "amount": {
+                  "type": "integer",
+                  "example": 0
+                },
+                "currency": {
+                  "type": "string",
+                  "example": "USD"
+                }
+              }
+            },
+            "isAuto": {
+              "type": "integer",
+              "example": true
+            },
+            "isUpsell": {
+              "type": "integer",
+              "example": true
+            }
+          }
+        },
+        "unique_clicks": {
+          "type": "string",
+          "example": "481858"
+        },
+        "lander_clicks": {
+          "type": "string",
+          "example": "41754"
+        },
+        "lander_views": {
+          "type": "string",
+          "example": "851901"
+        },
+        "is_deleted": {
+          "type": "string",
+          "example": ""
+        },
+        "url": {
+          "type": "string",
+          "example": "https://track.spottly-cleaner-app.com/click?pid=122&offer_id=749&sub1={clickid}"
+        },
+        "is_noted": {
+          "type": "integer",
+          "example": false
+        }
+      }
+    },
+    "data_type": "list",
+    "sample_fields": [
+      "id",
+      "country",
+      "name",
+      "group_name",
+      "affiliate_network",
+      "clicks",
+      "lander_ctr",
+      "leads",
+      "cr",
+      "bots",
+      "epc",
+      "cpc",
+      "revenue",
+      "cost",
+      "profit",
+      "roi",
+      "payout",
+      "unique_clicks",
+      "lander_clicks",
+      "lander_views",
+      "is_deleted",
+      "url",
+      "is_noted"
+    ],
+    "summary": "Array of 6 items (objects with 23 fields)"
+  },
+  "/stats/rotation": {
+    "endpoint": "/stats/rotation",
+    "method": "GET",
+    "response_schema": {},
+    "data_type": "list",
+    "sample_fields": [],
+    "summary": "Array of 0 items"
+  },
+  "/stats/traffic_source": {
+    "endpoint": "/stats/traffic_source",
+    "method": "GET",
+    "response_schema": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "example": "25"
+        },
+        "name": {
+          "type": "string",
+          "example": "PropellerAds(mr.aleksvagano - KUDI) - Pavels"
+        },
+        "clicks": {
+          "type": "string",
+          "example": "3120916"
+        },
+        "leads": {
+          "type": "string",
+          "example": "3663"
+        },
+        "cr": {
+          "type": "string",
+          "example": "0.117369"
+        },
+        "bots": {
+          "type": "string",
+          "example": "0"
+        },
+        "epc": {
+          "type": "string",
+          "example": "0.001459"
+        },
+        "cpc": {
+          "type": "string",
+          "example": "0.002317"
+        },
+        "revenue": {
+          "type": "string",
+          "example": "4552"
+        },
+        "cost": {
+          "type": "string",
+          "example": "7231.5723278699"
+        },
+        "profit": {
+          "type": "string",
+          "example": "-2679.5723278699"
+        },
+        "roi": {
+          "type": "string",
+          "example": "-37.0538"
+        },
+        "unique_clicks": {
+          "type": "string",
+          "example": "1830508"
+        },
+        "is_deleted": {
+          "type": "string",
+          "example": ""
+        },
+        "is_noted": {
+          "type": "integer",
+          "example": false
+        }
+      }
+    },
+    "data_type": "list",
+    "sample_fields": [
+      "id",
+      "name",
+      "clicks",
+      "leads",
+      "cr",
+      "bots",
+      "epc",
+      "cpc",
+      "revenue",
+      "cost",
+      "profit",
+      "roi",
+      "unique_clicks",
+      "is_deleted",
+      "is_noted"
+    ],
+    "summary": "Array of 6 items (objects with 15 fields)"
+  }
+}
