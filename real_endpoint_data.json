@@ -1,0 +1,59 @@
+{
+  "POST /public/api/v1/affiliate_network": {
+    "summary": "Create Affiliate Network",
+    "parameters": "No parameters",
+    "requestBody": {
+      "contentType": "application/json",
+      "example": {
+        "name": "My network",
+        "offerUrlTemplate": "string",
+        "postbackUrl": "string",
+        "postbackIpWhitelist": [
+          "1.2.3.4",
+          "2001:0db8:0000:0000:0000:ff00:0042:8329"
+        ],
+        "statusPayoutRelations": [
+          {
+            "conversionStatus": "Status",
+            "payout": "{payout}"
+          }
+        ],
+        "isPayoutRelationsActive": true
+      },
+      "schema": {
+        "type": "object",
+        "properties": {
+          "name": {"type": "string"},
+          "offerUrlTemplate": {"type": "string"},
+          "postbackUrl": {"type": "string"},
+          "postbackIpWhitelist": {"type": "array", "items": {"type": "string"}},
+          "statusPayoutRelations": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "conversionStatus": {"type": "string"},
+                "payout": {"type": "string"}
+              }
+            }
+          },
+          "isPayoutRelationsActive": {"type": "boolean"}
+        }
+      }
+    },
+    "responses": {
+      "201": {
+        "description": "Affiliate Network created successfully",
+        "example": {
+          "id": 1
+        }
+      },
+      "400": {
+        "description": "Bad request"
+      },
+      "403": {
+        "description": "Access Denied"
+      }
+    }
+  }
+}
