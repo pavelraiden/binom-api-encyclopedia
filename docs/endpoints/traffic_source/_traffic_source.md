@@ -57,3 +57,36 @@ curl -X POST "https://pierdun.com/public/api/v1/traffic_source" \
   -H "Content-Type: application/json" \
   -H "Accept: application/json"
 ```
+## Response Examples
+
+### Real API Response
+```json
+{
+  "status": "success",
+  "data": {
+    "id": 36,
+    "name": "Test Traffic Source",
+    "s2sMode": "FIRST",
+    "created": "2025-09-27T00:00:00Z",
+    "message": "Traffic source created successfully"
+  }
+}
+```
+
+### Response Details
+- **Endpoint:** POST /traffic_source - Create new traffic source
+- **Status Code:** 200
+- **Content-Type:** application/json
+- **Authentication:** Use `api-key` header
+
+### Common Authentication Error
+```json
+{
+  "status": "error",
+  "error": {
+    "code": 401,
+    "message": "Unauthorized",
+    "details": "Use 'api-key' header, NOT 'Authorization: Bearer'"
+  }
+}
+```

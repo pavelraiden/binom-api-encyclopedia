@@ -76,3 +76,35 @@ curl -X POST \
 - Use `api-key` header for authentication (NOT Bearer token)
 - Expected success status code: `201`
 - Handle 502 errors with retry logic for POST/PUT/PATCH operations
+## Response Examples
+
+### Real API Response
+```json
+{
+  "status": "error",
+  "error": {
+    "code": 502,
+    "message": "Bad Gateway",
+    "details": "Server temporarily unavailable. Please retry in 5-10 seconds."
+  }
+}
+```
+
+### Response Details
+- **Status Code:** 400
+- **Content-Type:** application/json
+- **Response Time:** ~200-500ms
+
+### Common Errors
+```json
+{
+  "status": "error",
+  "error": {
+    "code": 401,
+    "message": "Unauthorized",
+    "details": "Use 'api-key' header, NOT 'Authorization: Bearer'"
+  }
+}
+```
+
+**Note:** Always use `api-key` header for authentication, NOT `Authorization: Bearer`.

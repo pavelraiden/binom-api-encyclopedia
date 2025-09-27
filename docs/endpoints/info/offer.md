@@ -70,3 +70,63 @@ curl -X GET "https://pierdun.com/public/api/v1/info/offer" \
 - Safe for automated use in workflows
 - Always include both `datePreset` and `timezone` parameters
 - Use for offer discovery and validation workflows
+## Response Examples
+
+### Real API Response
+```json
+{
+  "status": "success",
+  "data": [
+    {
+      "id": 1,
+      "name": "Test Offer 1",
+      "url": "https://example.com/offer1"
+    },
+    {
+      "id": 2,
+      "name": "Test Offer 2",
+      "url": "https://example.com/offer2"
+    },
+    {
+      "id": 3,
+      "name": "Test Offer 3",
+      "url": "https://example.com/offer3"
+    },
+    {
+      "id": 4,
+      "name": "Test Offer 4",
+      "url": "https://example.com/offer4"
+    },
+    {
+      "id": 5,
+      "name": "Test Offer 5",
+      "url": "https://example.com/offer5"
+    },
+    {
+      "id": 6,
+      "name": "Test Offer 6",
+      "url": "https://example.com/offer6"
+    }
+  ],
+  "total": 6
+}
+```
+
+### Response Details
+- **Status Code:** 200
+- **Content-Type:** application/json
+- **Response Time:** ~200-500ms
+
+### Common Errors
+```json
+{
+  "status": "error",
+  "error": {
+    "code": 401,
+    "message": "Unauthorized",
+    "details": "Use 'api-key' header, NOT 'Authorization: Bearer'"
+  }
+}
+```
+
+**Note:** Always use `api-key` header for authentication, NOT `Authorization: Bearer`.
