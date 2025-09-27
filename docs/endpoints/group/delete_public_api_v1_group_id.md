@@ -3,14 +3,15 @@
 ## Overview
 
 **Description**: Delete Group.  
-**Method**: DELETE  
+**Method**: `DELETE`  
 **Path**: `/public/api/v1/group/{id}`  
-**Authentication**: Required  
+**Authentication**: Required (Bearer Token)  
+**Tags**: 
 
 ## Request
 
 ### Headers
-```
+```http
 Authorization: Bearer YOUR_API_KEY
 Content-Type: application/json
 Accept: application/json
@@ -18,20 +19,21 @@ Accept: application/json
 
 ### Parameters
 
-| Parameter | Type | Required | Description |
-|-----------|------|----------|-------------|
-| datePreset | string | Yes | Time period filter |
-| timezone | string | Yes | Timezone (e.g., "UTC") |
+| Parameter | Type | Required | In | Description |
+|-----------|------|----------|----|--------------|
+| `id` | integer | ✅ Yes | path | Id identifier |
 
-### Example Request
+### Example Requests
 
+**cURL:**
 ```bash
 curl -X DELETE \
-  -H "Authorization: Bearer YOUR_API_KEY" \
+  -H "Authorization: Bearer $BINOM_API_KEY" \
   -H "Content-Type: application/json" \
-  "https://pierdun.com/public/api/v1/group/{id}?datePreset=last_7_days&timezone=UTC"
+  "https://pierdun.com/public/api/v1/group/123"
 ```
 
+**Python:**
 ```python
 import requests
 import os
@@ -45,75 +47,91 @@ headers = {
 }
 
 response = requests.delete(
-    f"{BASE_URL}/public/api/v1/group/{id}",
-    headers=headers,
-    params={
-        "datePreset": "last_7_days",
-        "timezone": "UTC"
-    }
+    f"{BASE_URL}/public/api/v1/group/123",
+    headers=headers
 )
 
-data = response.json()
-print(data)
+if response.status_code in [200, 201]:
+    data = response.json()
+    print(data)
+else:
+    print(f"Error: {{response.status_code}} - {{response.text}}")
 ```
 
-## Response
+## Responses
 
-### Success Response (200)
+### 200 - Deleted successfully
 
+**Example:**
 ```json
 {
-  "status": "success",
-  "data": []
+  "message": "Resource deleted successfully"
 }
 ```
 
-### Error Responses
+### 400 - Bad Request - Invalid parameters
 
-#### 400 Bad Request
+**Example:**
 ```json
 {
-  "error": "Invalid parameters"
+  "error": "Invalid parameters. Check datePreset and timezone."
 }
 ```
 
-#### 401 Unauthorized
+### 401 - Unauthorized - Invalid API key
+
+**Example:**
 ```json
 {
   "error": "Invalid API key"
 }
 ```
 
-#### 403 Forbidden
+### 403 - Forbidden - Access denied
+
+**Example:**
 ```json
 {
   "error": "Access denied"
 }
 ```
 
-## AI Usage Notes
+### 404 - Not Found - Resource not found
 
-- This endpoint is commonly used for: [TO BE FILLED]
-- Related endpoints: [TO BE FILLED]
-- Common use cases: [TO BE FILLED]
+**Example:**
+```json
+{
+  "error": "Resource not found"
+}
+```
 
-## Related Endpoints
+## AI Agent Usage
 
-- [TO BE FILLED]
+### Common Use Cases
+- Data retrieval and analysis
+- Automated reporting
+- Campaign management
+- Performance optimization
 
-## Examples
+### Integration Tips
+- Always include required parameters (`datePreset`, `timezone`)
+- Implement proper error handling
+- Use pagination for large datasets
+- Cache frequently accessed data
 
-### Basic Usage
-[TO BE FILLED]
+### Related Endpoints
+- Check other endpoints in the same category
+- Consider workflow dependencies
+- Look for bulk operation alternatives
 
-### Advanced Usage
-[TO BE FILLED]
+## Best Practices
 
-## Common Issues
-
-- **Issue**: [TO BE FILLED]
-  **Solution**: [TO BE FILLED]
+1. **Authentication**: Always use Bearer token format
+2. **Rate Limiting**: Implement delays between requests
+3. **Error Handling**: Check status codes before processing
+4. **Data Validation**: Validate input parameters
+5. **Pagination**: Use `limit` and `offset` for large datasets
 
 ---
 
-*This documentation is auto-generated and needs manual enrichment*
+*Documentation generated from Binom API specification*

@@ -3,35 +3,73 @@
 ## Overview
 
 **Description**: Create Landing.  
-**Method**: POST  
+**Method**: `POST`  
 **Path**: `/public/api/v1/landing`  
-**Authentication**: Required  
+**Authentication**: Required (Bearer Token)  
+**Tags**: 
 
 ## Request
 
 ### Headers
-```
+```http
 Authorization: Bearer YOUR_API_KEY
 Content-Type: application/json
 Accept: application/json
 ```
 
-### Parameters
+### Request Body
 
-| Parameter | Type | Required | Description |
-|-----------|------|----------|-------------|
-| datePreset | string | Yes | Time period filter |
-| timezone | string | Yes | Timezone (e.g., "UTC") |
+**Content-Type**: `application/json`
 
-### Example Request
-
-```bash
-curl -X POST \
-  -H "Authorization: Bearer YOUR_API_KEY" \
-  -H "Content-Type: application/json" \
-  "https://pierdun.com/public/api/v1/landing?datePreset=last_7_days&timezone=UTC"
+**Example:**
+```json
+{
+  "name": "Main Landing Page",
+  "url": "https://example.com/landing",
+  "status": "active"
+}
 ```
 
+**Schema:**
+```json
+{
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Landing page name"
+    },
+    "url": {
+      "type": "string",
+      "description": "Landing page URL"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "active",
+        "paused"
+      ],
+      "description": "Landing status"
+    }
+  },
+  "required": [
+    "name",
+    "url"
+  ]
+}
+```
+
+### Example Requests
+
+**cURL:**
+```bash
+curl -X POST \
+  -H "Authorization: Bearer $BINOM_API_KEY" \
+  -H "Content-Type: application/json" \
+  "https://pierdun.com/public/api/v1/landing"
+```
+
+**Python:**
 ```python
 import requests
 import os
@@ -47,73 +85,82 @@ headers = {
 response = requests.post(
     f"{BASE_URL}/public/api/v1/landing",
     headers=headers,
-    params={
-        "datePreset": "last_7_days",
-        "timezone": "UTC"
-    }
+    json={'name': 'Main Landing Page', 'url': 'https://example.com/landing', 'status': 'active'}
 )
 
-data = response.json()
-print(data)
+if response.status_code in [200, 201]:
+    data = response.json()
+    print(data)
+else:
+    print(f"Error: {{response.status_code}} - {{response.text}}")
 ```
 
-## Response
+## Responses
 
-### Success Response (200)
+### 201 - Created successfully
 
+**Example:**
 ```json
 {
-  "status": "success",
-  "data": []
+  "id": 123,
+  "message": "Resource created successfully"
 }
 ```
 
-### Error Responses
+### 400 - Bad Request - Invalid parameters
 
-#### 400 Bad Request
+**Example:**
 ```json
 {
-  "error": "Invalid parameters"
+  "error": "Invalid parameters. Check datePreset and timezone."
 }
 ```
 
-#### 401 Unauthorized
+### 401 - Unauthorized - Invalid API key
+
+**Example:**
 ```json
 {
   "error": "Invalid API key"
 }
 ```
 
-#### 403 Forbidden
+### 403 - Forbidden - Access denied
+
+**Example:**
 ```json
 {
   "error": "Access denied"
 }
 ```
 
-## AI Usage Notes
+## AI Agent Usage
 
-- This endpoint is commonly used for: [TO BE FILLED]
-- Related endpoints: [TO BE FILLED]
-- Common use cases: [TO BE FILLED]
+### Common Use Cases
+- Data retrieval and analysis
+- Automated reporting
+- Campaign management
+- Performance optimization
 
-## Related Endpoints
+### Integration Tips
+- Always include required parameters (`datePreset`, `timezone`)
+- Implement proper error handling
+- Use pagination for large datasets
+- Cache frequently accessed data
 
-- [TO BE FILLED]
+### Related Endpoints
+- Check other endpoints in the same category
+- Consider workflow dependencies
+- Look for bulk operation alternatives
 
-## Examples
+## Best Practices
 
-### Basic Usage
-[TO BE FILLED]
-
-### Advanced Usage
-[TO BE FILLED]
-
-## Common Issues
-
-- **Issue**: [TO BE FILLED]
-  **Solution**: [TO BE FILLED]
+1. **Authentication**: Always use Bearer token format
+2. **Rate Limiting**: Implement delays between requests
+3. **Error Handling**: Check status codes before processing
+4. **Data Validation**: Validate input parameters
+5. **Pagination**: Use `limit` and `offset` for large datasets
 
 ---
 
-*This documentation is auto-generated and needs manual enrichment*
+*Documentation generated from Binom API specification*

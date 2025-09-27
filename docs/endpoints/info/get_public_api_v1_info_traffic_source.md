@@ -3,14 +3,15 @@
 ## Overview
 
 **Description**: Get traffic sources info.  
-**Method**: GET  
+**Method**: `GET`  
 **Path**: `/public/api/v1/info/traffic_source`  
-**Authentication**: Required  
+**Authentication**: Required (Bearer Token)  
+**Tags**: stats stats
 
 ## Request
 
 ### Headers
-```
+```http
 Authorization: Bearer YOUR_API_KEY
 Content-Type: application/json
 Accept: application/json
@@ -18,20 +19,24 @@ Accept: application/json
 
 ### Parameters
 
-| Parameter | Type | Required | Description |
-|-----------|------|----------|-------------|
-| datePreset | string | Yes | Time period filter |
-| timezone | string | Yes | Timezone (e.g., "UTC") |
+| Parameter | Type | Required | In | Description |
+|-----------|------|----------|----|--------------|
+| `datePreset` | string (enum: today, yesterday, this_week, last_week, last_7_days, last_14_days, last_30_days, this_month, last_month, this_year, last_year, all_time, custom_time) | ✅ Yes | query | Time period filter (e.g., 'last_7_days', 'today', 'yesterday') |
+| `timezone` | string | ✅ Yes | query | Timezone for date calculations (e.g., 'UTC') |
+| `limit` | integer | ❌ No | query | Maximum number of records to return (max 1000) |
+| `offset` | integer | ❌ No | query | Number of records to skip for pagination |
 
-### Example Request
+### Example Requests
 
+**cURL:**
 ```bash
 curl -X GET \
-  -H "Authorization: Bearer YOUR_API_KEY" \
+  -H "Authorization: Bearer $BINOM_API_KEY" \
   -H "Content-Type: application/json" \
-  "https://pierdun.com/public/api/v1/info/traffic_source?datePreset=last_7_days&timezone=UTC"
+  "https://pierdun.com/public/api/v1/info/traffic_source?datePreset=VALUE&timezone=UTC"
 ```
 
+**Python:**
 ```python
 import requests
 import os
@@ -47,73 +52,95 @@ headers = {
 response = requests.get(
     f"{BASE_URL}/public/api/v1/info/traffic_source",
     headers=headers,
-    params={
-        "datePreset": "last_7_days",
-        "timezone": "UTC"
-    }
+    params={'datePreset': 'VALUE', 'timezone': 'UTC'}
 )
 
-data = response.json()
-print(data)
+if response.status_code in [200, 201]:
+    data = response.json()
+    print(data)
+else:
+    print(f"Error: {{response.status_code}} - {{response.text}}")
 ```
 
-## Response
+## Responses
 
-### Success Response (200)
+### 200 - Success
 
+**Example:**
+```json
+[
+  {
+    "id": 1,
+    "name": "Example Item",
+    "status": "active",
+    "createdAt": "2025-09-27T00:00:00Z"
+  }
+]
+```
+
+### 400 - Bad Request - Invalid parameters
+
+**Example:**
 ```json
 {
-  "status": "success",
-  "data": []
+  "error": "Invalid parameters. Check datePreset and timezone."
 }
 ```
 
-### Error Responses
+### 401 - Unauthorized - Invalid API key
 
-#### 400 Bad Request
-```json
-{
-  "error": "Invalid parameters"
-}
-```
-
-#### 401 Unauthorized
+**Example:**
 ```json
 {
   "error": "Invalid API key"
 }
 ```
 
-#### 403 Forbidden
+### 403 - Forbidden - Access denied
+
+**Example:**
 ```json
 {
   "error": "Access denied"
 }
 ```
 
-## AI Usage Notes
+### 404 - Not Found - Resource not found
 
-- This endpoint is commonly used for: [TO BE FILLED]
-- Related endpoints: [TO BE FILLED]
-- Common use cases: [TO BE FILLED]
+**Example:**
+```json
+{
+  "error": "Resource not found"
+}
+```
 
-## Related Endpoints
+## AI Agent Usage
 
-- [TO BE FILLED]
+### Common Use Cases
+- Data retrieval and analysis
+- Automated reporting
+- Campaign management
+- Performance optimization
 
-## Examples
+### Integration Tips
+- Always include required parameters (`datePreset`, `timezone`)
+- Implement proper error handling
+- Use pagination for large datasets
+- Cache frequently accessed data
 
-### Basic Usage
-[TO BE FILLED]
+### Related Endpoints
+- Check other endpoints in the same category
+- Consider workflow dependencies
+- Look for bulk operation alternatives
 
-### Advanced Usage
-[TO BE FILLED]
+## Best Practices
 
-## Common Issues
-
-- **Issue**: [TO BE FILLED]
-  **Solution**: [TO BE FILLED]
+1. **Authentication**: Always use Bearer token format
+2. **Rate Limiting**: Implement delays between requests
+3. **Error Handling**: Check status codes before processing
+4. **Data Validation**: Validate input parameters
+5. **Pagination**: Use `limit` and `offset` for large datasets
 
 ---
 
-*This documentation is auto-generated and needs manual enrichment*
+*Documentation generated from Binom API specification*
