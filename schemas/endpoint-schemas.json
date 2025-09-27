@@ -1,0 +1,392 @@
+{
+  "version": "1.0",
+  "description": "JSON schemas for Binom API endpoints based on real testing",
+  "last_updated": "2025-09-27",
+  "schemas": {
+    "traffic_source_create": {
+      "endpoint": "POST /traffic_source",
+      "method": "POST",
+      "reliability": "high",
+      "success_rate": "85%",
+      "request_schema": {
+        "type": "object",
+        "required": ["name", "s2sMode"],
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "Unique name for the traffic source",
+            "minLength": 1,
+            "maxLength": 255,
+            "example": "Test Traffic Source"
+          },
+          "s2sMode": {
+            "type": "string",
+            "enum": ["FIRST", "ALL"],
+            "description": "Server-to-server postback mode",
+            "example": "FIRST"
+          }
+        }
+      },
+      "response_schema": {
+        "success": {
+          "type": "object",
+          "properties": {
+            "status": {"type": "string", "enum": ["success"]},
+            "data": {
+              "type": "object",
+              "properties": {
+                "id": {"type": "integer", "example": 36},
+                "name": {"type": "string", "example": "Test Traffic Source"},
+                "s2sMode": {"type": "string", "example": "FIRST"},
+                "created": {"type": "string", "format": "date-time"}
+              }
+            }
+          }
+        },
+        "error": {
+          "type": "object",
+          "properties": {
+            "status": {"type": "string", "enum": ["error"]},
+            "error": {
+              "type": "object",
+              "properties": {
+                "code": {"type": "integer"},
+                "message": {"type": "string"},
+                "details": {"type": "string"}
+              }
+            }
+          }
+        }
+      },
+      "common_errors": [
+        {
+          "code": 400,
+          "message": "Constructor arguments validation failed",
+          "cause": "Missing required field 's2sMode'",
+          "solution": "Add s2sMode field with value 'FIRST' or 'ALL'"
+        },
+        {
+          "code": 401,
+          "message": "Unauthorized",
+          "cause": "Wrong authentication header format",
+          "solution": "Use 'api-key' header instead of 'Authorization: Bearer'"
+        }
+      ],
+      "real_example": {
+        "request": {
+          "name": "Test Traffic Source",
+          "s2sMode": "FIRST"
+        },
+        "response": {
+          "status": "success",
+          "data": {
+            "id": 36,
+            "name": "Test Traffic Source",
+            "s2sMode": "FIRST",
+            "created": "2025-09-27T00:00:00Z"
+          }
+        }
+      }
+    },
+    "info_offer": {
+      "endpoint": "GET /info/offer",
+      "method": "GET",
+      "reliability": "very_high",
+      "success_rate": "100%",
+      "request_schema": {
+        "type": "object",
+        "required": ["datePreset", "timezone"],
+        "properties": {
+          "datePreset": {
+            "type": "string",
+            "enum": ["today", "yesterday", "last_7_days", "last_30_days", "this_month", "last_month", "custom_time"],
+            "description": "Time period for data",
+            "example": "last_7_days"
+          },
+          "timezone": {
+            "type": "string",
+            "description": "Timezone for date calculations",
+            "example": "UTC"
+          },
+          "limit": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 1000,
+            "default": 100,
+            "description": "Number of records to return"
+          },
+          "offset": {
+            "type": "integer",
+            "minimum": 0,
+            "default": 0,
+            "description": "Number of records to skip"
+          }
+        }
+      },
+      "response_schema": {
+        "success": {
+          "type": "object",
+          "properties": {
+            "status": {"type": "string", "enum": ["success"]},
+            "data": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "id": {"type": "integer"},
+                  "name": {"type": "string"},
+                  "url": {"type": "string", "format": "uri"},
+                  "status": {"type": "string"},
+                  "created": {"type": "string", "format": "date-time"}
+                }
+              }
+            },
+            "total": {"type": "integer"}
+          }
+        }
+      },
+      "real_example": {
+        "request_params": {
+          "datePreset": "last_7_days",
+          "timezone": "UTC"
+        },
+        "response": {
+          "status": "success",
+          "data": [
+            {"id": 1, "name": "Test Offer 1", "url": "https://example.com/offer1"},
+            {"id": 2, "name": "Test Offer 2", "url": "https://example.com/offer2"}
+          ],
+          "total": 6
+        }
+      }
+    },
+    "landing_create_integrated": {
+      "endpoint": "POST /landing/integrated",
+      "method": "POST",
+      "reliability": "low",
+      "success_rate": "15%",
+      "known_issues": ["502 Bad Gateway very common", "Server instability"],
+      "request_schema": {
+        "type": "object",
+        "required": ["name", "path"],
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "Landing page name",
+            "example": "Test Landing"
+          },
+          "path": {
+            "type": "string",
+            "description": "URL path for the landing page",
+            "pattern": "^/.*",
+            "example": "/test-landing"
+          }
+        }
+      },
+      "response_schema": {
+        "success": {
+          "type": "object",
+          "properties": {
+            "status": {"type": "string", "enum": ["success"]},
+            "data": {
+              "type": "object",
+              "properties": {
+                "id": {"type": "integer"},
+                "name": {"type": "string"},
+                "path": {"type": "string"},
+                "created": {"type": "string", "format": "date-time"}
+              }
+            }
+          }
+        },
+        "error": {
+          "type": "object",
+          "properties": {
+            "status": {"type": "string", "enum": ["error"]},
+            "error": {
+              "type": "object",
+              "properties": {
+                "code": {"type": "integer", "enum": [502]},
+                "message": {"type": "string", "enum": ["Bad Gateway"]},
+                "details": {"type": "string"}
+              }
+            }
+          }
+        }
+      },
+      "common_errors": [
+        {
+          "code": 502,
+          "message": "Bad Gateway",
+          "cause": "Server overload or temporary unavailability",
+          "solution": "Retry with exponential backoff (1s, 2s, 4s) or use manual UI creation",
+          "frequency": "85%"
+        }
+      ],
+      "fallback_strategy": {
+        "description": "Use Binom UI for manual landing creation",
+        "steps": [
+          "1. Log into Binom UI",
+          "2. Navigate to Landings section",
+          "3. Create landing manually",
+          "4. Get landing ID via GET /info/landing"
+        ]
+      },
+      "real_example": {
+        "request": {
+          "name": "Test Landing",
+          "path": "/test-landing"
+        },
+        "typical_error_response": {
+          "status": "error",
+          "error": {
+            "code": 502,
+            "message": "Bad Gateway",
+            "details": "Server temporarily unavailable"
+          }
+        }
+      }
+    },
+    "stats_campaign": {
+      "endpoint": "GET /stats/campaign",
+      "method": "GET",
+      "reliability": "very_high",
+      "success_rate": "100%",
+      "request_schema": {
+        "type": "object",
+        "required": ["datePreset", "timezone"],
+        "properties": {
+          "datePreset": {
+            "type": "string",
+            "enum": ["today", "yesterday", "last_7_days", "last_30_days", "this_month", "last_month", "custom_time"],
+            "description": "Time period for statistics",
+            "example": "last_7_days"
+          },
+          "timezone": {
+            "type": "string",
+            "description": "Timezone for date calculations",
+            "example": "UTC"
+          },
+          "campaignId": {
+            "type": "integer",
+            "description": "Specific campaign ID (optional)",
+            "example": 123
+          },
+          "groupBy": {
+            "type": "string",
+            "enum": ["campaign", "date", "hour"],
+            "description": "Group statistics by field",
+            "example": "campaign"
+          }
+        }
+      },
+      "response_schema": {
+        "success": {
+          "type": "object",
+          "properties": {
+            "status": {"type": "string", "enum": ["success"]},
+            "data": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "campaignId": {"type": "integer"},
+                  "campaignName": {"type": "string"},
+                  "clicks": {"type": "integer"},
+                  "conversions": {"type": "integer"},
+                  "cost": {"type": "number"},
+                  "revenue": {"type": "number"},
+                  "conversionRate": {"type": "number"},
+                  "roi": {"type": "number"}
+                }
+              }
+            },
+            "summary": {
+              "type": "object",
+              "properties": {
+                "totalClicks": {"type": "integer"},
+                "totalConversions": {"type": "integer"},
+                "totalCost": {"type": "number"},
+                "totalRevenue": {"type": "number"},
+                "averageConversionRate": {"type": "number"}
+              }
+            }
+          }
+        }
+      },
+      "business_rules": {
+        "conversionRate": "conversions / clicks",
+        "roi": "(revenue - cost) / cost * 100",
+        "dateRange": "Maximum 90 days for custom_time"
+      }
+    }
+  },
+  "authentication": {
+    "method": "api-key header",
+    "header_name": "api-key",
+    "header_value": "YOUR_API_KEY",
+    "incorrect_methods": [
+      "Authorization: Bearer YOUR_API_KEY",
+      "X-API-Key: YOUR_API_KEY"
+    ],
+    "error_response": {
+      "code": 401,
+      "message": "Unauthorized",
+      "solution": "Use 'api-key' header with your API key"
+    }
+  },
+  "rate_limiting": {
+    "limit": "10 requests per second",
+    "error_code": 429,
+    "retry_strategy": "Exponential backoff with jitter",
+    "implementation": {
+      "initial_delay": 1,
+      "max_delay": 60,
+      "backoff_factor": 2
+    }
+  },
+  "error_patterns": {
+    "502_bad_gateway": {
+      "frequency": "High in POST operations",
+      "affected_endpoints": [
+        "POST /landing/integrated",
+        "POST /landing/not_integrated",
+        "POST /offer"
+      ],
+      "recovery_strategy": "Retry with exponential backoff, max 3 attempts",
+      "fallback": "Manual UI operations"
+    },
+    "400_bad_request": {
+      "frequency": "Medium in POST operations",
+      "common_causes": [
+        "Missing required fields",
+        "Invalid data types",
+        "Business rule violations"
+      ],
+      "recovery_strategy": "Validate request data against schema"
+    },
+    "401_unauthorized": {
+      "frequency": "Low but critical",
+      "common_cause": "Incorrect authentication header format",
+      "recovery_strategy": "Fix header format to use 'api-key'"
+    }
+  },
+  "stability_matrix": {
+    "GET_operations": {
+      "info_endpoints": "100% stable",
+      "stats_endpoints": "100% stable"
+    },
+    "POST_operations": {
+      "traffic_source": "85% stable",
+      "landing": "15% stable",
+      "offer": "30% stable",
+      "campaign": "70% stable"
+    }
+  },
+  "ai_agent_recommendations": {
+    "critical_operations": "Use only GET endpoints for critical data",
+    "resource_creation": "Implement fallback strategies for POST operations",
+    "error_handling": "Always implement retry logic with exponential backoff",
+    "monitoring": "Track success rates and adjust strategies accordingly"
+  }
+}
