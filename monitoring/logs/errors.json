@@ -1,0 +1,47 @@
+[
+  {
+    "timestamp": "2025-09-28T14:20:30.021036",
+    "error_type": "api_error",
+    "severity": "critical",
+    "component": "api",
+    "message": "API error on /info/offer: Internal server error",
+    "details": {
+      "endpoint": "/info/offer",
+      "status_code": 500,
+      "response_time": 2.5
+    },
+    "stack_trace": null,
+    "user_impact": "high",
+    "resolution_status": "open"
+  },
+  {
+    "timestamp": "2025-09-28T14:20:30.021453",
+    "error_type": "documentation_error",
+    "severity": "medium",
+    "component": "documentation",
+    "message": "Documentation error in docs/endpoints/offer.md: No response example provided",
+    "details": {
+      "file_path": "docs/endpoints/offer.md",
+      "doc_error_type": "missing_example"
+    },
+    "stack_trace": null,
+    "user_impact": "low",
+    "resolution_status": "open"
+  },
+  {
+    "timestamp": "2025-09-28T14:20:30.021851",
+    "error_type": "validation_error",
+    "severity": "medium",
+    "component": "validation",
+    "message": "Validation error (schema_validation): Invalid JSON schema",
+    "details": {
+      "validation_type": "schema_validation",
+      "validation_data": {
+        "field": "datePreset"
+      }
+    },
+    "stack_trace": null,
+    "user_impact": "medium",
+    "resolution_status": "open"
+  }
+]

@@ -1,0 +1,3 @@
+2025-09-28 14:20:30,021 - BinomAPITracker - CRITICAL - [api] api_error: API error on /info/offer: Internal server error
+2025-09-28 14:20:30,021 - BinomAPITracker - WARNING - [documentation] documentation_error: Documentation error in docs/endpoints/offer.md: No response example provided
+2025-09-28 14:20:30,021 - BinomAPITracker - WARNING - [validation] validation_error: Validation error (schema_validation): Invalid JSON schema

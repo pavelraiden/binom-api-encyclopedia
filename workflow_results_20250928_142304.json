@@ -1,0 +1,1210 @@
+{
+  "daily_performance": {
+    "total_campaigns": 51,
+    "active_campaigns": 44,
+    "high_performers": [],
+    "underperformers": [
+      {
+        "name": "Unknown",
+        "roi": -48.639006,
+        "clicks": 738623,
+        "cost": 0.0
+      }
+    ],
+    "zero_traffic": [
+      {
+        "name": "i15 - USAEN - APP - ISP:WORK:cost:weight:not opt:not bider",
+        "cost": 0.0
+      },
+      {
+        "name": "i15 - USAEN - APP - WIFI:WORK:cost:weight:not opt:not bider",
+        "cost": 0.0
+      },
+      {
+        "name": "i15 - USAES - APP - WIFI",
+        "cost": 0.0
+      },
+      {
+        "name": "i15 - USAES - APP - ISP",
+        "cost": 0.0
+      },
+      {
+        "name": "i15 - USAES - SF - ISP",
+        "cost": 0.0
+      },
+      {
+        "name": "i15 - USAES - SF - WIFI",
+        "cost": 0.0
+      },
+      {
+        "name": "i15 - USAEN - SF - ISP+WIFI - iPad",
+        "cost": 0.0
+      },
+      {
+        "name": "Danil - Sentinel 15$ CPT",
+        "cost": 15.0
+      },
+      {
+        "name": "Danil - SmartBlock 15$ CPT",
+        "cost": 15.0
+      },
+      {
+        "name": "Danil - SmartClean 15$ CPT",
+        "cost": 15.0
+      },
+      {
+        "name": "TH - Flat USA (Spanish) - All browsers - iPhone+iPad:stop",
+        "cost": 7.18
+      },
+      {
+        "name": "Danil - KUDI - Sentinel 3.5$ CPI",
+        "cost": 3.5
+      },
+      {
+        "name": "Danil - KUDI - Sentinel 4$ CPI",
+        "cost": 4.0
+      },
+      {
+        "name": "Danil - KUDI - Sentinel 3$ CPI",
+        "cost": 3.0
+      },
+      {
+        "name": "Danil - inhaus - SmartBlock 3$ CPI",
+        "cost": 3.0
+      },
+      {
+        "name": "Danil - Inhaus - SmartBlock 3.5$ CPI",
+        "cost": 3.5
+      },
+      {
+        "name": "Danil - Inhaus - SmartBlock 4$ CPI",
+        "cost": 4.0
+      },
+      {
+        "name": "Danil - Fishman - iVPN - 15$ CPT",
+        "cost": 15.0
+      },
+      {
+        "name": "Danil - Fishman - iVPN - 3$ CPI",
+        "cost": 3.0
+      },
+      {
+        "name": "Danil - Fishman - iVPN - 4$ CPI",
+        "cost": 4.0
+      },
+      {
+        "name": "Danil - Fishman - iVPN - 3.5$ CPI",
+        "cost": 3.5
+      },
+      {
+        "name": "Danil - Fishman - iVPN - 45$ CPB",
+        "cost": 0.0
+      },
+      {
+        "name": "Danil - KUDI - SentinelAdblock - 45$ CPB",
+        "cost": 0.0
+      },
+      {
+        "name": "Danil - InHaus - SmartBlockAI - 45$ CPB",
+        "cost": 0.0
+      },
+      {
+        "name": "GGB+CAL-activerev+USA(ES+ENG) - WIFI+3G",
+        "cost": 0.0
+      },
+      {
+        "name": "GGB+CAL-vim+USA(ES+ENG) - WIFI+3G",
+        "cost": 0.0
+      },
+      {
+        "name": "GGB+CAL-rich+USA(ES+ENG) - WIFI+3G",
+        "cost": 0.0
+      },
+      {
+        "name": "GGB+CAL-admav+USA(ES+ENG) - WIFI+3G",
+        "cost": 0.0
+      },
+      {
+        "name": "GGB+CAL-TrafficNomads+USA(ES+ENG) - WIFI+3G",
+        "cost": 0.0
+      },
+      {
+        "name": "GGB+CAL-Targeleon+USA(ES+ENG) - WIFI+3G",
+        "cost": 0.0
+      },
+      {
+        "name": "YTR_Admin_4partners_Mexico_WiFi",
+        "cost": 0.0
+      },
+      {
+        "name": "ING_Admin_4partners_Mexico_3G",
+        "cost": 0.0
+      },
+      {
+        "name": "GQK_Admin_4partners_Brazil_WiFi",
+        "cost": 0.0
+      },
+      {
+        "name": "YML_Admin_4partners_Brazil_3G",
+        "cost": 0.0
+      },
+      {
+        "name": "NKY_Admin_4partners_Mexico:WORK:cost:weight:opt:bider",
+        "cost": 0.0
+      },
+      {
+        "name": "LKT_Admin13_4partners_USA",
+        "cost": 0.0
+      },
+      {
+        "name": "FIY - YS - iOS - Adult - Pop - USA",
+        "cost": 0.0
+      },
+      {
+        "name": "GFE - YS - iOS - Adult - Pop - USA",
+        "cost": 0.0
+      },
+      {
+        "name": "TRY_Admin13_4partners_Brazil_Saf",
+        "cost": 0.0
+      },
+      {
+        "name": "YKL_Admin13_4partners_Brazil_Google",
+        "cost": 0.0
+      },
+      {
+        "name": "VST_Admin13_4partners_Chile_Saf:WORK:cost:weight:opt:not bider",
+        "cost": 0.0
+      },
+      {
+        "name": "BNR_Admin13_4partners_Chile_Google:WORK:cost:weight:opt:bider",
+        "cost": 0.0
+      },
+      {
+        "name": "i16 - CAEN - APP - ISP:WORK:cost:weight:not opt:not bider",
+        "cost": 0.0
+      }
+    ],
+    "negative_roi": [
+      {
+        "name": "Unknown",
+        "roi": -48.639006,
+        "revenue": 816.0
+      }
+    ],
+    "recommendations": [
+      "\u26a0\ufe0f Optimize or pause 1 underperforming campaigns",
+      "\ud83d\udd0d Investigate 43 campaigns with zero traffic",
+      "\ud83d\uded1 Immediately review 1 campaigns with negative ROI"
+    ]
+  },
+  "traffic_analysis": {
+    "total_sources": 37,
+    "source_performance": [
+      {
+        "name": "Advertizer(vika92kozlova@gmail.com) - Pavel",
+        "clicks": 0,
+        "leads": 0,
+        "revenue": 0.0,
+        "cost": 0.0,
+        "roi": 0.0,
+        "cpc": 0.0,
+        "cr": 0.0
+      },
+      {
+        "name": "ExoClick(denisgrabko2@gmail.com) - SSP - Pavel - CPT",
+        "clicks": 0,
+        "leads": 0,
+        "revenue": 0.0,
+        "cost": 0.0,
+        "roi": 0.0,
+        "cpc": 0.0,
+        "cr": 0.0
+      },
+      {
+        "name": "chinni-performance.com - 15$ CPT - US/JP",
+        "clicks": 0,
+        "leads": 0,
+        "revenue": 0.0,
+        "cost": 0.0,
+        "roi": 0.0,
+        "cpc": 0.0,
+        "cr": 0.0
+      },
+      {
+        "name": "Traffichaus - Flat Buying",
+        "clicks": 0,
+        "leads": 0,
+        "revenue": 0.0,
+        "cost": 0.0,
+        "roi": 0.0,
+        "cpc": 0.0,
+        "cr": 0.0
+      },
+      {
+        "name": "chinni-performance.com - 4$ CPI - US/JP",
+        "clicks": 0,
+        "leads": 0,
+        "revenue": 0.0,
+        "cost": 0.0,
+        "roi": 0.0,
+        "cpc": 0.0,
+        "cr": 0.0
+      },
+      {
+        "name": "chinni-performance.com - 3.5$ CPI - US/JP",
+        "clicks": 0,
+        "leads": 0,
+        "revenue": 0.0,
+        "cost": 0.0,
+        "roi": 0.0,
+        "cpc": 0.0,
+        "cr": 0.0
+      },
+      {
+        "name": "chinni-performance.com - 3$ CPI - DK/BE/NO/IS/AU/NZ/CA",
+        "clicks": 0,
+        "leads": 0,
+        "revenue": 0.0,
+        "cost": 0.0,
+        "roi": 0.0,
+        "cpc": 0.0,
+        "cr": 0.0
+      },
+      {
+        "name": "chinni-performance.com - 45$ CPB - US/JP/GB/CA/AU/NZ/NO",
+        "clicks": 0,
+        "leads": 0,
+        "revenue": 0.0,
+        "cost": 0.0,
+        "roi": 0.0,
+        "cpc": 0.0,
+        "cr": 0.0
+      },
+      {
+        "name": "ActiveRevenue(pavelraiden@gmail.com) - Pavel",
+        "clicks": 0,
+        "leads": 0,
+        "revenue": 0.0,
+        "cost": 0.0,
+        "roi": 0.0,
+        "cpc": 0.0,
+        "cr": 0.0
+      },
+      {
+        "name": "Vimmy (sellingcpm@gmail.com) - Ilya",
+        "clicks": 0,
+        "leads": 0,
+        "revenue": 0.0,
+        "cost": 0.0,
+        "roi": 0.0,
+        "cpc": 0.0,
+        "cr": 0.0
+      },
+      {
+        "name": "Richads (mediatraffic@appsoul.net) - Pavel",
+        "clicks": 0,
+        "leads": 0,
+        "revenue": 0.0,
+        "cost": 0.0,
+        "roi": 0.0,
+        "cpc": 0.0,
+        "cr": 0.0
+      },
+      {
+        "name": "adMaven (slsl.ptpt@gmail.com) - Ilya",
+        "clicks": 0,
+        "leads": 0,
+        "revenue": 0.0,
+        "cost": 0.0,
+        "roi": 0.0,
+        "cpc": 0.0,
+        "cr": 0.0
+      },
+      {
+        "name": "Targeleon (pavelraiden@gmail.com) - Ilya",
+        "clicks": 0,
+        "leads": 0,
+        "revenue": 0.0,
+        "cost": 0.0,
+        "roi": 0.0,
+        "cpc": 0.0,
+        "cr": 0.0
+      },
+      {
+        "name": "TrafficNomads - (mediatraffic) - Ilya",
+        "clicks": 0,
+        "leads": 0,
+        "revenue": 0.0,
+        "cost": 0.0,
+        "roi": 0.0,
+        "cpc": 0.0,
+        "cr": 0.0
+      },
+      {
+        "name": "ExoClick(Aleks921) - SSP - Yaroslav - CPT",
+        "clicks": 0,
+        "leads": 0,
+        "revenue": 0.0,
+        "cost": 0.0,
+        "roi": 0.0,
+        "cpc": 0.0,
+        "cr": 0.0
+      },
+      {
+        "name": "Junky(Kudi.kulina) - Yaroslav - CPT",
+        "clicks": 0,
+        "leads": 0,
+        "revenue": 0.0,
+        "cost": 0.0,
+        "roi": 0.0,
+        "cpc": 0.0,
+        "cr": 0.0
+      },
+      {
+        "name": "Reacheffect(0tabdo0dle@gmail.com) - CPM",
+        "clicks": 0,
+        "leads": 0,
+        "revenue": 0.0,
+        "cost": 0.0,
+        "roi": 0.0,
+        "cpc": 0.0,
+        "cr": 0.0
+      },
+      {
+        "name": "Reacheffect(0tabdo0dle@gmail.com) - CPM  - CPI",
+        "clicks": 0,
+        "leads": 0,
+        "revenue": 0.0,
+        "cost": 0.0,
+        "roi": 0.0,
+        "cpc": 0.0,
+        "cr": 0.0
+      },
+      {
+        "name": "PopunderNet(slsl.ptpt@gmail.com) - SSP - Pavel - (BAD QUALITY!)",
+        "clicks": 0,
+        "leads": 0,
+        "revenue": 0.0,
+        "cost": 0.0,
+        "roi": 0.0,
+        "cpc": 0.0,
+        "cr": 0.0
+      },
+      {
+        "name": "PropellerAds(mr.aleksvagano - KUDI) - Pavel",
+        "clicks": 0,
+        "leads": 0,
+        "revenue": 0.0,
+        "cost": 0.0,
+        "roi": 0.0,
+        "cpc": 0.0,
+        "cr": 0.0
+      },
+      {
+        "name": "Admaven(slsl.ptpt@gmail.com) - Pavel - CPT",
+        "clicks": 0,
+        "leads": 0,
+        "revenue": 0.0,
+        "cost": 0.0,
+        "roi": 0.0,
+        "cpc": 0.0,
+        "cr": 0.0
+      },
+      {
+        "name": "Advertizer(appsoul) - Pavel",
+        "clicks": 0,
+        "leads": 0,
+        "revenue": 0.0,
+        "cost": 0.0,
+        "roi": 0.0,
+        "cpc": 0.0,
+        "cr": 0.0
+      },
+      {
+        "name": "Galaksion(pavelraiden@gmail.com) - Pavel",
+        "clicks": 0,
+        "leads": 0,
+        "revenue": 0.0,
+        "cost": 0.0,
+        "roi": 0.0,
+        "cpc": 0.0,
+        "cr": 0.0
+      },
+      {
+        "name": "Admaven(slsl.ptpt@gmail.com) - Ilya - CPT",
+        "clicks": 0,
+        "leads": 0,
+        "revenue": 0.0,
+        "cost": 0.0,
+        "roi": 0.0,
+        "cpc": 0.0,
+        "cr": 0.0
+      },
+      {
+        "name": "PropellerAds(mr.aleksvagano - KUDI) - Pavels",
+        "clicks": 0,
+        "leads": 0,
+        "revenue": 0.0,
+        "cost": 0.0,
+        "roi": 0.0,
+        "cpc": 0.0,
+        "cr": 0.0
+      },
+      {
+        "name": "Kadam(sellingcpm@gmail.com) - Pavel - CPT post",
+        "clicks": 0,
+        "leads": 0,
+        "revenue": 0.0,
+        "cost": 0.0,
+        "roi": 0.0,
+        "cpc": 0.0,
+        "cr": 0.0
+      },
+      {
+        "name": "Taboola(pavelraiden@gmail.com) - Pavel",
+        "clicks": 0,
+        "leads": 0,
+        "revenue": 0.0,
+        "cost": 0.0,
+        "roi": 0.0,
+        "cpc": 0.0,
+        "cr": 0.0
+      },
+      {
+        "name": "Clickadu(pavelraiden@gmail.com) - Ilya - CPT",
+        "clicks": 0,
+        "leads": 0,
+        "revenue": 0.0,
+        "cost": 0.0,
+        "roi": 0.0,
+        "cpc": 0.0,
+        "cr": 0.0
+      },
+      {
+        "name": "Trillion(pavelraiden@gmail.com) - Pavel",
+        "clicks": 0,
+        "leads": 0,
+        "revenue": 0.0,
+        "cost": 0.0,
+        "roi": 0.0,
+        "cpc": 0.0,
+        "cr": 0.0
+      },
+      {
+        "name": "TEST_TrafficSource_1758945896",
+        "clicks": 0,
+        "leads": 0,
+        "revenue": 0.0,
+        "cost": 0.0,
+        "roi": 0.0,
+        "cpc": 0.0,
+        "cr": 0.0
+      },
+      {
+        "name": "TEST_TrafficSource_1758945929",
+        "clicks": 0,
+        "leads": 0,
+        "revenue": 0.0,
+        "cost": 0.0,
+        "roi": 0.0,
+        "cpc": 0.0,
+        "cr": 0.0
+      },
+      {
+        "name": "TEST_TrafficSource_1758945960",
+        "clicks": 0,
+        "leads": 0,
+        "revenue": 0.0,
+        "cost": 0.0,
+        "roi": 0.0,
+        "cpc": 0.0,
+        "cr": 0.0
+      },
+      {
+        "name": "TEST_TrafficSource_1758946223",
+        "clicks": 0,
+        "leads": 0,
+        "revenue": 0.0,
+        "cost": 0.0,
+        "roi": 0.0,
+        "cpc": 0.0,
+        "cr": 0.0
+      },
+      {
+        "name": "Workflow TS 1758949591",
+        "clicks": 0,
+        "leads": 0,
+        "revenue": 0.0,
+        "cost": 0.0,
+        "roi": 0.0,
+        "cpc": 0.0,
+        "cr": 0.0
+      },
+      {
+        "name": "Workflow TS 1758949701",
+        "clicks": 0,
+        "leads": 0,
+        "revenue": 0.0,
+        "cost": 0.0,
+        "roi": 0.0,
+        "cpc": 0.0,
+        "cr": 0.0
+      },
+      {
+        "name": "Workflow TS 1758949797",
+        "clicks": 0,
+        "leads": 0,
+        "revenue": 0.0,
+        "cost": 0.0,
+        "roi": 0.0,
+        "cpc": 0.0,
+        "cr": 0.0
+      },
+      {
+        "name": "Unknown",
+        "clicks": 738623,
+        "leads": 833,
+        "revenue": 816.0,
+        "cost": 1588.7542875792,
+        "roi": -48.639006,
+        "cpc": 0.002151,
+        "cr": 0.112777
+      }
+    ],
+    "cost_analysis": {
+      "total_cost": 1588.7542875792,
+      "total_revenue": 816.0,
+      "overall_roi": -48.63900564237992,
+      "average_cpc": 5.8135135135135136e-05
+    },
+    "recommendations": [
+      "\ud83d\udd34 Review or pause 1 poor-performing sources"
+    ]
+  },
+  "offer_optimization": {
+    "total_offers": 53,
+    "offer_performance": [
+      {
+        "name": "Unknown",
+        "country": "Unknown",
+        "clicks": 695275,
+        "leads": 833,
+        "revenue": 816.0,
+        "cost": 1506.9878490516,
+        "roi": -45.852251,
+        "cr": 0.119809,
+        "epc": 0.001174
+      },
+      {
+        "name": "inHaus - IOS - AI Smart Block - (Branch)",
+        "country": "",
+        "clicks": 0,
+        "leads": 0,
+        "revenue": 0.0,
+        "cost": 0.0,
+        "roi": 0.0,
+        "cr": 0.0,
+        "epc": 0.0
+      },
+      {
+        "name": "KUDI Revshare - Sentinel Adblock (Branch)",
+        "country": "",
+        "clicks": 0,
+        "leads": 0,
+        "revenue": 0.0,
+        "cost": 0.0,
+        "roi": 0.0,
+        "cr": 0.0,
+        "epc": 0.0
+      },
+      {
+        "name": "KUDI InHouse - Guardian Shield (Branch)",
+        "country": "",
+        "clicks": 0,
+        "leads": 0,
+        "revenue": 0.0,
+        "cost": 0.0,
+        "roi": 0.0,
+        "cr": 0.0,
+        "epc": 0.0
+      },
+      {
+        "name": "KUDI InHouse - SmartCleaner  (Branch)",
+        "country": "",
+        "clicks": 0,
+        "leads": 0,
+        "revenue": 0.0,
+        "cost": 0.0,
+        "roi": 0.0,
+        "cr": 0.0,
+        "epc": 0.0
+      },
+      {
+        "name": "Fishman Revshare - 1stProtection (Appsflyer)",
+        "country": "",
+        "clicks": 0,
+        "leads": 0,
+        "revenue": 0.0,
+        "cost": 0.0,
+        "roi": 0.0,
+        "cr": 0.0,
+        "epc": 0.0
+      },
+      {
+        "name": "Fishman Revshare - iVPN (Branch)",
+        "country": "",
+        "clicks": 0,
+        "leads": 0,
+        "revenue": 0.0,
+        "cost": 0.0,
+        "roi": 0.0,
+        "cr": 0.0,
+        "epc": 0.0
+      },
+      {
+        "name": "APPSTERO CPT - 16$ USA - Shieldify VPN",
+        "country": "",
+        "clicks": 0,
+        "leads": 0,
+        "revenue": 0.0,
+        "cost": 0.0,
+        "roi": 0.0,
+        "cr": 0.0,
+        "epc": 0.0
+      },
+      {
+        "name": "APPSTERO CPT - 16$ - US/CA/P - Adlure adblock #1",
+        "country": "",
+        "clicks": 0,
+        "leads": 0,
+        "revenue": 0.0,
+        "cost": 0.0,
+        "roi": 0.0,
+        "cr": 0.0,
+        "epc": 0.0
+      },
+      {
+        "name": "APPSTERO CPT - 16$ - US/CA/JP - Adlure adblock #2",
+        "country": "",
+        "clicks": 0,
+        "leads": 0,
+        "revenue": 0.0,
+        "cost": 0.0,
+        "roi": 0.0,
+        "cr": 0.0,
+        "epc": 0.0
+      },
+      {
+        "name": "APPSTERO CPT - 16$ - US/CA/P - Adlure adblock #3",
+        "country": "",
+        "clicks": 0,
+        "leads": 0,
+        "revenue": 0.0,
+        "cost": 0.0,
+        "roi": 0.0,
+        "cr": 0.0,
+        "epc": 0.0
+      },
+      {
+        "name": "APPSTERO CPT - USA - \u200eDefender Pro VPN  - Multigeo - #1",
+        "country": "",
+        "clicks": 0,
+        "leads": 0,
+        "revenue": 0.0,
+        "cost": 0.0,
+        "roi": 0.0,
+        "cr": 0.0,
+        "epc": 0.0
+      },
+      {
+        "name": "APPSTERO CPT - USA - \u200eDefender Pro VPN  - Multigeo - #2",
+        "country": "",
+        "clicks": 0,
+        "leads": 0,
+        "revenue": 0.0,
+        "cost": 0.0,
+        "roi": 0.0,
+        "cr": 0.0,
+        "epc": 0.0
+      },
+      {
+        "name": "APPSTERO CPT - USA - \u200eDefender Pro VPN  - Multigeo - #3",
+        "country": "",
+        "clicks": 0,
+        "leads": 0,
+        "revenue": 0.0,
+        "cost": 0.0,
+        "roi": 0.0,
+        "cr": 0.0,
+        "epc": 0.0
+      },
+      {
+        "name": "Revshare(APPS) - \u200eSkyVault VPN  - Multigeo - #1",
+        "country": "",
+        "clicks": 0,
+        "leads": 0,
+        "revenue": 0.0,
+        "cost": 0.0,
+        "roi": 0.0,
+        "cr": 0.0,
+        "epc": 0.0
+      },
+      {
+        "name": "Revshare(APPS) - \u200eSkyVault VPN  - Multigeo - #2",
+        "country": "",
+        "clicks": 0,
+        "leads": 0,
+        "revenue": 0.0,
+        "cost": 0.0,
+        "roi": 0.0,
+        "cr": 0.0,
+        "epc": 0.0
+      },
+      {
+        "name": "Revshare(APPS) - \u200eSkyVault VPN  - Multigeo - #3",
+        "country": "",
+        "clicks": 0,
+        "leads": 0,
+        "revenue": 0.0,
+        "cost": 0.0,
+        "roi": 0.0,
+        "cr": 0.0,
+        "epc": 0.0
+      },
+      {
+        "name": "APPSTERO CPT - USA - \u200eSafeLume VPN  - Multigeo - #1",
+        "country": "",
+        "clicks": 0,
+        "leads": 0,
+        "revenue": 0.0,
+        "cost": 0.0,
+        "roi": 0.0,
+        "cr": 0.0,
+        "epc": 0.0
+      },
+      {
+        "name": "APPSTERO CPT - USA - \u200eSafeLume VPN  - Multigeo - #2",
+        "country": "",
+        "clicks": 0,
+        "leads": 0,
+        "revenue": 0.0,
+        "cost": 0.0,
+        "roi": 0.0,
+        "cr": 0.0,
+        "epc": 0.0
+      },
+      {
+        "name": "APPSTERO CPT - USA - \u200eSafeLume VPN  - Multigeo - #3",
+        "country": "",
+        "clicks": 0,
+        "leads": 0,
+        "revenue": 0.0,
+        "cost": 0.0,
+        "roi": 0.0,
+        "cr": 0.0,
+        "epc": 0.0
+      },
+      {
+        "name": "Revshare(APPS) - \u200eGuardPoint VPN [privacy] - Multigeo - #1",
+        "country": "",
+        "clicks": 0,
+        "leads": 0,
+        "revenue": 0.0,
+        "cost": 0.0,
+        "roi": 0.0,
+        "cr": 0.0,
+        "epc": 0.0
+      },
+      {
+        "name": "Revshare(APPS) - \u200eGuardPoint VPN [privacy] - Multigeo - #2",
+        "country": "",
+        "clicks": 0,
+        "leads": 0,
+        "revenue": 0.0,
+        "cost": 0.0,
+        "roi": 0.0,
+        "cr": 0.0,
+        "epc": 0.0
+      },
+      {
+        "name": "Revshare(APPS) - \u200eGuardPoint VPN [privacy] - Multigeo - #3",
+        "country": "",
+        "clicks": 0,
+        "leads": 0,
+        "revenue": 0.0,
+        "cost": 0.0,
+        "roi": 0.0,
+        "cr": 0.0,
+        "epc": 0.0
+      },
+      {
+        "name": "APPSTERO CPT - Yaroslav - USA - \u200eLuna VPN  - Multigeo - #1",
+        "country": "",
+        "clicks": 0,
+        "leads": 0,
+        "revenue": 0.0,
+        "cost": 0.0,
+        "roi": 0.0,
+        "cr": 0.0,
+        "epc": 0.0
+      },
+      {
+        "name": "APPSTERO CPT - Yaroslav - \u200eUSA - Luna VPN - Multigeo - #2",
+        "country": "",
+        "clicks": 0,
+        "leads": 0,
+        "revenue": 0.0,
+        "cost": 0.0,
+        "roi": 0.0,
+        "cr": 0.0,
+        "epc": 0.0
+      },
+      {
+        "name": "APPSTERO CPT - Yaroslav - \u200eUSA - Luna VPN - Multigeo - #3",
+        "country": "",
+        "clicks": 0,
+        "leads": 0,
+        "revenue": 0.0,
+        "cost": 0.0,
+        "roi": 0.0,
+        "cr": 0.0,
+        "epc": 0.0
+      },
+      {
+        "name": "Revshare(APPS) - \u200e SafeSphere VPN - Multigeo - #1",
+        "country": "",
+        "clicks": 0,
+        "leads": 0,
+        "revenue": 0.0,
+        "cost": 0.0,
+        "roi": 0.0,
+        "cr": 0.0,
+        "epc": 0.0
+      },
+      {
+        "name": "Revshare(APPS) - \u200e SafeSphere VPN - Multigeo - #2",
+        "country": "",
+        "clicks": 0,
+        "leads": 0,
+        "revenue": 0.0,
+        "cost": 0.0,
+        "roi": 0.0,
+        "cr": 0.0,
+        "epc": 0.0
+      },
+      {
+        "name": "Revshare(APPS) - \u200e SafeSphere VPN - Multigeo - #3",
+        "country": "",
+        "clicks": 0,
+        "leads": 0,
+        "revenue": 0.0,
+        "cost": 0.0,
+        "roi": 0.0,
+        "cr": 0.0,
+        "epc": 0.0
+      },
+      {
+        "name": "APPSTERO CPT - Pavel - USA - \u200eLuna VPN  - Multigeo - #3",
+        "country": "",
+        "clicks": 0,
+        "leads": 0,
+        "revenue": 0.0,
+        "cost": 0.0,
+        "roi": 0.0,
+        "cr": 0.0,
+        "epc": 0.0
+      },
+      {
+        "name": "APPSTERO CPT - Pavel -USA - \u200eLuna VPN  - Multigeo - #2",
+        "country": "",
+        "clicks": 0,
+        "leads": 0,
+        "revenue": 0.0,
+        "cost": 0.0,
+        "roi": 0.0,
+        "cr": 0.0,
+        "epc": 0.0
+      },
+      {
+        "name": "APPSTERO CPT - Pavel - USA - \u200eLuna VPN  - Multigeo - #1",
+        "country": "",
+        "clicks": 0,
+        "leads": 0,
+        "revenue": 0.0,
+        "cost": 0.0,
+        "roi": 0.0,
+        "cr": 0.0,
+        "epc": 0.0
+      },
+      {
+        "name": "Revshare(APPS) - \u200e Swoosh VPN [privacy] - Multigeo - #1",
+        "country": "",
+        "clicks": 0,
+        "leads": 0,
+        "revenue": 0.0,
+        "cost": 0.0,
+        "roi": 0.0,
+        "cr": 0.0,
+        "epc": 0.0
+      },
+      {
+        "name": "Revshare(APPS) - \u200e Swoosh VPN [privacy] - Multigeo - #2",
+        "country": "",
+        "clicks": 0,
+        "leads": 0,
+        "revenue": 0.0,
+        "cost": 0.0,
+        "roi": 0.0,
+        "cr": 0.0,
+        "epc": 0.0
+      },
+      {
+        "name": "Revshare(APPS) - \u200e Swoosh VPN [privacy] - Multigeo - #3",
+        "country": "",
+        "clicks": 0,
+        "leads": 0,
+        "revenue": 0.0,
+        "cost": 0.0,
+        "roi": 0.0,
+        "cr": 0.0,
+        "epc": 0.0
+      },
+      {
+        "name": "APPSTERO CPT - Pavel - Dynamic CPT offers - Multigeo - #1",
+        "country": "",
+        "clicks": 0,
+        "leads": 0,
+        "revenue": 0.0,
+        "cost": 0.0,
+        "roi": 0.0,
+        "cr": 0.0,
+        "epc": 0.0
+      },
+      {
+        "name": "APPSTERO CPT - Pavel - Dynamic CPT offers - Multigeo - #2",
+        "country": "",
+        "clicks": 0,
+        "leads": 0,
+        "revenue": 0.0,
+        "cost": 0.0,
+        "roi": 0.0,
+        "cr": 0.0,
+        "epc": 0.0
+      },
+      {
+        "name": "APPSTERO CPT - Pavel - Dynamic CPT offers - Multigeo - #3",
+        "country": "",
+        "clicks": 0,
+        "leads": 0,
+        "revenue": 0.0,
+        "cost": 0.0,
+        "roi": 0.0,
+        "cr": 0.0,
+        "epc": 0.0
+      },
+      {
+        "name": "APPSTERO CPT - Yaroslav - Dynamic CPT offers - Multigeo - #1",
+        "country": "",
+        "clicks": 0,
+        "leads": 0,
+        "revenue": 0.0,
+        "cost": 0.0,
+        "roi": 0.0,
+        "cr": 0.0,
+        "epc": 0.0
+      },
+      {
+        "name": "APPSTERO CPT - Yaroslav - Dynamic CPT offers - Multigeo - #2",
+        "country": "",
+        "clicks": 0,
+        "leads": 0,
+        "revenue": 0.0,
+        "cost": 0.0,
+        "roi": 0.0,
+        "cr": 0.0,
+        "epc": 0.0
+      },
+      {
+        "name": "APPSTERO CPT - Yaroslav - Dynamic CPT offers - Multigeo - #3",
+        "country": "",
+        "clicks": 0,
+        "leads": 0,
+        "revenue": 0.0,
+        "cost": 0.0,
+        "roi": 0.0,
+        "cr": 0.0,
+        "epc": 0.0
+      },
+      {
+        "name": "Revshare(APPS) - \u200e CleanDash Cleaner - Multigeo - #1",
+        "country": "",
+        "clicks": 0,
+        "leads": 0,
+        "revenue": 0.0,
+        "cost": 0.0,
+        "roi": 0.0,
+        "cr": 0.0,
+        "epc": 0.0
+      },
+      {
+        "name": "Revshare(APPS) - \u200e CleanDash Cleaner - Multigeo - #2",
+        "country": "",
+        "clicks": 0,
+        "leads": 0,
+        "revenue": 0.0,
+        "cost": 0.0,
+        "roi": 0.0,
+        "cr": 0.0,
+        "epc": 0.0
+      },
+      {
+        "name": "Revshare(APPS) - \u200e CleanDash Cleaner - Multigeo - #3",
+        "country": "",
+        "clicks": 0,
+        "leads": 0,
+        "revenue": 0.0,
+        "cost": 0.0,
+        "roi": 0.0,
+        "cr": 0.0,
+        "epc": 0.0
+      },
+      {
+        "name": "Revshare(APPS) - \u200e ClarifyX Cleane - Multigeo - #1",
+        "country": "",
+        "clicks": 0,
+        "leads": 0,
+        "revenue": 0.0,
+        "cost": 0.0,
+        "roi": 0.0,
+        "cr": 0.0,
+        "epc": 0.0
+      },
+      {
+        "name": "Revshare(APPS) - \u200e ClarifyX Cleane - Multigeo - #2",
+        "country": "",
+        "clicks": 0,
+        "leads": 0,
+        "revenue": 0.0,
+        "cost": 0.0,
+        "roi": 0.0,
+        "cr": 0.0,
+        "epc": 0.0
+      },
+      {
+        "name": "Revshare(APPS) - \u200e ClarifyX Cleane - Multigeo - #3",
+        "country": "",
+        "clicks": 0,
+        "leads": 0,
+        "revenue": 0.0,
+        "cost": 0.0,
+        "roi": 0.0,
+        "cr": 0.0,
+        "epc": 0.0
+      },
+      {
+        "name": "Revshare(APPS) - \u200e CleanMate Cleaner - Multigeo - #1",
+        "country": "",
+        "clicks": 0,
+        "leads": 0,
+        "revenue": 0.0,
+        "cost": 0.0,
+        "roi": 0.0,
+        "cr": 0.0,
+        "epc": 0.0
+      },
+      {
+        "name": "Revshare(APPS) - \u200e CleanMate Cleaner - Multigeo - #2",
+        "country": "",
+        "clicks": 0,
+        "leads": 0,
+        "revenue": 0.0,
+        "cost": 0.0,
+        "roi": 0.0,
+        "cr": 0.0,
+        "epc": 0.0
+      },
+      {
+        "name": "Revshare(APPS) - \u200e CleanMate Cleaner - Multigeo - #3",
+        "country": "",
+        "clicks": 0,
+        "leads": 0,
+        "revenue": 0.0,
+        "cost": 0.0,
+        "roi": 0.0,
+        "cr": 0.0,
+        "epc": 0.0
+      },
+      {
+        "name": "Revshare(APPS) - \u200e Memorra Cleaner - Multigeo - #1",
+        "country": "",
+        "clicks": 0,
+        "leads": 0,
+        "revenue": 0.0,
+        "cost": 0.0,
+        "roi": 0.0,
+        "cr": 0.0,
+        "epc": 0.0
+      },
+      {
+        "name": "Revshare(APPS) - \u200e Memorra Cleaner - Multigeo - #2",
+        "country": "",
+        "clicks": 0,
+        "leads": 0,
+        "revenue": 0.0,
+        "cost": 0.0,
+        "roi": 0.0,
+        "cr": 0.0,
+        "epc": 0.0
+      },
+      {
+        "name": "Revshare(APPS) - \u200e Memorra Cleaner - Multigeo - #3",
+        "country": "",
+        "clicks": 0,
+        "leads": 0,
+        "revenue": 0.0,
+        "cost": 0.0,
+        "roi": 0.0,
+        "cr": 0.0,
+        "epc": 0.0
+      }
+    ],
+    "optimization_opportunities": [
+      {
+        "offer": "Unknown",
+        "issue": "Low conversion rate",
+        "suggestion": "Test different landing pages or traffic quality"
+      },
+      {
+        "offer": "Unknown",
+        "issue": "Low EPC",
+        "suggestion": "Negotiate better payout or find alternative offers"
+      }
+    ],
+    "recommendations": [
+      "\ud83d\udd27 Optimize conversion for 1 high-traffic offers"
+    ]
+  },
+  "budget_allocation": {
+    "current_budget": 0.0,
+    "current_revenue": 816.0,
+    "current_roi": 0,
+    "budget_recommendations": [
+      "\ud83d\udcc9 Reduce budget for 44 low-performing campaigns"
+    ],
+    "reallocation_plan": []
+  },
+  "summary": {
+    "timestamp": "2025-09-28T14:23:04.015254",
+    "workflows_completed": 4,
+    "total_campaigns_analyzed": 51,
+    "total_traffic_sources": 37,
+    "total_offers": 53,
+    "overall_roi": 0,
+    "key_insights": [
+      "Found 0 high-performing campaigns",
+      "Identified 2 optimization opportunities",
+      "Budget reallocation could improve ROI by optimizing 0 campaigns"
+    ]
+  }
+}

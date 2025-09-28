@@ -2,177 +2,74 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Binom API Monitoring Dashboard</title>
+    <title>Binom API Encyclopedia - Health Dashboard</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
         body { font-family: Arial, sans-serif; margin: 20px; background: #f5f5f5; }
         .container { max-width: 1200px; margin: 0 auto; }
-        .header { background: #2c3e50; color: white; padding: 20px; border-radius: 8px; margin-bottom: 20px; }
-        .summary { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; margin-bottom: 20px; }
-        .summary-card { background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
-        .endpoint { background: white; margin-bottom: 15px; padding: 20px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
-        .status-healthy { color: #27ae60; font-weight: bold; }
-        .status-error { color: #e74c3c; font-weight: bold; }
-        .status-unknown { color: #f39c12; font-weight: bold; }
-        .stability-high { color: #27ae60; }
-        .stability-medium { color: #f39c12; }
-        .stability-low { color: #e74c3c; }
-        .trend-improving { color: #27ae60; }
-        .trend-degrading { color: #e74c3c; }
-        .trend-stable { color: #3498db; }
-        .alerts { background: #fff3cd; border: 1px solid #ffeaa7; padding: 15px; border-radius: 8px; margin-bottom: 20px; }
-        .alert { margin-bottom: 10px; }
-        .timestamp { color: #7f8c8d; font-size: 0.9em; }
+        .card { background: white; padding: 20px; margin: 10px 0; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+        .health-score { font-size: 2em; font-weight: bold; text-align: center; }
+        .excellent { color: #28a745; }
+        .good { color: #17a2b8; }
+        .fair { color: #ffc107; }
+        .poor { color: #fd7e14; }
+        .critical { color: #dc3545; }
+        .metric { display: inline-block; margin: 10px; padding: 10px; background: #f8f9fa; border-radius: 4px; }
+        .recommendations { background: #e7f3ff; border-left: 4px solid #007bff; }
+        .error-list { max-height: 300px; overflow-y: auto; }
+        .timestamp { color: #666; font-size: 0.9em; }
     </style>
 </head>
 <body>
     <div class="container">
-        <div class="header">
-            <h1>🔍 Binom API Monitoring Dashboard</h1>
-            <p>Real-time monitoring of API endpoints</p>
-            <p class="timestamp">Last updated: 2025-09-26T23:45:56.905873</p>
+        <h1>🏥 Binom API Encyclopedia - Health Dashboard</h1>
+        
+        <div class="card">
+            <h2>System Health</h2>
+            <div class="health-score fair">
+                69/100 (Fair)
+            </div>
+            <p class="timestamp">Last updated: 2025-09-28T14:20:30.022566</p>
         </div>
         
-        <div class="summary">
-            <div class="summary-card">
-                <h3>Total Endpoints</h3>
-                <h2>9</h2>
-            </div>
-            <div class="summary-card">
-                <h3>Healthy</h3>
-                <h2 class="status-healthy">6</h2>
-            </div>
-            <div class="summary-card">
-                <h3>Unhealthy</h3>
-                <h2 class="status-error">1</h2>
-            </div>
-            <div class="summary-card">
-                <h3>Unknown</h3>
-                <h2 class="status-unknown">2</h2>
+        <div class="card">
+            <h2>📊 24-Hour Summary</h2>
+            <div class="metric">Total Errors: 3</div>
+            <div class="metric">Critical Errors: 1</div>
+            <div class="metric">Trend: insufficient_data</div>
+        </div>
+        
+        <div class="card">
+            <h2>📈 7-Day Summary</h2>
+            <div class="metric">Total Errors: 3</div>
+            <div class="metric">Critical Errors: 1</div>
+            <div class="metric">Trend: increasing</div>
+        </div>
+        
+        <div class="card recommendations">
+            <h2>💡 Recommendations</h2>
+            <ul>
+                <li>🔴 1 critical errors require immediate attention</li><li>📚 Documentation errors detected - review and update documentation</li><li>✅ Validation errors detected - review data quality and validation rules</li>
+            </ul>
+        </div>
+        
+        <div class="card">
+            <h2>🔍 Recent Critical Errors</h2>
+            <div class="error-list">
+                <div><strong>2025-09-28T14:20:30.021036</strong>: API error on /info/offer: Internal server error (api)</div>
             </div>
         </div>
         
-        
-        <div class="alerts">
-            <h3>🚨 Alerts</h3>
-            <div class="alert">• Low stability: 0.0% (POST /traffic_source)</div>
-<div class="alert">• Low stability: 0.0% (POST /landing)</div>
-<div class="alert">• Low stability: 0.0% (POST /offer)</div>
-        </div>
-        
-        
-        <div class="endpoints">
-            <h2>Endpoint Status</h2>
-
-            <div class="endpoint">
-                <h3>GET /info/offer</h3>
-                <p><strong>Status:</strong> <span class="status-healthy">HEALTHY</span></p>
-                <p><strong>Stability Score:</strong> <span class="stability-high">100.0%</span></p>
-                <p><strong>Trend:</strong> <span class="trend-insufficient_data">INSUFFICIENT_DATA</span></p>
-                <p><strong>Response Time:</strong> 724.0827083587646ms</p>
-                <p><strong>Checks:</strong> 1</p>
-                
-                <p class="timestamp">Last check: 2025-09-26T23:45:44.609940</p>
-            </div>
-            
-            <div class="endpoint">
-                <h3>GET /info/traffic_source</h3>
-                <p><strong>Status:</strong> <span class="status-healthy">HEALTHY</span></p>
-                <p><strong>Stability Score:</strong> <span class="stability-high">100.0%</span></p>
-                <p><strong>Trend:</strong> <span class="trend-insufficient_data">INSUFFICIENT_DATA</span></p>
-                <p><strong>Response Time:</strong> 445.89900970458984ms</p>
-                <p><strong>Checks:</strong> 1</p>
-                
-                <p class="timestamp">Last check: 2025-09-26T23:45:46.057152</p>
-            </div>
-            
-            <div class="endpoint">
-                <h3>GET /info/campaign</h3>
-                <p><strong>Status:</strong> <span class="status-healthy">HEALTHY</span></p>
-                <p><strong>Stability Score:</strong> <span class="stability-high">100.0%</span></p>
-                <p><strong>Trend:</strong> <span class="trend-insufficient_data">INSUFFICIENT_DATA</span></p>
-                <p><strong>Response Time:</strong> 670.4425811767578ms</p>
-                <p><strong>Checks:</strong> 1</p>
-                
-                <p class="timestamp">Last check: 2025-09-26T23:45:47.729000</p>
-            </div>
-            
-            <div class="endpoint">
-                <h3>GET /info/landing</h3>
-                <p><strong>Status:</strong> <span class="status-healthy">HEALTHY</span></p>
-                <p><strong>Stability Score:</strong> <span class="stability-high">100.0%</span></p>
-                <p><strong>Trend:</strong> <span class="trend-insufficient_data">INSUFFICIENT_DATA</span></p>
-                <p><strong>Response Time:</strong> 706.0925960540771ms</p>
-                <p><strong>Checks:</strong> 1</p>
-                
-                <p class="timestamp">Last check: 2025-09-26T23:45:49.436648</p>
-            </div>
-            
-            <div class="endpoint">
-                <h3>GET /stats/campaign</h3>
-                <p><strong>Status:</strong> <span class="status-healthy">HEALTHY</span></p>
-                <p><strong>Stability Score:</strong> <span class="stability-high">100.0%</span></p>
-                <p><strong>Trend:</strong> <span class="trend-insufficient_data">INSUFFICIENT_DATA</span></p>
-                <p><strong>Response Time:</strong> 521.6748714447021ms</p>
-                <p><strong>Checks:</strong> 1</p>
-                
-                <p class="timestamp">Last check: 2025-09-26T23:45:50.959663</p>
-            </div>
-            
-            <div class="endpoint">
-                <h3>GET /stats/offer</h3>
-                <p><strong>Status:</strong> <span class="status-healthy">HEALTHY</span></p>
-                <p><strong>Stability Score:</strong> <span class="stability-high">100.0%</span></p>
-                <p><strong>Trend:</strong> <span class="trend-insufficient_data">INSUFFICIENT_DATA</span></p>
-                <p><strong>Response Time:</strong> 317.8365230560303ms</p>
-                <p><strong>Checks:</strong> 1</p>
-                
-                <p class="timestamp">Last check: 2025-09-26T23:45:52.278978</p>
-            </div>
-            
-            <div class="endpoint">
-                <h3>POST /traffic_source</h3>
-                <p><strong>Status:</strong> <span class="status-unknown">CLIENT_ERROR</span></p>
-                <p><strong>Stability Score:</strong> <span class="stability-low">0.0%</span></p>
-                <p><strong>Trend:</strong> <span class="trend-insufficient_data">INSUFFICIENT_DATA</span></p>
-                <p><strong>Response Time:</strong> 213.17148208618164ms</p>
-                <p><strong>Checks:</strong> 1</p>
-                <p><strong>Error:</strong> Bad request</p>
-                <p class="timestamp">Last check: 2025-09-26T23:45:53.493664</p>
-            </div>
-            
-            <div class="endpoint">
-                <h3>POST /landing</h3>
-                <p><strong>Status:</strong> <span class="status-unknown">SERVER_ERROR</span></p>
-                <p><strong>Stability Score:</strong> <span class="stability-low">0.0%</span></p>
-                <p><strong>Trend:</strong> <span class="trend-insufficient_data">INSUFFICIENT_DATA</span></p>
-                <p><strong>Response Time:</strong> 190.71197509765625ms</p>
-                <p><strong>Checks:</strong> 1</p>
-                <p><strong>Error:</strong> HTTP 502</p>
-                <p class="timestamp">Last check: 2025-09-26T23:45:54.685803</p>
-            </div>
-            
-            <div class="endpoint">
-                <h3>POST /offer</h3>
-                <p><strong>Status:</strong> <span class="status-unknown">CLIENT_ERROR</span></p>
-                <p><strong>Stability Score:</strong> <span class="stability-low">0.0%</span></p>
-                <p><strong>Trend:</strong> <span class="trend-insufficient_data">INSUFFICIENT_DATA</span></p>
-                <p><strong>Response Time:</strong> 217.12994575500488ms</p>
-                <p><strong>Checks:</strong> 1</p>
-                <p><strong>Error:</strong> Bad request</p>
-                <p class="timestamp">Last check: 2025-09-26T23:45:55.904430</p>
-            </div>
-            
+        <div class="card">
+            <h2>📋 Top Error Types (7 days)</h2>
+            <div class='metric'>api_error: 1 occurrences</div><div class='metric'>documentation_error: 1 occurrences</div><div class='metric'>validation_error: 1 occurrences</div>
         </div>
     </div>
     
     <script>
         // Auto-refresh every 5 minutes
-        setTimeout(function() {
-            location.reload();
-        }, 300000);
+        setTimeout(() => location.reload(), 300000);
     </script>
 </body>
 </html>
-        

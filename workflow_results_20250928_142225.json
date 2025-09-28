@@ -1,0 +1,202 @@
+{
+  "daily_performance": {
+    "total_campaigns": 51,
+    "active_campaigns": 44,
+    "high_performers": [],
+    "underperformers": [
+      {
+        "name": "Unknown",
+        "roi": -48.610336,
+        "clicks": 738106,
+        "cost": 0.0
+      }
+    ],
+    "zero_traffic": [
+      {
+        "name": "i15 - USAEN - APP - ISP:WORK:cost:weight:not opt:not bider",
+        "cost": 0.0
+      },
+      {
+        "name": "i15 - USAEN - APP - WIFI:WORK:cost:weight:not opt:not bider",
+        "cost": 0.0
+      },
+      {
+        "name": "i15 - USAES - APP - WIFI",
+        "cost": 0.0
+      },
+      {
+        "name": "i15 - USAES - APP - ISP",
+        "cost": 0.0
+      },
+      {
+        "name": "i15 - USAES - SF - ISP",
+        "cost": 0.0
+      },
+      {
+        "name": "i15 - USAES - SF - WIFI",
+        "cost": 0.0
+      },
+      {
+        "name": "i15 - USAEN - SF - ISP+WIFI - iPad",
+        "cost": 0.0
+      },
+      {
+        "name": "Danil - Sentinel 15$ CPT",
+        "cost": 15.0
+      },
+      {
+        "name": "Danil - SmartBlock 15$ CPT",
+        "cost": 15.0
+      },
+      {
+        "name": "Danil - SmartClean 15$ CPT",
+        "cost": 15.0
+      },
+      {
+        "name": "TH - Flat USA (Spanish) - All browsers - iPhone+iPad:stop",
+        "cost": 7.18
+      },
+      {
+        "name": "Danil - KUDI - Sentinel 3.5$ CPI",
+        "cost": 3.5
+      },
+      {
+        "name": "Danil - KUDI - Sentinel 4$ CPI",
+        "cost": 4.0
+      },
+      {
+        "name": "Danil - KUDI - Sentinel 3$ CPI",
+        "cost": 3.0
+      },
+      {
+        "name": "Danil - inhaus - SmartBlock 3$ CPI",
+        "cost": 3.0
+      },
+      {
+        "name": "Danil - Inhaus - SmartBlock 3.5$ CPI",
+        "cost": 3.5
+      },
+      {
+        "name": "Danil - Inhaus - SmartBlock 4$ CPI",
+        "cost": 4.0
+      },
+      {
+        "name": "Danil - Fishman - iVPN - 15$ CPT",
+        "cost": 15.0
+      },
+      {
+        "name": "Danil - Fishman - iVPN - 3$ CPI",
+        "cost": 3.0
+      },
+      {
+        "name": "Danil - Fishman - iVPN - 4$ CPI",
+        "cost": 4.0
+      },
+      {
+        "name": "Danil - Fishman - iVPN - 3.5$ CPI",
+        "cost": 3.5
+      },
+      {
+        "name": "Danil - Fishman - iVPN - 45$ CPB",
+        "cost": 0.0
+      },
+      {
+        "name": "Danil - KUDI - SentinelAdblock - 45$ CPB",
+        "cost": 0.0
+      },
+      {
+        "name": "Danil - InHaus - SmartBlockAI - 45$ CPB",
+        "cost": 0.0
+      },
+      {
+        "name": "GGB+CAL-activerev+USA(ES+ENG) - WIFI+3G",
+        "cost": 0.0
+      },
+      {
+        "name": "GGB+CAL-vim+USA(ES+ENG) - WIFI+3G",
+        "cost": 0.0
+      },
+      {
+        "name": "GGB+CAL-rich+USA(ES+ENG) - WIFI+3G",
+        "cost": 0.0
+      },
+      {
+        "name": "GGB+CAL-admav+USA(ES+ENG) - WIFI+3G",
+        "cost": 0.0
+      },
+      {
+        "name": "GGB+CAL-TrafficNomads+USA(ES+ENG) - WIFI+3G",
+        "cost": 0.0
+      },
+      {
+        "name": "GGB+CAL-Targeleon+USA(ES+ENG) - WIFI+3G",
+        "cost": 0.0
+      },
+      {
+        "name": "YTR_Admin_4partners_Mexico_WiFi",
+        "cost": 0.0
+      },
+      {
+        "name": "ING_Admin_4partners_Mexico_3G",
+        "cost": 0.0
+      },
+      {
+        "name": "GQK_Admin_4partners_Brazil_WiFi",
+        "cost": 0.0
+      },
+      {
+        "name": "YML_Admin_4partners_Brazil_3G",
+        "cost": 0.0
+      },
+      {
+        "name": "NKY_Admin_4partners_Mexico:WORK:cost:weight:opt:bider",
+        "cost": 0.0
+      },
+      {
+        "name": "LKT_Admin13_4partners_USA",
+        "cost": 0.0
+      },
+      {
+        "name": "FIY - YS - iOS - Adult - Pop - USA",
+        "cost": 0.0
+      },
+      {
+        "name": "GFE - YS - iOS - Adult - Pop - USA",
+        "cost": 0.0
+      },
+      {
+        "name": "TRY_Admin13_4partners_Brazil_Saf",
+        "cost": 0.0
+      },
+      {
+        "name": "YKL_Admin13_4partners_Brazil_Google",
+        "cost": 0.0
+      },
+      {
+        "name": "VST_Admin13_4partners_Chile_Saf:WORK:cost:weight:opt:not bider",
+        "cost": 0.0
+      },
+      {
+        "name": "BNR_Admin13_4partners_Chile_Google:WORK:cost:weight:opt:bider",
+        "cost": 0.0
+      },
+      {
+        "name": "i16 - CAEN - APP - ISP:WORK:cost:weight:not opt:not bider",
+        "cost": 0.0
+      }
+    ],
+    "negative_roi": [
+      {
+        "name": "Unknown",
+        "roi": -48.610336,
+        "revenue": 816.0
+      }
+    ],
+    "recommendations": [
+      "\u26a0\ufe0f Optimize or pause 1 underperforming campaigns",
+      "\ud83d\udd0d Investigate 43 campaigns with zero traffic",
+      "\ud83d\uded1 Immediately review 1 campaigns with negative ROI"
+    ]
+  },
+  "error": "'<' not supported between instances of 'float' and 'str'"
+}
