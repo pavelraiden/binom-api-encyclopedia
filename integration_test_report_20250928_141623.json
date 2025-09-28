@@ -1,0 +1,143 @@
+{
+  "test_summary": {
+    "timestamp": "2025-09-28T14:16:23.893425",
+    "total_endpoints_tested": 9,
+    "successful_tests": 0,
+    "failed_tests": 9,
+    "success_rate_percent": 0.0,
+    "average_response_time_seconds": 0.219,
+    "failed_endpoints": [
+      "info/offer",
+      "info/traffic_source",
+      "info/campaign",
+      "info/landing",
+      "info/rotation",
+      "info/affiliate_network",
+      "stats/offer",
+      "stats/traffic_source",
+      "stats/campaign"
+    ]
+  },
+  "authentication_tests": {
+    "correct_auth": false,
+    "wrong_auth_properly_rejected": true,
+    "auth_test_passed": false
+  },
+  "parameter_validation_tests": {
+    "no_date_preset_rejected": true,
+    "no_timezone_rejected": true,
+    "both_params_accepted": false,
+    "parameter_validation_working": false
+  },
+  "data_consistency_tests": {
+    "info_endpoint_working": false,
+    "stats_endpoint_working": false,
+    "both_endpoints_working": false
+  },
+  "detailed_results": [
+    {
+      "endpoint": "info/offer",
+      "status_code": 401,
+      "response_time": 0.2491753101348877,
+      "success": false,
+      "error": "HTTP 401: {\"errors\":{\"title\":\"Symfony.Component.HttpKernel.Exception.HttpException\",\"detail\":\"Full authentication is required to access this resource.\",\"message\":\"Full authentication is required to access this ",
+      "data_quality": {},
+      "timestamp": "2025-09-28T14:16:20.625826"
+    },
+    {
+      "endpoint": "info/traffic_source",
+      "status_code": 401,
+      "response_time": 0.20915699005126953,
+      "success": false,
+      "error": "HTTP 401: {\"errors\":{\"title\":\"Symfony.Component.HttpKernel.Exception.HttpException\",\"detail\":\"Full authentication is required to access this resource.\",\"message\":\"Full authentication is required to access this ",
+      "data_quality": {},
+      "timestamp": "2025-09-28T14:16:20.837059"
+    },
+    {
+      "endpoint": "info/campaign",
+      "status_code": 401,
+      "response_time": 0.22107696533203125,
+      "success": false,
+      "error": "HTTP 401: {\"errors\":{\"title\":\"Symfony.Component.HttpKernel.Exception.HttpException\",\"detail\":\"Full authentication is required to access this resource.\",\"message\":\"Full authentication is required to access this ",
+      "data_quality": {},
+      "timestamp": "2025-09-28T14:16:21.058920"
+    },
+    {
+      "endpoint": "info/landing",
+      "status_code": 401,
+      "response_time": 0.21973371505737305,
+      "success": false,
+      "error": "HTTP 401: {\"errors\":{\"title\":\"Symfony.Component.HttpKernel.Exception.HttpException\",\"detail\":\"Full authentication is required to access this resource.\",\"message\":\"Full authentication is required to access this ",
+      "data_quality": {},
+      "timestamp": "2025-09-28T14:16:21.279691"
+    },
+    {
+      "endpoint": "info/rotation",
+      "status_code": 401,
+      "response_time": 0.22236251831054688,
+      "success": false,
+      "error": "HTTP 401: {\"errors\":{\"title\":\"Symfony.Component.HttpKernel.Exception.HttpException\",\"detail\":\"Full authentication is required to access this resource.\",\"message\":\"Full authentication is required to access this ",
+      "data_quality": {},
+      "timestamp": "2025-09-28T14:16:21.503034"
+    },
+    {
+      "endpoint": "info/affiliate_network",
+      "status_code": 401,
+      "response_time": 0.2197282314300537,
+      "success": false,
+      "error": "HTTP 401: {\"errors\":{\"title\":\"Symfony.Component.HttpKernel.Exception.HttpException\",\"detail\":\"Full authentication is required to access this resource.\",\"message\":\"Full authentication is required to access this ",
+      "data_quality": {},
+      "timestamp": "2025-09-28T14:16:21.723679"
+    },
+    {
+      "endpoint": "stats/offer",
+      "status_code": 401,
+      "response_time": 0.21065545082092285,
+      "success": false,
+      "error": "HTTP 401: {\"errors\":{\"title\":\"Symfony.Component.HttpKernel.Exception.HttpException\",\"detail\":\"Full authentication is required to access this resource.\",\"message\":\"Full authentication is required to access this ",
+      "data_quality": {},
+      "timestamp": "2025-09-28T14:16:21.935413"
+    },
+    {
+      "endpoint": "stats/traffic_source",
+      "status_code": 401,
+      "response_time": 0.21775603294372559,
+      "success": false,
+      "error": "HTTP 401: {\"errors\":{\"title\":\"Symfony.Component.HttpKernel.Exception.HttpException\",\"detail\":\"Full authentication is required to access this resource.\",\"message\":\"Full authentication is required to access this ",
+      "data_quality": {},
+      "timestamp": "2025-09-28T14:16:22.153895"
+    },
+    {
+      "endpoint": "stats/campaign",
+      "status_code": 401,
+      "response_time": 0.22197818756103516,
+      "success": false,
+      "error": "HTTP 401: {\"errors\":{\"title\":\"Symfony.Component.HttpKernel.Exception.HttpException\",\"detail\":\"Full authentication is required to access this resource.\",\"message\":\"Full authentication is required to access this ",
+      "data_quality": {},
+      "timestamp": "2025-09-28T14:16:22.377028"
+    }
+  ],
+  "performance_metrics": {
+    "info/offer": 0.22121453285217285,
+    "info/traffic_source": 0.20915699005126953,
+    "info/campaign": 0.22107696533203125,
+    "info/landing": 0.21973371505737305,
+    "info/rotation": 0.22236251831054688,
+    "info/affiliate_network": 0.2197282314300537,
+    "stats/offer": 0.21547842025756836,
+    "stats/traffic_source": 0.21775603294372559,
+    "stats/campaign": 0.22197818756103516
+  },
+  "quality_score": {
+    "total_score": 20.0,
+    "max_score": 100,
+    "grade": "F",
+    "breakdown": {
+      "success_rate": 0.0,
+      "performance": 20,
+      "security": 0,
+      "validation": 0,
+      "consistency": 0
+    }
+  }
+}

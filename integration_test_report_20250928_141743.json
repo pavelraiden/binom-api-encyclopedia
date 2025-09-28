@@ -1,0 +1,360 @@
+{
+  "test_summary": {
+    "timestamp": "2025-09-28T14:17:43.604937",
+    "total_endpoints_tested": 9,
+    "successful_tests": 9,
+    "failed_tests": 0,
+    "success_rate_percent": 100.0,
+    "average_response_time_seconds": 0.407,
+    "failed_endpoints": []
+  },
+  "authentication_tests": {
+    "correct_auth": true,
+    "wrong_auth_properly_rejected": true,
+    "auth_test_passed": true
+  },
+  "parameter_validation_tests": {
+    "no_date_preset_rejected": false,
+    "no_timezone_rejected": false,
+    "both_params_accepted": true,
+    "parameter_validation_working": false
+  },
+  "data_consistency_tests": {
+    "info_endpoint_working": true,
+    "stats_endpoint_working": true,
+    "both_endpoints_working": true,
+    "info_record_count": 6,
+    "stats_record_count": 6,
+    "data_available": true
+  },
+  "detailed_results": [
+    {
+      "endpoint": "info/offer",
+      "status_code": 200,
+      "response_time": 0.7939615249633789,
+      "success": true,
+      "error": null,
+      "data_quality": {
+        "record_count": 11,
+        "is_array": true,
+        "has_id": true,
+        "has_name": true,
+        "field_count": 15,
+        "fields": [
+          "id",
+          "name",
+          "is_deleted",
+          "country",
+          "url",
+          "group_name",
+          "affiliate_network",
+          "mean_time_to_convert",
+          "seconds_since_last_lead",
+          "clicks_last_hour",
+          "leads_last_hour",
+          "profit_last_hour",
+          "first_click_time",
+          "clicks",
+          "is_noted"
+        ]
+      },
+      "timestamp": "2025-09-28T14:17:35.338813",
+      "data_size": 5206
+    },
+    {
+      "endpoint": "info/traffic_source",
+      "status_code": 200,
+      "response_time": 0.4245469570159912,
+      "success": true,
+      "error": null,
+      "data_quality": {
+        "record_count": 11,
+        "is_array": true,
+        "has_id": true,
+        "has_name": true,
+        "field_count": 12,
+        "fields": [
+          "id",
+          "name",
+          "is_deleted",
+          "campaigns",
+          "mean_time_to_convert",
+          "seconds_since_last_lead",
+          "clicks_last_hour",
+          "leads_last_hour",
+          "profit_last_hour",
+          "first_click_time",
+          "clicks",
+          "is_noted"
+        ]
+      },
+      "timestamp": "2025-09-28T14:17:35.764384",
+      "data_size": 3517
+    },
+    {
+      "endpoint": "info/campaign",
+      "status_code": 200,
+      "response_time": 0.5258603096008301,
+      "success": true,
+      "error": null,
+      "data_quality": {
+        "record_count": 11,
+        "is_array": true,
+        "has_id": true,
+        "has_name": true,
+        "field_count": 15,
+        "fields": [
+          "id",
+          "name",
+          "is_deleted",
+          "current_cpc",
+          "group_name",
+          "mean_time_to_convert",
+          "seconds_since_last_lead",
+          "clicks_last_hour",
+          "leads_last_hour",
+          "profit_last_hour",
+          "first_click_time",
+          "clicks",
+          "link",
+          "is_noted",
+          "is_domain_banned"
+        ]
+      },
+      "timestamp": "2025-09-28T14:17:36.291310",
+      "data_size": 6334
+    },
+    {
+      "endpoint": "info/landing",
+      "status_code": 200,
+      "response_time": 0.6694760322570801,
+      "success": true,
+      "error": null,
+      "data_quality": {
+        "record_count": 11,
+        "is_array": true,
+        "has_id": true,
+        "has_name": true,
+        "field_count": 16,
+        "fields": [
+          "id",
+          "name",
+          "is_deleted",
+          "language",
+          "location",
+          "group_name",
+          "mean_time_to_convert",
+          "seconds_since_last_lead",
+          "clicks_last_hour",
+          "leads_last_hour",
+          "profit_last_hour",
+          "first_click_time",
+          "clicks",
+          "is_noted",
+          "is_integrated",
+          "is_domain_banned"
+        ]
+      },
+      "timestamp": "2025-09-28T14:17:36.962003",
+      "data_size": 4785
+    },
+    {
+      "endpoint": "info/rotation",
+      "status_code": 200,
+      "response_time": 0.29764366149902344,
+      "success": true,
+      "error": null,
+      "data_quality": {
+        "record_count": 1,
+        "is_array": true,
+        "has_id": true,
+        "has_name": false,
+        "field_count": 2,
+        "fields": [
+          "id",
+          "total_count"
+        ]
+      },
+      "timestamp": "2025-09-28T14:17:37.260800",
+      "data_size": 36
+    },
+    {
+      "endpoint": "info/affiliate_network",
+      "status_code": 200,
+      "response_time": 0.2945735454559326,
+      "success": true,
+      "error": null,
+      "data_quality": {
+        "record_count": 11,
+        "is_array": true,
+        "has_id": true,
+        "has_name": true,
+        "field_count": 12,
+        "fields": [
+          "id",
+          "name",
+          "is_deleted",
+          "offers",
+          "mean_time_to_convert",
+          "seconds_since_last_lead",
+          "clicks_last_hour",
+          "leads_last_hour",
+          "profit_last_hour",
+          "first_click_time",
+          "clicks",
+          "is_noted"
+        ]
+      },
+      "timestamp": "2025-09-28T14:17:37.556116",
+      "data_size": 2940
+    },
+    {
+      "endpoint": "stats/offer",
+      "status_code": 200,
+      "response_time": 0.27968573570251465,
+      "success": true,
+      "error": null,
+      "data_quality": {
+        "record_count": 11,
+        "is_array": true,
+        "has_id": true,
+        "has_name": true,
+        "field_count": 23,
+        "fields": [
+          "id",
+          "country",
+          "name",
+          "group_name",
+          "affiliate_network",
+          "clicks",
+          "lander_ctr",
+          "leads",
+          "cr",
+          "bots",
+          "epc",
+          "cpc",
+          "revenue",
+          "cost",
+          "profit",
+          "roi",
+          "payout",
+          "unique_clicks",
+          "lander_clicks",
+          "lander_views",
+          "is_deleted",
+          "url",
+          "is_noted"
+        ]
+      },
+      "timestamp": "2025-09-28T14:17:37.836959",
+      "data_size": 6425
+    },
+    {
+      "endpoint": "stats/traffic_source",
+      "status_code": 200,
+      "response_time": 0.2606241703033447,
+      "success": true,
+      "error": null,
+      "data_quality": {
+        "record_count": 11,
+        "is_array": true,
+        "has_id": true,
+        "has_name": true,
+        "field_count": 15,
+        "fields": [
+          "id",
+          "name",
+          "clicks",
+          "leads",
+          "cr",
+          "bots",
+          "epc",
+          "cpc",
+          "revenue",
+          "cost",
+          "profit",
+          "roi",
+          "unique_clicks",
+          "is_deleted",
+          "is_noted"
+        ]
+      },
+      "timestamp": "2025-09-28T14:17:38.098623",
+      "data_size": 2974
+    },
+    {
+      "endpoint": "stats/campaign",
+      "status_code": 200,
+      "response_time": 0.2804105281829834,
+      "success": true,
+      "error": null,
+      "data_quality": {
+        "record_count": 11,
+        "is_array": true,
+        "has_id": true,
+        "has_name": true,
+        "field_count": 33,
+        "fields": [
+          "id",
+          "eCPB::013d4336-8f03-42a4-a36d-ff6c0d8f2efd",
+          "TrialCancel::1fc9e6ad-6e6b-45de-9050-86a12aa9fcbb",
+          "Buyouts::441d199a-9902-410e-9033-656ca6e67e1e",
+          "Trials::4adcb8e3-e719-425e-9882-771a4bf4d143",
+          "Active Trials::579e88c5-7fcd-4af5-87d9-0e799dd80065",
+          "Trial %::9ff82bf7-7ded-4d28-a223-7a33b5a2e234",
+          "SubCancel::a9a13783-a0da-4d99-a6db-fd6087977c3f",
+          "Trialcancel %::b5b34653-8bfa-44af-afbc-a118b89be692",
+          "eCPA::c04d981c-f898-4385-bfc4-7c3d0fca220c",
+          "eCPT::c560568d-f58b-4d05-b5d8-9c2f28bd620d",
+          "Buyouts %::c7cbf9d0-a3fc-4315-be91-578bb1c8cd8c",
+          "Active Sub::ce3527a0-2a79-482c-9800-0fdb35787799",
+          "name",
+          "group_name",
+          "traffic_source",
+          "clicks",
+          "lander_ctr",
+          "leads",
+          "cr",
+          "bots",
+          "epc",
+          "cpc",
+          "revenue",
+          "cost",
+          "profit",
+          "roi",
+          "unique_clicks",
+          "lander_clicks",
+          "lander_views",
+          "is_deleted",
+          "is_noted",
+          "is_domain_banned"
+        ]
+      },
+      "timestamp": "2025-09-28T14:17:38.380094",
+      "data_size": 12487
+    }
+  ],
+  "performance_metrics": {
+    "info/offer": 0.6255710124969482,
+    "info/traffic_source": 0.4245469570159912,
+    "info/campaign": 0.5258603096008301,
+    "info/landing": 0.6694760322570801,
+    "info/rotation": 0.29764366149902344,
+    "info/affiliate_network": 0.2945735454559326,
+    "stats/offer": 0.28127145767211914,
+    "stats/traffic_source": 0.2606241703033447,
+    "stats/campaign": 0.2804105281829834
+  },
+  "quality_score": {
+    "total_score": 90.0,
+    "max_score": 100,
+    "grade": "A+",
+    "breakdown": {
+      "success_rate": 40.0,
+      "performance": 20,
+      "security": 20,
+      "validation": 0,
+      "consistency": 10
+    }
+  }
+}

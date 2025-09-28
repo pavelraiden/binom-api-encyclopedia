@@ -1,0 +1,21 @@
+{
+  "total_errors": 3,
+  "errors_by_type": {
+    "api_error": 1,
+    "documentation_error": 1,
+    "validation_error": 1
+  },
+  "errors_by_component": {
+    "api": 1,
+    "documentation": 1,
+    "validation": 1
+  },
+  "errors_by_severity": {
+    "critical": 1,
+    "medium": 2
+  },
+  "daily_error_count": {
+    "2025-09-28": 3
+  },
+  "last_updated": "2025-09-28T14:20:30.021929"
+}
