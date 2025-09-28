@@ -18,9 +18,9 @@
       "title": "Настроить CI/CD pipeline",
       "description": "Автоматизация тестирования и деплоя",
       "required": true,
-      "status": "pending",
-      "completed_at": null,
-      "notes": ""
+      "status": "completed",
+      "completed_at": "2025-09-28T20:45:00Z",
+      "notes": "Создан .github/workflows/ci-cd.yml и вспомогательные файлы."
     },
     {
       "id": "conduct_security_audit",
