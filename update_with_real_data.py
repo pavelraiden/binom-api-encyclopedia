@@ -5,6 +5,14 @@
 
 import json
 import os
+import subprocess
+import logging
+from git import Repo
+from git.exc import GitCommandError
+
+# Configure logging
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+logger = logging.getLogger(__name__)
 
 def process_real_data():
     """Обработка и интеграция реальных данных"""
@@ -182,7 +190,7 @@ Accept: application/json
     
     # Python пример с реальными данными
     doc += "### Python (with real data)\n```python\n"
-    doc += f"""import requests
+    doc += f'''import requests
 import os
 
 # Configuration
@@ -198,13 +206,13 @@ headers = {{
 # Real request example
 response = requests.{method.lower()}(
     f"{{BASE_URL}}{path}",
-    headers=headers"""
+    headers=headers'''
     
     if endpoint_data.get('requestBody') and endpoint_data['requestBody'].get('example'):
-        doc += f""",
-    json={json.dumps(endpoint_data['requestBody']['example'], indent=4)}"""
+        doc += f''',
+    json={json.dumps(endpoint_data['requestBody']['example'], indent=4)}'''
     
-    doc += """
+    doc += '''
 )
 
 # Handle response
@@ -219,24 +227,24 @@ else:
     print(f"❌ Error {response.status_code}: {response.text}")
 ```
 
-"""
+'''
     
     # cURL пример
     doc += "### cURL (with real data)\n```bash\n"
-    doc += f"""curl -X {method} \\
+    doc += f'''curl -X {method} \\
   -H "Authorization: Bearer $BINOM_API_KEY" \\
-  -H "Content-Type: application/json" \\"""
+  -H "Content-Type: application/json" \\'''
     
     if endpoint_data.get('requestBody') and endpoint_data['requestBody'].get('example'):
         json_data = json.dumps(endpoint_data['requestBody']['example'], separators=(',', ':'))
-        doc += f"""
-  -d '{json_data}' \\"""
+        doc += f'''
+  -d '{json_data}' \\'''
     
-    doc += f"""
+    doc += f'''
   "https://pierdun.com{path}"
 ```
 
-"""
+'''
     
     # AI Agent секция
     doc += """## 🤖 AI Agent Integration
@@ -484,9 +492,38 @@ def commit_real_data_updates():
     
     print("🚀 Коммит изменений...")
     
-    os.system("git add .")
-    os.system('git commit -m "🔥 REAL DATA UPDATE: Enhanced with live Swagger UI examples\n\n- Added real JSON examples from live Swagger UI\n- Enhanced documentation with validated data\n- Created AI-optimized guides with real examples\n- Added comprehensive error handling patterns\n- Updated README with real data statistics\n\nNow contains ACTUAL working examples instead of templates!"')
-    os.system("git push origin main")
+    try:
+        repo = Repo('.')
+        
+        # Add all changes
+        repo.git.add('.')
+        logger.info("Added all changes to git")
+        
+        # Commit changes
+        commit_message = """🔥 REAL DATA UPDATE: Enhanced with live Swagger UI examples
+
+- Added real JSON examples from live Swagger UI
+- Enhanced documentation with validated data
+- Created AI-optimized guides with real examples
+- Added comprehensive error handling patterns
+- Updated README with real data statistics
+
+Now contains ACTUAL working examples instead of templates!"""
+        
+        repo.index.commit(commit_message)
+        logger.info("Committed changes")
+        
+        # Push changes
+        origin = repo.remote(name='origin')
+        origin.push()
+        logger.info("Pushed changes to origin")
+        
+    except GitCommandError as e:
+        logger.error(f"Git command failed: {e}")
+        raise
+    except Exception as e:
+        logger.error(f"Unexpected error during git operations: {e}")
+        raise
     
     print("✅ Изменения отправлены в GitHub")
 
@@ -498,11 +535,5 @@ def main():
     
     process_real_data()
     
-    print(f"\n🎉 НАСТОЯЩАЯ ЭНЦИКЛОПЕДИЯ ГОТОВА!")
-    print(f"🔥 Теперь содержит РЕАЛЬНЫЕ примеры из Swagger UI")
-    print(f"🤖 Полностью оптимизирована для AI агентов")
-    print(f"📊 Все данные проверены и валидны")
-    print(f"\n🔗 GitHub: https://github.com/pavelraiden/binom-api-encyclopedia")
-
 if __name__ == "__main__":
     main()
