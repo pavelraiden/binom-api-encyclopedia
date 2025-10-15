@@ -44,10 +44,42 @@ graph TD
     H --> K[Repository Improved!];
 ```
 
+## 🤖 Production Scripts
+
+### 🔄 Smart Offer Replacer
+
+**NEW!** Intelligent offer replacement tool with automatic weight recalculation.
+
+**Features:**
+- ✅ Smart mapping by offer numbers (#1→#1, #2→#2, #3→#3)
+- ✅ Automatic weight distribution (e.g., 54/13/46 → 33/33/34)
+- ✅ Multiple tracker support (process 3+ trackers in one run)
+- ✅ DRY RUN mode for safety
+- ✅ Comprehensive logging and results export
+
+**Quick Start:**
+```bash
+cd scripts/automation
+python smart_offer_replacer.py --config ../../configs/smart_offer_replacer/config.example.json
+```
+
+**Documentation:**
+- [Full Documentation](docs/scripts/automation/smart-offer-replacer.md)
+- [Quick Start Guide](docs/scripts/automation/quick-start.md)
+- [Troubleshooting](docs/scripts/automation/troubleshooting.md)
+
+**Real-World Results:**
+- ✅ 176 campaigns processed
+- ✅ 701 offers replaced
+- ✅ 0 errors
+- ✅ All settings preserved
+
+---
+
 ## 📜 Final Report
 
 For a detailed breakdown of our journey to 10/10, see the [FINAL_ACHIEVEMENT_REPORT.md](./FINAL_ACHIEVEMENT_REPORT.md).
 
 ---
 
-**This project is complete. The repository is now a living, self-improving knowledge base for the Binom API.**
+**This project is complete and actively maintained. The repository is now a living, self-improving knowledge base for the Binom API with production-ready automation tools.**

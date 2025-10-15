@@ -1,0 +1,33 @@
+{
+  "trackers": {
+    "pierdun": {
+      "api_key_env": "binomPublic",
+      "base_url": "https://pierdun.com/public/api/v1",
+      "enabled": true
+    },
+    "newareay": {
+      "api_key_env": "Binom_Newareay",
+      "base_url": "https://newareay.com/public/api/v1",
+      "enabled": true
+    },
+    "warphelsing": {
+      "api_key_env": "WARPHELSING_KEY",
+      "base_url": "https://warphelsing.com/public/api/v1",
+      "enabled": true
+    }
+  },
+  "replacement": {
+    "old_offer_pattern": "Memorra",
+    "new_offer_pattern": "Cleanserra",
+    "min_clicks": 5000,
+    "date_preset": "last_30_days"
+  },
+  "options": {
+    "dry_run": true,
+    "delay_between_updates": 0.5,
+    "log_level": "INFO",
+    "save_results": true,
+    "results_file": "replacement_results.json"
+  }
+}
+
